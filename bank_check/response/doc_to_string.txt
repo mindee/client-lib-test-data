@@ -1,5 +1,5 @@
 -----Bank check data-----
-Filename: None
+Filename:
 Routing number: 012345678
 Account number: 12345678910
 Check number: 8620001342
