@@ -19,6 +19,9 @@
       "pages": [
         {
           "extras": {},
+          "orientation": {
+            "value": 0
+          },
           "id": 0,
           "prediction": {
             "company_registration": [

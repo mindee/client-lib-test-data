@@ -6,7 +6,7 @@
     ],
     "status": "success",
     "status_code": 201,
-    "url": "http://api.mindee.net/v1/products/mindee/expense_receipts/v3/predict?include_mvision=True"
+    "url": "http://api.mindee.net/v1/products/mindee/expense_receipts/v3/predict"
   },
   "document": {
     "annotations": {
@@ -18,6 +18,9 @@
       "pages": [
         {
           "id": 0,
+          "orientation": {
+            "value": 0
+          },
           "prediction": {
             "category": {
               "confidence": 0.99,

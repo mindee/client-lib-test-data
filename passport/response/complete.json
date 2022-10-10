@@ -18,6 +18,9 @@
       "pages": [
         {
           "id": 0,
+          "orientation": {
+            "value": 0
+          },
           "prediction": {
             "birth_date": {
               "confidence": 0.98,
