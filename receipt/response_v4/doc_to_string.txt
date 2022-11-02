@@ -1,0 +1,13 @@
+----- Receipt V4 -----
+Filename:
+Total amount: 53.82
+Total net: 40.48
+Tip: 10.0
+Date: 2014-07-07
+Category: food
+Time: 20:20
+Supplier name: LOGANS
+Taxes: 3.34 TAX
+Total taxes: 3.34
+Locale: en-US; en; US; USD;
+----------------------

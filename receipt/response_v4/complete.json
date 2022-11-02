@@ -1,0 +1,425 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "http://api.mindee.net/v1/products/mindee/expense_receipts/v4/predict"
+  },
+  "document": {
+    "annotations": {
+      "labels": []
+    },
+    "id": "79b9ea7f-ab4f-429e-9631-98d29ba2a49d",
+    "inference": {
+      "extras": {},
+      "finished_at": "2022-10-03T11:54:59+00:00",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "category": {
+              "confidence": 0.94,
+              "value": "food"
+            },
+            "date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.238,
+                  0.132
+                ],
+                [
+                  0.353,
+                  0.132
+                ],
+                [
+                  0.353,
+                  0.161
+                ],
+                [
+                  0.238,
+                  0.161
+                ]
+              ],
+              "value": "2014-07-07"
+            },
+            "locale": {
+              "confidence": 0.69,
+              "country": "US",
+              "currency": "USD",
+              "language": "en",
+              "value": "en-US"
+            },
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "supplier": {
+              "confidence": 0.97,
+              "polygon": [
+                [
+                  0.386,
+                  0.228
+                ],
+                [
+                  0.479,
+                  0.228
+                ],
+                [
+                  0.479,
+                  0.252
+                ],
+                [
+                  0.386,
+                  0.252
+                ]
+              ],
+              "value": "LOGANS"
+            },
+            "taxes": [
+              {
+                "basis": null,
+                "code": "TAX",
+                "confidence": 0.97,
+                "polygon": [
+                  [
+                    0.147,
+                    0.65
+                  ],
+                  [
+                    0.78,
+                    0.65
+                  ],
+                  [
+                    0.78,
+                    0.679
+                  ],
+                  [
+                    0.147,
+                    0.679
+                  ]
+                ],
+                "rate": null,
+                "value": 3.34
+              }
+            ],
+            "time": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.635,
+                  0.142
+                ],
+                [
+                  0.778,
+                  0.142
+                ],
+                [
+                  0.778,
+                  0.168
+                ],
+                [
+                  0.635,
+                  0.168
+                ]
+              ],
+              "value": "20:20"
+            },
+            "tip": {
+              "confidence": 0.89,
+              "polygon": [
+                [
+                  0.6,
+                  0.752
+                ],
+                [
+                  0.774,
+                  0.752
+                ],
+                [
+                  0.774,
+                  0.801
+                ],
+                [
+                  0.6,
+                  0.801
+                ]
+              ],
+              "value": 10
+            },
+            "total_amount": {
+              "confidence": 0.05,
+              "polygon": [
+                [
+                  0.61,
+                  0.813
+                ],
+                [
+                  0.773,
+                  0.813
+                ],
+                [
+                  0.773,
+                  0.87
+                ],
+                [
+                  0.61,
+                  0.87
+                ]
+              ],
+              "value": 53.82
+            },
+            "total_net": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.698,
+                  0.625
+                ],
+                [
+                  0.78,
+                  0.625
+                ],
+                [
+                  0.78,
+                  0.649
+                ],
+                [
+                  0.698,
+                  0.649
+                ]
+              ],
+              "value": 40.48
+            },
+            "total_tax": {
+              "confidence": 0.97,
+              "polygon": [],
+              "value": 3.34
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "category": {
+          "confidence": 0.94,
+          "value": "food"
+        },
+        "date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.238,
+              0.132
+            ],
+            [
+              0.353,
+              0.132
+            ],
+            [
+              0.353,
+              0.161
+            ],
+            [
+              0.238,
+              0.161
+            ]
+          ],
+          "value": "2014-07-07"
+        },
+        "locale": {
+          "confidence": 0.69,
+          "country": "US",
+          "currency": "USD",
+          "language": "en",
+          "value": "en-US"
+        },
+        "supplier": {
+          "confidence": 0.97,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.386,
+              0.228
+            ],
+            [
+              0.479,
+              0.228
+            ],
+            [
+              0.479,
+              0.252
+            ],
+            [
+              0.386,
+              0.252
+            ]
+          ],
+          "value": "LOGANS"
+        },
+        "taxes": [
+          {
+            "basis": null,
+            "code": "TAX",
+            "confidence": 0.97,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.147,
+                0.65
+              ],
+              [
+                0.78,
+                0.65
+              ],
+              [
+                0.78,
+                0.679
+              ],
+              [
+                0.147,
+                0.679
+              ]
+            ],
+            "rate": null,
+            "value": 3.34
+          }
+        ],
+        "time": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.635,
+              0.142
+            ],
+            [
+              0.778,
+              0.142
+            ],
+            [
+              0.778,
+              0.168
+            ],
+            [
+              0.635,
+              0.168
+            ]
+          ],
+          "value": "20:20"
+        },
+        "tip": {
+          "confidence": 0.89,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.6,
+              0.752
+            ],
+            [
+              0.774,
+              0.752
+            ],
+            [
+              0.774,
+              0.801
+            ],
+            [
+              0.6,
+              0.801
+            ]
+          ],
+          "value": 10
+        },
+        "total_amount": {
+          "confidence": 0.05,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.61,
+              0.813
+            ],
+            [
+              0.773,
+              0.813
+            ],
+            [
+              0.773,
+              0.87
+            ],
+            [
+              0.61,
+              0.87
+            ]
+          ],
+          "value": 53.82
+        },
+        "total_net": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.698,
+              0.625
+            ],
+            [
+              0.78,
+              0.625
+            ],
+            [
+              0.78,
+              0.649
+            ],
+            [
+              0.698,
+              0.649
+            ]
+          ],
+          "value": 40.48
+        },
+        "total_tax": {
+          "confidence": 0.97,
+          "page_id": 0,
+          "polygon": [],
+          "value": 3.34
+        }
+      },
+      "processing_time": 1.17,
+      "product": {
+        "features": [
+          "locale",
+          "category",
+          "date",
+          "time",
+          "total_amount",
+          "total_net",
+          "total_tax",
+          "tip",
+          "taxes",
+          "supplier",
+          "orientation"
+        ],
+        "name": "mindee/expense_receipts",
+        "type": "standard",
+        "version": "4.0"
+      },
+      "started_at": "2022-10-03T11:54:58+00:00"
+    },
+    "n_pages": 1,
+    "name": "document",
+    "ocr": {}
+  },
+  "document_type": "receipt",
+  "input_type": "path",
+  "filename": "receipt.jpg",
+  "filepath": "./tests/data/expense_receipts/receipt.jpg",
+  "file_extension": "image/jpeg"
+}
