@@ -1,0 +1,176 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/idcard_fr/v1/predict"
+  },
+  "document": {
+    "id": "24b7785f-6557-4e11-89db-70b8fe11c4fb",
+    "inference": {
+      "extras": {},
+      "finished_at": "2022-11-07T12:28:44+00:00",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "authority": {
+              "confidence": 0.91,
+              "polygon": [],
+              "value": null
+            },
+            "birth_date": {
+              "confidence": 0.99,
+              "polygon": [],
+              "value": null
+            },
+            "birth_place": {
+              "confidence": 0.22,
+              "polygon": [],
+              "value": null
+            },
+            "document_side": {
+              "value": null
+            },
+            "expiry_date": {
+              "confidence": 0.99,
+              "polygon": [],
+              "value": null
+            },
+            "gender": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "given_names": [
+              {
+                "confidence": 0.3,
+                "polygon": [],
+                "value": null
+              }
+            ],
+            "id_number": {
+              "confidence": 0.96,
+              "polygon": [],
+              "value": null
+            },
+            "mrz1": {
+              "confidence": 0.1,
+              "polygon": [],
+              "value": null
+            },
+            "mrz2": {
+              "confidence": 0.1,
+              "polygon": [],
+              "value": null
+            },
+            "orientation": {
+              "confidence": 0,
+              "degrees": 0
+            },
+            "surname": {
+              "confidence": 0.99,
+              "polygon": [],
+              "value": null
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "authority": {
+          "confidence": 0.91,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "birth_date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "birth_place": {
+          "confidence": 0.22,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "expiry_date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "gender": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "given_names": [
+          {
+            "confidence": 0.3,
+            "page_id": 0,
+            "polygon": [],
+            "value": null
+          }
+        ],
+        "id_number": {
+          "confidence": 0.96,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "mrz1": {
+          "confidence": 0.1,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "mrz2": {
+          "confidence": 0.1,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "surname": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 1.172,
+      "product": {
+        "features": [
+          "document_side",
+          "id_number",
+          "given_names",
+          "surname",
+          "birth_date",
+          "birth_place",
+          "expiry_date",
+          "authority",
+          "gender",
+          "orientation",
+          "mrz1",
+          "mrz2"
+        ],
+        "name": "mindee/idcard_fr",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2022-11-07T12:28:42+00:00"
+    },
+    "n_pages": 1,
+    "name": "cni-rectoverso.jpg"
+  }
+}
