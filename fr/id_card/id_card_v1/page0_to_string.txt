@@ -1,5 +1,6 @@
 -----FR Id card data-----
 Filename:
+Document side: RECTO & VERSO
 Authority: SOUS-PREFECTURE DE BELLE (02)
 Given names: VICTOR
 Surname: DAMBARD
