@@ -1,0 +1,138 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/license_plates/v1/predict"
+  },
+  "document": {
+    "id": "858d2e05-2166-46ad-81da-c917e3a1b453",
+    "inference": {
+      "extras": {},
+      "finished_at": "2022-11-09T12:51:11+00:00",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {
+            "license_plates": [
+              {
+                "confidence": 0.71,
+                "polygon": [
+                  [
+                    0.275,
+                    0.848
+                  ],
+                  [
+                    0.332,
+                    0.848
+                  ],
+                  [
+                    0.332,
+                    0.895
+                  ],
+                  [
+                    0.275,
+                    0.895
+                  ]
+                ],
+                "value": "8LQA341"
+              },
+              {
+                "confidence": 0.62,
+                "polygon": [
+                  [
+                    0.796,
+                    0.795
+                  ],
+                  [
+                    0.856,
+                    0.795
+                  ],
+                  [
+                    0.856,
+                    0.841
+                  ],
+                  [
+                    0.796,
+                    0.841
+                  ]
+                ],
+                "value": "8LBW890"
+              }
+            ]
+          }
+        }
+      ],
+      "prediction": {
+        "license_plates": [
+          {
+            "confidence": 0.71,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.275,
+                0.848
+              ],
+              [
+                0.332,
+                0.848
+              ],
+              [
+                0.332,
+                0.895
+              ],
+              [
+                0.275,
+                0.895
+              ]
+            ],
+            "value": "8LQA341"
+          },
+          {
+            "confidence": 0.62,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.796,
+                0.795
+              ],
+              [
+                0.856,
+                0.795
+              ],
+              [
+                0.856,
+                0.841
+              ],
+              [
+                0.796,
+                0.841
+              ]
+            ],
+            "value": "8LBW890"
+          }
+        ]
+      },
+      "processing_time": 0.52,
+      "product": {
+        "features": [
+          "license_plates"
+        ],
+        "name": "mindee/license_plates",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2022-11-09T12:51:11+00:00"
+    },
+    "n_pages": 1,
+    "name": "multiplate.jpg"
+  }
+}
