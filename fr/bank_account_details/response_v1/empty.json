@@ -1,0 +1,79 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/bank_account_details/v1/predict"
+  },
+  "document": {
+    "id": "ad63292b-7044-4146-b21c-7ea2b33974af",
+    "inference": {
+      "extras": {},
+      "finished_at": "2022-11-09T10:00:46+00:00",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {
+            "account_holder_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "iban": {
+              "confidence": 0.94,
+              "polygon": [],
+              "value": null
+            },
+            "swift": {
+              "confidence": 0.95,
+              "polygon": [],
+              "value": null
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "account_holder_name": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "iban": {
+          "confidence": 0.94,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "swift": {
+          "confidence": 0.95,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 0.654,
+      "product": {
+        "features": [
+          "iban",
+          "account_holder_name",
+          "swift"
+        ],
+        "name": "mindee/bank_account_details",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2022-11-09T10:00:46+00:00"
+    },
+    "n_pages": 1,
+    "name": "iban_fr.png"
+  }
+}

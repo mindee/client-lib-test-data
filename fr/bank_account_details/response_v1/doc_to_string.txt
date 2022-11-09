@@ -1,0 +1,5 @@
+----- FR Bank Account Details V1 -----
+Iban: FR30 7612 3456 7874 5825 6600 014
+Account holder name:
+Swift: BANCAIRE
+----------------------
