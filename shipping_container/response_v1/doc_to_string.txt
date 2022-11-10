@@ -1,5 +1,5 @@
 ----- Shipping Container V1 -----
-Owner : MMAU
-Serial number : 1193249
-Size type : 45R1
+Owner: MMAU
+Serial number: 1193249
+Size and type: 45R1
 ----------------------
