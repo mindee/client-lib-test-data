@@ -272,6 +272,9 @@
         },
         {
           "extras": {},
+          "orientation": {
+            "value": 0
+          },
           "id": 1,
           "prediction": {
             "company_registration": [],
