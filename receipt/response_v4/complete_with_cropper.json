@@ -1,0 +1,541 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v4/predict?cropper=true"
+  },
+  "document": {
+    "id": "d02af689-23e1-4168-b619-3bf47e192128",
+    "inference": {
+      "extras": {},
+      "finished_at": "2022-11-21T16:34:05.779386",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {
+            "cropper": {
+              "cropping": [
+                {
+                  "bounding_box": [
+                    [
+                      0.057,
+                      0.008
+                    ],
+                    [
+                      0.846,
+                      0.008
+                    ],
+                    [
+                      0.846,
+                      1.0
+                    ],
+                    [
+                      0.057,
+                      1.0
+                    ]
+                  ],
+                  "polygon": [
+                    [
+                      0.127,
+                      0.344
+                    ],
+                    [
+                      0.152,
+                      0.16
+                    ],
+                    [
+                      0.156,
+                      0.053
+                    ],
+                    [
+                      0.18,
+                      0.004
+                    ],
+                    [
+                      0.191,
+                      0.004
+                    ],
+                    [
+                      0.215,
+                      0.016
+                    ],
+                    [
+                      0.426,
+                      0.006
+                    ],
+                    [
+                      0.484,
+                      0.018
+                    ],
+                    [
+                      0.686,
+                      0.01
+                    ],
+                    [
+                      0.725,
+                      0.016
+                    ],
+                    [
+                      0.744,
+                      0.045
+                    ],
+                    [
+                      0.773,
+                      0.242
+                    ],
+                    [
+                      0.775,
+                      0.318
+                    ],
+                    [
+                      0.789,
+                      0.436
+                    ],
+                    [
+                      0.801,
+                      0.473
+                    ],
+                    [
+                      0.807,
+                      0.662
+                    ],
+                    [
+                      0.822,
+                      0.719
+                    ],
+                    [
+                      0.842,
+                      0.936
+                    ],
+                    [
+                      0.836,
+                      0.996
+                    ],
+                    [
+                      0.061,
+                      0.996
+                    ],
+                    [
+                      0.055,
+                      0.975
+                    ],
+                    [
+                      0.07,
+                      0.828
+                    ],
+                    [
+                      0.086,
+                      0.732
+                    ],
+                    [
+                      0.113,
+                      0.514
+                    ]
+                  ],
+                  "quadrangle": [
+                    [
+                      0.161,
+                      0.016
+                    ],
+                    [
+                      0.744,
+                      0.009
+                    ],
+                    [
+                      0.845,
+                      0.996
+                    ],
+                    [
+                      0.057,
+                      0.998
+                    ]
+                  ],
+                  "rectangle": [
+                    [
+                      0.052,
+                      0.011
+                    ],
+                    [
+                      0.839,
+                      0.007
+                    ],
+                    [
+                      0.844,
+                      0.994
+                    ],
+                    [
+                      0.057,
+                      0.998
+                    ]
+                  ]
+                }
+              ]
+            }
+          },
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "category": {
+              "confidence": 0.99,
+              "value": "food"
+            },
+            "date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.475,
+                  0.173
+                ],
+                [
+                  0.611,
+                  0.173
+                ],
+                [
+                  0.611,
+                  0.195
+                ],
+                [
+                  0.475,
+                  0.195
+                ]
+              ],
+              "value": "2016-02-26"
+            },
+            "locale": {
+              "confidence": 0.82,
+              "country": "GB",
+              "currency": "GBP",
+              "language": "en",
+              "value": "en-GB"
+            },
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "supplier": {
+              "confidence": 0.74,
+              "polygon": [
+                [
+                  0.394,
+                  0.068
+                ],
+                [
+                  0.477,
+                  0.068
+                ],
+                [
+                  0.477,
+                  0.087
+                ],
+                [
+                  0.394,
+                  0.087
+                ]
+              ],
+              "value": "CLACHAN"
+            },
+            "taxes": [
+              {
+                "base": 8.5,
+                "code": "VAT",
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.19,
+                    0.403
+                  ],
+                  [
+                    0.698,
+                    0.403
+                  ],
+                  [
+                    0.698,
+                    0.432
+                  ],
+                  [
+                    0.19,
+                    0.432
+                  ]
+                ],
+                "rate": 20.0,
+                "value": 1.7
+              }
+            ],
+            "time": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.619,
+                  0.172
+                ],
+                [
+                  0.679,
+                  0.172
+                ],
+                [
+                  0.679,
+                  0.19
+                ],
+                [
+                  0.619,
+                  0.19
+                ]
+              ],
+              "value": "15:20"
+            },
+            "tip": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "total_amount": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.549,
+                  0.618
+                ],
+                [
+                  0.715,
+                  0.618
+                ],
+                [
+                  0.715,
+                  0.642
+                ],
+                [
+                  0.549,
+                  0.642
+                ]
+              ],
+              "value": 10.2
+            },
+            "total_net": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.641,
+                  0.38
+                ],
+                [
+                  0.695,
+                  0.38
+                ],
+                [
+                  0.695,
+                  0.399
+                ],
+                [
+                  0.641,
+                  0.399
+                ]
+              ],
+              "value": 8.5
+            },
+            "total_tax": {
+              "confidence": 0.99,
+              "polygon": [],
+              "value": 1.7
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "category": {
+          "confidence": 0.99,
+          "value": "food"
+        },
+        "date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.475,
+              0.173
+            ],
+            [
+              0.611,
+              0.173
+            ],
+            [
+              0.611,
+              0.195
+            ],
+            [
+              0.475,
+              0.195
+            ]
+          ],
+          "value": "2016-02-26"
+        },
+        "locale": {
+          "confidence": 0.82,
+          "country": "GB",
+          "currency": "GBP",
+          "language": "en",
+          "value": "en-GB"
+        },
+        "supplier": {
+          "confidence": 0.74,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.394,
+              0.068
+            ],
+            [
+              0.477,
+              0.068
+            ],
+            [
+              0.477,
+              0.087
+            ],
+            [
+              0.394,
+              0.087
+            ]
+          ],
+          "value": "CLACHAN"
+        },
+        "taxes": [
+          {
+            "base": 8.5,
+            "code": "VAT",
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.19,
+                0.403
+              ],
+              [
+                0.698,
+                0.403
+              ],
+              [
+                0.698,
+                0.432
+              ],
+              [
+                0.19,
+                0.432
+              ]
+            ],
+            "rate": 20.0,
+            "value": 1.7
+          }
+        ],
+        "time": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.619,
+              0.172
+            ],
+            [
+              0.679,
+              0.172
+            ],
+            [
+              0.679,
+              0.19
+            ],
+            [
+              0.619,
+              0.19
+            ]
+          ],
+          "value": "15:20"
+        },
+        "tip": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "total_amount": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.549,
+              0.618
+            ],
+            [
+              0.715,
+              0.618
+            ],
+            [
+              0.715,
+              0.642
+            ],
+            [
+              0.549,
+              0.642
+            ]
+          ],
+          "value": 10.2
+        },
+        "total_net": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.641,
+              0.38
+            ],
+            [
+              0.695,
+              0.38
+            ],
+            [
+              0.695,
+              0.399
+            ],
+            [
+              0.641,
+              0.399
+            ]
+          ],
+          "value": 8.5
+        },
+        "total_tax": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [],
+          "value": 1.7
+        }
+      },
+      "processing_time": 1.205,
+      "product": {
+        "features": [
+          "locale",
+          "category",
+          "date",
+          "time",
+          "total_amount",
+          "total_net",
+          "total_tax",
+          "tip",
+          "taxes",
+          "supplier",
+          "orientation"
+        ],
+        "name": "mindee/expense_receipts",
+        "type": "standard",
+        "version": "4.0"
+      },
+      "started_at": "2022-11-21T16:34:04.574067"
+    },
+    "n_pages": 1,
+    "name": "receipt.jpg"
+  }
+}
