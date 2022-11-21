@@ -14,9 +14,14 @@
     },
     "id": "0fdf5179-d31c-4cc6-9aae-b69cbca2d70d",
     "inference": {
+      "extras": {},
       "finished_at": "2021-08-24T08:11:28+00:00",
       "pages": [
         {
+          "extras": {},
+          "orientation": {
+            "value": 0
+          },
           "id": 0,
           "prediction": {
             "category": {

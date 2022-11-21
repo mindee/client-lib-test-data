@@ -17,10 +17,11 @@
       "finished_at": "2021-08-24T08:10:12+00:00",
       "pages": [
         {
-          "id": 0,
+          "extras": {},
           "orientation": {
             "value": 0
           },
+          "id": 0,
           "prediction": {
             "category": {
               "confidence": 0.99,

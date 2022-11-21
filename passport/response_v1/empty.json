@@ -14,9 +14,14 @@
     },
     "id": "25300120-d3da-41a8-870f-5dd09a51835a",
     "inference": {
+      "extras": {},
       "finished_at": "2021-08-24T08:18:07+00:00",
       "pages": [
         {
+          "extras": {},
+          "orientation": {
+            "value": 0
+          },
           "id": 0,
           "prediction": {
             "birth_date": {

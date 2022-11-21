@@ -14,13 +14,15 @@
     },
     "id": "79db59c7-b312-4692-a77f-e8698666ffba",
     "inference": {
+      "extras": {},
       "finished_at": "2021-08-24T08:17:05+00:00",
       "pages": [
         {
-          "id": 0,
+          "extras": {},
           "orientation": {
             "value": 0
           },
+          "id": 0,
           "prediction": {
             "birth_date": {
               "confidence": 0.98,
