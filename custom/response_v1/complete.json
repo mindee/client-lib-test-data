@@ -374,7 +374,7 @@
               "confidence": 1.0,
               "values": [
                 {
-                  "confidence": 1.0,
+                  "confidence": 0.55,
                   "content": "Jenny",
                   "polygon": [
                     [
@@ -932,6 +932,7 @@
         },
         "string_all": {
           "confidence": 0.99,
+          "page_id": 1,
           "values": [
             {
               "confidence": 0.99,
