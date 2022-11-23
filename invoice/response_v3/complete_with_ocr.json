@@ -236,7 +236,8 @@
                 ]
               ],
               "value": 93.5
-            }
+            },
+            "line_items": []
           }
         }
       ],
@@ -460,7 +461,8 @@
             ]
           ],
           "value": 93.5
-        }
+        },
+        "line_items": []
       },
       "processing_time": 1.023,
       "product": {
@@ -480,11 +482,12 @@
           "customer_company_registration",
           "customer_address",
           "document_type",
-          "orientation"
+          "orientation",
+          "line_items"
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "3.1"
+        "version": "3.3"
       },
       "started_at": "2022-09-26T10:33:08+00:00"
     },

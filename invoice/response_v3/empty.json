@@ -16,6 +16,7 @@
     "inference": {
       "extras": {},
       "finished_at": "2022-03-01T15:23:28+00:00",
+      "is_rotation_applied": true,
       "pages": [
         {
           "extras": {},
@@ -82,7 +83,8 @@
               "confidence": 0.0,
               "polygon": [],
               "value": null
-            }
+            },
+            "line_items": []
           }
         }
       ],
@@ -153,7 +155,8 @@
           "page_id": null,
           "polygon": [],
           "value": null
-        }
+        },
+        "line_items": []
       },
       "processing_time": 3.498,
       "product": {
@@ -173,11 +176,12 @@
           "customer_company_registration",
           "customer_address",
           "document_type",
-          "orientation"
+          "orientation",
+          "line_items"
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "3.0"
+        "version": "3.3"
       },
       "started_at": "2022-03-01T15:23:25+00:00"
     },

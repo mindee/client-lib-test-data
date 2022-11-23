@@ -1,4 +1,4 @@
------Invoice data-----
+----- Invoice V3 -----
 Filename:
 Invoice number: 0042004801351
 Total amount including taxes: 587.95
@@ -12,6 +12,10 @@ Customer company registration:
 Customer address:
 Payment details: FR7640254025476501124705368;
 Company numbers: 501124705; FR33501124705
+Line Items:
+  Code           | QTY    | Price   | Amount   | Tax (Rate)     | Description
+                 |        |         | 4.31     |  (2.1 %)       | PQ20 ETIQ ULTRA RESIS METAXXDC
+                 | 1.0    | 65.0    | 75.0     | 10.0           | Platinum web hosting package Dow...
 Taxes: 97.98 20.0%
 Total taxes: 97.98
 Locale: fr; fr; EUR;
