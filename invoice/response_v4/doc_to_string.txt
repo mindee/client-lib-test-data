@@ -1,0 +1,25 @@
+----- Invoice V4 -----
+Filename:
+Locale: fr; fr; EUR;
+Invoice number: 0042004801351
+Invoice date: 2020-02-17
+Invoice due date: 2020-02-17
+Supplier name: TURNPIKE DESIGNS CO.
+Supplier address: 156 University Ave, Toronto ON, Canada M5H 2H7
+Supplier company registrations: 501124705; FR33501124705
+Customer name: JIRO DOI
+Customer company registrations: FR00000000000; 111222333
+Customer address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
+Line Items:
+  Code           | QTY    | Price   | Amount   | Tax (Rate)     | Description
+                 |        |         | 4.31     |  (2.1 %)       | PQ20 ETIQ ULTRA RESIS METAXXDC
+                 | 1.0    | 65.0    | 75.0     | 10.0           | Platinum web hosting package Dow...
+  XXX81125600010 | 1.0    | 250.01  | 275.51   | 25.5 (10.2 %)  | a long string describing the ite...
+  ABC456         | 200.3  | 8.101   | 1622.63  | 121.7 (7.5 %)  | Liquid perfection
+                 |        |         |          |                | CARTOUCHE L NR BROTHER TN247BK
+Payment details: FR7640254025476501124705368;
+Taxes: 97.98 20.0%
+Total taxes: 97.98
+Total amount excluding taxes: 489.97
+Total amount including taxes: 587.95
+----------------------

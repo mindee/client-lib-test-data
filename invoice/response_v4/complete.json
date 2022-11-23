@@ -25,7 +25,7 @@
           },
           "id": 0,
           "prediction": {
-            "company_registration": [
+            "supplier_company_registrations": [
               {
                 "confidence": 0.39,
                 "polygon": [
@@ -83,7 +83,7 @@
               "polygon": [],
               "value": null
             },
-            "customer_company_registration": [],
+            "customer_company_registrations": [],
             "date": {
               "confidence": 0.99,
               "polygon": [
@@ -268,7 +268,41 @@
                 ]
               ],
               "value": 587.95
-            }
+            },
+            "line_items": [
+              {
+                "confidence": 0.93,
+                "description": "PQ20 ETIQ ULTRA RESIS METAXXDC",
+                "polygon": [
+                  [0.17, 0.666],
+                  [0.908, 0.662],
+                  [0.908, 0.675],
+                  [0.17, 0.679]
+                ],
+                "product_code": null,
+                "quantity": null,
+                "tax_amount": null,
+                "tax_rate": 2.1,
+                "total_amount": 4.31,
+                "unit_price": null
+              },
+              {
+                "confidence": 0.97,
+                "description": "Platinum web hosting package Down 35mb, Up 100mb",
+                "polygon": [
+                  [0.035, 0.501],
+                  [0.963, 0.501],
+                  [0.963, 0.535],
+                  [0.035, 0.535]
+                ],
+                "product_code": null,
+                "quantity": 1.0,
+                "tax_amount": 10.0,
+                "tax_rate": null,
+                "total_amount": 75.0,
+                "unit_price": 65.0
+              }
+            ]
           }
         },
         {
@@ -278,7 +312,7 @@
           },
           "id": 1,
           "prediction": {
-            "company_registration": [],
+            "supplier_company_registrations": [],
             "customer": {
               "confidence": 0.87,
               "polygon": [
@@ -323,7 +357,7 @@
               ],
               "value": "1954 Bloon Street West Toronto, ON, M6P 3K9 Canada"
             },
-            "customer_company_registration": [],
+            "customer_company_registrations": [],
             "date": {
               "confidence": 0.0,
               "polygon": [],
@@ -465,12 +499,75 @@
                 ]
               ],
               "value": 2608.2
-            }
+            },
+            "line_items": [
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.515,
+                    0.962
+                  ],
+                  [
+                    0.59,
+                    0.962
+                  ],
+                  [
+                    0.59,
+                    0.973
+                  ],
+                  [
+                    0.515,
+                    0.973
+                  ]
+                ],
+                "product_code": "XXX81125600010",
+                "description": "a long string describing the item",
+                "quantity": 1,
+                "unit_price": 250,
+                "tax_rate": 10,
+                "tax_amount": null,
+                "total_amount": 250
+              },
+              {
+                "confidence": 0.94,
+                "page_id": 1,
+                "polygon": [
+                  [0.173, 0.636],
+                  [0.908, 0.632],
+                  [0.908, 0.644],
+                  [0.173, 0.648]
+                ],
+                "product_code": "ABC456",
+                "description": "Liquid perfection",
+                "quantity": 200.3,
+                "unit_price": 8.101,
+                "tax_rate": 7.5,
+                "tax_amount": 121.70,
+                "total_amount": 1622.63
+              },
+              {
+                "confidence": 0.94,
+                "description": "CARTOUCHE L NR BROTHER TN247BK",
+                "polygon": [
+                  [0.173, 0.65],
+                  [0.909, 0.646],
+                  [0.909, 0.659],
+                  [0.173, 0.663]
+                ],
+                "product_code": null,
+                "quantity": null,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": null,
+                "unit_price": null
+              }
+            ]
           }
         }
       ],
       "prediction": {
-        "company_registration": [
+        "supplier_company_registrations": [
           {
             "confidence": 0.39,
             "page_id": 0,
@@ -566,7 +663,7 @@
           ],
           "value": "1954 Bloon Street West Toronto, ON, M6P 3K9 Canada"
         },
-        "customer_company_registration": [
+        "customer_company_registrations": [
           {
             "confidence": 1.0,
             "polygon": [
@@ -837,7 +934,106 @@
             ]
           ],
           "value": 587.95
-        }
+        },
+        "line_items": [
+          {
+            "confidence": 0.93,
+            "page_id": 0,
+            "description": "PQ20 ETIQ ULTRA RESIS METAXXDC",
+            "polygon": [
+              [0.17, 0.666],
+              [0.908, 0.662],
+              [0.908, 0.675],
+              [0.17, 0.679]
+            ],
+            "product_code": null,
+            "quantity": null,
+            "tax_amount": null,
+            "tax_rate": 2.1,
+            "total_amount": 4.31,
+            "unit_price": null
+          },
+          {
+            "confidence": 0.97,
+            "page_id": 0,
+            "description": "Platinum web hosting package Down 35mb, Up 100mb",
+            "polygon": [
+              [0.035, 0.501],
+              [0.963, 0.501],
+              [0.963, 0.535],
+              [0.035, 0.535]
+            ],
+            "product_code": null,
+            "quantity": 1.0,
+            "tax_amount": 10.0,
+            "tax_rate": null,
+            "total_amount": 75.0,
+            "unit_price": 65.0
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 1,
+            "polygon": [
+              [
+                0.515,
+                0.962
+              ],
+              [
+                0.59,
+                0.962
+              ],
+              [
+                0.59,
+                0.973
+              ],
+              [
+                0.515,
+                0.973
+              ]
+            ],
+            "product_code": "XXX81125600010",
+            "description": "a long string describing the item",
+            "quantity": 1.0,
+            "unit_price": 250.01,
+            "tax_rate": 10.2,
+            "tax_amount": 25.5,
+            "total_amount": 275.51
+          },
+          {
+            "confidence": 0.94,
+            "page_id": 1,
+            "polygon": [
+              [0.173, 0.636],
+              [0.908, 0.632],
+              [0.908, 0.644],
+              [0.173, 0.648]
+            ],
+            "product_code": "ABC456",
+            "description": "Liquid perfection",
+            "quantity": 200.3,
+            "unit_price": 8.101,
+            "tax_rate": 7.5,
+            "tax_amount": 121.70,
+            "total_amount": 1622.63
+          },
+          {
+            "confidence": 0.94,
+            "page_id": 1,
+            "description": "CARTOUCHE L NR BROTHER TN247BK",
+            "polygon": [
+              [0.173, 0.65],
+              [0.909, 0.646],
+              [0.909, 0.659],
+              [0.173, 0.663]
+            ],
+            "product_code": null,
+            "quantity": null,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": null,
+            "unit_price": null
+          }
+        ]
       },
       "processing_time": 4.634,
       "product": {
@@ -851,17 +1047,18 @@
           "taxes",
           "payment_details",
           "supplier",
-          "company_registration",
+          "supplier_company_registrations",
           "supplier_address",
           "customer",
-          "customer_company_registration",
+          "customer_company_registrations",
           "customer_address",
           "document_type",
-          "orientation"
+          "orientation",
+          "line_items"
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "3.3"
+        "version": "4.0"
       },
       "started_at": "2022-03-01T15:33:37+00:00"
     },
