@@ -23,7 +23,7 @@
           "id": 0,
           "prediction": {
             "supplier_company_registrations": [],
-            "customer": {
+            "customer_name": {
               "confidence": 0.0,
               "polygon": [],
               "value": null
@@ -45,7 +45,6 @@
             "due_date": {
               "confidence": 0.0,
               "polygon": [],
-              "raw": null,
               "value": null
             },
             "invoice_number": {
@@ -62,8 +61,8 @@
               "confidence": 0.99,
               "degrees": 0
             },
-            "payment_details": [],
-            "supplier": {
+            "supplier_payment_details": [],
+            "supplier_name": {
               "confidence": 0.0,
               "polygon": [],
               "value": null
@@ -90,7 +89,7 @@
       ],
       "prediction": {
         "supplier_company_registrations": [],
-        "customer": {
+        "customer_name": {
           "confidence": 0.0,
           "page_id": 0,
           "polygon": [],
@@ -116,7 +115,6 @@
           "confidence": 0.0,
           "page_id": null,
           "polygon": [],
-          "raw": null,
           "value": null
         },
         "invoice_number": {
@@ -130,8 +128,8 @@
           "currency": "EUR",
           "language": "fr"
         },
-        "payment_details": [],
-        "supplier": {
+        "supplier_payment_details": [],
+        "supplier_name": {
           "confidence": 0.0,
           "page_id": 0,
           "polygon": [],
@@ -168,11 +166,11 @@
           "total_excl",
           "total_incl",
           "taxes",
-          "payment_details",
-          "supplier",
-          "supplier_company_registrations",
+          "supplier_payment_details",
+          "supplier_name",
+          "supplier_company_registration",
           "supplier_address",
-          "customer",
+          "customer_name",
           "customer_company_registrations",
           "customer_address",
           "document_type",

@@ -73,7 +73,7 @@
                 "value": "FR33501124705"
               }
             ],
-            "customer": {
+            "customer_name": {
               "confidence": 0.0,
               "polygon": [],
               "value": null
@@ -129,7 +129,6 @@
                   0.318
                 ]
               ],
-              "raw": "2020-02-17",
               "value": "2020-02-17"
             },
             "invoice_number": {
@@ -163,7 +162,7 @@
               "confidence": 0.99,
               "degrees": 0
             },
-            "payment_details": [
+            "supplier_payment_details": [
               {
                 "account_number": null,
                 "confidence": 0.94,
@@ -190,7 +189,7 @@
                 "swift": null
               }
             ],
-            "supplier": {
+            "supplier_name": {
               "confidence": 0.0,
               "polygon": [],
               "value": null
@@ -296,7 +295,7 @@
                   [0.035, 0.535]
                 ],
                 "product_code": null,
-                "quantity": 1.0,
+                "quantity": "1.0",
                 "tax_amount": 10.0,
                 "tax_rate": null,
                 "total_amount": 75.0,
@@ -313,7 +312,7 @@
           "id": 1,
           "prediction": {
             "supplier_company_registrations": [],
-            "customer": {
+            "customer_name": {
               "confidence": 0.87,
               "polygon": [
                 [
@@ -386,7 +385,6 @@
                   0.34
                 ]
               ],
-              "raw": "receipt Upon",
               "value": "2020-02-17"
             },
             "invoice_number": {
@@ -403,8 +401,8 @@
               "confidence": 0.99,
               "degrees": 0
             },
-            "payment_details": [],
-            "supplier": {
+            "supplier_payment_details": [],
+            "supplier_name": {
               "confidence": 0.7,
               "polygon": [
                 [
@@ -523,7 +521,7 @@
                 ],
                 "product_code": "XXX81125600010",
                 "description": "a long string describing the item",
-                "quantity": 1,
+                "quantity": "1",
                 "unit_price": 250,
                 "tax_rate": 10,
                 "tax_amount": null,
@@ -540,7 +538,7 @@
                 ],
                 "product_code": "ABC456",
                 "description": "Liquid perfection",
-                "quantity": 200.3,
+                "quantity": "200.3 L",
                 "unit_price": 8.101,
                 "tax_rate": 7.5,
                 "tax_amount": 121.70,
@@ -617,7 +615,7 @@
             "value": "FR33501124705"
           }
         ],
-        "customer": {
+        "customer_name": {
           "confidence": 0.87,
           "page_id": 1,
           "polygon": [
@@ -758,7 +756,6 @@
               0.318
             ]
           ],
-          "raw": "2020-02-17",
           "value": "2020-02-17"
         },
         "invoice_number": {
@@ -789,7 +786,7 @@
           "currency": "EUR",
           "language": "fr"
         },
-        "payment_details": [
+        "supplier_payment_details": [
           {
             "account_number": null,
             "confidence": 0.94,
@@ -817,7 +814,7 @@
             "swift": null
           }
         ],
-        "supplier": {
+        "supplier_name": {
           "confidence": 0.7,
           "page_id": 1,
           "polygon": [
@@ -964,7 +961,7 @@
               [0.035, 0.535]
             ],
             "product_code": null,
-            "quantity": 1.0,
+            "quantity": "1.0",
             "tax_amount": 10.0,
             "tax_rate": null,
             "total_amount": 75.0,
@@ -993,7 +990,7 @@
             ],
             "product_code": "XXX81125600010",
             "description": "a long string describing the item",
-            "quantity": 1.0,
+            "quantity": "1.0",
             "unit_price": 250.01,
             "tax_rate": 10.2,
             "tax_amount": 25.5,
@@ -1010,7 +1007,7 @@
             ],
             "product_code": "ABC456",
             "description": "Liquid perfection",
-            "quantity": 200.3,
+            "quantity": "200.3 L",
             "unit_price": 8.101,
             "tax_rate": 7.5,
             "tax_amount": 121.70,
@@ -1045,11 +1042,11 @@
           "total_excl",
           "total_incl",
           "taxes",
-          "payment_details",
-          "supplier",
-          "supplier_company_registrations",
+          "supplier_payment_details",
+          "supplier_name",
+          "supplier_company_registration",
           "supplier_address",
-          "customer",
+          "customer_name",
           "customer_company_registrations",
           "customer_address",
           "document_type",
