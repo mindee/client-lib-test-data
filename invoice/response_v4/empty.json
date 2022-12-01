@@ -73,12 +73,12 @@
               "value": null
             },
             "taxes": [],
-            "total_excl": {
+            "total_net": {
               "confidence": 0.0,
               "polygon": [],
               "value": null
             },
-            "total_incl": {
+            "total_amount": {
               "confidence": 0.0,
               "polygon": [],
               "value": null
@@ -142,13 +142,13 @@
           "value": null
         },
         "taxes": [],
-        "total_excl": {
+        "total_net": {
           "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
-        "total_incl": {
+        "total_amount": {
           "confidence": 0.0,
           "page_id": null,
           "polygon": [],
@@ -163,8 +163,8 @@
           "invoice_number",
           "date",
           "due_date",
-          "total_excl",
-          "total_incl",
+          "total_net",
+          "total_amount",
           "taxes",
           "supplier_payment_details",
           "supplier_name",

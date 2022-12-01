@@ -224,7 +224,7 @@
                 "value": 97.98
               }
             ],
-            "total_excl": {
+            "total_net": {
               "confidence": 0.99,
               "polygon": [
                 [
@@ -246,7 +246,7 @@
               ],
               "value": 489.97
             },
-            "total_incl": {
+            "total_amount": {
               "confidence": 0.99,
               "polygon": [
                 [
@@ -273,10 +273,22 @@
                 "confidence": 0.93,
                 "description": "PQ20 ETIQ ULTRA RESIS METAXXDC",
                 "polygon": [
-                  [0.17, 0.666],
-                  [0.908, 0.662],
-                  [0.908, 0.675],
-                  [0.17, 0.679]
+                  [
+                    0.17,
+                    0.666
+                  ],
+                  [
+                    0.908,
+                    0.662
+                  ],
+                  [
+                    0.908,
+                    0.675
+                  ],
+                  [
+                    0.17,
+                    0.679
+                  ]
                 ],
                 "product_code": null,
                 "quantity": null,
@@ -289,10 +301,22 @@
                 "confidence": 0.97,
                 "description": "Platinum web hosting package Down 35mb, Up 100mb",
                 "polygon": [
-                  [0.035, 0.501],
-                  [0.963, 0.501],
-                  [0.963, 0.535],
-                  [0.035, 0.535]
+                  [
+                    0.035,
+                    0.501
+                  ],
+                  [
+                    0.963,
+                    0.501
+                  ],
+                  [
+                    0.963,
+                    0.535
+                  ],
+                  [
+                    0.035,
+                    0.535
+                  ]
                 ],
                 "product_code": null,
                 "quantity": 1.0,
@@ -471,12 +495,12 @@
                 "value": 193.2
               }
             ],
-            "total_excl": {
+            "total_net": {
               "confidence": 0.0,
               "polygon": [],
               "value": null
             },
-            "total_incl": {
+            "total_amount": {
               "confidence": 0.99,
               "polygon": [
                 [
@@ -531,10 +555,22 @@
                 "confidence": 0.94,
                 "page_id": 1,
                 "polygon": [
-                  [0.173, 0.636],
-                  [0.908, 0.632],
-                  [0.908, 0.644],
-                  [0.173, 0.648]
+                  [
+                    0.173,
+                    0.636
+                  ],
+                  [
+                    0.908,
+                    0.632
+                  ],
+                  [
+                    0.908,
+                    0.644
+                  ],
+                  [
+                    0.173,
+                    0.648
+                  ]
                 ],
                 "product_code": "ABC456",
                 "description": "Liquid perfection",
@@ -548,10 +584,22 @@
                 "confidence": 0.94,
                 "description": "CARTOUCHE L NR BROTHER TN247BK",
                 "polygon": [
-                  [0.173, 0.65],
-                  [0.909, 0.646],
-                  [0.909, 0.659],
-                  [0.173, 0.663]
+                  [
+                    0.173,
+                    0.65
+                  ],
+                  [
+                    0.909,
+                    0.646
+                  ],
+                  [
+                    0.909,
+                    0.659
+                  ],
+                  [
+                    0.173,
+                    0.663
+                  ]
                 ],
                 "product_code": null,
                 "quantity": null,
@@ -886,7 +934,7 @@
             "value": 97.98
           }
         ],
-        "total_excl": {
+        "total_net": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
@@ -909,7 +957,7 @@
           ],
           "value": 489.97
         },
-        "total_incl": {
+        "total_amount": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
@@ -938,10 +986,22 @@
             "page_id": 0,
             "description": "PQ20 ETIQ ULTRA RESIS METAXXDC",
             "polygon": [
-              [0.17, 0.666],
-              [0.908, 0.662],
-              [0.908, 0.675],
-              [0.17, 0.679]
+              [
+                0.17,
+                0.666
+              ],
+              [
+                0.908,
+                0.662
+              ],
+              [
+                0.908,
+                0.675
+              ],
+              [
+                0.17,
+                0.679
+              ]
             ],
             "product_code": null,
             "quantity": null,
@@ -955,10 +1015,22 @@
             "page_id": 0,
             "description": "Platinum web hosting package Down 35mb, Up 100mb",
             "polygon": [
-              [0.035, 0.501],
-              [0.963, 0.501],
-              [0.963, 0.535],
-              [0.035, 0.535]
+              [
+                0.035,
+                0.501
+              ],
+              [
+                0.963,
+                0.501
+              ],
+              [
+                0.963,
+                0.535
+              ],
+              [
+                0.035,
+                0.535
+              ]
             ],
             "product_code": null,
             "quantity": 1.0,
@@ -1000,10 +1072,22 @@
             "confidence": 0.94,
             "page_id": 1,
             "polygon": [
-              [0.173, 0.636],
-              [0.908, 0.632],
-              [0.908, 0.644],
-              [0.173, 0.648]
+              [
+                0.173,
+                0.636
+              ],
+              [
+                0.908,
+                0.632
+              ],
+              [
+                0.908,
+                0.644
+              ],
+              [
+                0.173,
+                0.648
+              ]
             ],
             "product_code": "ABC456",
             "description": "Liquid perfection",
@@ -1018,10 +1102,22 @@
             "page_id": 1,
             "description": "CARTOUCHE L NR BROTHER TN247BK",
             "polygon": [
-              [0.173, 0.65],
-              [0.909, 0.646],
-              [0.909, 0.659],
-              [0.173, 0.663]
+              [
+                0.173,
+                0.65
+              ],
+              [
+                0.909,
+                0.646
+              ],
+              [
+                0.909,
+                0.659
+              ],
+              [
+                0.173,
+                0.663
+              ]
             ],
             "product_code": null,
             "quantity": null,
@@ -1039,8 +1135,8 @@
           "invoice_number",
           "date",
           "due_date",
-          "total_excl",
-          "total_incl",
+          "total_net",
+          "total_amount",
           "taxes",
           "supplier_payment_details",
           "supplier_name",
