@@ -12,9 +12,9 @@ Customer name:
 Customer company registrations:
 Customer address:
 Line Items:
-  Code           | QTY    | Price   | Amount   | Tax (Rate)     | Description
-                 |        |         | 4.31     |  (2.1 %)       | PQ20 ETIQ ULTRA RESIS METAXXDC
-                 | 1.00   | 65.00   | 75.00    | 10.00          | Platinum web hosting package Dow...
+  Code           | QTY    | Price   | Amount   | Tax (Rate)       | Description
+                 |        |         | 4.31     |  (2.10%)         | PQ20 ETIQ ULTRA RESIS METAXXDC
+                 | 1.00   | 65.00   | 75.00    | 10.00            | Platinum web hosting package Dow...
 Taxes: 97.98 20.00%
 Total taxes: 97.98
 Total amount excluding taxes: 489.97
