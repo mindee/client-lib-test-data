@@ -12,7 +12,7 @@ Customer company registration: FR00000000000; 111222333
 Customer address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
 Payment details: FR7640254025476501124705368;
 Company numbers: 501124705; FR33501124705
-Taxes: 97.98 20.0%
+Taxes: 97.98 20.00%
 Total taxes: 97.98
 Locale: fr; fr; EUR;
 ----------------------

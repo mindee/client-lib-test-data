@@ -2,7 +2,7 @@
 Filename:
 Total amount: 53.82
 Total net: 40.48
-Tip: 10.0
+Tip: 10.00
 Date: 2014-07-07
 Category: food
 Time: 20:20
