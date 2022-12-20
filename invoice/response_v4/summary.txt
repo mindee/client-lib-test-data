@@ -38,6 +38,7 @@ Page Predictions
 -------
 Page 0
 -------
+Locale: fr; fr; EUR;
 Invoice number: 0042004801351
 Invoice date: 2020-02-17
 Invoice due date: 2020-02-17
@@ -61,6 +62,7 @@ Total amount including taxes: 587.95
 -------
 Page 1
 -------
+Locale: fr; fr; EUR;
 Invoice number:
 Invoice date:
 Invoice due date: 2020-02-17
