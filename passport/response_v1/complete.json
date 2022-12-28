@@ -555,12 +555,7 @@
       "started_at": "2021-08-24T08:17:04+00:00"
     },
     "n_pages": 1,
-    "name": "document",
+    "name": "passport.jpeg",
     "ocr": {}
-  },
-  "document_type": "passport",
-  "input_type": "path",
-  "filename": "passport.jpeg",
-  "filepath": "./tests/data/passport/passport.jpeg",
-  "file_extension": "image/jpeg"
+  }
 }
