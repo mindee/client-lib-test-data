@@ -21,6 +21,9 @@
         {
           "extras": {},
           "id": 0,
+          "orientation": {
+            "value": null
+          },
           "prediction": {
             "supplier_company_registrations": [],
             "customer_name": {

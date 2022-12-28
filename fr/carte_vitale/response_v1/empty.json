@@ -19,7 +19,7 @@
           "extras": {},
           "id": 0,
           "orientation": {
-            "value": 0
+            "value": null
           },
           "prediction": {
             "given_names": [

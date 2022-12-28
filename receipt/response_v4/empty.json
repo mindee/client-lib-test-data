@@ -17,6 +17,10 @@
       "finished_at": "2021-08-24T08:11:28+00:00",
       "pages": [
         {
+          "extras": {},
+          "orientation": {
+            "value": null
+          },
           "id": 0,
           "prediction": {
             "category": {
