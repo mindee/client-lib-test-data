@@ -6,16 +6,13 @@
     ],
     "status": "success",
     "status_code": 201,
-    "url": "http://api.mindee.net/v1/products/mindee/expense_receipts/v4/predict"
+    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v4/predict"
   },
   "document": {
-    "annotations": {
-      "labels": []
-    },
-    "id": "79b9ea7f-ab4f-429e-9631-98d29ba2a49d",
+    "id": "aa1a8095-20c6-4080-98bd-4684d2807365",
     "inference": {
       "extras": {},
-      "finished_at": "2022-10-03T11:54:59+00:00",
+      "finished_at": "2023-01-03T13:45:50.659950",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -51,8 +48,12 @@
               ],
               "value": "2014-07-07"
             },
+            "document_type": {
+              "confidence": 0.44,
+              "value": "EXPENSE RECEIPT"
+            },
             "locale": {
-              "confidence": 0.69,
+              "confidence": 0.72,
               "country": "US",
               "currency": "USD",
               "language": "en",
@@ -61,6 +62,10 @@
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
+            },
+            "subcategory": {
+              "confidence": 0.98,
+              "value": "restaurant"
             },
             "supplier": {
               "confidence": 0.97,
@@ -86,7 +91,7 @@
             },
             "taxes": [
               {
-                "basis": null,
+                "base": null,
                 "code": "TAX",
                 "confidence": 0.97,
                 "polygon": [
@@ -153,7 +158,7 @@
                   0.801
                 ]
               ],
-              "value": 10
+              "value": 10.0
             },
             "total_amount": {
               "confidence": 0.05,
@@ -235,12 +240,20 @@
           ],
           "value": "2014-07-07"
         },
+        "document_type": {
+          "confidence": 0.44,
+          "value": "EXPENSE RECEIPT"
+        },
         "locale": {
-          "confidence": 0.69,
+          "confidence": 0.72,
           "country": "US",
           "currency": "USD",
           "language": "en",
           "value": "en-US"
+        },
+        "subcategory": {
+          "confidence": 0.98,
+          "value": "restaurant"
         },
         "supplier": {
           "confidence": 0.97,
@@ -267,7 +280,7 @@
         },
         "taxes": [
           {
-            "basis": null,
+            "base": null,
             "code": "TAX",
             "confidence": 0.97,
             "page_id": 0,
@@ -337,7 +350,7 @@
               0.801
             ]
           ],
-          "value": 10
+          "value": 10.0
         },
         "total_amount": {
           "confidence": 0.05,
@@ -392,11 +405,13 @@
           "value": 3.34
         }
       },
-      "processing_time": 1.17,
+      "processing_time": 0.743,
       "product": {
         "features": [
           "locale",
           "category",
+          "subcategory",
+          "document_type",
           "date",
           "time",
           "total_amount",
@@ -407,19 +422,13 @@
           "supplier",
           "orientation"
         ],
-        "name": "mindee/expense_receipts",
+        "name": "mindee/expense_receipts_beta",
         "type": "standard",
-        "version": "4.0"
+        "version": "4.1"
       },
-      "started_at": "2022-10-03T11:54:58+00:00"
+      "started_at": "2023-01-03T13:45:49.916694"
     },
     "n_pages": 1,
-    "name": "document",
-    "ocr": {}
-  },
-  "document_type": "receipt",
-  "input_type": "path",
-  "filename": "receipt.jpg",
-  "filepath": "./tests/data/expense_receipts/receipt.jpg",
-  "file_extension": "image/jpeg"
+    "name": "receipt-with-tip.jpg"
+  }
 }
