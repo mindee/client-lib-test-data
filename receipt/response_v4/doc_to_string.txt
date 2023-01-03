@@ -5,7 +5,7 @@ Total net: 40.48
 Tip: 10.00
 Date: 2014-07-07
 Category: food
-Sub category: restaurant
+Subcategory: restaurant
 Document type: EXPENSE RECEIPT
 Time: 20:20
 Supplier name: LOGANS
