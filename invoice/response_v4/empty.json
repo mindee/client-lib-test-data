@@ -60,6 +60,7 @@
               "currency": null,
               "language": null
             },
+            "reference_numbers": [],
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
@@ -131,6 +132,7 @@
           "currency": "EUR",
           "language": "fr"
         },
+        "reference_numbers": [],
         "supplier_payment_details": [],
         "supplier_name": {
           "confidence": 0.0,

@@ -6,16 +6,13 @@
     ],
     "status": "success",
     "status_code": 201,
-    "url": "http://api.mindee.net/v1/products/mindee/invoices/v3/predict"
+    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict"
   },
   "document": {
-    "annotations": {
-      "labels": {}
-    },
-    "id": "d262d169-c1ce-40c2-aeb8-28d05f597dc4",
+    "id": "656c2ec1-0920-4556-9bc2-772162bc698a",
     "inference": {
       "extras": {},
-      "finished_at": "2022-03-01T15:33:41+00:00",
+      "finished_at": "2023-01-03T15:34:59.843369",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -158,6 +155,7 @@
               "currency": "EUR",
               "language": "fr"
             },
+            "reference_numbers": [],
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
@@ -421,6 +419,30 @@
               "currency": "EUR",
               "language": "fr"
             },
+            "reference_numbers": [
+              {
+                "confidence": 0.9,
+                "polygon": [
+                  [
+                    0.841,
+                    0.284
+                  ],
+                  [
+                    0.912,
+                    0.284
+                  ],
+                  [
+                    0.912,
+                    0.298
+                  ],
+                  [
+                    0.841,
+                    0.298
+                  ]
+                ],
+                "value": "AD29094"
+              }
+            ],
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
@@ -834,6 +856,30 @@
           "currency": "EUR",
           "language": "fr"
         },
+        "reference_numbers": [
+          {
+            "confidence": 0.9,
+            "polygon": [
+              [
+                0.841,
+                0.284
+              ],
+              [
+                0.912,
+                0.284
+              ],
+              [
+                0.912,
+                0.298
+              ],
+              [
+                0.841,
+                0.298
+              ]
+            ],
+            "value": "AD29094"
+          }
+        ],
         "supplier_payment_details": [
           {
             "account_number": null,
@@ -1131,6 +1177,7 @@
       "processing_time": 4.634,
       "product": {
         "features": [
+          "reference_numbers",
           "locale",
           "invoice_number",
           "date",
@@ -1140,7 +1187,7 @@
           "taxes",
           "supplier_payment_details",
           "supplier_name",
-          "supplier_company_registration",
+          "supplier_company_registrations",
           "supplier_address",
           "customer_name",
           "customer_company_registrations",
@@ -1151,9 +1198,9 @@
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "4.0"
+        "version": "4.1"
       },
-      "started_at": "2022-03-01T15:33:37+00:00"
+      "started_at": "2023-01-03T15:34:57.263341"
     },
     "n_pages": 2,
     "name": "invoice.pdf"
