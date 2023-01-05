@@ -422,7 +422,7 @@
           "supplier",
           "orientation"
         ],
-        "name": "mindee/expense_receipts_beta",
+        "name": "mindee/expense_receipts",
         "type": "standard",
         "version": "4.1"
       },

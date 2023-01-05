@@ -12,7 +12,7 @@
     "id": "d02af689-23e1-4168-b619-3bf47e192128",
     "inference": {
       "extras": {},
-      "finished_at": "2022-11-21T16:34:05.779386",
+      "finished_at": "2023-01-03T13:45:50.659950",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -207,6 +207,10 @@
               ],
               "value": "2016-02-26"
             },
+            "document_type": {
+              "confidence": 0.44,
+              "value": "EXPENSE RECEIPT"
+            },
             "locale": {
               "confidence": 0.82,
               "country": "GB",
@@ -217,6 +221,10 @@
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
+            },
+            "subcategory": {
+              "confidence": 0.98,
+              "value": "restaurant"
             },
             "supplier": {
               "confidence": 0.74,
@@ -374,12 +382,20 @@
           ],
           "value": "2016-02-26"
         },
+        "document_type": {
+          "confidence": 0.44,
+          "value": "EXPENSE RECEIPT"
+        },
         "locale": {
           "confidence": 0.82,
           "country": "GB",
           "currency": "GBP",
           "language": "en",
           "value": "en-GB"
+        },
+        "subcategory": {
+          "confidence": 0.98,
+          "value": "restaurant"
         },
         "supplier": {
           "confidence": 0.74,
@@ -519,6 +535,8 @@
         "features": [
           "locale",
           "category",
+          "subcategory",
+          "document_type",
           "date",
           "time",
           "total_amount",
@@ -531,9 +549,9 @@
         ],
         "name": "mindee/expense_receipts",
         "type": "standard",
-        "version": "4.0"
+        "version": "4.1"
       },
-      "started_at": "2022-11-21T16:34:04.574067"
+      "started_at": "2023-01-03T13:45:49.916694"
     },
     "n_pages": 1,
     "name": "receipt.jpg"

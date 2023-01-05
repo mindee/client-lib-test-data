@@ -6,7 +6,7 @@
     ],
     "status": "success",
     "status_code": 201,
-    "url": "http://api.mindee.net/v1/products/mindee/expense_receipts/v3/predict?include_mvision=True"
+    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v4/predict?include_mvision=True"
   },
   "document": {
     "annotations": {
@@ -99,11 +99,19 @@
           "raw": null,
           "value": null
         },
+        "document_type": {
+          "confidence": 0.0,
+          "value": null
+        },
         "locale": {
-          "confidence": 0.15,
+          "confidence": 0.0,
           "country": null,
           "currency": null,
           "language": null,
+          "value": null
+        },
+        "subcategory": {
+          "confidence": 0.0,
           "value": null
         },
         "supplier": {
