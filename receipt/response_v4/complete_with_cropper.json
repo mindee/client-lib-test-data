@@ -9,7 +9,7 @@
     "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v4/predict?cropper=true"
   },
   "document": {
-    "id": "d02af689-23e1-4168-b619-3bf47e192128",
+    "id": "aa1a8095-20c6-4080-98bd-4684d2807365",
     "inference": {
       "extras": {},
       "finished_at": "2023-01-03T13:45:50.659950",

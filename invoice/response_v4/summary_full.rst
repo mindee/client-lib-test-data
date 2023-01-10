@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: d262d169-c1ce-40c2-aeb8-28d05f597dc4
+:Mindee ID: 656c2ec1-0920-4556-9bc2-772162bc698a
 :Filename: invoice.pdf
 
 Inference
 #########
-:Product: mindee/invoices v4.0
+:Product: mindee/invoices v4.1
 :Rotation applied: Yes
 
 Prediction

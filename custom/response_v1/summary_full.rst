@@ -11,9 +11,9 @@ Inference
 
 Prediction
 ==========
+:doc_type: type_b
 :date_normal: 2020-12-17
 :date_us: 2020-12-17
-:doc_type: type_b
 :email: contact@mindee.com
 :integer: 2100505343
 :number: 2100505343

@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: 79b9ea7f-ab4f-429e-9631-98d29ba2a49d
+:Mindee ID: aa1a8095-20c6-4080-98bd-4684d2807365
 :Filename: receipt.jpg
 
 Inference
 #########
-:Product: mindee/expense_receipts v4.0
+:Product: mindee/expense_receipts v4.1
 :Rotation applied: Yes
 
 Prediction
