@@ -13,6 +13,7 @@ Prediction
 ==========
 :Locale: fr; fr; EUR;
 :Invoice number: 0042004801351
+:Reference numbers: AD29094
 :Invoice date: 2020-02-17
 :Invoice due date: 2020-02-17
 :Supplier name: TURNPIKE DESIGNS CO.
@@ -45,6 +46,7 @@ Page 0
 ------
 :Locale: fr; fr; EUR;
 :Invoice number: 0042004801351
+:Reference numbers:
 :Invoice date: 2020-02-17
 :Invoice due date: 2020-02-17
 :Supplier name:
@@ -71,6 +73,7 @@ Page 1
 ------
 :Locale: fr; fr; EUR;
 :Invoice number:
+:Reference numbers: AD29094
 :Invoice date:
 :Invoice due date: 2020-02-17
 :Supplier name: TURNPIKE DESIGNS CO.

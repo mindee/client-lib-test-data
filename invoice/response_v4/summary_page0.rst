@@ -2,6 +2,7 @@ Page 0
 ------
 :Locale: fr; fr; EUR;
 :Invoice number: 0042004801351
+:Reference numbers:
 :Invoice date: 2020-02-17
 :Invoice due date: 2020-02-17
 :Supplier name:

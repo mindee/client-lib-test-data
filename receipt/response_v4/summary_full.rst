@@ -14,6 +14,8 @@ Prediction
 :Locale: en-US; en; US; USD;
 :Date: 2014-07-07
 :Category: food
+:Subcategory: restaurant
+:Document type: EXPENSE RECEIPT
 :Time: 20:20
 :Supplier name: LOGANS
 :Taxes: 3.34 TAX
@@ -30,6 +32,8 @@ Page 0
 :Locale: en-US; en; US; USD;
 :Date: 2014-07-07
 :Category: food
+:Subcategory: restaurant
+:Document type: EXPENSE RECEIPT
 :Time: 20:20
 :Supplier name: LOGANS
 :Taxes: 3.34 TAX
