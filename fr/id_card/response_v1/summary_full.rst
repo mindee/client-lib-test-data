@@ -11,7 +11,6 @@ Inference
 
 Prediction
 ==========
-:Document side:
 :Authority: SOUS-PREFECTURE DE BELLE (02)
 :Given names: VICTOR
 :Surname: DAMBARD
