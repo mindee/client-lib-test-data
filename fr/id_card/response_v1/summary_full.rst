@@ -27,7 +27,7 @@ Page Predictions
 
 Page 0
 ------
-:Document side:
+:Document side: RECTO & VERSO
 :Authority: SOUS-PREFECTURE DE BELLE (02)
 :Given names: VICTOR
 :Surname: DAMBARD
