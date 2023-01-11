@@ -1,6 +1,7 @@
 Page 0
 ------
 :Locale: fr; fr; EUR;
+:Document type: INVOICE
 :Invoice number: 0042004801351
 :Reference numbers:
 :Invoice date: 2020-02-17

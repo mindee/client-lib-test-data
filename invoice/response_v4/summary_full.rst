@@ -12,6 +12,7 @@ Inference
 Prediction
 ==========
 :Locale: fr; fr; EUR;
+:Document type: INVOICE
 :Invoice number: 0042004801351
 :Reference numbers: AD29094
 :Invoice date: 2020-02-17
@@ -45,6 +46,7 @@ Page Predictions
 Page 0
 ------
 :Locale: fr; fr; EUR;
+:Document type: INVOICE
 :Invoice number: 0042004801351
 :Reference numbers:
 :Invoice date: 2020-02-17
@@ -72,6 +74,7 @@ Code                   QTY      Price     Amount     Tax (Rate)         Descript
 Page 1
 ------
 :Locale: fr; fr; EUR;
+:Document type: INVOICE
 :Invoice number:
 :Reference numbers: AD29094
 :Invoice date:
