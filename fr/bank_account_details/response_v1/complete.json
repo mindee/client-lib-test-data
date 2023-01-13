@@ -25,7 +25,7 @@
             "account_holder_name": {
               "confidence": 0.0,
               "polygon": [],
-              "value": ""
+              "value": "www.CarteBancairePrepayee.net"
             },
             "iban": {
               "confidence": 0.94,
@@ -69,7 +69,7 @@
                   0.153
                 ]
               ],
-              "value": "BANCAIRE"
+              "value": "CMCIFR"
             }
           }
         }
@@ -79,7 +79,7 @@
           "confidence": 0.0,
           "page_id": null,
           "polygon": [],
-          "value": null
+          "value": "www.CarteBancairePrepayee.net"
         },
         "iban": {
           "confidence": 0.94,
@@ -125,7 +125,7 @@
               0.153
             ]
           ],
-          "value": "BANCAIRE"
+          "value": "CMCIFR"
         }
       },
       "processing_time": 0.654,
