@@ -2,7 +2,7 @@
 Document
 ########
 :Mindee ID: aa1a8095-20c6-4080-98bd-4684d2807365
-:Filename: receipt.jpg
+:Filename: receipt-with-tip.jpg
 
 Inference
 #########
