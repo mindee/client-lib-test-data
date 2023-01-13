@@ -1,0 +1,7 @@
+----- Invoice Splitter V1 -----
+Filename:
+Invoice Page Groups:
+  page indexes: 0
+  page indexes: 1, 2, 3
+  page indexes: 4
+----------------------
