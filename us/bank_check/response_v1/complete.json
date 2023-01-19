@@ -13,7 +13,7 @@
     "inference": {
       "extras": {},
       "finished_at": "2022-08-04T21:36:09+00:00",
-      "is_rotation_applied": "True",
+      "is_rotation_applied": true,
       "pages": [
         {
           "extras": {},
@@ -835,4 +835,3 @@
   "filepath": "check.jpg",
   "file_extension": "image/jpeg"
 }
-
