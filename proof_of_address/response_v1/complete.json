@@ -1,0 +1,423 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/proof_of_address/v1/predict"
+  },
+  "document": {
+    "annotations": {
+      "labels": {}
+    },
+    "id": "69eabee4-8f29-4e11-bb24-6a4ed965910a",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-01-22T10:13:00.409388",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {"value": null},
+          "prediction": {
+            "date": {
+              "confidence": 0.99,
+              "polygon": [
+                [0.747, 0.07],
+                [0.83, 0.07],
+                [0.83, 0.085],
+                [0.747, 0.085]
+              ],
+              "value": "2011-07-27"
+            },
+            "dates": [
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.75, 0.07],
+                  [0.83, 0.07],
+                  [0.83, 0.085],
+                  [0.75, 0.085]
+                ],
+                "value": "2011-07-27"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.535, 0.131],
+                  [0.611, 0.131],
+                  [0.611, 0.145],
+                  [0.535, 0.145]
+                ],
+                "value": "2011-07-06"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.29, 0.2],
+                  [0.373, 0.2],
+                  [0.373, 0.214],
+                  [0.29, 0.214]
+                ],
+                "value": "2011-08-03"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.55, 0.221],
+                  [0.631, 0.221],
+                  [0.631, 0.235],
+                  [0.55, 0.235]
+                ],
+                "value": "2011-07-27"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.442, 0.274],
+                  [0.506, 0.274],
+                  [0.506, 0.288],
+                  [0.442, 0.288]
+                ],
+                "value": "2011-06-01"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.038, 0.492],
+                  [0.093, 0.492],
+                  [0.093, 0.505],
+                  [0.038, 0.505]
+                ],
+                "value": "2011-07-01"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.038, 0.519],
+                  [0.094, 0.519],
+                  [0.094, 0.531],
+                  [0.038, 0.531]
+                ],
+                "value": "2010-07-01"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.034, 0.649],
+                  [0.099, 0.649],
+                  [0.099, 0.663],
+                  [0.034, 0.663]
+                ],
+                "value": "2010-08-01"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.112, 0.649],
+                  [0.166, 0.649],
+                  [0.166, 0.662],
+                  [0.112, 0.662]
+                ],
+                "value": "2011-07-01"
+              },
+              {
+                "confidence": 0.95,
+                "polygon": [
+                  [0.034, 0.672],
+                  [0.099, 0.672],
+                  [0.099, 0.687],
+                  [0.034, 0.687]
+                ],
+                "value": "2009-08-01"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.112, 0.671],
+                  [0.167, 0.671],
+                  [0.167, 0.685],
+                  [0.112, 0.685]
+                ],
+                "value": "2010-07-01"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [0.668, 0.761],
+                  [0.774, 0.761],
+                  [0.774, 0.776],
+                  [0.668, 0.776]
+                ],
+                "value": "2011-07-27"
+              }
+            ],
+            "issuer_address": {
+              "confidence": 0.1,
+              "polygon": [
+                [0.596, 0.88],
+                [0.85, 0.88],
+                [0.85, 0.907],
+                [0.596, 0.907]
+              ],
+              "value": "2 NORTH 9TH STREET CPC-GENN1 ALLENTOWN,PA 18101-1175"
+            },
+            "issuer_company_registration": [],
+            "issuer_name": {
+              "confidence": 0.64,
+              "polygon": [
+                [0.596, 0.867],
+                [0.777, 0.867],
+                [0.777, 0.879],
+                [0.596, 0.879]
+              ],
+              "value": "PPL ELECTRIC UTILITIES"
+            },
+            "locale": {
+              "confidence": 0.86,
+              "currency": "USD",
+              "language": "en"
+            },
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "recipient_address": {
+              "confidence": 0.59,
+              "polygon": [
+                [0.023, 0.159],
+                [0.166, 0.159],
+                [0.166, 0.185],
+                [0.023, 0.185]
+              ],
+              "value": "123 MAIN ST ANYTOWN,PA 18062"
+            },
+            "recipient_company_registration": [],
+            "recipient_name": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [0.747, 0.07],
+            [0.83, 0.07],
+            [0.83, 0.085],
+            [0.747, 0.085]
+          ],
+          "value": "2011-07-27"
+        },
+        "dates": [
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.75, 0.07],
+              [0.83, 0.07],
+              [0.83, 0.085],
+              [0.75, 0.085]
+            ],
+            "value": "2011-07-27"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.535, 0.131],
+              [0.611, 0.131],
+              [0.611, 0.145],
+              [0.535, 0.145]
+            ],
+            "value": "2011-07-06"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.29, 0.2],
+              [0.373, 0.2],
+              [0.373, 0.214],
+              [0.29, 0.214]
+            ],
+            "value": "2011-08-03"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.55, 0.221],
+              [0.631, 0.221],
+              [0.631, 0.235],
+              [0.55, 0.235]
+            ],
+            "value": "2011-07-27"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.442, 0.274],
+              [0.506, 0.274],
+              [0.506, 0.288],
+              [0.442, 0.288]
+            ],
+            "value": "2011-06-01"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.038, 0.492],
+              [0.093, 0.492],
+              [0.093, 0.505],
+              [0.038, 0.505]
+            ],
+            "value": "2011-07-01"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.038, 0.519],
+              [0.094, 0.519],
+              [0.094, 0.531],
+              [0.038, 0.531]
+            ],
+            "value": "2010-07-01"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.034, 0.649],
+              [0.099, 0.649],
+              [0.099, 0.663],
+              [0.034, 0.663]
+            ],
+            "value": "2010-08-01"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.112, 0.649],
+              [0.166, 0.649],
+              [0.166, 0.662],
+              [0.112, 0.662]
+            ],
+            "value": "2011-07-01"
+          },
+          {
+            "confidence": 0.95,
+            "page_id": 0,
+            "polygon": [
+              [0.034, 0.672],
+              [0.099, 0.672],
+              [0.099, 0.687],
+              [0.034, 0.687]
+            ],
+            "value": "2009-08-01"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.112, 0.671],
+              [0.167, 0.671],
+              [0.167, 0.685],
+              [0.112, 0.685]
+            ],
+            "value": "2010-07-01"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [0.668, 0.761],
+              [0.774, 0.761],
+              [0.774, 0.776],
+              [0.668, 0.776]
+            ],
+            "value": "2011-07-27"
+          }
+        ],
+        "issuer_address": {
+          "confidence": 0.1,
+          "page_id": 0,
+          "polygon": [
+            [0.596, 0.88],
+            [0.85, 0.88],
+            [0.85, 0.907],
+            [0.596, 0.907]
+          ],
+          "value": "2 NORTH 9TH STREET CPC-GENN1 ALLENTOWN,PA 18101-1175"
+        },
+        "issuer_company_registration": [],
+        "issuer_name": {
+          "confidence": 0.64,
+          "page_id": 0,
+          "polygon": [
+            [0.596, 0.867],
+            [0.777, 0.867],
+            [0.777, 0.879],
+            [0.596, 0.879]
+          ],
+          "value": "PPL ELECTRIC UTILITIES"
+        },
+        "locale": {
+          "confidence": 0.86,
+          "currency": "USD",
+          "language": "en"
+        },
+        "recipient_address": {
+          "confidence": 0.59,
+          "page_id": 0,
+          "polygon": [
+            [0.023, 0.159],
+            [0.166, 0.159],
+            [0.166, 0.185],
+            [0.023, 0.185]
+          ],
+          "value": "123 MAIN ST ANYTOWN,PA 18062"
+        },
+        "recipient_company_registration": [],
+        "recipient_name": {
+          "confidence": 0,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 0.984,
+      "product": {
+        "features": [
+          "locale",
+          "issuer_name",
+          "issuer_company_registration",
+          "issuer_address",
+          "recipient_name",
+          "recipient_company_registration",
+          "recipient_address",
+          "orientation",
+          "dates",
+          "date"
+        ],
+        "name": "mindee/proof_of_address",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-01-22T10:12:59.425832"
+    },
+    "n_pages": 1,
+    "name": "ppl_electric.jpg"
+  }
+}
