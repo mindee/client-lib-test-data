@@ -92,11 +92,11 @@
                   [0.073, 0.397]
                 ],
                 "product_code": null,
-                "quantity": 1,
+                "quantity": 1.0,
                 "tax_amount": null,
                 "tax_rate": null,
-                "total_amount": 100,
-                "unit_price": 100
+                "total_amount": 100.0,
+                "unit_price": 100.0
               },
               {
                 "confidence": 0.98,
@@ -108,11 +108,11 @@
                   [0.069, 0.433]
                 ],
                 "product_code": null,
-                "quantity": 2,
+                "quantity": 2.0,
                 "tax_amount": null,
                 "tax_rate": null,
-                "total_amount": 50,
-                "unit_price": 25
+                "total_amount": 50.0,
+                "unit_price": 25.0
               },
               {
                 "confidence": 0.97,
@@ -124,11 +124,11 @@
                   [0.069, 0.464]
                 ],
                 "product_code": null,
-                "quantity": 3,
+                "quantity": 3.0,
                 "tax_amount": null,
                 "tax_rate": null,
-                "total_amount": 45,
-                "unit_price": 15
+                "total_amount": 45.0,
+                "unit_price": 15.0
               }
             ],
             "locale": {
@@ -189,7 +189,7 @@
                   [0.931, 0.534],
                   [0.654, 0.534]
                 ],
-                "rate": 5,
+                "rate": 5.0,
                 "value": 9.75
               }
             ],
@@ -221,7 +221,7 @@
                 [0.931, 0.496],
                 [0.879, 0.496]
               ],
-              "value": 195
+              "value": 195.0
             },
             "total_tax": {
               "confidence": 0.98,
@@ -307,11 +307,11 @@
               [0.073, 0.397]
             ],
             "product_code": null,
-            "quantity": 1,
+            "quantity": 1.0,
             "tax_amount": null,
             "tax_rate": null,
-            "total_amount": 100,
-            "unit_price": 100
+            "total_amount": 100.0,
+            "unit_price": 100.0
           },
           {
             "confidence": 0.98,
@@ -324,11 +324,11 @@
               [0.069, 0.433]
             ],
             "product_code": null,
-            "quantity": 2,
+            "quantity": 2.0,
             "tax_amount": null,
             "tax_rate": null,
-            "total_amount": 50,
-            "unit_price": 25
+            "total_amount": 50.0,
+            "unit_price": 25.0
           },
           {
             "confidence": 0.97,
@@ -341,11 +341,11 @@
               [0.069, 0.464]
             ],
             "product_code": null,
-            "quantity": 3,
+            "quantity": 3.0,
             "tax_amount": null,
             "tax_rate": null,
-            "total_amount": 45,
-            "unit_price": 15
+            "total_amount": 45.0,
+            "unit_price": 15.0
           }
         ],
         "locale": {
@@ -406,18 +406,18 @@
               [0.931, 0.534],
               [0.654, 0.534]
             ],
-            "rate": 5,
+            "rate": 5.0,
             "value": 9.75
           }
         ],
         "time": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
         "tip": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
@@ -442,7 +442,7 @@
             [0.931, 0.496],
             [0.879, 0.496]
           ],
-          "value": 195
+          "value": 195.0
         },
         "total_tax": {
           "confidence": 0.98,

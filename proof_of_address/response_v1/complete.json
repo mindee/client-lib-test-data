@@ -391,7 +391,7 @@
         },
         "recipient_company_registration": [],
         "recipient_name": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": 0,
           "polygon": [],
           "value": null
