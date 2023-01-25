@@ -35,7 +35,6 @@ Prediction
 
 :Line Items:
 
-
 Page Predictions
 ================
 
@@ -64,4 +63,3 @@ Page 0
 :Total amount: 53.82
 
 :Line Items:
-
