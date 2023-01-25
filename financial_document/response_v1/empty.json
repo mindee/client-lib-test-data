@@ -21,7 +21,9 @@
         {
           "extras": {},
           "id": 0,
-          "orientation": {"value": 0},
+          "orientation": {
+            "value": 0
+          },
           "prediction": {
             "category": {
               "confidence": 0.76,
@@ -91,14 +93,14 @@
             },
             "taxes": [],
             "time": {
-              "confidence": [],
+              "confidence": 0.0,
               "polygon": [],
-              "value": []
+              "value": null
             },
             "tip": {
-              "confidence": [],
+              "confidence": 0.0,
               "polygon": [],
-              "value": []
+              "value": null
             },
             "total_amount": {
               "confidence": 0.0,
