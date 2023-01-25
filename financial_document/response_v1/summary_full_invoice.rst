@@ -20,8 +20,6 @@ Prediction
 :Time:
 :Number: INT-001
 :Reference numbers: 2412/2019
-:Date: 2019-02-11
-:Due date: 2019-02-26
 :Supplier name: JOHN SMITH
 :Supplier address: 4490 Oak Drive Albany, NY 12210
 :Supplier company registrations:
@@ -58,8 +56,6 @@ Page 0
 :Time:
 :Number: INT-001
 :Reference numbers: 2412/2019
-:Date: 2019-02-11
-:Due date: 2019-02-26
 :Supplier name: JOHN SMITH
 :Supplier address: 4490 Oak Drive Albany, NY 12210
 :Supplier company registrations:

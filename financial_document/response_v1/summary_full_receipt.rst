@@ -20,8 +20,6 @@ Prediction
 :Time: 20:20
 :Number:
 :Reference numbers:
-:Date: 2014-07-07
-:Due date: 2014-07-07
 :Supplier name: LOGANS
 :Supplier address:
 :Supplier company registrations:
@@ -52,8 +50,6 @@ Page 0
 :Time: 20:20
 :Number:
 :Reference numbers:
-:Date: 2014-07-07
-:Due date: 2014-07-07
 :Supplier name: LOGANS
 :Supplier address:
 :Supplier company registrations:
