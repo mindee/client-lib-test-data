@@ -30,13 +30,13 @@
               "value": "food"
             },
             "customer_address": {
-              "confidence": null,
+              "confidence": 0,
               "polygon": [],
               "value": null
             },
             "customer_company_registrations": [],
             "customer_name": {
-              "confidence": null,
+              "confidence": 0,
               "polygon": [],
               "value": null
             },
@@ -88,7 +88,7 @@
               "value": "2014-07-07"
             },
             "invoice_number": {
-              "confidence": null,
+              "confidence": 0,
               "polygon": [],
               "value": null
             },
@@ -109,7 +109,7 @@
               "value": "restaurant"
             },
             "supplier_address": {
-              "confidence": null,
+              "confidence": 0,
               "polygon": [],
               "value": null
             },
@@ -265,14 +265,14 @@
           "value": "food"
         },
         "customer_address": {
-          "confidence": null,
+          "confidence": 0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
         "customer_company_registrations": [],
         "customer_name": {
-          "confidence": null,
+          "confidence": 0,
           "page_id": null,
           "polygon": [],
           "value": null
@@ -327,7 +327,7 @@
           "value": "2014-07-07"
         },
         "invoice_number": {
-          "confidence": null,
+          "confidence": 0,
           "page_id": null,
           "polygon": [],
           "value": null
@@ -345,7 +345,7 @@
           "value": "restaurant"
         },
         "supplier_address": {
-          "confidence": null,
+          "confidence": 0,
           "page_id": null,
           "polygon": [],
           "value": null
