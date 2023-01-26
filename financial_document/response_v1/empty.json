@@ -126,20 +126,20 @@
           "value": "miscellaneous"
         },
         "customer_address": {
-          "page_id": 0,
+          "page_id": null,
           "confidence": 0.0,
           "polygon": [],
           "value": null
         },
         "customer_company_registrations": [],
         "customer_name": {
-          "page_id": 0,
+          "page_id": null,
           "confidence": 0.0,
           "polygon": [],
           "value": null
         },
         "date": {
-          "page_id": 0,
+          "page_id": null,
           "confidence": 0.0,
           "polygon": [],
           "value": null
@@ -148,13 +148,13 @@
           "value": null
         },
         "due_date": {
-          "page_id": 0,
+          "page_id": null,
           "confidence": 0.0,
           "polygon": [],
           "value": null
         },
         "invoice_number": {
-          "page_id": 0,
+          "page_id": null,
           "confidence": 0.0,
           "polygon": [],
           "value": null
@@ -168,7 +168,7 @@
         "payment_details": [],
         "reference_numbers": [
           {
-            "page_id": 0,
+            "page_id": null,
             "confidence": 0.0,
             "polygon": [],
             "value": null
@@ -179,14 +179,14 @@
           "value": null
         },
         "supplier_address": {
-          "page_id": 0,
+          "page_id": null,
           "confidence": 0.0,
           "polygon": [],
           "value": null
         },
         "supplier_company_registrations": [],
         "supplier_name": {
-          "page_id": 0,
+          "page_id": null,
           "confidence": 0.0,
           "polygon": [],
           "value": null
@@ -205,19 +205,19 @@
           "value": null
         },
         "total_amount": {
-          "page_id": 0,
+          "page_id": null,
           "confidence": 0.0,
           "polygon": [],
           "value": null
         },
         "total_net": {
-          "page_id": 0,
+          "page_id": null,
           "confidence": 0.0,
           "polygon": [],
           "value": null
         },
         "total_tax": {
-          "page_id": 0,
+          "page_id": null,
           "confidence": 0.0,
           "polygon": [],
           "value": null
