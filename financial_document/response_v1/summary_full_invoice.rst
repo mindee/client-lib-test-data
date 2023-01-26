@@ -23,7 +23,7 @@ Prediction
 :Supplier name: JOHN SMITH
 :Supplier address: 4490 Oak Drive Albany, NY 12210
 :Supplier company registrations:
-:Supplier payment details:
+:Payment details:
 :Customer name: JESSIE M HORNE
 :Customer address: 2019 Redbud Drive New York, NY 10011
 :Customer company registrations:
