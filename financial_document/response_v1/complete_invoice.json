@@ -51,7 +51,7 @@
               ],
               "value": "2019 Redbud Drive New York, NY 10011"
             },
-            "customer_company_registration": [],
+            "customer_company_registrations": [],
             "customer_name": {
               "confidence": 0.77,
               "polygon": [
@@ -264,7 +264,7 @@
               }
             ],
             "subcategory": {
-              "confidence": null,
+              "confidence": 0,
               "value": null
             },
             "supplier_address": {
@@ -289,7 +289,7 @@
               ],
               "value": "4490 Oak Drive Albany, NY 12210"
             },
-            "supplier_company_registration": [],
+            "supplier_company_registrations": [],
             "supplier_name": {
               "confidence": 0.88,
               "polygon": [
@@ -429,7 +429,7 @@
           ],
           "value": "2019 Redbud Drive New York, NY 10011"
         },
-        "customer_company_registration": [],
+        "customer_company_registrations": [],
         "customer_name": {
           "confidence": 0.77,
           "page_id": 0,
@@ -672,7 +672,7 @@
           ],
           "value": "4490 Oak Drive Albany, NY 12210"
         },
-        "supplier_company_registration": [],
+        "supplier_company_registrations": [],
         "supplier_name": {
           "confidence": 0.88,
           "page_id": 0,
@@ -802,10 +802,10 @@
           "taxes",
           "payment_details",
           "supplier_name",
-          "supplier_company_registration",
+          "supplier_company_registrations",
           "supplier_address",
           "customer_name",
-          "customer_company_registration",
+          "customer_company_registrations",
           "customer_address",
           "document_type",
           "orientation",
