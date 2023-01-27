@@ -1,0 +1,551 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/carte_grise/v1/predict"
+  },
+  "document": {
+    "id": "9dec72dc-ffdf-4af5-994e-2b21ed699995",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-01-27T09:32:01.790078",
+      "is_rotation_applied": "True",
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 270
+          },
+          "prediction": {
+            "a": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "b": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "c1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "c3": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "c41": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "c4a": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "d1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "d3": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "detachable_coupon_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "e": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "f1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "f2": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "f3": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "formula_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "g": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "g1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "i": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "j": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "j1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "j2": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "j3": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "mrz1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "mrz2": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "orientation": {
+              "confidence": 0.98,
+              "degrees": 270
+            },
+            "owner_first_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "owner_surname": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "p1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "p2": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "p3": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "p6": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "q": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "s1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "s2": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "u1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "u2": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "v7": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "x1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "y1": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "y2": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "y3": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "y4": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "y5": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "y6": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "a": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "b": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "c1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "c3": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "c41": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "c4a": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "d1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "d3": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "detachable_coupon_date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "e": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "f1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "f2": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "f3": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "formula_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "g": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "g1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "i": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "j": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "j1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "j2": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "j3": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz2": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "owner_first_name": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "owner_surname": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "p1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "p2": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "p3": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "p6": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "q": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "s1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "s2": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "u1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "u2": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "v7": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "x1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "y1": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "y2": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "y3": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "y4": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "y5": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "y6": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 0.382,
+      "product": {
+        "features": [
+          "a",
+          "b",
+          "c1",
+          "c4a",
+          "c41",
+          "c3",
+          "d1",
+          "d3",
+          "e",
+          "f1",
+          "f2",
+          "f3",
+          "g",
+          "g1",
+          "j",
+          "j1",
+          "j2",
+          "j3",
+          "p1",
+          "p2",
+          "p3",
+          "p6",
+          "q",
+          "s1",
+          "s2",
+          "u1",
+          "v7",
+          "u2",
+          "x1",
+          "y1",
+          "y2",
+          "y4",
+          "y5",
+          "y6",
+          "i",
+          "formula_number",
+          "mrz1",
+          "mrz2",
+          "y3",
+          "owner_first_name",
+          "owner_surname",
+          "orientation"
+        ],
+        "name": "mindee/carte_grise",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-01-27T09:32:01.408478"
+    },
+    "n_pages": 1,
+    "name": "0b2ad1c3_3f98ac00-524f-4ff2-9197-3c1f0dc5c652_1.jpg"
+  }
+}
