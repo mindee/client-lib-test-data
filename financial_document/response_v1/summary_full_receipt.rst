@@ -23,7 +23,7 @@ Prediction
 :Supplier name: LOGANS
 :Supplier address:
 :Supplier company registrations:
-:Payment details:
+:Supplier payment details:
 :Customer name:
 :Customer address:
 :Customer company registrations:
@@ -52,7 +52,7 @@ Page 0
 :Supplier name: LOGANS
 :Supplier address:
 :Supplier company registrations:
-:Payment details:
+:Supplier payment details:
 :Customer name:
 :Customer address:
 :Customer company registrations:

@@ -68,7 +68,7 @@
               "confidence": 0.0,
               "degrees": null
             },
-            "payment_details": [],
+            "supplier_payment_details": [],
             "reference_numbers": [
               {
                 "confidence": 0.0,
@@ -165,7 +165,7 @@
           "currency": null,
           "language": null
         },
-        "payment_details": [],
+        "supplier_payment_details": [],
         "reference_numbers": [
           {
             "page_id": null,
@@ -234,7 +234,7 @@
           "total_net",
           "total_amount",
           "taxes",
-          "payment_details",
+          "supplier_payment_details",
           "supplier_name",
           "supplier_company_registrations",
           "supplier_address",

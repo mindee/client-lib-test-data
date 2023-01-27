@@ -238,7 +238,7 @@
               "confidence": 0.99,
               "degrees": 0
             },
-            "payment_details": [],
+            "supplier_payment_details": [],
             "reference_numbers": [
               {
                 "confidence": 0.88,
@@ -619,7 +619,7 @@
           "currency": "USD",
           "language": "en"
         },
-        "payment_details": [],
+        "supplier_payment_details": [],
         "reference_numbers": [
           {
             "confidence": 0.88,
@@ -800,7 +800,7 @@
           "total_net",
           "total_amount",
           "taxes",
-          "payment_details",
+          "supplier_payment_details",
           "supplier_name",
           "supplier_company_registrations",
           "supplier_address",
