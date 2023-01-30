@@ -197,9 +197,14 @@
             },
             "recipient_company_registration": [],
             "recipient_name": {
-              "confidence": 0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.59,
+              "polygon": [
+                [0.023, 0.159],
+                [0.166, 0.159],
+                [0.166, 0.185],
+                [0.023, 0.185]
+              ],
+              "value": "CUSTOMER"
             }
           }
         }
@@ -391,10 +396,15 @@
         },
         "recipient_company_registration": [],
         "recipient_name": {
-          "confidence": 0.0,
+          "confidence": 0.59,
           "page_id": 0,
-          "polygon": [],
-          "value": null
+          "polygon": [
+            [0.023, 0.159],
+            [0.166, 0.159],
+            [0.166, 0.185],
+            [0.023, 0.185]
+          ],
+          "value": "CUSTOMER"
         }
       },
       "processing_time": 0.984,
