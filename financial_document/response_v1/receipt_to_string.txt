@@ -1,9 +1,10 @@
------ Financial V1 -----
+----- Financial Document V1 -----
+Filename:
 Document type: EXPENSE RECEIPT
 Category: food
 Subcategory: restaurant
 Locale: en; en; USD;
-Number:
+Invoice number:
 Reference numbers:
 Date: 2014-07-07
 Due date: 2014-07-07
@@ -11,16 +12,14 @@ Time: 20:20
 Supplier name: LOGANS
 Supplier address:
 Supplier company registrations:
-Payment details:
+Supplier payment details:
 Customer name:
-Customer company registrations:
 Customer address:
+Customer company registrations:
 Tip: 10.00
 Taxes: 3.34 TAX
-       3.34 TAX
-Total taxes:
+Total tax: 3.34
 Total net: 40.48
 Total amount: 53.82
 Line Items:
-
 ----------------------
