@@ -1,6 +1,6 @@
 Page 0
 ------
-:Document side: RECTO & VERSO
+:Document Side: RECTO & VERSO
 :Identity Number: 175775H55790
 :Given Name(s): VICTOR
 :Surname: DAMBARD
