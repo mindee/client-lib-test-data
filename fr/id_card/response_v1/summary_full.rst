@@ -11,30 +11,30 @@ Inference
 
 Prediction
 ==========
-:Authority: SOUS-PREFECTURE DE BELLE (02)
-:Given names: VICTOR
+:Identity Number: 175775H55790
+:Given Name(s): VICTOR
 :Surname: DAMBARD
+:Date of Birth: 1994-04-24
+:Place of Birth: LYON 4E ARRONDISSEMT
+:Expiry Date: 2030-04-02
+:Issuing Authority: SOUS-PREFECTURE DE BELLE (02)
 :Gender:
-:ID Number: 175775H55790
-:Birth date: 1994-04-24
-:Birth place: LYON 4E ARRONDISSEMT
-:Expiry date: 2030-04-02
-:MRZ 1: IDFRADAMBARD<<<<<<<<<<<<<<<<<<075025
-:MRZ 2: 170775H557903VICTOR<<MARIE<9404246M5
+:MRZ Line 1: IDFRADAMBARD<<<<<<<<<<<<<<<<<<075025
+:MRZ Line 2: 170775H557903VICTOR<<MARIE<9404246M5
 
 Page Predictions
 ================
 
 Page 0
 ------
-:Document side: RECTO & VERSO
-:Authority: SOUS-PREFECTURE DE BELLE (02)
-:Given names: VICTOR
+:Document Side: RECTO & VERSO
+:Identity Number: 175775H55790
+:Given Name(s): VICTOR
 :Surname: DAMBARD
+:Date of Birth: 1994-04-24
+:Place of Birth: LYON 4E ARRONDISSEMT
+:Expiry Date: 2030-04-02
+:Issuing Authority: SOUS-PREFECTURE DE BELLE (02)
 :Gender:
-:ID Number: 175775H55790
-:Birth date: 1994-04-24
-:Birth place: LYON 4E ARRONDISSEMT
-:Expiry date: 2030-04-02
-:MRZ 1: IDFRADAMBARD<<<<<<<<<<<<<<<<<<075025
-:MRZ 2: 170775H557903VICTOR<<MARIE<9404246M5
+:MRZ Line 1: IDFRADAMBARD<<<<<<<<<<<<<<<<<<075025
+:MRZ Line 2: 170775H557903VICTOR<<MARIE<9404246M5
