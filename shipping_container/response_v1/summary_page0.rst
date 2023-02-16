@@ -1,5 +1,5 @@
 Page 0
 ------
 :Owner: MMAU
-:Serial number: 1193249
-:Size and type: 45R1
+:Serial Number: 1193249
+:Size and Type: 45R1
