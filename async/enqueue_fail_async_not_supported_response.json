@@ -1,0 +1,16 @@
+{
+  "api_request": {
+    "error": {
+      "details": "mindee/invoices does not support async mode",
+      "message": "This product does not support asynchronous mode",
+      "code": "Forbidden"
+    },
+    "resources": [],
+    "status": "failure",
+    "status_code": 403,
+    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict_async?cropper=False"
+  },
+  "issued_at": "0001-01-01T00:00:00",
+  "job_id": null,
+  "status": null
+}
