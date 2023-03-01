@@ -2,14 +2,14 @@
   "api_request": {
     "error": {},
     "resources": [
-      "document"
+      "document",
+      "job"
     ],
     "status": "success",
     "status_code": 200,
     "url": "https://infergate-fastapi.staging-xsdj4gia.mindee.net/v1/products/Mindee/invoice_splitter_beta/v1/documents/async/e66cfef5-8a31-4278-8ced-004fd8a345b2"
   },
   "availability_time": 1.469,
-  "available_at": "2023-02-16T12:14:27.931985",
   "document": {
     "id": "506b5103-03f3-4b71-ad8d-d3719a157b60",
     "inference": {
@@ -50,9 +50,9 @@
     "n_pages": 1,
     "name": "invoice.jpg"
   },
-  "id": "e66cfef5-8a31-4278-8ced-004fd8a345b2",
   "job": {
     "issued_at": "2023-02-16T12:14:26.462583",
+    "available_at": "2023-02-16T12:14:27.931985",
     "job_id": "76c90710-3a1b-4b91-8a39-31a6543e347c",
     "status": "completed"
   }
