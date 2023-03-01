@@ -1,0 +1,59 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://infergate-fastapi.staging-xsdj4gia.mindee.net/v1/products/Mindee/invoice_splitter_beta/v1/documents/async/e66cfef5-8a31-4278-8ced-004fd8a345b2"
+  },
+  "availability_time": 1.469,
+  "available_at": "2023-02-16T12:14:27.931985",
+  "document": {
+    "id": "506b5103-03f3-4b71-ad8d-d3719a157b60",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-02-16T12:14:27.916000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "invoice_page_groups": [
+          {
+            "confidence": 0,
+            "page_indexes": [
+              0
+            ]
+          }
+        ]
+      },
+      "processing_time": 1.244,
+      "product": {
+        "features": [
+          "invoice_page_groups"
+        ],
+        "name": "Mindee/invoice_splitter_beta",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-02-16T12:14:26.462583+00:00"
+    },
+    "n_pages": 1,
+    "name": "invoice.jpg"
+  },
+  "id": "e66cfef5-8a31-4278-8ced-004fd8a345b2",
+  "job": {
+    "issued_at": "2023-02-16T12:14:26.462583",
+    "job_id": "76c90710-3a1b-4b91-8a39-31a6543e347c",
+    "status": "completed"
+  }
+}

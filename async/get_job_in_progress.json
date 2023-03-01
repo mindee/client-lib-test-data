@@ -1,0 +1,16 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://infergate-fastapi.staging-xsdj4gia.mindee.net/v1/products/Mindee/invoice_splitter_beta/v1/documents/queue/76c90710-3a1b-4b91-8a39-31a6543e347c"
+  },
+  "job": {
+    "issued_at": "2023-02-16T12:33:49.602947+00:00",
+    "job_id": "76c90710-3a1b-4b91-8a39-31a6543e347c",
+    "status": "processing"
+  }
+}
