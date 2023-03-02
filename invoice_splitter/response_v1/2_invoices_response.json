@@ -1,0 +1,65 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/invoice_splitter_beta/v1/predict"
+  },
+  "document": {
+    "id": "c4d358cf-c9f5-419d-9468-62a2edb9e01e",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-03-02T10:36:27.905811",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        },
+        {
+          "extras": {},
+          "id": 1,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "invoice_page_groups": [
+          {
+            "confidence": 1.0,
+            "page_indexes": [
+              0
+            ]
+          },
+          {
+            "confidence": 1.0,
+            "page_indexes": [
+              1
+            ]
+          }
+        ]
+      },
+      "processing_time": 1.767,
+      "product": {
+        "features": [
+          "invoice_page_groups"
+        ],
+        "name": "mindee/invoice_splitter_beta",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-03-02T10:36:26.138438"
+    },
+    "n_pages": 2,
+    "name": "2_invoices.pdf"
+  }
+}
