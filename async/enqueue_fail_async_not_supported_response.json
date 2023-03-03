@@ -10,7 +10,10 @@
     "status_code": 403,
     "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict_async?cropper=False"
   },
-  "issued_at": "0001-01-01T00:00:00",
-  "job_id": null,
-  "status": null
+  "job": {
+    "issued_at": "0001-01-01T00:00:00",
+    "available_at": null,
+    "id": null,
+    "status": null
+  }
 }
