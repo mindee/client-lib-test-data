@@ -1,0 +1,13 @@
+{
+  "api_request": {
+    "error": {
+      "code": "failure",
+      "details": "Can not run prediction: ",
+      "message": "Inference failed"
+    },
+    "resources": [],
+    "status": "failure",
+    "status_code": 500,
+    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict"
+  }
+}

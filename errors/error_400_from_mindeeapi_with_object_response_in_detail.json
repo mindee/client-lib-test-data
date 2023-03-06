@@ -2,14 +2,16 @@
   "api_request": {
     "error": {
       "details": {
-        "document": ["error message"]
+        "document": [
+          "error message"
+        ]
       }
     },
     "resources": [
       "document"
     ],
     "status": "success",
-    "status_code": 201,
+    "status_code": 400,
     "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict"
   }
 }
