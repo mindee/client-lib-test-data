@@ -1,0 +1,13 @@
+{
+  "api_request": {
+    "error": {
+      "code": "Unauthorized",
+      "details": "Invalid token provided",
+      "message": "Authorization required"
+    },
+    "resources": [],
+    "status": "failure",
+    "status_code": 401,
+    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v4/predict?cropper=True"
+  }
+}
