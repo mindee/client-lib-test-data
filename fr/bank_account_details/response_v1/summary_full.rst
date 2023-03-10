@@ -12,8 +12,8 @@ Inference
 Prediction
 ==========
 :IBAN: FR30 7612 3456 7874 5825 6600 014
-:Account holder name: www.CarteBancairePrepayee.net
-:SWIFT: CMCIFR
+:Account Holder's Name: www.CarteBancairePrepayee.net
+:SWIFT Code: CMCIFR
 
 Page Predictions
 ================
@@ -21,5 +21,5 @@ Page Predictions
 Page 0
 ------
 :IBAN: FR30 7612 3456 7874 5825 6600 014
-:Account holder name: www.CarteBancairePrepayee.net
-:SWIFT: CMCIFR
+:Account Holder's Name: www.CarteBancairePrepayee.net
+:SWIFT Code: CMCIFR

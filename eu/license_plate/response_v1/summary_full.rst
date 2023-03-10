@@ -11,11 +11,13 @@ Inference
 
 Prediction
 ==========
-:License plates: 8LQA341, 8LBW890
+:License Plates: 8LQA341
+                 8LBW890
 
 Page Predictions
 ================
 
 Page 0
 ------
-:License plates: 8LQA341, 8LBW890
+:License Plates: 8LQA341
+                 8LBW890
