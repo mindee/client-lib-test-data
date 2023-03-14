@@ -22,55 +22,6 @@
             "value": 0
           },
           "prediction": {
-            "insuree_name": {
-              "confidence": 1.0,
-              "values": [
-                {
-                  "confidence": 1.0,
-                  "content": "JAMES",
-                  "polygon": [
-                    [
-                      0.047,
-                      0.151
-                    ],
-                    [
-                      0.12,
-                      0.151
-                    ],
-                    [
-                      0.12,
-                      0.161
-                    ],
-                    [
-                      0.047,
-                      0.161
-                    ]
-                  ]
-                },
-                {
-                  "confidence": 1.0,
-                  "content": "BOND",
-                  "polygon": [
-                    [
-                      0.126,
-                      0.151
-                    ],
-                    [
-                      0.182,
-                      0.151
-                    ],
-                    [
-                      0.182,
-                      0.161
-                    ],
-                    [
-                      0.126,
-                      0.161
-                    ]
-                  ]
-                }
-              ]
-            },
             "beneficiary_birth_date": {
               "confidence": 1.0,
               "values": [
@@ -667,56 +618,6 @@
         }
       ],
       "prediction": {
-        "insuree_name": {
-          "confidence": 1.0,
-          "page_id": 0,
-          "values": [
-            {
-              "confidence": 1.0,
-              "content": "JAMES",
-              "polygon": [
-                [
-                  0.047,
-                  0.151
-                ],
-                [
-                  0.12,
-                  0.151
-                ],
-                [
-                  0.12,
-                  0.161
-                ],
-                [
-                  0.047,
-                  0.161
-                ]
-              ]
-            },
-            {
-              "confidence": 1.0,
-              "content": "BOND",
-              "polygon": [
-                [
-                  0.126,
-                  0.151
-                ],
-                [
-                  0.182,
-                  0.151
-                ],
-                [
-                  0.182,
-                  0.161
-                ],
-                [
-                  0.126,
-                  0.161
-                ]
-              ]
-            }
-          ]
-        },
         "beneficiary_birth_date": {
           "confidence": 1.0,
           "page_id": 0,
@@ -1317,7 +1218,6 @@
       "processing_time": 1.045,
       "product": {
         "features": [
-          "insuree_name",
           "beneficiary_name",
           "beneficiary_birth_date",
           "beneficiary_rank",
