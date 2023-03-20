@@ -11,7 +11,7 @@
     "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict_async?cropper=False"
   },
   "job": {
-    "issued_at": "0001-01-01T00:00:00",
+    "issued_at": "2023-01-01T00:00:00+00:00",
     "available_at": null,
     "id": null,
     "status": null
