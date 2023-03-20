@@ -33,9 +33,18 @@
       ],
       "prediction": {
         "invoice_page_groups": [
-          {"page_indexes": [0]},
-          {"page_indexes": [1, 2, 3]},
-          {"page_indexes": [4]}
+          {
+            "confidence": 1,
+            "page_indexes": [0]
+          },
+          {
+            "confidence": 1,
+            "page_indexes": [1, 2, 3]
+          },
+          {
+            "confidence": 0,
+            "page_indexes": [4]
+          }
         ]
       },
       "processing_time": 1.837,
