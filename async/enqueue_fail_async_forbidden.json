@@ -8,7 +8,7 @@
     "resources": [],
     "status": "failure",
     "status_code": 403,
-    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict_async?cropper=False"
+    "url": "https://api.mindee.net/v1/products/mindee/invoice_splitter/v1/predict_async"
   },
   "job": {
     "issued_at": "2023-01-01T00:00:00+00:00",

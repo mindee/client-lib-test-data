@@ -2,19 +2,17 @@
   "api_request": {
     "error": {},
     "resources": [
-      "document",
-      "job"
+      "document"
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://infergate-fastapi.staging-xsdj4gia.mindee.net/v1/products/Mindee/invoice_splitter_beta/v1/documents/async/e66cfef5-8a31-4278-8ced-004fd8a345b2"
+    "url": "https://api.mindee.net/v1/products/mindee/invoice_splitter/v1/documents/d88406ed-47bd-4db0-b3f3-145c8667a343"
   },
-  "availability_time": 1.469,
   "document": {
-    "id": "506b5103-03f3-4b71-ad8d-d3719a157b60",
+    "id": "d88406ed-47bd-4db0-b3f3-145c8667a343",
     "inference": {
       "extras": {},
-      "finished_at": "2023-02-16T12:14:27.916000",
+      "finished_at": "2023-03-21T13:53:00.974000",
       "is_rotation_applied": null,
       "pages": [
         {
@@ -24,19 +22,33 @@
             "value": null
           },
           "prediction": {}
+        },
+        {
+          "extras": {},
+          "id": 1,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
         }
       ],
       "prediction": {
         "invoice_page_groups": [
           {
-            "confidence": 0,
+            "confidence": 1.0,
             "page_indexes": [
               0
+            ]
+          },
+          {
+            "confidence": 1.0,
+            "page_indexes": [
+              1
             ]
           }
         ]
       },
-      "processing_time": 1.244,
+      "processing_time": 4.266,
       "product": {
         "features": [
           "invoice_page_groups"
@@ -45,15 +57,15 @@
         "type": "standard",
         "version": "1.0"
       },
-      "started_at": "2023-02-16T12:14:26.462583+00:00"
+      "started_at": "2023-03-21T13:52:56.326107+00:00"
     },
-    "n_pages": 1,
-    "name": "invoice.jpg"
+    "n_pages": 2,
+    "name": "2_invoices.pdf"
   },
   "job": {
-    "issued_at": "2023-02-16T12:14:26.462583",
-    "available_at": "2023-02-16T12:14:27.931985",
-    "id": "76c90710-3a1b-4b91-8a39-31a6543e347c",
+    "available_at": "2023-03-21T13:53:00.990339",
+    "id": "b6caf9e8-9bcc-4412-bcb7-f5b416678f0d",
+    "issued_at": "2023-03-21T13:52:56.326107",
     "status": "completed"
   }
 }
