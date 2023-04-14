@@ -1,0 +1,207 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v5/predict"
+  },
+  "document": {
+    "id": "aa1a8095-20c6-4080-98bd-4684d2807365",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-04-13T12:16:38.053945",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "category": {
+              "confidence": 0.6,
+              "value": "transport"
+            },
+            "date": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "document_type": {
+              "confidence": 0.91,
+              "value": "EXPENSE RECEIPT"
+            },
+            "line_items": [],
+            "locale": {
+              "confidence": 0,
+              "country": null,
+              "currency": "EUR",
+              "language": null,
+              "value": null
+            },
+            "orientation": {
+              "confidence": 0.52,
+              "degrees": 0
+            },
+            "subcategory": {
+              "confidence": 0.61,
+              "value": "plane"
+            },
+            "supplier_address": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_company_registrations": [],
+            "supplier_name": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_phone_number": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "taxes": [],
+            "time": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "tip": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "total_amount": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "total_net": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "total_tax": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "category": {
+          "confidence": 0.6,
+          "value": "transport"
+        },
+        "date": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "document_type": {
+          "confidence": 0.91,
+          "value": "EXPENSE RECEIPT"
+        },
+        "line_items": [],
+        "locale": {
+          "confidence": 0,
+          "country": null,
+          "currency": null,
+          "language": null,
+          "value": null
+        },
+        "subcategory": {
+          "confidence": 0.61,
+          "value": "plane"
+        },
+        "supplier_address": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "supplier_company_registrations": [],
+        "supplier_name": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "supplier_phone_number": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "taxes": [],
+        "time": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "tip": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "total_amount": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "total_net": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "total_tax": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 0.458,
+      "product": {
+        "features": [
+          "locale",
+          "category",
+          "subcategory",
+          "document_type",
+          "date",
+          "time",
+          "total_amount",
+          "total_net",
+          "total_tax",
+          "tip",
+          "taxes",
+          "supplier_name",
+          "supplier_company_registrations",
+          "supplier_address",
+          "supplier_phone_number",
+          "orientation",
+          "line_items"
+        ],
+        "name": "mindee/expense_receipts",
+        "type": "standard",
+        "version": "5.0"
+      },
+      "started_at": "2023-04-13T12:16:37.596159"
+    },
+    "n_pages": 1,
+    "name": "receipt.jpg"
+  }
+}
