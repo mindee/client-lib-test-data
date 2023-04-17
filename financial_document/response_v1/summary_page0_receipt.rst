@@ -21,5 +21,4 @@ Page 0
 :Total taxes: 3.34
 :Total net: 40.48
 :Total amount: 53.82
-
 :Line Items:
