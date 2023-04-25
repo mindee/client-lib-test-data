@@ -22,36 +22,12 @@
             "value": null
           },
           "prediction": {
-            "license_plates": [
-              {
-                "confidence": 0.71,
-                "polygon": [],
-                "value": null
-              },
-              {
-                "confidence": 0.62,
-                "polygon": [],
-                "value": null
-              }
-            ]
+            "license_plates": []
           }
         }
       ],
       "prediction": {
-        "license_plates": [
-          {
-            "confidence": 0.71,
-            "page_id": 0,
-            "polygon": [],
-            "value": null
-          },
-          {
-            "confidence": 0.62,
-            "page_id": 0,
-            "polygon": [],
-            "value": null
-          }
-        ]
+        "license_plates": []
       },
       "processing_time": 0.52,
       "product": {
