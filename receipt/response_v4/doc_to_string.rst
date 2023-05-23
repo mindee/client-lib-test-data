@@ -1,6 +1,9 @@
-Page 0
-------
-:Locale: en-US; en; US; USD;
+Receipt V4 Prediction
+=====================
+:Filename:
+:Total amount: 53.82
+:Total net: 40.48
+:Tip: 10.00
 :Date: 2014-07-07
 :Category: food
 :Subcategory: restaurant
@@ -13,7 +16,5 @@ Page 0
   +===============+========+==========+===============+
   |               | TAX    |          | 3.34          |
   +---------------+--------+----------+---------------+
-:Total net: 40.48
 :Total taxes: 3.34
-:Tip: 10.00
-:Total amount: 53.82
+:Locale: en-US; en; US; USD;

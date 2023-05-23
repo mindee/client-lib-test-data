@@ -28,7 +28,12 @@ Prediction
 :Customer address:
 :Customer company registrations:
 :Tip: 10.00
-:Taxes: 3.34 TAX
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
+  |               | TAX    |          | 3.34          |
+  +---------------+--------+----------+---------------+
 :Total taxes: 3.34
 :Total net: 40.48
 :Total amount: 53.82
@@ -56,7 +61,12 @@ Page 0
 :Customer address:
 :Customer company registrations:
 :Tip: 10.00
-:Taxes: 3.34 TAX
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
+  |               | TAX    |          | 3.34          |
+  +---------------+--------+----------+---------------+
 :Total taxes: 3.34
 :Total net: 40.48
 :Total amount: 53.82

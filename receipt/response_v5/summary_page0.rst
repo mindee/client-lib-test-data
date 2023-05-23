@@ -10,7 +10,12 @@ Page 0
 :Total Excluding Taxes: 8.50
 :Total Tax: 1.70
 :Tip and Gratuity:
-:Taxes: 1.70 20.00% VAT
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
+  | 8.50          | VAT    | 20.00    | 1.70          |
+  +---------------+--------+----------+---------------+
 :Supplier Name: CLACHAN
 :Supplier Company Registrations: 232153895
 :Supplier Address: 34 kingley street w1b 5qh

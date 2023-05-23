@@ -24,7 +24,12 @@ Prediction
 :Customer name: JIRO DOI
 :Customer address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
 :Customer company registrations: FR00000000000; 111222333
-:Taxes: 97.98 20.00%
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
+  |               |        | 20.00    | 97.98         |
+  +---------------+--------+----------+---------------+
 :Total net: 489.97
 :Total taxes: 97.98
 :Total amount: 587.95

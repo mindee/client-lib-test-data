@@ -13,7 +13,12 @@ Page 0
 :Customer name:
 :Customer address:
 :Customer company registrations:
-:Taxes: 97.98 20.00%
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
+  |               |        | 20.00    | 97.98         |
+  +---------------+--------+----------+---------------+
 :Total net: 489.97
 :Total taxes: 97.98
 :Total amount: 587.95

@@ -1,19 +1,30 @@
-Page 0
-------
-:Locale: en-US; en; US; USD;
-:Date: 2014-07-07
+Financial Document V1 Prediction
+================================
+:Filename:
+:Document type: EXPENSE RECEIPT
 :Category: food
 :Subcategory: restaurant
-:Document type: EXPENSE RECEIPT
+:Locale: en; en; USD;
+:Invoice number:
+:Reference numbers:
+:Date: 2014-07-07
+:Due date: 2014-07-07
 :Time: 20:20
 :Supplier name: LOGANS
+:Supplier address:
+:Supplier company registrations:
+:Supplier payment details:
+:Customer name:
+:Customer address:
+:Customer company registrations:
+:Tip: 10.00
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
   |               | TAX    |          | 3.34          |
   +---------------+--------+----------+---------------+
+:Total tax: 3.34
 :Total net: 40.48
-:Total taxes: 3.34
-:Tip: 10.00
 :Total amount: 53.82
+:Line Items:
