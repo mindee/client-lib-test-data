@@ -25,7 +25,7 @@ Prediction
   |               | TAX    |          | 3.34          |
   +---------------+--------+----------+---------------+
 :Total net: 40.48
-:Total taxes: 3.34
+:Total tax: 3.34
 :Tip: 10.00
 :Total amount: 53.82
 
@@ -48,6 +48,6 @@ Page 0
   |               | TAX    |          | 3.34          |
   +---------------+--------+----------+---------------+
 :Total net: 40.48
-:Total taxes: 3.34
+:Total tax: 3.34
 :Tip: 10.00
 :Total amount: 53.82
