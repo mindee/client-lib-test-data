@@ -17,8 +17,13 @@ Page 0
 :Customer address: 2019 Redbud Drive New York, NY 10011
 :Customer company registrations:
 :Tip:
-:Taxes: 9.75 5.00%
-:Total taxes: 9.75
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
+  |               |        | 5.00     | 9.75          |
+  +---------------+--------+----------+---------------+
+:Total tax: 9.75
 :Total net: 195.00
 :Total amount: 204.75
 :Line Items:

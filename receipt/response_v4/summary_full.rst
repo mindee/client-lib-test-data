@@ -18,9 +18,14 @@ Prediction
 :Document type: EXPENSE RECEIPT
 :Time: 20:20
 :Supplier name: LOGANS
-:Taxes: 3.34 TAX
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
+  |               | TAX    |          | 3.34          |
+  +---------------+--------+----------+---------------+
 :Total net: 40.48
-:Total taxes: 3.34
+:Total tax: 3.34
 :Tip: 10.00
 :Total amount: 53.82
 
@@ -36,8 +41,13 @@ Page 0
 :Document type: EXPENSE RECEIPT
 :Time: 20:20
 :Supplier name: LOGANS
-:Taxes: 3.34 TAX
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
+  |               | TAX    |          | 3.34          |
+  +---------------+--------+----------+---------------+
 :Total net: 40.48
-:Total taxes: 3.34
+:Total tax: 3.34
 :Tip: 10.00
 :Total amount: 53.82
