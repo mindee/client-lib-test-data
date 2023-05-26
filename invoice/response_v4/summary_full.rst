@@ -66,7 +66,12 @@ Page 0
 :Customer name:
 :Customer address:
 :Customer company registrations:
-:Taxes: 97.98 20.00%
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
+  |               |        | 20.00    | 97.98         |
+  +---------------+--------+----------+---------------+
 :Total net: 489.97
 :Total tax: 97.98
 :Total amount: 587.95
@@ -94,7 +99,12 @@ Page 1
 :Customer name: JIRO DOI
 :Customer address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
 :Customer company registrations:
-:Taxes: 193.20 8.00%
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
+  |               |        | 8.00     | 193.20        |
+  +---------------+--------+----------+---------------+
 :Total net:
 :Total tax: 193.20
 :Total amount: 2608.20
