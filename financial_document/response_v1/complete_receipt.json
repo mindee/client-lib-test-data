@@ -103,6 +103,28 @@
               "degrees": 0
             },
             "supplier_payment_details": [],
+            "supplier_phone_number": {
+              "confidence": 0.89,
+              "polygon": [
+                [
+                  0.069,
+                  0.452
+                ],
+                [
+                  0.931,
+                  0.452
+                ],
+                [
+                  0.931,
+                  0.464
+                ],
+                [
+                  0.069,
+                  0.464
+                ]
+              ],
+              "value": "867-5309"
+            },
             "reference_numbers": [],
             "subcategory": {
               "confidence": 0.98,
@@ -339,6 +361,29 @@
           "language": "en"
         },
         "supplier_payment_details": [],
+        "supplier_phone_number": {
+          "confidence": 0.89,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.069,
+              0.452
+            ],
+            [
+              0.931,
+              0.452
+            ],
+            [
+              0.931,
+              0.464
+            ],
+            [
+              0.069,
+              0.464
+            ]
+          ],
+          "value": "867-5309"
+        },
         "reference_numbers": [],
         "subcategory": {
           "confidence": 0.98,
