@@ -9,13 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
   },
   "document": {
-    "annotations": {
-      "labels": {}
-    },
-    "id": "69eabee4-8f29-4e11-bb24-6a4ed965910a",
+    "id": "82c64146-4d29-4784-ac20-cf5090d833dd",
     "inference": {
       "extras": {},
-      "finished_at": "2023-01-18T09:58:44.056235",
+      "finished_at": "2023-05-30T15:55:19.416784",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -30,13 +27,13 @@
               "value": "miscellaneous"
             },
             "customer_address": {
-              "confidence": 0.0,
+              "confidence": 0,
               "polygon": [],
               "value": null
             },
             "customer_company_registrations": [],
             "customer_name": {
-              "confidence": 0.0,
+              "confidence": 0,
               "polygon": [],
               "value": null
             },
@@ -65,17 +62,10 @@
               "language": null
             },
             "orientation": {
-              "confidence": 0.0,
-              "degrees": null
+              "confidence": 0.52,
+              "degrees": 0
             },
-            "supplier_payment_details": [],
-            "reference_numbers": [
-              {
-                "confidence": 0.0,
-                "polygon": [],
-                "value": null
-              }
-            ],
+            "reference_numbers": [],
             "subcategory": {
               "confidence": 0,
               "value": null
@@ -87,6 +77,12 @@
             },
             "supplier_company_registrations": [],
             "supplier_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_payment_details": [],
+            "supplier_phone_number": {
               "confidence": 0.0,
               "polygon": [],
               "value": null
@@ -122,40 +118,40 @@
       ],
       "prediction": {
         "category": {
-          "confidence": 0.76,
-          "value": "miscellaneous"
+          "confidence": 0.6,
+          "value": "transport"
         },
         "customer_address": {
+          "confidence": 0,
           "page_id": null,
-          "confidence": 0.0,
           "polygon": [],
           "value": null
         },
         "customer_company_registrations": [],
         "customer_name": {
+          "confidence": 0,
           "page_id": null,
-          "confidence": 0.0,
           "polygon": [],
           "value": null
         },
         "date": {
-          "page_id": null,
           "confidence": 0.0,
+          "page_id": null,
           "polygon": [],
           "value": null
         },
         "document_type": {
-          "value": null
+          "value": "EXPENSE RECEIPT"
         },
         "due_date": {
-          "page_id": null,
           "confidence": 0.0,
+          "page_id": null,
           "polygon": [],
           "value": null
         },
         "invoice_number": {
+          "confidence": 0,
           "page_id": null,
-          "confidence": 0.0,
           "polygon": [],
           "value": null
         },
@@ -165,29 +161,28 @@
           "currency": null,
           "language": null
         },
-        "supplier_payment_details": [],
-        "reference_numbers": [
-          {
-            "page_id": null,
-            "confidence": 0.0,
-            "polygon": [],
-            "value": null
-          }
-        ],
+        "reference_numbers": [],
         "subcategory": {
-          "confidence": 0,
-          "value": null
+          "confidence": 0.61,
+          "value": "plane"
         },
         "supplier_address": {
-          "page_id": null,
           "confidence": 0.0,
+          "page_id": null,
           "polygon": [],
           "value": null
         },
         "supplier_company_registrations": [],
         "supplier_name": {
-          "page_id": null,
           "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "supplier_payment_details": [],
+        "supplier_phone_number": {
+          "confidence": 0.0,
+          "page_id": null,
           "polygon": [],
           "value": null
         },
@@ -205,25 +200,25 @@
           "value": null
         },
         "total_amount": {
-          "page_id": null,
           "confidence": 0.0,
+          "page_id": null,
           "polygon": [],
           "value": null
         },
         "total_net": {
-          "page_id": null,
           "confidence": 0.0,
+          "page_id": null,
           "polygon": [],
           "value": null
         },
         "total_tax": {
-          "page_id": null,
           "confidence": 0.0,
+          "page_id": null,
           "polygon": [],
           "value": null
         }
       },
-      "processing_time": 0.0,
+      "processing_time": 0.655,
       "product": {
         "features": [
           "locale",
@@ -238,6 +233,7 @@
           "supplier_name",
           "supplier_company_registrations",
           "supplier_address",
+          "supplier_phone_number",
           "customer_name",
           "customer_company_registrations",
           "customer_address",
@@ -252,11 +248,11 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.0"
+        "version": "1.1"
       },
-      "started_at": "2023-01-18T09:58:42.689183"
+      "started_at": "2023-05-30T15:55:18.761905"
     },
     "n_pages": 1,
-    "name": "invoice.jpg"
+    "name": "blank_1.pdf"
   }
 }

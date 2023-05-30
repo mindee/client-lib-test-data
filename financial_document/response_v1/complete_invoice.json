@@ -239,6 +239,11 @@
               "degrees": 0
             },
             "supplier_payment_details": [],
+            "supplier_phone_number": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
             "reference_numbers": [
               {
                 "confidence": 0.88,
@@ -620,6 +625,11 @@
           "language": "en"
         },
         "supplier_payment_details": [],
+        "supplier_phone_number": {
+          "confidence": 0,
+          "polygon": [],
+          "value": null
+        },
         "reference_numbers": [
           {
             "confidence": 0.88,
@@ -804,6 +814,7 @@
           "supplier_name",
           "supplier_company_registrations",
           "supplier_address",
+          "supplier_phone_number",
           "customer_name",
           "customer_company_registrations",
           "customer_address",
