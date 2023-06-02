@@ -1,0 +1,45 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/material_certificate/v1/predict"
+  },
+  "document": {
+    "id": "c34d9ed2-231a-4385-8d41-bc260c055dda",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-06-02T13:13:55.541135",
+      "is_rotation_applied": null,
+      "pages": [],
+      "prediction": {
+        "certificate_type": {
+          "value": "EN 10204 3.1"
+        },
+        "heat_number": {
+          "value": "123455"
+        },
+        "norm": {
+          "value": "EN"
+        }
+      },
+      "processing_time": 2.05,
+      "product": {
+        "features": [
+          "certificate_type",
+          "norm",
+          "heat_number"
+        ],
+        "name": "mindee/material_certificate",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-06-02T13:13:53.491008"
+    },
+    "n_pages": 1,
+    "name": "398950_W41334_31_EN_A.pdf"
+  }
+}
