@@ -4,13 +4,11 @@ MID 354
 Logans 354
 2513 S. Stemmons Freeway
 Lewisville TX
-75067
-. .
+. . 75067
 972-459-6642
 Gratuity not included
 Thank you for you: pat 'onage
-VISA XXXXXXXXXXX66622 S
-. .
+VISA . XXXXXXXXXXX66622 . S
 AUTH 287522 TBL 44CHECCK 885654
 PRE-AUTH DINN KELSEY SER
 SDC ID: Dh5hR7w04bbf2ORYY
