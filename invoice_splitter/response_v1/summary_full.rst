@@ -23,7 +23,6 @@ Page 0
 ------
 :Invoice Page Groups:
 
-
 Page 1
 ------
 :Invoice Page Groups:
