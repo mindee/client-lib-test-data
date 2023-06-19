@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/bank_account_details/v1/predict"
   },
   "document": {
-    "id": "ad63292b-7044-4146-b21c-7ea2b33974af",
+    "id": "6af2345d-5af6-4bc0-b272-488309efa422",
     "inference": {
       "extras": {},
-      "finished_at": "2022-11-09T10:00:46+00:00",
+      "finished_at": "2023-06-19T17:20:21.694518",
       "is_rotation_applied": null,
       "pages": [
         {
@@ -23,112 +23,146 @@
           },
           "prediction": {
             "account_holder_name": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": "www.CarteBancairePrepayee.net"
-            },
-            "iban": {
-              "confidence": 0.94,
+              "confidence": 0.92,
               "polygon": [
                 [
-                  0.007,
-                  0.477
+                  0.588,
+                  0.712
                 ],
                 [
-                  0.441,
-                  0.477
+                  0.75,
+                  0.712
                 ],
                 [
-                  0.441,
-                  0.521
+                  0.75,
+                  0.737
                 ],
                 [
-                  0.007,
-                  0.521
+                  0.588,
+                  0.737
                 ]
               ],
-              "value": "FR30 7612 3456 7874 5825 6600 014"
+              "value": "HEGALALDIA L ENVOL"
+            },
+            "iban": {
+              "confidence": 0.95,
+              "polygon": [
+                [
+                  0.06,
+                  0.542
+                ],
+                [
+                  0.918,
+                  0.542
+                ],
+                [
+                  0.918,
+                  0.566
+                ],
+                [
+                  0.06,
+                  0.566
+                ]
+              ],
+              "value": "FR76 1333 5000 4008 9328 9136 106"
             },
             "swift": {
               "confidence": 0.95,
               "polygon": [
                 [
-                  0.538,
-                  0.124
+                  0.018,
+                  0.662
                 ],
                 [
-                  0.631,
-                  0.124
+                  0.261,
+                  0.662
                 ],
                 [
-                  0.631,
-                  0.153
+                  0.261,
+                  0.684
                 ],
                 [
-                  0.538,
-                  0.153
+                  0.018,
+                  0.684
                 ]
               ],
-              "value": "CMCIFR"
+              "value": "CEPAFRPP"
             }
           }
         }
       ],
       "prediction": {
         "account_holder_name": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": "www.CarteBancairePrepayee.net"
-        },
-        "iban": {
-          "confidence": 0.94,
+          "confidence": 0.92,
           "page_id": 0,
           "polygon": [
             [
-              0.007,
-              0.477
+              0.588,
+              0.712
             ],
             [
-              0.441,
-              0.477
+              0.75,
+              0.712
             ],
             [
-              0.441,
-              0.521
+              0.75,
+              0.737
             ],
             [
-              0.007,
-              0.521
+              0.588,
+              0.737
             ]
           ],
-          "value": "FR30 7612 3456 7874 5825 6600 014"
+          "value": "HEGALALDIA L ENVOL"
+        },
+        "iban": {
+          "confidence": 0.95,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.06,
+              0.542
+            ],
+            [
+              0.918,
+              0.542
+            ],
+            [
+              0.918,
+              0.566
+            ],
+            [
+              0.06,
+              0.566
+            ]
+          ],
+          "value": "FR76 1333 5000 4008 9328 9136 106"
         },
         "swift": {
           "confidence": 0.95,
           "page_id": 0,
           "polygon": [
             [
-              0.538,
-              0.124
+              0.018,
+              0.662
             ],
             [
-              0.631,
-              0.124
+              0.261,
+              0.662
             ],
             [
-              0.631,
-              0.153
+              0.261,
+              0.684
             ],
             [
-              0.538,
-              0.153
+              0.018,
+              0.684
             ]
           ],
-          "value": "CMCIFR"
+          "value": "CEPAFRPP"
         }
       },
-      "processing_time": 0.654,
+      "processing_time": 0.762,
       "product": {
         "features": [
           "iban",
@@ -139,9 +173,9 @@
         "type": "standard",
         "version": "1.0"
       },
-      "started_at": "2022-11-09T10:00:46+00:00"
+      "started_at": "2023-06-19T17:20:20.932633"
     },
     "n_pages": 1,
-    "name": "iban_fr.png"
+    "name": "bban.jpg"
   }
 }
