@@ -1,0 +1,101 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/bank_account_details/v2/predict"
+  },
+  "document": {
+    "id": "466a6270-e4ba-4680-adf1-40e299e07bc4",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-06-19T16:07:19.762040",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "account_holders_names": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "bban": {
+              "bban_bank_code": null,
+              "bban_branch_code": null,
+              "bban_key": null,
+              "bban_number": null,
+              "confidence": 0.0,
+              "polygon": []
+            },
+            "iban": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "orientation": {
+              "confidence": 0.52,
+              "degrees": 0
+            },
+            "swift_code": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "account_holders_names": {
+          "confidence": 0.0,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "bban": {
+          "bban_bank_code": null,
+          "bban_branch_code": null,
+          "bban_key": null,
+          "bban_number": null,
+          "confidence": 0.0,
+          "page_id": 0,
+          "polygon": []
+        },
+        "iban": {
+          "confidence": 0.0,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "swift_code": {
+          "confidence": 0.0,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 0.553,
+      "product": {
+        "features": [
+          "account_holders_names",
+          "bban",
+          "iban",
+          "swift_code"
+        ],
+        "name": "mindee/bank_account_details",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2023-06-19T16:07:19.208754"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  }
+}

@@ -1,8 +1,8 @@
 ########
 Document
 ########
-:Mindee ID: ad63292b-7044-4146-b21c-7ea2b33974af
-:Filename: iban_fr.png
+:Mindee ID: 6af2345d-5af6-4bc0-b272-488309efa422
+:Filename: bban.jpg
 
 Inference
 #########
@@ -11,15 +11,15 @@ Inference
 
 Prediction
 ==========
-:IBAN: FR30 7612 3456 7874 5825 6600 014
-:Account Holder's Name: www.CarteBancairePrepayee.net
-:SWIFT Code: CMCIFR
+:IBAN: FR76 1333 5000 4008 9328 9136 106
+:Account Holder's Name: HEGALALDIA L ENVOL
+:SWIFT Code: CEPAFRPP
 
 Page Predictions
 ================
 
 Page 0
 ------
-:IBAN: FR30 7612 3456 7874 5825 6600 014
-:Account Holder's Name: www.CarteBancairePrepayee.net
-:SWIFT Code: CMCIFR
+:IBAN: FR76 1333 5000 4008 9328 9136 106
+:Account Holder's Name: HEGALALDIA L ENVOL
+:SWIFT Code: CEPAFRPP
