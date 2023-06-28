@@ -11,31 +11,31 @@ Inference
 
 Prediction
 ==========
-:Full name: HENERT PUDARSAN
-:Given names: HENERT
-:Surname: PUDARSAN
-:Country: GBR
+:Country Code: GBR
 :ID Number: 707797979
-:Issuance date: 2012-04-22
-:Birth date: 1995-05-20
-:Expiry date: 2057-04-22
-:MRZ 1: P<GBRPUDARSAN<<HENERT<<<<<<<<<<<<<<<<<<<<<<<
-:MRZ 2: 7077979792GBR9505209M1704224<<<<<<<<<<<<<<00
-:MRZ: P<GBRPUDARSAN<<HENERT<<<<<<<<<<<<<<<<<<<<<<<7077979792GBR9505209M1704224<<<<<<<<<<<<<<00
+:Given Name(s): HENERT
+:Surname: PUDARSAN
+:Date of Birth: 1995-05-20
+:Place of Birth: CAMTETH
+:Gender: M
+:Date of Issue: 2012-04-22
+:Expiry Date: 2057-04-22
+:MRZ Line 1: P<GBRPUDARSAN<<HENERT<<<<<<<<<<<<<<<<<<<<<<<
+:MRZ Line 2: 7077979792GBR9505209M1704224<<<<<<<<<<<<<<00
 
 Page Predictions
 ================
 
 Page 0
 ------
-:Full name: HENERT PUDARSAN
-:Given names: HENERT
-:Surname: PUDARSAN
-:Country: GBR
+:Country Code: GBR
 :ID Number: 707797979
-:Issuance date: 2012-04-22
-:Birth date: 1995-05-20
-:Expiry date: 2057-04-22
-:MRZ 1: P<GBRPUDARSAN<<HENERT<<<<<<<<<<<<<<<<<<<<<<<
-:MRZ 2: 7077979792GBR9505209M1704224<<<<<<<<<<<<<<00
-:MRZ: P<GBRPUDARSAN<<HENERT<<<<<<<<<<<<<<<<<<<<<<<7077979792GBR9505209M1704224<<<<<<<<<<<<<<00
+:Given Name(s): HENERT
+:Surname: PUDARSAN
+:Date of Birth: 1995-05-20
+:Place of Birth: CAMTETH
+:Gender: M
+:Date of Issue: 2012-04-22
+:Expiry Date: 2057-04-22
+:MRZ Line 1: P<GBRPUDARSAN<<HENERT<<<<<<<<<<<<<<<<<<<<<<<
+:MRZ Line 2: 7077979792GBR9505209M1704224<<<<<<<<<<<<<<00
