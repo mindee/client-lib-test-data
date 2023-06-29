@@ -2,7 +2,8 @@
   "api_request": {
     "error": {},
     "resources": [
-      "document"
+      "document",
+      "job"
     ],
     "status": "success",
     "status_code": 200,
