@@ -1,0 +1,274 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/us_driver_license/v1/predict"
+  },
+  "document": {
+    "id": "0ca1504e-e12a-465e-ab08-7601410ba83b",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-07-20T16:10:53.858916",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "class": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "contour": {
+              "polygon": []
+            },
+            "date_of_birth": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "dd_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "driver_license_id": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "endorsements": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "expiry_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "eye_color": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "first_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "hair_color": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "height": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "issued_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "last_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "orientation": {
+              "confidence": 0.52,
+              "degrees": 0
+            },
+            "photo": {
+              "polygon": []
+            },
+            "restrictions": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "sex": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "signature": {
+              "polygon": []
+            },
+            "state": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "weight": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "address": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "class": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "contour": {
+          "page_id": 0,
+          "polygon": []
+        },
+        "date_of_birth": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "dd_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "driver_license_id": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "endorsements": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "expiry_date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "eye_color": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "first_name": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "hair_color": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "height": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "issued_date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "last_name": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "photo": {
+          "page_id": 0,
+          "polygon": []
+        },
+        "restrictions": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "sex": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "signature": {
+          "page_id": 0,
+          "polygon": []
+        },
+        "state": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "weight": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 1.454,
+      "product": {
+        "features": [
+          "state",
+          "driver_license_id",
+          "expiry_date",
+          "issued_date",
+          "last_name",
+          "first_name",
+          "address",
+          "date_of_birth",
+          "restrictions",
+          "endorsements",
+          "class",
+          "sex",
+          "height",
+          "weight",
+          "hair_color",
+          "eye_color",
+          "dd_number",
+          "photo",
+          "signature"
+        ],
+        "name": "mindee/us_driver_license",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-07-20T16:10:52.404832"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  }
+}
