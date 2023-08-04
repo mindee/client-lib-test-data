@@ -12,7 +12,7 @@ Page 0
 :Date Of Birth: 1957-02-01
 :Restrictions: NONE
 :Endorsements: NONE
-:Class: D
+:Driver License Class: D
 :Sex: M
 :Height: 5-08
 :Weight: 185
