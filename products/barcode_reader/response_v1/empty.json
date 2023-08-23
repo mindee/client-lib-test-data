@@ -1,0 +1,54 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/barcode_reader/v1/predict"
+  },
+  "document": {
+    "id": "f9c48da1-a306-4805-8da8-f7231fda2d88",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-08-18T08:48:25.761599",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "codes_1d": [],
+            "codes_2d": [],
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "codes_1d": [],
+        "codes_2d": []
+      },
+      "processing_time": 0.631,
+      "product": {
+        "features": [
+          "codes_1d",
+          "codes_2d",
+          "orientation"
+        ],
+        "name": "mindee/barcode_reader",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-08-18T08:48:25.130224"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  }
+}
