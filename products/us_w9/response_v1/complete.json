@@ -1,0 +1,250 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/us_w9/v1/predict"
+  },
+  "document": {
+    "id": "d7c5b25f-e0d3-4491-af54-6183afa1aaab",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-08-30T15:15:49.420311",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "address": {
+              "confidence": 0.97,
+              "polygon": [
+                [
+                  0.137,
+                  0.265
+                ],
+                [
+                  0.322,
+                  0.265
+                ],
+                [
+                  0.322,
+                  0.283
+                ],
+                [
+                  0.137,
+                  0.283
+                ]
+              ],
+              "value": "Somewhere In Milky Way"
+            },
+            "business_name": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "city_state_zip": {
+              "confidence": 0.96,
+              "polygon": [
+                [
+                  0.129,
+                  0.297
+                ],
+                [
+                  0.436,
+                  0.297
+                ],
+                [
+                  0.436,
+                  0.314
+                ],
+                [
+                  0.129,
+                  0.314
+                ]
+              ],
+              "value": "Probably Still At Cambridge P O Box CB1"
+            },
+            "ein": {
+              "confidence": 0.93,
+              "polygon": [
+                [
+                  0.677,
+                  0.437
+                ],
+                [
+                  0.909,
+                  0.437
+                ],
+                [
+                  0.909,
+                  0.464
+                ],
+                [
+                  0.677,
+                  0.464
+                ]
+              ],
+              "value": "942203664"
+            },
+            "name": {
+              "confidence": 0.98,
+              "polygon": [
+                [
+                  0.122,
+                  0.116
+                ],
+                [
+                  0.278,
+                  0.116
+                ],
+                [
+                  0.278,
+                  0.133
+                ],
+                [
+                  0.122,
+                  0.133
+                ]
+              ],
+              "value": "Stephen W Hawking"
+            },
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "signature_date_position": {
+              "polygon": []
+            },
+            "signature_position": {
+              "polygon": [
+                [
+                  0.223,
+                  0.642
+                ],
+                [
+                  0.369,
+                  0.642
+                ],
+                [
+                  0.369,
+                  0.682
+                ],
+                [
+                  0.223,
+                  0.682
+                ]
+              ]
+            },
+            "ssn": {
+              "confidence": 0.96,
+              "polygon": [
+                [
+                  0.685,
+                  0.375
+                ],
+                [
+                  0.934,
+                  0.375
+                ],
+                [
+                  0.934,
+                  0.407
+                ],
+                [
+                  0.685,
+                  0.407
+                ]
+              ],
+              "value": "560758145"
+            },
+            "tax_classification": {
+              "confidence": 1,
+              "polygon": [
+                [
+                  0.116,
+                  0.189
+                ],
+                [
+                  0.118,
+                  0.189
+                ],
+                [
+                  0.118,
+                  0.192
+                ],
+                [
+                  0.116,
+                  0.192
+                ]
+              ],
+              "value": "individual"
+            },
+            "tax_classification_llc": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "tax_classification_other_details": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "w9_revision_date": {
+              "confidence": 0.64,
+              "polygon": [
+                [
+                  0.085,
+                  0.071
+                ],
+                [
+                  0.155,
+                  0.071
+                ],
+                [
+                  0.155,
+                  0.085
+                ],
+                [
+                  0.085,
+                  0.085
+                ]
+              ],
+              "value": "august 2013"
+            }
+          }
+        }
+      ],
+      "prediction": {},
+      "processing_time": 1.027,
+      "product": {
+        "features": [
+          "name",
+          "ssn",
+          "address",
+          "city_state_zip",
+          "business_name",
+          "ein",
+          "tax_classification",
+          "tax_classification_other_details",
+          "w9_revision_date",
+          "signature_position",
+          "signature_date_position",
+          "tax_classification_llc"
+        ],
+        "name": "mindee/us_w9",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-08-30T15:15:48.393784"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  }
+}
