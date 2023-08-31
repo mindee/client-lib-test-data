@@ -27,5 +27,5 @@ Page 0
 :Tax Classification Other Details:
 :W9 Revision Date: august 2013
 :Signature Position: Polygon with 4 points.
-:Signature Date Position: Polygon with 0 points.
+:Signature Date Position:
 :Tax Classification LLC:
