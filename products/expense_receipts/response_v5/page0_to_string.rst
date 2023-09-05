@@ -18,7 +18,7 @@ Receipt V5 Prediction
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
 :Supplier Name: CLACHAN
-:Supplier Company Registrations: 232153895
+:Supplier Company Registrations: VAT NUMBER: 232153895
 :Supplier Address: 34 kingley street w1b 5qh
 :Supplier Phone Number: 02074940834
 :Line Items:
