@@ -145,14 +145,6 @@
           "polygon": [],
           "value": null
         },
-        "document_side": {
-          "confidence": 1,
-          "value": "RECTO"
-        },
-        "document_type": {
-          "confidence": 0.5,
-          "value": "NEW"
-        },
         "expiry_date": {
           "confidence": 0,
           "page_id": null,
