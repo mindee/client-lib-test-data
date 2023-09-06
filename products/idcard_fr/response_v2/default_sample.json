@@ -428,14 +428,6 @@
           "polygon": [],
           "value": null
         },
-        "document_side": {
-          "confidence": 1,
-          "value": "RECTO & VERSO"
-        },
-        "document_type": {
-          "confidence": 1,
-          "value": "OLD"
-        },
         "expiry_date": {
           "confidence": 0.99,
           "page_id": 0,

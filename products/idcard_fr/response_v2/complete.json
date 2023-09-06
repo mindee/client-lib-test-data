@@ -428,14 +428,6 @@
           ],
           "value": "D2H6862M2"
         },
-        "document_side": {
-          "confidence": 1,
-          "value": "RECTO"
-        },
-        "document_type": {
-          "confidence": 1,
-          "value": "NEW"
-        },
         "expiry_date": {
           "confidence": 0.88,
           "page_id": 0,
