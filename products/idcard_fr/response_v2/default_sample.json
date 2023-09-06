@@ -1,0 +1,669 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/idcard_fr/v2/predict"
+  },
+  "document": {
+    "id": "d710467c-4e0b-40fd-bb1e-55a96d8c5610",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-09-06T08:05:36.028359",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "alternate_name": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "authority": {
+              "confidence": 0.79,
+              "polygon": [
+                [
+                  0.293,
+                  0.248
+                ],
+                [
+                  0.524,
+                  0.248
+                ],
+                [
+                  0.524,
+                  0.259
+                ],
+                [
+                  0.293,
+                  0.259
+                ]
+              ],
+              "value": "SOUS-PREFECTURE DE BELLE (02)"
+            },
+            "birth_date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.567,
+                  0.598
+                ],
+                [
+                  0.647,
+                  0.598
+                ],
+                [
+                  0.647,
+                  0.609
+                ],
+                [
+                  0.567,
+                  0.609
+                ]
+              ],
+              "value": "1994-04-24"
+            },
+            "birth_place": {
+              "confidence": 0.41,
+              "polygon": [
+                [
+                  0.412,
+                  0.611
+                ],
+                [
+                  0.575,
+                  0.611
+                ],
+                [
+                  0.575,
+                  0.622
+                ],
+                [
+                  0.412,
+                  0.622
+                ]
+              ],
+              "value": "LYON 4E ARRONDISSEM"
+            },
+            "card_access_number": {
+              "confidence": 0.54,
+              "polygon": [
+                [
+                  0.456,
+                  0.523
+                ],
+                [
+                  0.55,
+                  0.523
+                ],
+                [
+                  0.55,
+                  0.533
+                ],
+                [
+                  0.456,
+                  0.533
+                ]
+              ],
+              "value": "175775H55790"
+            },
+            "document_number": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "document_side": {
+              "confidence": 1,
+              "value": "RECTO & VERSO"
+            },
+            "document_type": {
+              "confidence": 1,
+              "value": "OLD"
+            },
+            "expiry_date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.388,
+                  0.221
+                ],
+                [
+                  0.466,
+                  0.221
+                ],
+                [
+                  0.466,
+                  0.231
+                ],
+                [
+                  0.388,
+                  0.231
+                ]
+              ],
+              "value": "2030-04-02"
+            },
+            "gender": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.427,
+                  0.598
+                ],
+                [
+                  0.439,
+                  0.598
+                ],
+                [
+                  0.439,
+                  0.608
+                ],
+                [
+                  0.427,
+                  0.608
+                ]
+              ],
+              "value": "M"
+            },
+            "given_names": [
+              {
+                "confidence": 0.96,
+                "polygon": [
+                  [
+                    0.451,
+                    0.57
+                  ],
+                  [
+                    0.499,
+                    0.57
+                  ],
+                  [
+                    0.499,
+                    0.58
+                  ],
+                  [
+                    0.451,
+                    0.58
+                  ]
+                ],
+                "value": "Victor"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.512,
+                    0.569
+                  ],
+                  [
+                    0.554,
+                    0.569
+                  ],
+                  [
+                    0.554,
+                    0.581
+                  ],
+                  [
+                    0.512,
+                    0.581
+                  ]
+                ],
+                "value": "Marie"
+              }
+            ],
+            "issue_date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.329,
+                  0.234
+                ],
+                [
+                  0.409,
+                  0.234
+                ],
+                [
+                  0.409,
+                  0.244
+                ],
+                [
+                  0.329,
+                  0.244
+                ]
+              ],
+              "value": "2015-04-03"
+            },
+            "mrz1": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.241,
+                  0.696
+                ],
+                [
+                  0.715,
+                  0.696
+                ],
+                [
+                  0.715,
+                  0.709
+                ],
+                [
+                  0.241,
+                  0.709
+                ]
+              ],
+              "value": "IDFRADAMBARD<<<<<<<<<<<<<<<<<<075025"
+            },
+            "mrz2": {
+              "confidence": 0.95,
+              "polygon": [
+                [
+                  0.241,
+                  0.72
+                ],
+                [
+                  0.715,
+                  0.72
+                ],
+                [
+                  0.715,
+                  0.733
+                ],
+                [
+                  0.241,
+                  0.733
+                ]
+              ],
+              "value": "170775H557903VICTOR<<MARIE<9404246M5"
+            },
+            "mrz3": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "nationality": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "surname": {
+              "confidence": 0.96,
+              "polygon": [
+                [
+                  0.429,
+                  0.542
+                ],
+                [
+                  0.485,
+                  0.542
+                ],
+                [
+                  0.485,
+                  0.552
+                ],
+                [
+                  0.429,
+                  0.552
+                ]
+              ],
+              "value": "DAMBARD"
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "alternate_name": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "authority": {
+          "confidence": 0.79,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.293,
+              0.248
+            ],
+            [
+              0.524,
+              0.248
+            ],
+            [
+              0.524,
+              0.259
+            ],
+            [
+              0.293,
+              0.259
+            ]
+          ],
+          "value": "SOUS-PREFECTURE DE BELLE (02)"
+        },
+        "birth_date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.567,
+              0.598
+            ],
+            [
+              0.647,
+              0.598
+            ],
+            [
+              0.647,
+              0.609
+            ],
+            [
+              0.567,
+              0.609
+            ]
+          ],
+          "value": "1994-04-24"
+        },
+        "birth_place": {
+          "confidence": 0.41,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.412,
+              0.611
+            ],
+            [
+              0.575,
+              0.611
+            ],
+            [
+              0.575,
+              0.622
+            ],
+            [
+              0.412,
+              0.622
+            ]
+          ],
+          "value": "LYON 4E ARRONDISSEM"
+        },
+        "card_access_number": {
+          "confidence": 0.54,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.456,
+              0.523
+            ],
+            [
+              0.55,
+              0.523
+            ],
+            [
+              0.55,
+              0.533
+            ],
+            [
+              0.456,
+              0.533
+            ]
+          ],
+          "value": "175775H55790"
+        },
+        "document_number": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "document_side": {
+          "confidence": 1,
+          "value": "RECTO & VERSO"
+        },
+        "document_type": {
+          "confidence": 1,
+          "value": "OLD"
+        },
+        "expiry_date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.388,
+              0.221
+            ],
+            [
+              0.466,
+              0.221
+            ],
+            [
+              0.466,
+              0.231
+            ],
+            [
+              0.388,
+              0.231
+            ]
+          ],
+          "value": "2030-04-02"
+        },
+        "gender": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.427,
+              0.598
+            ],
+            [
+              0.439,
+              0.598
+            ],
+            [
+              0.439,
+              0.608
+            ],
+            [
+              0.427,
+              0.608
+            ]
+          ],
+          "value": "M"
+        },
+        "given_names": [
+          {
+            "confidence": 0.96,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.451,
+                0.57
+              ],
+              [
+                0.499,
+                0.57
+              ],
+              [
+                0.499,
+                0.58
+              ],
+              [
+                0.451,
+                0.58
+              ]
+            ],
+            "value": "Victor"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.512,
+                0.569
+              ],
+              [
+                0.554,
+                0.569
+              ],
+              [
+                0.554,
+                0.581
+              ],
+              [
+                0.512,
+                0.581
+              ]
+            ],
+            "value": "Marie"
+          }
+        ],
+        "issue_date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.329,
+              0.234
+            ],
+            [
+              0.409,
+              0.234
+            ],
+            [
+              0.409,
+              0.244
+            ],
+            [
+              0.329,
+              0.244
+            ]
+          ],
+          "value": "2015-04-03"
+        },
+        "mrz1": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.241,
+              0.696
+            ],
+            [
+              0.715,
+              0.696
+            ],
+            [
+              0.715,
+              0.709
+            ],
+            [
+              0.241,
+              0.709
+            ]
+          ],
+          "value": "IDFRADAMBARD<<<<<<<<<<<<<<<<<<075025"
+        },
+        "mrz2": {
+          "confidence": 0.95,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.241,
+              0.72
+            ],
+            [
+              0.715,
+              0.72
+            ],
+            [
+              0.715,
+              0.733
+            ],
+            [
+              0.241,
+              0.733
+            ]
+          ],
+          "value": "170775H557903VICTOR<<MARIE<9404246M5"
+        },
+        "mrz3": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "nationality": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "surname": {
+          "confidence": 0.96,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.429,
+              0.542
+            ],
+            [
+              0.485,
+              0.542
+            ],
+            [
+              0.485,
+              0.552
+            ],
+            [
+              0.429,
+              0.552
+            ]
+          ],
+          "value": "DAMBARD"
+        }
+      },
+      "processing_time": 1.334,
+      "product": {
+        "features": [
+          "nationality",
+          "card_access_number",
+          "document_number",
+          "given_names",
+          "surname",
+          "alternate_name",
+          "birth_date",
+          "birth_place",
+          "gender",
+          "expiry_date",
+          "orientation",
+          "mrz1",
+          "mrz2",
+          "mrz3",
+          "issue_date",
+          "authority",
+          "document_type",
+          "document_side"
+        ],
+        "name": "mindee/idcard_fr",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2023-09-06T08:05:34.694295"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  }
+}

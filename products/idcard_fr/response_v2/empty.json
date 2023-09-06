@@ -1,0 +1,237 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/idcard_fr/v2/predict"
+  },
+  "document": {
+    "id": "63170cca-f766-45c3-b44d-b010b2118c3a",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-09-05T13:06:54.116919",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 270
+          },
+          "prediction": {
+            "alternate_name": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "authority": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "birth_date": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "birth_place": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "card_access_number": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "document_number": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "document_side": {
+              "confidence": 1,
+              "value": "RECTO"
+            },
+            "document_type": {
+              "confidence": 0.5,
+              "value": "NEW"
+            },
+            "expiry_date": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "gender": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "given_names": [],
+            "issue_date": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "mrz1": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "mrz2": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "mrz3": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "nationality": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "orientation": {
+              "confidence": 0.55,
+              "degrees": 270
+            },
+            "surname": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "alternate_name": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "authority": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "birth_date": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "birth_place": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "card_access_number": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "document_number": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "document_side": {
+          "confidence": 1,
+          "value": "RECTO"
+        },
+        "document_type": {
+          "confidence": 0.5,
+          "value": "NEW"
+        },
+        "expiry_date": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "gender": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "given_names": [],
+        "issue_date": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz1": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz2": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz3": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "nationality": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "surname": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 0.712,
+      "product": {
+        "features": [
+          "nationality",
+          "card_access_number",
+          "document_number",
+          "given_names",
+          "surname",
+          "alternate_name",
+          "birth_date",
+          "birth_place",
+          "gender",
+          "expiry_date",
+          "orientation",
+          "mrz1",
+          "mrz2",
+          "mrz3",
+          "issue_date",
+          "authority",
+          "document_type",
+          "document_side"
+        ],
+        "name": "mindee/idcard_fr",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2023-09-05T13:06:53.404934"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  }
+}

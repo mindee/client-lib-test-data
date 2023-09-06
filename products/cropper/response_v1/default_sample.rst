@@ -11,12 +11,11 @@ Inference
 
 Prediction
 ==========
-:Cropping:
 
 Page Predictions
 ================
 
 Page 0
 ------
-:Cropping: Polygon with 26 points.
-           Polygon with 25 points.
+:Document Cropper: Polygon with 26 points.
+                   Polygon with 25 points.

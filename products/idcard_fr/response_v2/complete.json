@@ -1,0 +1,635 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/idcard_fr/v2/predict"
+  },
+  "document": {
+    "id": "9e4e5c8a-20d1-4f37-844a-51f76cc5638d",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-09-05T09:52:05.314580",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "alternate_name": {
+              "confidence": 0.51,
+              "polygon": [
+                [
+                  0.393,
+                  0.648
+                ],
+                [
+                  0.722,
+                  0.648
+                ],
+                [
+                  0.722,
+                  0.682
+                ],
+                [
+                  0.393,
+                  0.682
+                ]
+              ],
+              "value": "usage NOM D'USAGE"
+            },
+            "authority": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "birth_date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.749,
+                  0.491
+                ],
+                [
+                  0.929,
+                  0.491
+                ],
+                [
+                  0.929,
+                  0.525
+                ],
+                [
+                  0.749,
+                  0.525
+                ]
+              ],
+              "value": "1990-07-13"
+            },
+            "birth_place": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.394,
+                  0.562
+                ],
+                [
+                  0.485,
+                  0.562
+                ],
+                [
+                  0.485,
+                  0.598
+                ],
+                [
+                  0.394,
+                  0.598
+                ]
+              ],
+              "value": "PARIS"
+            },
+            "card_access_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.745,
+                  0.805
+                ],
+                [
+                  0.959,
+                  0.805
+                ],
+                [
+                  0.959,
+                  0.857
+                ],
+                [
+                  0.745,
+                  0.857
+                ]
+              ],
+              "value": "546497"
+            },
+            "document_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.385,
+                  0.718
+                ],
+                [
+                  0.687,
+                  0.718
+                ],
+                [
+                  0.687,
+                  0.768
+                ],
+                [
+                  0.385,
+                  0.768
+                ]
+              ],
+              "value": "D2H6862M2"
+            },
+            "document_side": {
+              "confidence": 1,
+              "value": "RECTO"
+            },
+            "document_type": {
+              "confidence": 1,
+              "value": "NEW"
+            },
+            "expiry_date": {
+              "confidence": 0.88,
+              "polygon": [
+                [
+                  0.749,
+                  0.724
+                ],
+                [
+                  0.933,
+                  0.724
+                ],
+                [
+                  0.933,
+                  0.759
+                ],
+                [
+                  0.749,
+                  0.759
+                ]
+              ],
+              "value": "2030-02-11"
+            },
+            "gender": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.396,
+                  0.487
+                ],
+                [
+                  0.417,
+                  0.487
+                ],
+                [
+                  0.417,
+                  0.52
+                ],
+                [
+                  0.396,
+                  0.52
+                ]
+              ],
+              "value": "F"
+            },
+            "given_names": [
+              {
+                "confidence": 0.74,
+                "polygon": [
+                  [
+                    0.398,
+                    0.362
+                  ],
+                  [
+                    0.62,
+                    0.362
+                  ],
+                  [
+                    0.62,
+                    0.401
+                  ],
+                  [
+                    0.398,
+                    0.401
+                  ]
+                ],
+                "value": "Maëlis-gaëlle"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.635,
+                    0.363
+                  ],
+                  [
+                    0.727,
+                    0.363
+                  ],
+                  [
+                    0.727,
+                    0.398
+                  ],
+                  [
+                    0.635,
+                    0.398
+                  ]
+                ],
+                "value": "Marie"
+              }
+            ],
+            "issue_date": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "mrz1": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "mrz2": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "mrz3": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "nationality": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.501,
+                  0.487
+                ],
+                [
+                  0.566,
+                  0.487
+                ],
+                [
+                  0.566,
+                  0.522
+                ],
+                [
+                  0.501,
+                  0.522
+                ]
+              ],
+              "value": "FRA"
+            },
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "surname": {
+              "confidence": 0.84,
+              "polygon": [
+                [
+                  0.396,
+                  0.236
+                ],
+                [
+                  0.558,
+                  0.236
+                ],
+                [
+                  0.558,
+                  0.275
+                ],
+                [
+                  0.396,
+                  0.275
+                ]
+              ],
+              "value": "MARTIN"
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "alternate_name": {
+          "confidence": 0.51,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.393,
+              0.648
+            ],
+            [
+              0.722,
+              0.648
+            ],
+            [
+              0.722,
+              0.682
+            ],
+            [
+              0.393,
+              0.682
+            ]
+          ],
+          "value": "usage NOM D'USAGE"
+        },
+        "authority": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "birth_date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.749,
+              0.491
+            ],
+            [
+              0.929,
+              0.491
+            ],
+            [
+              0.929,
+              0.525
+            ],
+            [
+              0.749,
+              0.525
+            ]
+          ],
+          "value": "1990-07-13"
+        },
+        "birth_place": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.394,
+              0.562
+            ],
+            [
+              0.485,
+              0.562
+            ],
+            [
+              0.485,
+              0.598
+            ],
+            [
+              0.394,
+              0.598
+            ]
+          ],
+          "value": "PARIS"
+        },
+        "card_access_number": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.745,
+              0.805
+            ],
+            [
+              0.959,
+              0.805
+            ],
+            [
+              0.959,
+              0.857
+            ],
+            [
+              0.745,
+              0.857
+            ]
+          ],
+          "value": "546497"
+        },
+        "document_number": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.385,
+              0.718
+            ],
+            [
+              0.687,
+              0.718
+            ],
+            [
+              0.687,
+              0.768
+            ],
+            [
+              0.385,
+              0.768
+            ]
+          ],
+          "value": "D2H6862M2"
+        },
+        "document_side": {
+          "confidence": 1,
+          "value": "RECTO"
+        },
+        "document_type": {
+          "confidence": 1,
+          "value": "NEW"
+        },
+        "expiry_date": {
+          "confidence": 0.88,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.749,
+              0.724
+            ],
+            [
+              0.933,
+              0.724
+            ],
+            [
+              0.933,
+              0.759
+            ],
+            [
+              0.749,
+              0.759
+            ]
+          ],
+          "value": "2030-02-11"
+        },
+        "gender": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.396,
+              0.487
+            ],
+            [
+              0.417,
+              0.487
+            ],
+            [
+              0.417,
+              0.52
+            ],
+            [
+              0.396,
+              0.52
+            ]
+          ],
+          "value": "F"
+        },
+        "given_names": [
+          {
+            "confidence": 0.74,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.398,
+                0.362
+              ],
+              [
+                0.62,
+                0.362
+              ],
+              [
+                0.62,
+                0.401
+              ],
+              [
+                0.398,
+                0.401
+              ]
+            ],
+            "value": "Maëlis-gaëlle"
+          },
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.635,
+                0.363
+              ],
+              [
+                0.727,
+                0.363
+              ],
+              [
+                0.727,
+                0.398
+              ],
+              [
+                0.635,
+                0.398
+              ]
+            ],
+            "value": "Marie"
+          }
+        ],
+        "issue_date": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz1": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz2": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz3": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "nationality": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.501,
+              0.487
+            ],
+            [
+              0.566,
+              0.487
+            ],
+            [
+              0.566,
+              0.522
+            ],
+            [
+              0.501,
+              0.522
+            ]
+          ],
+          "value": "FRA"
+        },
+        "surname": {
+          "confidence": 0.84,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.396,
+              0.236
+            ],
+            [
+              0.558,
+              0.236
+            ],
+            [
+              0.558,
+              0.275
+            ],
+            [
+              0.396,
+              0.275
+            ]
+          ],
+          "value": "MARTIN"
+        }
+      },
+      "processing_time": 0.791,
+      "product": {
+        "features": [
+          "nationality",
+          "card_access_number",
+          "document_number",
+          "given_names",
+          "surname",
+          "alternate_name",
+          "birth_date",
+          "birth_place",
+          "gender",
+          "expiry_date",
+          "orientation",
+          "mrz1",
+          "mrz2",
+          "mrz3",
+          "issue_date",
+          "authority",
+          "document_type",
+          "document_side"
+        ],
+        "name": "mindee/idcard_fr",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2023-09-05T09:52:04.523803"
+    },
+    "n_pages": 1,
+    "name": "new_sample.jpg"
+  }
+}
