@@ -38,7 +38,7 @@
               "value": null
             },
             "document_side": {
-              "value": null
+              "value": "RECTO"
             },
             "expiry_date": {
               "confidence": 0.99,
