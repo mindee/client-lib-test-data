@@ -1,14 +1,13 @@
 {
-    "api_request": {
-      "status": "failure",
-      "status_code": 403,
-      "resources": [],
-      "url": "account/api_name",
-      "error": {
-        "details": "account/api_name does not support async mode",
-        "message": "This product does not support asynchronous mode",
-        "code": "Forbidden"
-      }
+  "api_request": {
+    "status": "failure",
+    "status_code": 403,
+    "resources": [],
+    "url": "account/api_name",
+    "error": {
+      "details": "account/api_name does not support async mode",
+      "message": "This product does not support asynchronous mode",
+      "code": "Forbidden"
     }
   }
-  
+}
