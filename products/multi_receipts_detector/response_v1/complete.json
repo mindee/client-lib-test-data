@@ -1,0 +1,310 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/multi_receipts_detector/v1/predict"
+  },
+  "document": {
+    "id": "d7c5b25f-e0d3-4491-af54-6183afa1aaab",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-08-30T15:56:32.656686",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "orientation": {
+              "confidence": 0.69,
+              "degrees": 0
+            },
+            "receipts": [
+              {
+                "confidence": 1,
+                "polygon": [
+                  [
+                    0.016,
+                    0.538
+                  ],
+                  [
+                    0.114,
+                    0.538
+                  ],
+                  [
+                    0.114,
+                    0.783
+                  ],
+                  [
+                    0.016,
+                    0.783
+                  ]
+                ]
+              },
+              {
+                "confidence": 1,
+                "polygon": [
+                  [
+                    0.156,
+                    0.389
+                  ],
+                  [
+                    0.284,
+                    0.389
+                  ],
+                  [
+                    0.284,
+                    0.843
+                  ],
+                  [
+                    0.156,
+                    0.843
+                  ]
+                ]
+              },
+              {
+                "confidence": 1,
+                "polygon": [
+                  [
+                    0.337,
+                    0.381
+                  ],
+                  [
+                    0.466,
+                    0.381
+                  ],
+                  [
+                    0.466,
+                    0.765
+                  ],
+                  [
+                    0.337,
+                    0.765
+                  ]
+                ]
+              },
+              {
+                "confidence": 1,
+                "polygon": [
+                  [
+                    0.491,
+                    0.296
+                  ],
+                  [
+                    0.617,
+                    0.296
+                  ],
+                  [
+                    0.617,
+                    0.861
+                  ],
+                  [
+                    0.491,
+                    0.861
+                  ]
+                ]
+              },
+              {
+                "confidence": 1,
+                "polygon": [
+                  [
+                    0.684,
+                    0.294
+                  ],
+                  [
+                    0.827,
+                    0.294
+                  ],
+                  [
+                    0.827,
+                    0.756
+                  ],
+                  [
+                    0.684,
+                    0.756
+                  ]
+                ]
+              },
+              {
+                "confidence": 1,
+                "polygon": [
+                  [
+                    0.87,
+                    0.435
+                  ],
+                  [
+                    0.971,
+                    0.435
+                  ],
+                  [
+                    0.971,
+                    0.723
+                  ],
+                  [
+                    0.87,
+                    0.723
+                  ]
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "prediction": {
+        "receipts": [
+          {
+            "confidence": 1,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.016,
+                0.538
+              ],
+              [
+                0.114,
+                0.538
+              ],
+              [
+                0.114,
+                0.783
+              ],
+              [
+                0.016,
+                0.783
+              ]
+            ]
+          },
+          {
+            "confidence": 1,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.156,
+                0.389
+              ],
+              [
+                0.284,
+                0.389
+              ],
+              [
+                0.284,
+                0.843
+              ],
+              [
+                0.156,
+                0.843
+              ]
+            ]
+          },
+          {
+            "confidence": 1,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.337,
+                0.381
+              ],
+              [
+                0.466,
+                0.381
+              ],
+              [
+                0.466,
+                0.765
+              ],
+              [
+                0.337,
+                0.765
+              ]
+            ]
+          },
+          {
+            "confidence": 1,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.491,
+                0.296
+              ],
+              [
+                0.617,
+                0.296
+              ],
+              [
+                0.617,
+                0.861
+              ],
+              [
+                0.491,
+                0.861
+              ]
+            ]
+          },
+          {
+            "confidence": 1,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.684,
+                0.294
+              ],
+              [
+                0.827,
+                0.294
+              ],
+              [
+                0.827,
+                0.756
+              ],
+              [
+                0.684,
+                0.756
+              ]
+            ]
+          },
+          {
+            "confidence": 1,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.87,
+                0.435
+              ],
+              [
+                0.971,
+                0.435
+              ],
+              [
+                0.971,
+                0.723
+              ],
+              [
+                0.87,
+                0.723
+              ]
+            ]
+          }
+        ]
+      },
+      "processing_time": 0.878,
+      "product": {
+        "features": [
+          "receipts"
+        ],
+        "name": "mindee/multi_receipts_detector",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-08-30T15:56:31.778200"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  }
+}

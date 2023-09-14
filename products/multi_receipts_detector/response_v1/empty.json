@@ -1,0 +1,50 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/multi_receipts_detector/v1/predict"
+  },
+  "document": {
+    "id": "d7c5b25f-e0d3-4491-af54-6183afa1aaab",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-08-30T15:56:32.656686",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "orientation": {
+              "confidence": 0.69,
+              "degrees": 0
+            },
+            "receipts": []
+          }
+        }
+      ],
+      "prediction": {
+        "receipts": []
+      },
+      "processing_time": 0.878,
+      "product": {
+        "features": [
+          "receipts"
+        ],
+        "name": "mindee/multi_receipts_detector",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-08-30T15:56:31.778200"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  }
+}
