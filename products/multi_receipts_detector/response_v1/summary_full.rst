@@ -1,7 +1,7 @@
 ########
 Document
 ########
-:Mindee ID: 339ea5b0-561f-4875-86c2-9f02b7db53ff
+:Mindee ID: 278eb891-fc76-46a2-ab9f-3ba04df7a8f9
 :Filename: default_sample.jpg
 
 Inference
