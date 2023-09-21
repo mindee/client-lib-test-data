@@ -52,10 +52,10 @@
               "degrees": 0
             },
             "signature_date_position": {
-              "polygon": []
+              "bounding_box": []
             },
             "signature_position": {
-              "polygon": []
+              "bounding_box": []
             },
             "ssn": {
               "confidence": 0,
