@@ -1,0 +1,102 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "http://api.mindee.net/v1/products/mindee/petrol_receipts/v1/predict"
+  },
+  "document": {
+    "annotations": {
+      "labels": []
+    },
+    "id": "79db59c7-b312-4692-a77f-e8698666ffba",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-09-27T17:00:43.911797",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "fuel": {
+              "category": null,
+              "confidence": 0,
+              "polygon": [],
+              "raw_text": null
+            },
+            "orientation": {
+              "confidence": 0.52,
+              "degrees": 0
+            },
+            "price": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            },
+            "total": {
+              "amount": null,
+              "confidence": 0,
+              "polygon": []
+            },
+            "volume": {
+              "confidence": 0,
+              "polygon": [],
+              "value": null
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "fuel": {
+          "category": null,
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "raw_text": null
+        },
+        "price": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "total": {
+          "amount": null,
+          "confidence": 0,
+          "page_id": null,
+          "polygon": []
+        },
+        "volume": {
+          "confidence": 0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 0.545,
+      "product": {
+        "features": [
+          "fuel",
+          "price",
+          "volume",
+          "total",
+          "orientation"
+        ],
+        "name": "mindee/petrol_receipts",
+        "type": "standard",
+        "version": "1.1"
+      },
+      "started_at": "2023-09-27T17:00:43.367007"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg",
+    "ocr": {}
+  }
+}

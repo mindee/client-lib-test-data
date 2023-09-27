@@ -1,0 +1,238 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "http://api.mindee.net/v1/products/mindee/petrol_receipts/v1/predict"
+  },
+  "document": {
+    "annotations": {
+      "labels": []
+    },
+    "id": "79db59c7-b312-4692-a77f-e8698666ffba",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-09-27T16:54:06.087179",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "fuel": {
+              "category": "SP98",
+              "confidence": 0,
+              "polygon": [
+                [
+                  0.23,
+                  0.283
+                ],
+                [
+                  0.39,
+                  0.283
+                ],
+                [
+                  0.39,
+                  0.311
+                ],
+                [
+                  0.23,
+                  0.311
+                ]
+              ],
+              "raw_text": "s9sulitmate"
+            },
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "price": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.522,
+                  0.309
+                ],
+                [
+                  0.598,
+                  0.309
+                ],
+                [
+                  0.598,
+                  0.336
+                ],
+                [
+                  0.522,
+                  0.336
+                ]
+              ],
+              "value": 1.579
+            },
+            "total": {
+              "amount": 21.74,
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.659,
+                  0.394
+                ],
+                [
+                  0.752,
+                  0.394
+                ],
+                [
+                  0.752,
+                  0.423
+                ],
+                [
+                  0.659,
+                  0.423
+                ]
+              ]
+            },
+            "volume": {
+              "confidence": 0.98,
+              "polygon": [
+                [
+                  0.37,
+                  0.309
+                ],
+                [
+                  0.45,
+                  0.309
+                ],
+                [
+                  0.45,
+                  0.341
+                ],
+                [
+                  0.37,
+                  0.341
+                ]
+              ],
+              "value": 13.17
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "fuel": {
+          "category": "SP98",
+          "confidence": 0,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.23,
+              0.283
+            ],
+            [
+              0.39,
+              0.283
+            ],
+            [
+              0.39,
+              0.311
+            ],
+            [
+              0.23,
+              0.311
+            ]
+          ],
+          "raw_text": "s9sulitmate"
+        },
+        "price": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.522,
+              0.309
+            ],
+            [
+              0.598,
+              0.309
+            ],
+            [
+              0.598,
+              0.336
+            ],
+            [
+              0.522,
+              0.336
+            ]
+          ],
+          "value": 1.579
+        },
+        "total": {
+          "amount": 21.74,
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.659,
+              0.394
+            ],
+            [
+              0.752,
+              0.394
+            ],
+            [
+              0.752,
+              0.423
+            ],
+            [
+              0.659,
+              0.423
+            ]
+          ]
+        },
+        "volume": {
+          "confidence": 0.98,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.37,
+              0.309
+            ],
+            [
+              0.45,
+              0.309
+            ],
+            [
+              0.45,
+              0.341
+            ],
+            [
+              0.37,
+              0.341
+            ]
+          ],
+          "value": 13.17
+        }
+      },
+      "processing_time": 0.467,
+      "product": {
+        "features": [
+          "fuel",
+          "price",
+          "volume",
+          "total",
+          "orientation"
+        ],
+        "name": "mindee/petrol_receipts",
+        "type": "standard",
+        "version": "1.1"
+      },
+      "started_at": "2023-09-27T16:54:05.620166"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg",
+    "ocr": {}
+  }
+}
