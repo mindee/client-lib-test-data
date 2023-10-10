@@ -2,7 +2,7 @@
 Document
 ########
 :Mindee ID: 79db59c7-b312-4692-a77f-e8698666ffba
-:Filename: passport.jpeg
+:Filename: default_sample.jpg
 
 Inference
 #########
