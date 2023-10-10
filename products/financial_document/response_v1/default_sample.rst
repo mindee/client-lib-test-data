@@ -25,11 +25,11 @@ Prediction
   |               | TAX    |          | 3.34          |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier name: LOGANS
+:Supplier Name: LOGANS
 :Supplier Company Registrations:
 :Supplier Address: 2513 s stemmons freeway lewisville tx 75067
 :Supplier Phone Number: 9724596042
-:Customer name:
+:Customer Name:
 :Customer Company Registrations:
 :Customer Address:
 :Document Type: EXPENSE RECEIPT
@@ -39,11 +39,11 @@ Prediction
 :Tip and Gratuity: 10.00
 :Purchase Time: 20:20
 :Line Items:
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
-  +======================================+==============+==========+============+==============+==============+============+
-  | TAX                                  |              |          |            |              | 3.34         |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  +--------------------------------------+----------------------+----------+------------+--------------+------------+--------------+
+  | Description                          | Product Code         | Quantity | Tax Amount | Tax Rate (%) | Unit Price | Total Amount |
+  +======================================+======================+==========+============+==============+============+==============+
+  | TAX                                  |                      |          |            |              |            | 3.34         |
+  +--------------------------------------+----------------------+----------+------------+--------------+------------+--------------+
 
 Page Predictions
 ================
@@ -64,11 +64,11 @@ Page 0
   |               | TAX    |          | 3.34          |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier name: LOGANS
+:Supplier Name: LOGANS
 :Supplier Company Registrations:
 :Supplier Address: 2513 s stemmons freeway lewisville tx 75067
 :Supplier Phone Number: 9724596042
-:Customer name:
+:Customer Name:
 :Customer Company Registrations:
 :Customer Address:
 :Document Type: EXPENSE RECEIPT
@@ -78,8 +78,8 @@ Page 0
 :Tip and Gratuity: 10.00
 :Purchase Time: 20:20
 :Line Items:
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
-  +======================================+==============+==========+============+==============+==============+============+
-  | TAX                                  |              |          |            |              | 3.34         |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  +--------------------------------------+----------------------+----------+------------+--------------+------------+--------------+
+  | Description                          | Product Code         | Quantity | Tax Amount | Tax Rate (%) | Unit Price | Total Amount |
+  +======================================+======================+==========+============+==============+============+==============+
+  | TAX                                  |                      |          |            |              |            | 3.34         |
+  +--------------------------------------+----------------------+----------+------------+--------------+------------+--------------+
