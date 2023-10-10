@@ -25,11 +25,11 @@ Prediction
   |               |        | 5.00     | 9.75          |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier name: JOHN SMITH
+:Supplier Name: JOHN SMITH
 :Supplier Company Registrations:
 :Supplier Address: 4490 Oak Drive Albany, NY 12210
 :Supplier Phone Number:
-:Customer name: JESSIE M HORNE
+:Customer Name: JESSIE M HORNE
 :Customer Company Registrations:
 :Customer Address: 2019 Redbud Drive New York, NY 10011
 :Document Type: INVOICE
@@ -40,7 +40,7 @@ Prediction
 :Purchase Time:
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
+  | Description                          | Product Code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
   +======================================+==============+==========+============+==============+==============+============+
   | Front and rear brake cables          |              | 1.00     |            |              | 100.00       | 100.00     |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
@@ -68,11 +68,11 @@ Page 0
   |               |        | 5.00     | 9.75          |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier name: JOHN SMITH
+:Supplier Name: JOHN SMITH
 :Supplier Company Registrations:
 :Supplier Address: 4490 Oak Drive Albany, NY 12210
 :Supplier Phone Number:
-:Customer name: JESSIE M HORNE
+:Customer Name: JESSIE M HORNE
 :Customer Company Registrations:
 :Customer Address: 2019 Redbud Drive New York, NY 10011
 :Document Type: INVOICE
@@ -83,7 +83,7 @@ Page 0
 :Purchase Time:
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
+  | Description                          | Product Code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
   +======================================+==============+==========+============+==============+==============+============+
   | Front and rear brake cables          |              | 1.00     |            |              | 100.00       | 100.00     |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+

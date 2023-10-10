@@ -56,7 +56,7 @@
               "value": null
             },
             "locale": {
-              "confidence": 0.36,
+              "confidence": 0,
               "currency": null,
               "language": null
             },
@@ -128,9 +128,9 @@
           "value": null
         },
         "locale": {
-          "confidence": 0.36,
-          "currency": "EUR",
-          "language": "fr"
+          "confidence": 0,
+          "currency": null,
+          "language": null
         },
         "reference_numbers": [],
         "supplier_payment_details": [],

@@ -25,11 +25,11 @@ Prediction
   |               | TAX    |          | 3.34          |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier name: LOGANS
+:Supplier Name: LOGANS
 :Supplier Company Registrations:
 :Supplier Address:
 :Supplier Phone Number: 867-5309
-:Customer name:
+:Customer Name:
 :Customer Company Registrations:
 :Customer Address:
 :Document Type: EXPENSE RECEIPT
@@ -59,11 +59,11 @@ Page 0
   |               | TAX    |          | 3.34          |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier name: LOGANS
+:Supplier Name: LOGANS
 :Supplier Company Registrations:
 :Supplier Address:
 :Supplier Phone Number: 867-5309
-:Customer name:
+:Customer Name:
 :Customer Company Registrations:
 :Customer Address:
 :Document Type: EXPENSE RECEIPT

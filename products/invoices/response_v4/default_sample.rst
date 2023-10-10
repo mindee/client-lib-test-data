@@ -12,37 +12,37 @@ Inference
 Prediction
 ==========
 :Locale: en; en; CAD;
-:Document type: INVOICE
-:Invoice number: 14
-:Reference numbers: AD29094
-:Invoice date: 2018-09-25
-:Invoice due date: 2018-09-25
-:Supplier name: TURNPIKE DESIGNS CO.
-:Supplier address: 156 University Ave, Toronto ON, Canada M5H 2H7
-:Supplier company registrations:
-:Supplier payment details:
-:Customer name: JIRO DOI
-:Customer address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
-:Customer company registrations:
+:Document Type: INVOICE
+:Invoice Number: 14
+:Reference Numbers: AD29094
+:Invoice Date: 2018-09-25
+:Invoice Due Date: 2018-09-25
+:Supplier Name: TURNPIKE DESIGNS CO.
+:Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
+:Supplier Company Registrations:
+:Supplier Payment Details:
+:Customer Name: JIRO DOI
+:Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
+:Customer Company Registrations:
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
   |               |        | 8.00     | 193.20        |
   +---------------+--------+----------+---------------+
-:Total net:
-:Total tax: 193.20
-:Total amount: 2608.20
+:Total Net:
+:Total Tax: 193.20
+:Total Amount: 2608.20
 :Line Items:
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  | Code                 | QTY     | Price   | Amount   | Tax (Rate)       | Description                          |
-  +======================+=========+=========+==========+==================+======================================+
-  |                      | 1.00    | 65.00   | 65.00    |                  | Platinum web hosting package Down... |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  |                      | 3.00    | 2100.00 | 2100.00  |                  | 2 page website design Includes ba... |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  |                      | 1.00    | 250.00  | 250.00   |                  | Mobile designs Includes responsiv... |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | Description                          | Product Code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
+  +======================================+==============+==========+============+==============+==============+============+
+  | Platinum web hosting package Down... |              | 1.00     |            |              | 65.00        | 65.00      |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | 2 page website design Includes ba... |              | 3.00     |            |              | 2100.00      | 2100.00    |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | Mobile designs Includes responsiv... |              | 1.00     |            |              | 250.00       | 250.00     |
+  +--------------------------------------+--------------+----------+---------------------------+--------------+------------+
 
 Page Predictions
 ================
@@ -50,34 +50,34 @@ Page Predictions
 Page 0
 ------
 :Locale: en; en; CAD;
-:Document type: INVOICE
-:Invoice number: 14
-:Reference numbers: AD29094
-:Invoice date: 2018-09-25
-:Invoice due date: 2018-09-25
-:Supplier name: TURNPIKE DESIGNS CO.
-:Supplier address: 156 University Ave, Toronto ON, Canada M5H 2H7
-:Supplier company registrations:
-:Supplier payment details:
-:Customer name: JIRO DOI
-:Customer address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
-:Customer company registrations:
+:Document Type: INVOICE
+:Invoice Number: 14
+:Reference Numbers: AD29094
+:Invoice Date: 2018-09-25
+:Invoice Due Date: 2018-09-25
+:Supplier Name: TURNPIKE DESIGNS CO.
+:Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
+:Supplier Company Registrations:
+:Supplier Payment Details:
+:Customer Name: JIRO DOI
+:Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
+:Customer Company Registrations:
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
   |               |        | 8.00     | 193.20        |
   +---------------+--------+----------+---------------+
-:Total net:
-:Total tax: 193.20
-:Total amount: 2608.20
+:Total Net:
+:Total Tax: 193.20
+:Total Amount: 2608.20
 :Line Items:
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  | Code                 | QTY     | Price   | Amount   | Tax (Rate)       | Description                          |
-  +======================+=========+=========+==========+==================+======================================+
-  |                      | 1.00    | 65.00   | 65.00    |                  | Platinum web hosting package Down... |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  |                      | 3.00    | 2100.00 | 2100.00  |                  | 2 page website design Includes ba... |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  |                      | 1.00    | 250.00  | 250.00   |                  | Mobile designs Includes responsiv... |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | Description                          | Product Code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
+  +======================================+==============+==========+============+==============+==============+============+
+  | Platinum web hosting package Down... |              | 1.00     |            |              | 65.00        | 65.00      |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | 2 page website design Includes ba... |              | 3.00     |            |              | 2100.00      | 2100.00    |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | Mobile designs Includes responsiv... |              | 1.00     |            |              | 250.00       | 250.00     |
+  +--------------------------------------+--------------+----------+---------------------------+--------------+------------+
