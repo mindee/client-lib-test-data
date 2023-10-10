@@ -1,32 +1,39 @@
 Page 0
 ------
 :Locale: fr; fr; EUR;
-:Document Type: INVOICE
 :Invoice Number: 0042004801351
 :Reference Numbers:
-:Invoice Date: 2020-02-17
-:Invoice Due Date: 2020-02-17
-:Supplier Name:
-:Supplier Address:
-:Supplier Company Registrations: 501124705; FR33501124705
-:Supplier Payment Details: FR7640254025476501124705368;
-:Customer Name:
-:Customer Address:
-:Customer Company Registrations:
+:Purchase Date: 2020-02-17
+:Due Date: 2020-02-17
+:Total Net: 489.97
+:Total Amount: 587.95
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
   |               |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
-:Total Net: 489.97
-:Total Tax: 97.98
-:Total Amount: 587.95
+:Supplier Payment Details: FR7640254025476501124705368;
+:Supplier Name:
+:Supplier Company Registrations:
+:Supplier Address:
+:Customer Name:
+:Customer Company Registrations:
+:Customer Address:
+:Document Type: INVOICE
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Description                          | Product Code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
+  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
   +======================================+==============+==========+============+==============+==============+============+
-  | PQ20 ETIQ ULTRA RESIS METAXXDC       |              |          |            | 2.10         | 4.31         |            |
+  | S)BOIE 5X500 FEUILLES A4             |              |          |            |              | 2.63         |            |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Platinum web hosting package Down... |              | 1.00     | 10.00      |              | 75.00        | 65.00      |
+  | RAM 500F DCP BLANC A4 100G           |              |          |            |              | 0.98         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | PQ 960 ETIQUETTES L METAL            |              |          |            |              | 4.07         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | CARTOUCHE L NR BROTHER TN247BK       |              |          |            |              | 9.47         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | PQ20 ETIQ ULTRA RESIS METAXXDC       |              |          |            |              | 4.31         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | FO2 IMPRIM MULTIFONCT MFC-L3770CDW   |              |          |            |              | 120.00       |            |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+

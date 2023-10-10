@@ -6,47 +6,54 @@ Document
 
 Inference
 #########
-:Product: mindee/invoices v4.1
+:Product: mindee/invoices v4.2
 :Rotation applied: Yes
 
 Prediction
 ==========
 :Locale: fr; fr; EUR;
-:Document Type: INVOICE
 :Invoice Number: 0042004801351
 :Reference Numbers: AD29094
-:Invoice Date: 2020-02-17
-:Invoice Due Date: 2020-02-17
-:Supplier Name: TURNPIKE DESIGNS CO.
-:Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
-:Supplier Company Registrations: 501124705; FR33501124705
-:Supplier Payment Details: FR7640254025476501124705368;
-:Customer Name: JIRO DOI
-:Customer Address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
-:Customer Company Registrations: FR00000000000; 111222333
+:Purchase Date: 2020-02-17
+:Due Date: 2020-02-17
+:Total Net: 489.97
+:Total Amount: 587.95
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
   |               |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
-:Total Net: 489.97
-:Total Tax: 97.98
-:Total Amount: 587.95
+:Supplier Payment Details: FR7640254025476501124705368;
+:Supplier Name: TURNPIKE DESIGNS CO.
+:Supplier Company Registrations:
+:Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
+:Customer Name: JIRO DOI
+:Customer Company Registrations:
+:Customer Address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
+:Document Type: INVOICE
 :Line Items:
-  +--------------------------------------+----------------+----------+------------+--------------+--------------+------------+
-  | Description                          | Product Code   | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
-  +======================================+================+==========+============+==============+==============+============+
-  | PQ20 ETIQ ULTRA RESIS METAXXDC       |                |          |            | 2.10         | 4.31         |            |
-  +--------------------------------------+----------------+----------+------------+--------------+--------------+------------+
-  | Platinum web hosting package Down... |                | 1.00     | 10.00      |              | 75.00        | 65.00      |
-  +--------------------------------------+----------------+----------+------------+--------------+--------------+------------+
-  | a long string describing the item    | XXX81125600010 | 1.00     | 25.50      | 10.20        | 275.51       | 250.01     |
-  +--------------------------------------+----------------+----------+------------+--------------+--------------+------------+
-  | Liquid perfection                    | ABC456         | 200.30   | 121.70     | 7.50         | 1622.63      | 8.101      |
-  +--------------------------------------+----------------+----------+------------+--------------+--------------+------------+
-  | CARTOUCHE L NR BROTHER TN247BK       |                |          |            |              |              |            |
-  +--------------------------------------+----------------+----------+------------+--------------+--------------+------------+
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
+  +======================================+==============+==========+============+==============+==============+============+
+  | S)BOIE 5X500 FEUILLES A4             |              |          |            |              | 2.63         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | RAM 500F DCP BLANC A4 100G           |              |          |            |              | 0.98         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | PQ 960 ETIQUETTES L METAL            |              |          |            |              | 4.07         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | CARTOUCHE L NR BROTHER TN247BK       |              |          |            |              | 9.47         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | PQ20 ETIQ ULTRA RESIS METAXXDC       |              |          |            |              | 4.31         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | FO2 IMPRIM MULTIFONCT MFC-L3770CDW   |              |          |            |              | 120.00       |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | Platinum web hosting package Down... |              | 1.00     |            |              | 65.00        | 65.00      |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | 2 page website design Includes ba... |              | 3.00     |            |              | 2100.00      | 2100.00    |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | Mobile designs Includes responsiv... |              | 1.00     |            |              | 250.00       | 250.00     |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
 
 Page Predictions
 ================
@@ -54,67 +61,73 @@ Page Predictions
 Page 0
 ------
 :Locale: fr; fr; EUR;
-:Document Type: INVOICE
 :Invoice Number: 0042004801351
 :Reference Numbers:
-:Invoice Date: 2020-02-17
-:Invoice Due Date: 2020-02-17
-:Supplier Name:
-:Supplier Address:
-:Supplier Company Registrations: 501124705; FR33501124705
-:Supplier Payment Details: FR7640254025476501124705368;
-:Customer Name:
-:Customer Address:
-:Customer Company Registrations:
+:Purchase Date: 2020-02-17
+:Due Date: 2020-02-17
+:Total Net: 489.97
+:Total Amount: 587.95
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
   |               |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
-:Total Net: 489.97
-:Total Tax: 97.98
-:Total Amount: 587.95
+:Supplier Payment Details: FR7640254025476501124705368;
+:Supplier Name:
+:Supplier Company Registrations:
+:Supplier Address:
+:Customer Name:
+:Customer Company Registrations:
+:Customer Address:
+:Document Type: INVOICE
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Description                          | Product Code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
+  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
   +======================================+==============+==========+============+==============+==============+============+
-  | PQ20 ETIQ ULTRA RESIS METAXXDC       |              |          |            | 2.10         | 4.31         |            |
+  | S)BOIE 5X500 FEUILLES A4             |              |          |            |              | 2.63         |            |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Platinum web hosting package Down... |              | 1.00     | 10.00      |              | 75.00        | 65.00      |
+  | RAM 500F DCP BLANC A4 100G           |              |          |            |              | 0.98         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | PQ 960 ETIQUETTES L METAL            |              |          |            |              | 4.07         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | CARTOUCHE L NR BROTHER TN247BK       |              |          |            |              | 9.47         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | PQ20 ETIQ ULTRA RESIS METAXXDC       |              |          |            |              | 4.31         |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | FO2 IMPRIM MULTIFONCT MFC-L3770CDW   |              |          |            |              | 120.00       |            |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
 
 Page 1
 ------
 :Locale: fr; fr; EUR;
-:Document Type: INVOICE
 :Invoice Number:
 :Reference Numbers: AD29094
-:Invoice Date:
-:Invoice Due Date: 2020-02-17
-:Supplier Name: TURNPIKE DESIGNS CO.
-:Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
-:Supplier Company Registrations:
-:Supplier Payment Details:
-:Customer Name: JIRO DOI
-:Customer Address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
-:Customer Company Registrations:
+:Purchase Date:
+:Due Date: 2020-02-17
+:Total Net:
+:Total Amount: 2608.20
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
   |               |        | 8.00     | 193.20        |
   +---------------+--------+----------+---------------+
-:Total Net:
-:Total Tax: 193.20
-:Total Amount: 2608.20
+:Supplier Payment Details:
+:Supplier Name: TURNPIKE DESIGNS CO.
+:Supplier Company Registrations:
+:Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
+:Customer Name: JIRO DOI
+:Customer Company Registrations:
+:Customer Address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
+:Document Type: INVOICE
 :Line Items:
-  +--------------------------------------+----------------+----------+------------+--------------+--------------+------------+
-  | Description                          | Product Code   | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
-  +======================================+================+==========+============+==============+==============+============+
-  | a long string describing the item    | XXX81125600010 | 1.00     |            | 10.00        | 250.00       | 250.00     |
-  +--------------------------------------+----------------+----------+------------+--------------+--------------+------------+
-  | Liquid perfection                    | ABC456         | 200.30   | 121.70     | 7.50         | 1622.63      | 8.101      |
-  +--------------------------------------+----------------+----------+------------+--------------+--------------+------------+
-  | CARTOUCHE L NR BROTHER TN247BK       |                |          |            |              |              |            |
-  +--------------------------------------+----------------+----------+------------+--------------+--------------+------------+
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
+  +======================================+==============+==========+============+==============+==============+============+
+  | Platinum web hosting package Down... |              | 1.00     |            |              | 65.00        | 65.00      |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | 2 page website design Includes ba... |              | 3.00     |            |              | 2100.00      | 2100.00    |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
+  | Mobile designs Includes responsiv... |              | 1.00     |            |              | 250.00       | 250.00     |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
