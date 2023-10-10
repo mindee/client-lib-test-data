@@ -12,41 +12,41 @@ Inference
 Prediction
 ==========
 :Locale: fr; fr; EUR;
-:Document type: INVOICE
-:Invoice number: 0042004801351
-:Reference numbers: AD29094
-:Invoice date: 2020-02-17
-:Invoice due date: 2020-02-17
-:Supplier name: TURNPIKE DESIGNS CO.
-:Supplier address: 156 University Ave, Toronto ON, Canada M5H 2H7
-:Supplier company registrations: 501124705; FR33501124705
-:Supplier payment details: FR7640254025476501124705368;
-:Customer name: JIRO DOI
-:Customer address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
-:Customer company registrations: FR00000000000; 111222333
+:Document Type: INVOICE
+:Invoice Number: 0042004801351
+:Reference Numbers: AD29094
+:Invoice Date: 2020-02-17
+:Invoice Due Date: 2020-02-17
+:Supplier Name: TURNPIKE DESIGNS CO.
+:Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
+:Supplier Company Registrations: 501124705; FR33501124705
+:Supplier Payment Details: FR7640254025476501124705368;
+:Customer Name: JIRO DOI
+:Customer Address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
+:Customer Company Registrations: FR00000000000; 111222333
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
   |               |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
-:Total net: 489.97
-:Total tax: 97.98
-:Total amount: 587.95
+:Total Net: 489.97
+:Total Tax: 97.98
+:Total Amount: 587.95
 :Line Items:
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  | Code                 | QTY     | Price   | Amount   | Tax (Rate)       | Description                          |
-  +======================+=========+=========+==========+==================+======================================+
-  |                      |         |         | 4.31     |  (2.10%)         | PQ20 ETIQ ULTRA RESIS METAXXDC       |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  |                      | 1.00    | 65.00   | 75.00    | 10.00            | Platinum web hosting package Down... |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  | XXX81125600010       | 1.00    | 250.01  | 275.51   | 25.50 (10.20%)   | a long string describing the item    |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  | ABC456               | 200.30  | 8.101   | 1622.63  | 121.70 (7.50%)   | Liquid perfection                    |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  |                      |         |         |          |                  | CARTOUCHE L NR BROTHER TN247BK       |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
+  +----------------------+---------+---------+----------+----------+--------------+--------------------------------------+
+  | Code                 | QTY     | Price   | Amount   | Tax Base | Tax Rate (%) | Description                          |
+  +======================+=========+=========+==========+==========+==============+======================================+
+  |                      |         |         | 4.31     |          | 2.10         | PQ20 ETIQ ULTRA RESIS METAXXDC       |
+  +----------------------+---------+---------+----------+----------+--------------+--------------------------------------+
+  |                      | 1.00    | 65.00   | 75.00    | 10.00    |              | Platinum web hosting package Down... |
+  +----------------------+---------+---------+----------+----------+--------------+--------------------------------------+
+  | XXX81125600010       | 1.00    | 250.01  | 275.51   | 25.50    | 10.20        | a long string describing the item    |
+  +----------------------+---------+---------+----------+----------+--------------+--------------------------------------+
+  | ABC456               | 200.30  | 8.101   | 1622.63  | 121.70   | 7.50         | Liquid perfection                    |
+  +----------------------+---------+---------+----------+----------+--------------+--------------------------------------+
+  |                      |         |         |          |          |              | CARTOUCHE L NR BROTHER TN247BK       |
+  +----------------------+---------+---------+----------+----------+--------------+--------------------------------------+
 
 Page Predictions
 ================
@@ -54,67 +54,67 @@ Page Predictions
 Page 0
 ------
 :Locale: fr; fr; EUR;
-:Document type: INVOICE
-:Invoice number: 0042004801351
-:Reference numbers:
-:Invoice date: 2020-02-17
-:Invoice due date: 2020-02-17
-:Supplier name:
-:Supplier address:
-:Supplier company registrations: 501124705; FR33501124705
-:Supplier payment details: FR7640254025476501124705368;
-:Customer name:
-:Customer address:
-:Customer company registrations:
+:Document Type: INVOICE
+:Invoice Number: 0042004801351
+:Reference Numbers:
+:Invoice Date: 2020-02-17
+:Invoice Due Date: 2020-02-17
+:Supplier Name:
+:Supplier Address:
+:Supplier Company Registrations: 501124705; FR33501124705
+:Supplier Payment Details: FR7640254025476501124705368;
+:Customer Name:
+:Customer Address:
+:Customer Company Registrations:
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
   |               |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
-:Total net: 489.97
-:Total tax: 97.98
-:Total amount: 587.95
+:Total Net: 489.97
+:Total Tax: 97.98
+:Total Amount: 587.95
 :Line Items:
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  | Code                 | QTY     | Price   | Amount   | Tax (Rate)       | Description                          |
-  +======================+=========+=========+==========+==================+======================================+
-  |                      |         |         | 4.31     |  (2.10%)         | PQ20 ETIQ ULTRA RESIS METAXXDC       |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  |                      | 1.00    | 65.00   | 75.00    | 10.00            | Platinum web hosting package Down... |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
+  +--------------------------------------+----------------------+----------+------------+--------------+--------------+------------+
+  | Description                          | Product Code         | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
+  +======================================+======================+==========+============+==============+==============+============+
+  | PQ20 ETIQ ULTRA RESIS METAXXDC       |                      |          |            | 2.10         | 4.31         |            |
+  +--------------------------------------+----------------------+----------+------------+--------------+--------------+------------+
+  | Platinum web hosting package Down... |                      | 1.00     | 10.00      |              | 75.00        | 65.00      |
+  +--------------------------------------+----------------------+----------+------------+--------------+--------------+------------+
 
 Page 1
 ------
 :Locale: fr; fr; EUR;
-:Document type: INVOICE
-:Invoice number:
-:Reference numbers: AD29094
-:Invoice date:
-:Invoice due date: 2020-02-17
-:Supplier name: TURNPIKE DESIGNS CO.
-:Supplier address: 156 University Ave, Toronto ON, Canada M5H 2H7
-:Supplier company registrations:
-:Supplier payment details:
-:Customer name: JIRO DOI
-:Customer address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
-:Customer company registrations:
+:Document Type: INVOICE
+:Invoice Number:
+:Reference Numbers: AD29094
+:Invoice Date:
+:Invoice Due Date: 2020-02-17
+:Supplier Name: TURNPIKE DESIGNS CO.
+:Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
+:Supplier Company Registrations:
+:Supplier Payment Details:
+:Customer Name: JIRO DOI
+:Customer Address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
+:Customer Company Registrations:
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
   |               |        | 8.00     | 193.20        |
   +---------------+--------+----------+---------------+
-:Total net:
-:Total tax: 193.20
-:Total amount: 2608.20
+:Total Net:
+:Total Tax: 193.20
+:Total Amount: 2608.20
 :Line Items:
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  | Code                 | QTY     | Price   | Amount   | Tax (Rate)       | Description                          |
-  +======================+=========+=========+==========+==================+======================================+
-  | XXX81125600010       | 1.00    | 250.00  | 250.00   |  (10.00%)        | a long string describing the item    |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  | ABC456               | 200.30  | 8.101   | 1622.63  | 121.70 (7.50%)   | Liquid perfection                    |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
-  |                      |         |         |          |                  | CARTOUCHE L NR BROTHER TN247BK       |
-  +----------------------+---------+---------+----------+------------------+--------------------------------------+
+  +--------------------------------------+----------------------+----------+------------+--------------+------------+--------------+
+  | Description                          | Product Code         | Quantity | Tax Amount | Tax Rate (%) | Unit Price | Total Amount |
+  +======================================+======================+==========+============+==============+============+==============+
+  | a long string describing the item    | XXX81125600010       | 1.00     |            | 10.00        | 250.00     | 250.00       |
+  +--------------------------------------+----------------------+----------+------------+--------------+------------+--------------+
+  | Liquid perfection                    | ABC456               | 200.30   | 121.70     | 7.50         | 8.101      | 1622.63      |
+  +--------------------------------------+----------------------+----------+------------+--------------+------------+--------------+
+  | CARTOUCHE L NR BROTHER TN247BK       |                      |          |            |              |            |              |
+  +--------------------------------------+----------------------+----------+------------+--------------+------------+--------------+
