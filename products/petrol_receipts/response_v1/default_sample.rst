@@ -1,0 +1,33 @@
+########
+Document
+########
+:Mindee ID: 3fad8436-1cf2-4ef9-a4e4-de0914cda1dc
+:Filename: default_sample.jpg
+
+Inference
+#########
+:Product: mindee/petrol_receipts v1.1
+:Rotation applied: Yes
+
+Prediction
+==========
+:Fuel Type:
+  :Category: SP98
+  :Raw Name: s9sulitmate
+:Price per Unit: 1.579
+:Volume: 13.17
+:Total Amount:
+  :Amount Paid: 21.74
+
+Page Predictions
+================
+
+Page 0
+------
+:Fuel Type:
+  :Category: SP98
+  :Raw Name: s9sulitmate
+:Price per Unit: 1.579
+:Volume: 13.17
+:Total Amount:
+  :Amount Paid: 21.74
