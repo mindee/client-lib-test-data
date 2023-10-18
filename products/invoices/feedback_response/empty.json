@@ -1,0 +1,30 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "feedback"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://feedbacks.mindee.net/v1/documents/e066eb04-4f20-4023-b9d1-e8df105c6e47/feedback"
+  },
+  "feedback": {
+    "customer_address": null,
+    "customer_company_registrations": null,
+    "customer_name": null,
+    "date": null,
+    "document_type": null,
+    "due_date": null,
+    "invoice_number": null,
+    "line_items": null,
+    "locale": null,
+    "reference_numbers": null,
+    "supplier_address": null,
+    "supplier_company_registrations": null,
+    "supplier_name": null,
+    "supplier_payment_details": null,
+    "taxes": null,
+    "total_amount": null,
+    "total_net": null
+  }
+}
