@@ -15,14 +15,3 @@ Prediction
   :Page indexes: 0
   :Page indexes: 1, 2, 3
   :Page indexes: 4
-
-Page Predictions
-================
-
-Page 0
-------
-:Invoice Page Groups:
-
-Page 1
-------
-:Invoice Page Groups:

@@ -1,8 +1,8 @@
 ########
 Document
 ########
-:Mindee ID: 50464221-aa3c-4850-97aa-41ae38ffd391
-:Filename: 2_invoices.pdf
+:Mindee ID: 15ad7a19-7b75-43d0-b0c6-9a641a12b49b
+:Filename: default_sample.pdf
 
 Inference
 #########
@@ -14,14 +14,3 @@ Prediction
 :Invoice Page Groups:
   :Page indexes: 0
   :Page indexes: 1
-
-Page Predictions
-================
-
-Page 0
-------
-:Invoice Page Groups:
-
-Page 1
-------
-:Invoice Page Groups:
