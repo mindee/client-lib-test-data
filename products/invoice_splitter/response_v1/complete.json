@@ -17,20 +17,7 @@
       "extras": {},
       "finished_at": "2023-01-13T16:29:20.335255",
       "is_rotation_applied": null,
-      "pages": [
-        {
-          "extras": {},
-          "id": 0,
-          "orientation": {"value": null},
-          "prediction": {}
-        },
-        {
-          "extras": {},
-          "id": 1,
-          "orientation": {"value": null},
-          "prediction": {}
-        }
-      ],
+      "pages": [],
       "prediction": {
         "invoice_page_groups": [
           {
