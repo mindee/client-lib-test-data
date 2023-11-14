@@ -620,7 +620,6 @@
       "prediction": {
         "beneficiary_birth_date": {
           "confidence": 1.0,
-          "page_id": 0,
           "values": [
             {
               "confidence": 1.0,
@@ -695,7 +694,6 @@
         },
         "beneficiary_number": {
           "confidence": 1.0,
-          "page_id": 0,
           "values": [
             {
               "confidence": 0.5,
@@ -1000,7 +998,6 @@
         },
         "beneficiary_name": {
           "confidence": 1.0,
-          "page_id": 0,
           "values": [
             {
               "confidence": 1.0,
@@ -1167,7 +1164,6 @@
         },
         "beneficiary_rank": {
           "confidence": 1.0,
-          "page_id": 0,
           "values": [
             {
               "confidence": 1.0,
