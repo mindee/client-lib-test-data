@@ -736,11 +736,11 @@
         },
         "date_normal": {
           "confidence": 0.99,
-          "page_id": 0,
           "values": [
             {
               "confidence": 0.99,
               "content": "2020-12-17",
+              "page_id": 0,
               "polygon": [
                 [
                   0.834,
@@ -764,11 +764,11 @@
         },
         "date_us": {
           "confidence": 0.97,
-          "page_id": 0,
           "values": [
             {
               "confidence": 0.97,
               "content": "2020-12-17",
+              "page_id": 0,
               "polygon": [
                 [
                   0.834,
@@ -792,11 +792,11 @@
         },
         "email": {
           "confidence": 1.0,
-          "page_id": 0,
           "values": [
             {
               "confidence": 1.0,
               "content": "contact@mindee.com",
+              "page_id": 0,
               "polygon": [
                 [
                   0.522,
@@ -820,11 +820,11 @@
         },
         "integer": {
           "confidence": 0.76,
-          "page_id": 0,
           "values": [
             {
               "confidence": 0.76,
               "content": "2100505343",
+              "page_id": 0,
               "polygon": [
                 [
                   0.559,
@@ -848,11 +848,11 @@
         },
         "number": {
           "confidence": 0.9,
-          "page_id": 0,
           "values": [
             {
               "confidence": 0.9,
               "content": "2100505343",
+              "page_id": 0,
               "polygon": [
                 [
                   0.559,
@@ -876,11 +876,11 @@
         },
         "phone": {
           "confidence": 0.69,
-          "page_id": 0,
           "values": [
             {
               "confidence": 0.69,
               "content": "8675309",
+              "page_id": 0,
               "polygon": [
                 [
                   0.66,
@@ -904,11 +904,11 @@
         },
         "string_09": {
           "confidence": 0.98,
-          "page_id": 1,
           "values": [
             {
               "confidence": 0.98,
               "content": "10119",
+              "page_id": 1,
               "polygon": [
                 [
                   0.113,
@@ -932,11 +932,11 @@
         },
         "string_all": {
           "confidence": 0.99,
-          "page_id": 1,
           "values": [
             {
               "confidence": 0.99,
               "content": "Mindee",
+              "page_id": 1,
               "polygon": [
                 [
                   0.715,
@@ -959,6 +959,7 @@
             {
               "confidence": 0.94,
               "content": "is",
+              "page_id": 1,
               "polygon": [
                 [
                   0.715,
@@ -981,6 +982,7 @@
             {
               "confidence": 0.91,
               "content": "awesome",
+              "page_id": 1,
               "polygon": [
                 [
                   0.715,
@@ -1004,11 +1006,11 @@
         },
         "string_az": {
           "confidence": 0.67,
-          "page_id": 1,
           "values": [
             {
               "confidence": 0.67,
               "content": "Mindee",
+              "page_id": 1,
               "polygon": [
                 [
                   0.112,
@@ -1032,11 +1034,11 @@
         },
         "url": {
           "confidence": 1.0,
-          "page_id": 1,
           "values": [
             {
               "confidence": 1.0,
               "content": "developers.mindee.com/docs",
+              "page_id": 1,
               "polygon": [
                 [
                   0.576,
