@@ -6,13 +6,13 @@
     ],
     "status": "success",
     "status_code": 201,
-    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v4/predict?cropper=true"
+    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v5/predict?cropper=true"
   },
   "document": {
-    "id": "aa1a8095-20c6-4080-98bd-4684d2807365",
+    "id": "a8e3ecbf-221d-4dd9-8b45-1e2319fea9f5",
     "inference": {
       "extras": {},
-      "finished_at": "2023-01-03T13:45:50.659950",
+      "finished_at": "2023-12-14T13:39:48.121545",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -150,8 +150,8 @@
                       0.996
                     ],
                     [
-                      0.057,
-                      0.998
+                      0.058,
+                      0.999
                     ]
                   ],
                   "rectangle": [
@@ -190,27 +190,54 @@
               "polygon": [
                 [
                   0.475,
-                  0.173
+                  0.171
                 ],
                 [
                   0.611,
-                  0.173
+                  0.171
                 ],
                 [
                   0.611,
-                  0.195
+                  0.197
                 ],
                 [
                   0.475,
-                  0.195
+                  0.197
                 ]
               ],
               "value": "2016-02-26"
             },
             "document_type": {
-              "confidence": 0.44,
+              "confidence": 1.0,
               "value": "EXPENSE RECEIPT"
             },
+            "line_items": [
+              {
+                "confidence": 0.97,
+                "description": "Meantime Pale",
+                "polygon": [
+                  [
+                    0.235,
+                    0.268
+                  ],
+                  [
+                    0.686,
+                    0.261
+                  ],
+                  [
+                    0.687,
+                    0.285
+                  ],
+                  [
+                    0.236,
+                    0.293
+                  ]
+                ],
+                "quantity": 2.0,
+                "total_amount": 10.2,
+                "unit_price": null
+              }
+            ],
             "locale": {
               "confidence": 0.82,
               "country": "GB",
@@ -223,10 +250,80 @@
               "degrees": 0
             },
             "subcategory": {
-              "confidence": 0.98,
+              "confidence": 0.99,
               "value": "restaurant"
             },
-            "supplier": {
+            "supplier_address": {
+              "confidence": 0.87,
+              "polygon": [
+                [
+                  0.338,
+                  0.083
+                ],
+                [
+                  0.535,
+                  0.083
+                ],
+                [
+                  0.535,
+                  0.135
+                ],
+                [
+                  0.338,
+                  0.135
+                ]
+              ],
+              "value": "34 kingley street w1b 5qh"
+            },
+            "supplier_company_registrations": [
+              {
+                "confidence": 0.96,
+                "polygon": [
+                  [
+                    0.373,
+                    0.94
+                  ],
+                  [
+                    0.55,
+                    0.94
+                  ],
+                  [
+                    0.55,
+                    0.97
+                  ],
+                  [
+                    0.373,
+                    0.97
+                  ]
+                ],
+                "type": "VAT NUMBER",
+                "value": "232153895"
+              },
+              {
+                "confidence": 0.84,
+                "polygon": [
+                  [
+                    0.214,
+                    0.708
+                  ],
+                  [
+                    0.376,
+                    0.708
+                  ],
+                  [
+                    0.376,
+                    0.738
+                  ],
+                  [
+                    0.214,
+                    0.738
+                  ]
+                ],
+                "type": "VAT NUMBER",
+                "value": "232153895"
+              }
+            ],
+            "supplier_name": {
               "confidence": 0.74,
               "polygon": [
                 [
@@ -246,7 +343,30 @@
                   0.087
                 ]
               ],
+              "raw_value": "Clachan",
               "value": "CLACHAN"
+            },
+            "supplier_phone_number": {
+              "confidence": 0.3,
+              "polygon": [
+                [
+                  0.369,
+                  0.905
+                ],
+                [
+                  0.573,
+                  0.905
+                ],
+                [
+                  0.573,
+                  0.935
+                ],
+                [
+                  0.369,
+                  0.935
+                ]
+              ],
+              "value": "02074940834"
             },
             "taxes": [
               {
@@ -255,20 +375,20 @@
                 "confidence": 0.99,
                 "polygon": [
                   [
-                    0.19,
-                    0.403
+                    0.191,
+                    0.389
                   ],
                   [
                     0.698,
-                    0.403
+                    0.389
                   ],
                   [
                     0.698,
-                    0.432
+                    0.424
                   ],
                   [
-                    0.19,
-                    0.432
+                    0.191,
+                    0.424
                   ]
                 ],
                 "rate": 20.0,
@@ -280,19 +400,19 @@
               "polygon": [
                 [
                   0.619,
-                  0.172
+                  0.173
                 ],
                 [
                   0.679,
-                  0.172
+                  0.173
                 ],
                 [
                   0.679,
-                  0.19
+                  0.189
                 ],
                 [
                   0.619,
-                  0.19
+                  0.189
                 ]
               ],
               "value": "15:20"
@@ -365,27 +485,55 @@
           "polygon": [
             [
               0.475,
-              0.173
+              0.171
             ],
             [
               0.611,
-              0.173
+              0.171
             ],
             [
               0.611,
-              0.195
+              0.197
             ],
             [
               0.475,
-              0.195
+              0.197
             ]
           ],
           "value": "2016-02-26"
         },
         "document_type": {
-          "confidence": 0.44,
+          "confidence": 1.0,
           "value": "EXPENSE RECEIPT"
         },
+        "line_items": [
+          {
+            "confidence": 0.97,
+            "description": "Meantime Pale",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.235,
+                0.268
+              ],
+              [
+                0.686,
+                0.261
+              ],
+              [
+                0.687,
+                0.285
+              ],
+              [
+                0.236,
+                0.293
+              ]
+            ],
+            "quantity": 2.0,
+            "total_amount": 10.2,
+            "unit_price": null
+          }
+        ],
         "locale": {
           "confidence": 0.82,
           "country": "GB",
@@ -394,10 +542,83 @@
           "value": "en-GB"
         },
         "subcategory": {
-          "confidence": 0.98,
+          "confidence": 0.99,
           "value": "restaurant"
         },
-        "supplier": {
+        "supplier_address": {
+          "confidence": 0.87,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.338,
+              0.083
+            ],
+            [
+              0.535,
+              0.083
+            ],
+            [
+              0.535,
+              0.135
+            ],
+            [
+              0.338,
+              0.135
+            ]
+          ],
+          "value": "34 kingley street w1b 5qh"
+        },
+        "supplier_company_registrations": [
+          {
+            "confidence": 0.96,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.373,
+                0.94
+              ],
+              [
+                0.55,
+                0.94
+              ],
+              [
+                0.55,
+                0.97
+              ],
+              [
+                0.373,
+                0.97
+              ]
+            ],
+            "type": "VAT NUMBER",
+            "value": "232153895"
+          },
+          {
+            "confidence": 0.84,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.214,
+                0.708
+              ],
+              [
+                0.376,
+                0.708
+              ],
+              [
+                0.376,
+                0.738
+              ],
+              [
+                0.214,
+                0.738
+              ]
+            ],
+            "type": "VAT NUMBER",
+            "value": "232153895"
+          }
+        ],
+        "supplier_name": {
           "confidence": 0.74,
           "page_id": 0,
           "polygon": [
@@ -418,7 +639,31 @@
               0.087
             ]
           ],
+          "raw_value": "Clachan",
           "value": "CLACHAN"
+        },
+        "supplier_phone_number": {
+          "confidence": 0.3,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.369,
+              0.905
+            ],
+            [
+              0.573,
+              0.905
+            ],
+            [
+              0.573,
+              0.935
+            ],
+            [
+              0.369,
+              0.935
+            ]
+          ],
+          "value": "02074940834"
         },
         "taxes": [
           {
@@ -428,20 +673,20 @@
             "page_id": 0,
             "polygon": [
               [
-                0.19,
-                0.403
+                0.191,
+                0.389
               ],
               [
                 0.698,
-                0.403
+                0.389
               ],
               [
                 0.698,
-                0.432
+                0.424
               ],
               [
-                0.19,
-                0.432
+                0.191,
+                0.424
               ]
             ],
             "rate": 20.0,
@@ -454,19 +699,19 @@
           "polygon": [
             [
               0.619,
-              0.172
+              0.173
             ],
             [
               0.679,
-              0.172
+              0.173
             ],
             [
               0.679,
-              0.19
+              0.189
             ],
             [
               0.619,
-              0.19
+              0.189
             ]
           ],
           "value": "15:20"
@@ -525,12 +770,12 @@
         },
         "total_tax": {
           "confidence": 0.99,
-          "page_id": 0,
+          "page_id": null,
           "polygon": [],
           "value": 1.7
         }
       },
-      "processing_time": 1.205,
+      "processing_time": 1.179,
       "product": {
         "features": [
           "locale",
@@ -544,16 +789,20 @@
           "total_tax",
           "tip",
           "taxes",
-          "supplier",
-          "orientation"
+          "supplier_name",
+          "supplier_company_registrations",
+          "supplier_address",
+          "supplier_phone_number",
+          "orientation",
+          "line_items"
         ],
         "name": "mindee/expense_receipts",
         "type": "standard",
-        "version": "4.1"
+        "version": "5.1"
       },
-      "started_at": "2023-01-03T13:45:49.916694"
+      "started_at": "2023-12-14T13:39:46.942412"
     },
     "n_pages": 1,
-    "name": "receipt.jpg"
+    "name": "default_sample.jpg"
   }
 }
