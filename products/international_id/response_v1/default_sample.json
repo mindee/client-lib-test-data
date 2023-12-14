@@ -1,0 +1,116 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/international_id/v1/documents/994a519d-841a-4e28-806d-35d785679e59"
+  },
+  "document": {
+    "id": "994a519d-841a-4e28-806d-35d785679e59",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-12-15T11:09:29.915000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "address": {
+          "value": "AVDA DE MADRID S-N MADRID MADRID"
+        },
+        "birth_date": {
+          "value": "1980-01-01"
+        },
+        "birth_place": {
+          "value": "MADRID"
+        },
+        "country_of_issue": {
+          "value": "ESP"
+        },
+        "document_number": {
+          "value": "99999999R"
+        },
+        "document_type": {
+          "value": "NATIONAL_ID_CARD"
+        },
+        "expiry_date": {
+          "value": "2025-01-01"
+        },
+        "given_names": [
+          {
+            "value": "CARMEN"
+          }
+        ],
+        "issue_date": {
+          "value": "2015-01-01"
+        },
+        "mrz1": {
+          "value": "IDESPBAA000589599999999R<<<<<<"
+        },
+        "mrz2": {
+          "value": "8001014F2501017ESP<<<<<<<<<<<7"
+        },
+        "mrz3": {
+          "value": "ESPANOLA<ESPANOLA<<CARMEN<<<<<<"
+        },
+        "nationality": {
+          "value": "ESP"
+        },
+        "sex": {
+          "value": "F"
+        },
+        "surnames": [
+          {
+            "value": "ESPA\u00d1OLA"
+          },
+          {
+            "value": "ESPA\u00d1OLA"
+          }
+        ]
+      },
+      "processing_time": 2.976,
+      "product": {
+        "features": [
+          "document_type",
+          "document_number",
+          "country_of_issue",
+          "surnames",
+          "given_names",
+          "sex",
+          "birth_date",
+          "birth_place",
+          "nationality",
+          "issue_date",
+          "expiry_date",
+          "address",
+          "mrz1",
+          "mrz2",
+          "mrz3"
+        ],
+        "name": "mindee/international_id",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-12-15T11:09:26.769407+00:00"
+    },
+    "n_pages": 1,
+    "name": "Spanish_ID_Card.jpg"
+  },
+  "job": {
+    "available_at": "2023-12-15T11:09:29.926783",
+    "id": "b19894ad-0473-4ebb-bcd5-094de8d896c0",
+    "issued_at": "2023-12-15T11:09:26.769407",
+    "status": "completed"
+  }
+}
