@@ -1,21 +1,26 @@
-************* ***********
-DATE 7/07/14 TIME 8:20:48PM
-MID 354
-Logans 354
-2513 S. Stemmons Freeway
-Lewisville TX
-. . 75067
-972-459-6642
-Gratuity not included
-Thank you for you: pat 'onage
-VISA . XXXXXXXXXXX66622 . S
-AUTH 287522 TBL 44CHECCK 885654
-PRE-AUTH DINN KELSEY SER
-SDC ID: Dh5hR7w04bbf2ORYY
-AMOUNT 40.48
-TAX 3.34
-SUBTOTAL 43.82
-TIP 1o 00
-TOTAL 23,22
-CUSTOMER OPY
-************* **********
+INVOICE
+Turnpike
+Turnpike Designs
+Designs Co. 156 University Ave, Toronto
+ON, Canada M5H 2H7
+416-555-1212
+BILL TO Invoice Number: 14
+Jiro Doi P.O/S... Number: AD29094
+1954 Bloor Street West Invoice Date: 2018-09-25
+Toronto, ON, M6P 3K9 Payment Due: Upon receipt
+Canada
+Amount Due (USD): $2,608.20
+L doieexampleecomm
+416 555-1212
+Services Quantity Price Amount
+Platinum web hosting package $65.00 $65.00
+Down 35mb, Up 100mb
+2 page website design 3 $2,100.00 $2,100.00
+Includes basic wireframes, and responsive templates
+Mobile designs 1 $250.00 $250.00
+Includes responsive navigation
+Subtotal $2,145.00
+Tax 8%: $193.20
+Total $2,608.20
+Amount due (CAD): $2,608.20
+
