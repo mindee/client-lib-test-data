@@ -23,4 +23,3 @@ Subtotal $2,145.00
 Tax 8%: $193.20
 Total $2,608.20
 Amount due (CAD): $2,608.20
-
