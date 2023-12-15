@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: 81c1d637-3a84-41d9-b40a-f72ca2a58826
+:Mindee ID: ee68396d-42a5-4832-a26e-e108983ce343
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/financial_document v1.1
+:Product: mindee/financial_document v1.2
 :Rotation applied: Yes
 
 Prediction
@@ -32,7 +32,7 @@ Prediction
 :Customer Name:
 :Customer Company Registrations:
 :Customer Address:
-:Document Type: EXPENSE RECEIPT
+:Document Type: CREDIT CARD RECEIPT
 :Purchase Subcategory: restaurant
 :Purchase Category: food
 :Total Tax: 3.34
@@ -42,7 +42,7 @@ Prediction
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
   | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
   +======================================+==============+==========+============+==============+==============+============+
-  | TAX                                  |              |          |            |              | 3.34         |            |
+  | TAY                                  |              |          |            |              | 3.34         |            |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
 
 Page Predictions
@@ -71,7 +71,7 @@ Page 0
 :Customer Name:
 :Customer Company Registrations:
 :Customer Address:
-:Document Type: EXPENSE RECEIPT
+:Document Type: CREDIT CARD RECEIPT
 :Purchase Subcategory: restaurant
 :Purchase Category: food
 :Total Tax: 3.34
@@ -81,5 +81,5 @@ Page 0
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
   | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
   +======================================+==============+==========+============+==============+==============+============+
-  | TAX                                  |              |          |            |              | 3.34         |            |
+  | TAY                                  |              |          |            |              | 3.34         |            |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
