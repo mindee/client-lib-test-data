@@ -1,0 +1,105 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/international_id/v1/documents/6583a876-48ca-4bef-ac61-6b749abe32d1"
+  },
+  "document": {
+    "id": "6583a876-48ca-4bef-ac61-6b749abe32d1",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-12-15T11:15:56.342000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "address": {
+          "value": null
+        },
+        "birth_date": {
+          "value": null
+        },
+        "birth_place": {
+          "value": null
+        },
+        "country_of_issue": {
+          "value": null
+        },
+        "document_number": {
+          "value": null
+        },
+        "document_type": {
+          "value": null
+        },
+        "expiry_date": {
+          "value": null
+        },
+        "given_names": [],
+        "issue_date": {
+          "value": null
+        },
+        "mrz1": {
+          "value": null
+        },
+        "mrz2": {
+          "value": null
+        },
+        "mrz3": {
+          "value": null
+        },
+        "nationality": {
+          "value": null
+        },
+        "sex": {
+          "value": null
+        },
+        "surnames": []
+      },
+      "processing_time": 0.197,
+      "product": {
+        "features": [
+          "document_type",
+          "document_number",
+          "country_of_issue",
+          "surnames",
+          "given_names",
+          "sex",
+          "birth_date",
+          "birth_place",
+          "nationality",
+          "issue_date",
+          "expiry_date",
+          "address",
+          "mrz1",
+          "mrz2",
+          "mrz3"
+        ],
+        "name": "mindee/international_id",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-12-15T11:15:55.978011+00:00"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2023-12-15T11:15:56.352308",
+    "id": "78edc6ed-4d77-4f5b-9a45-2d458c0e2600",
+    "issued_at": "2023-12-15T11:15:55.978011",
+    "status": "completed"
+  }
+}
