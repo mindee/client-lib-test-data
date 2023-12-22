@@ -1,0 +1,203 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/eu_driver_license/v1/predict"
+  },
+  "document": {
+    "id": "45c99b17-6ec1-4db3-bef7-2bcb9355b065",
+    "inference": {
+      "extras": {},
+      "finished_at": "2023-12-22T16:26:18.042526",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "category": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "country_code": {
+              "confidence": 0.23,
+              "polygon": [],
+              "value": null
+            },
+            "date_of_birth": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "document_id": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "expiry_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "first_name": {
+              "confidence": 0.99,
+              "polygon": [],
+              "value": null
+            },
+            "issue_authority": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "issue_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "last_name": {
+              "confidence": 0.99,
+              "polygon": [],
+              "value": null
+            },
+            "mrz": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "photo": {
+              "polygon": []
+            },
+            "place_of_birth": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "signature": {
+              "polygon": []
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "address": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "category": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "country_code": {
+          "confidence": 0.23,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "date_of_birth": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "document_id": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "expiry_date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "first_name": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "issue_authority": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "issue_date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "last_name": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "mrz": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "photo": {
+          "page_id": 0,
+          "polygon": []
+        },
+        "place_of_birth": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "signature": {
+          "page_id": null,
+          "polygon": []
+        }
+      },
+      "processing_time": 0.863,
+      "product": {
+        "features": [
+          "country_code",
+          "document_id",
+          "category",
+          "last_name",
+          "first_name",
+          "date_of_birth",
+          "place_of_birth",
+          "expiry_date",
+          "issue_date",
+          "issue_authority",
+          "mrz",
+          "address",
+          "photo",
+          "signature"
+        ],
+        "name": "mindee/eu_driver_license",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2023-12-22T16:26:17.179979"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  }
+}
