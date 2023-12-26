@@ -8,3 +8,6 @@
 # Temp files
 *.swp
 *-swp
+
+# Outpit files
+output/*
