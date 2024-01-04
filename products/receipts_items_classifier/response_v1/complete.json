@@ -1,0 +1,130 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/receipts_items_classifier/v1/documents/0616b913-b5c9-4158-806f-1cf3be232365"
+  },
+  "document": {
+    "id": "6b7a4140-5e17-4c31-8db0-a280baab2172",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-01-04T17:23:39.674000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "currency_code": {
+          "value": "ZAR"
+        },
+        "expense_category": {
+          "value": "restaurant"
+        },
+        "issue_date": {
+          "value": "2022-01-08"
+        },
+        "line_items": [
+          {
+            "item_classification": "miscellaneous",
+            "item_name": "Mix Masala Yummy Platter",
+            "quantity": 1,
+            "total_price": 650.0
+          },
+          {
+            "item_classification": "miscellaneous",
+            "item_name": "012 Lifestyle Platter Full",
+            "quantity": 1,
+            "total_price": 550.0
+          },
+          {
+            "item_classification": "is_alcohol",
+            "item_name": "Ace of Spade Rose",
+            "quantity": 100,
+            "total_price": 1000000.0
+          },
+          {
+            "item_classification": "is_alcohol",
+            "item_name": "Veuve Rich",
+            "quantity": 50,
+            "total_price": 100000.0
+          },
+          {
+            "item_classification": "is_alcohol",
+            "item_name": "Dom Perignon Luminous",
+            "quantity": 20,
+            "total_price": 120000.0
+          },
+          {
+            "item_classification": "miscellaneous",
+            "item_name": "Coke 300ml",
+            "quantity": 10,
+            "total_price": 250.0
+          },
+          {
+            "item_classification": "is_alcohol",
+            "item_name": "Glenfidich 23yrs 750ml",
+            "quantity": 3,
+            "total_price": 28500.0
+          }
+        ],
+        "merchant_address": {
+          "value": "Brooklyn Mall"
+        },
+        "merchant_name": {
+          "value": "012 Lifestyle Brooklyn"
+        },
+        "multiple_receipts": {
+          "value": "no"
+        },
+        "tip": {
+          "value": null
+        },
+        "total_amount": {
+          "value": 1374945.0
+        },
+        "total_tax": {
+          "value": 163036.96
+        }
+      },
+      "processing_time": 5.595,
+      "product": {
+        "features": [
+          "multiple_receipts",
+          "issue_date",
+          "expense_category",
+          "merchant_name",
+          "merchant_address",
+          "total_amount",
+          "tip",
+          "total_tax",
+          "currency_code",
+          "line_items"
+        ],
+        "name": "mindee/receipts_items_classifier",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-01-04T17:23:33.909937+00:00"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-01-04T17:23:39.684932",
+    "id": "4f8caefa-aed6-4a4d-98da-b2210cee280b",
+    "issued_at": "2024-01-04T17:23:33.909937",
+    "status": "completed"
+  }
+}

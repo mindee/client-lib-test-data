@@ -1,0 +1,87 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/receipts_items_classifier/v1/documents/2099ffb4-fe5e-421a-84b6-ae238030d3cd"
+  },
+  "document": {
+    "id": "2099ffb4-fe5e-421a-84b6-ae238030d3cd",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-01-04T17:22:02.772000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "currency_code": {
+          "value": null
+        },
+        "expense_category": {
+          "value": null
+        },
+        "issue_date": {
+          "value": null
+        },
+        "line_items": [],
+        "merchant_address": {
+          "value": null
+        },
+        "merchant_name": {
+          "value": null
+        },
+        "multiple_receipts": {
+          "value": null
+        },
+        "tip": {
+          "value": null
+        },
+        "total_amount": {
+          "value": null
+        },
+        "total_tax": {
+          "value": null
+        }
+      },
+      "processing_time": 0.161,
+      "product": {
+        "features": [
+          "multiple_receipts",
+          "issue_date",
+          "expense_category",
+          "merchant_name",
+          "merchant_address",
+          "total_amount",
+          "tip",
+          "total_tax",
+          "currency_code",
+          "line_items"
+        ],
+        "name": "mindee/receipts_items_classifier",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-01-04T17:22:01.830311+00:00"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-01-04T17:22:02.783756",
+    "id": "27bc659c-5c19-4b71-bdfb-1a75d48c1bb8",
+    "issued_at": "2024-01-04T17:22:01.830311",
+    "status": "completed"
+  }
+}
