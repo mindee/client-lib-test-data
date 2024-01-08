@@ -1,0 +1,282 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/multi_receipts_detector/v1/predict"
+  },
+  "document": {
+    "id": "81cc6963-a16a-48f7-9420-7a96a750a31b",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-01-08T16:45:01.162006",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "receipts": [
+              {
+                "bounding_box": [
+                  [
+                    0.114,
+                    0.192
+                  ],
+                  [
+                    0.446,
+                    0.192
+                  ],
+                  [
+                    0.446,
+                    0.864
+                  ],
+                  [
+                    0.114,
+                    0.864
+                  ]
+                ],
+                "confidence": 1.0
+              },
+              {
+                "bounding_box": [
+                  [
+                    0.482,
+                    0.157
+                  ],
+                  [
+                    0.827,
+                    0.157
+                  ],
+                  [
+                    0.827,
+                    0.611
+                  ],
+                  [
+                    0.482,
+                    0.611
+                  ]
+                ],
+                "confidence": 1.0
+              },
+              {
+                "bounding_box": [
+                  [
+                    0.524,
+                    0.637
+                  ],
+                  [
+                    0.851,
+                    0.637
+                  ],
+                  [
+                    0.851,
+                    0.912
+                  ],
+                  [
+                    0.524,
+                    0.912
+                  ]
+                ],
+                "confidence": 1.0
+              }
+            ]
+          }
+        },
+        {
+          "extras": {},
+          "id": 1,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "receipts": [
+              {
+                "bounding_box": [
+                  [
+                    0.081,
+                    0.248
+                  ],
+                  [
+                    0.439,
+                    0.248
+                  ],
+                  [
+                    0.439,
+                    0.67
+                  ],
+                  [
+                    0.081,
+                    0.67
+                  ]
+                ],
+                "confidence": 1.0
+              },
+              {
+                "bounding_box": [
+                  [
+                    0.506,
+                    0.155
+                  ],
+                  [
+                    0.863,
+                    0.155
+                  ],
+                  [
+                    0.863,
+                    0.768
+                  ],
+                  [
+                    0.506,
+                    0.768
+                  ]
+                ],
+                "confidence": 1.0
+              }
+            ]
+          }
+        }
+      ],
+      "prediction": {
+        "receipts": [
+          {
+            "bounding_box": [
+              [
+                0.114,
+                0.192
+              ],
+              [
+                0.446,
+                0.192
+              ],
+              [
+                0.446,
+                0.864
+              ],
+              [
+                0.114,
+                0.864
+              ]
+            ],
+            "confidence": 1.0,
+            "page_id": 0
+          },
+          {
+            "bounding_box": [
+              [
+                0.482,
+                0.157
+              ],
+              [
+                0.827,
+                0.157
+              ],
+              [
+                0.827,
+                0.611
+              ],
+              [
+                0.482,
+                0.611
+              ]
+            ],
+            "confidence": 1.0,
+            "page_id": 0
+          },
+          {
+            "bounding_box": [
+              [
+                0.524,
+                0.637
+              ],
+              [
+                0.851,
+                0.637
+              ],
+              [
+                0.851,
+                0.912
+              ],
+              [
+                0.524,
+                0.912
+              ]
+            ],
+            "confidence": 1.0,
+            "page_id": 0
+          },
+          {
+            "bounding_box": [
+              [
+                0.081,
+                0.248
+              ],
+              [
+                0.439,
+                0.248
+              ],
+              [
+                0.439,
+                0.67
+              ],
+              [
+                0.081,
+                0.67
+              ]
+            ],
+            "confidence": 1.0,
+            "page_id": 1
+          },
+          {
+            "bounding_box": [
+              [
+                0.506,
+                0.155
+              ],
+              [
+                0.863,
+                0.155
+              ],
+              [
+                0.863,
+                0.768
+              ],
+              [
+                0.506,
+                0.768
+              ]
+            ],
+            "confidence": 1.0,
+            "page_id": 1
+          }
+        ]
+      },
+      "processing_time": 1.255,
+      "product": {
+        "features": [
+          "receipts"
+        ],
+        "name": "mindee/multi_receipts_detector",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-01-08T16:44:59.906878"
+    },
+    "n_pages": 2,
+    "name": "multipage_sample.pdf"
+  }
+}
