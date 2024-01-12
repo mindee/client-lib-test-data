@@ -1,0 +1,15 @@
+:address:
+:birth_date:
+:birth_place:
+:country_of_issue:
+:document_number:
+:document_type:
+:expiry_date:
+:given_names:
+:issue_date:
+:mrz1:
+:mrz2:
+:mrz3:
+:nationality:
+:sex:
+:surnames:
