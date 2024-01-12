@@ -20,8 +20,8 @@ Prediction
 :due_date:
 :invoice_number:
 :locale:
-  :currency:
-  :language:
+  * :currency:
+    :language:
 :reference_numbers:
 :supplier_payment_details:
 :supplier_name:
@@ -45,11 +45,11 @@ Page 0
 :due_date:
 :invoice_number:
 :locale:
-  :currency:
-  :language:
+  * :currency:
+    :language:
 :reference_numbers:
 :orientation:
-  :degrees: 0
+  * :degrees: 0
 :supplier_payment_details:
 :supplier_name:
 :supplier_address:
