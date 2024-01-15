@@ -1,0 +1,194 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "http://api.mindee.net/v1/products/mindee/invoices/v3/predict"
+  },
+  "document": {
+    "annotations": {
+      "labels": {}
+    },
+    "id": "69eabee4-8f29-4e11-bb24-6a4ed965910a",
+    "inference": {
+      "extras": {},
+      "finished_at": "2022-03-01T15:23:28+00:00",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {
+            "supplier_company_registrations": [],
+            "customer_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "customer_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "customer_company_registrations": [],
+            "date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "document_type": {
+              "value": "INVOICE"
+            },
+            "due_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "invoice_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "locale": {
+              "confidence": 0,
+              "currency": null,
+              "language": null
+            },
+            "reference_numbers": [],
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "supplier_payment_details": [],
+            "supplier_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "taxes": [],
+            "total_net": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "total_amount": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "line_items": []
+          }
+        }
+      ],
+      "prediction": {
+        "supplier_company_registrations": [],
+        "customer_name": {
+          "confidence": 0.0,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "customer_address": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "customer_company_registrations": [],
+        "date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "document_type": {
+          "value": "INVOICE"
+        },
+        "due_date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "invoice_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "locale": {
+          "confidence": 0,
+          "currency": null,
+          "language": null
+        },
+        "reference_numbers": [],
+        "supplier_payment_details": [],
+        "supplier_name": {
+          "confidence": 0.0,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "supplier_address": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "taxes": [],
+        "total_net": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "total_amount": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "line_items": []
+      },
+      "processing_time": 3.498,
+      "product": {
+        "features": [
+          "locale",
+          "invoice_number",
+          "date",
+          "due_date",
+          "total_net",
+          "total_amount",
+          "taxes",
+          "supplier_payment_details",
+          "supplier_name",
+          "supplier_company_registration",
+          "supplier_address",
+          "customer_name",
+          "customer_company_registrations",
+          "customer_address",
+          "document_type",
+          "orientation",
+          "line_items"
+        ],
+        "name": "mindee/invoices",
+        "type": "standard",
+        "version": "4.0"
+      },
+      "started_at": "2022-03-01T15:23:25+00:00"
+    },
+    "n_pages": 1,
+    "name": "passport.jpeg"
+  }
+}
