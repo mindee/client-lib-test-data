@@ -92,8 +92,8 @@ Prediction
     :total_amount: 250.0
     :unit_price: 250.0
 :locale:
-  * :currency: EUR
-    :language: fr
+  :currency: EUR
+  :language: fr
 :reference_numbers: AD29094
 :supplier_address: 156 University Ave, Toronto ON, Canada M5H 2H7
 :supplier_company_registrations:
@@ -173,10 +173,10 @@ Page 0
     :total_amount: 120.0
     :unit_price:
 :locale:
-  * :currency: EUR
-    :language: fr
+  :currency: EUR
+  :language: fr
 :orientation:
-  * :degrees: 0
+  :degrees: 0
 :reference_numbers:
 :supplier_address:
 :supplier_company_registrations:
@@ -229,10 +229,10 @@ Page 1
     :total_amount: 250.0
     :unit_price: 250.0
 :locale:
-  * :currency: EUR
-    :language: fr
+  :currency: EUR
+  :language: fr
 :orientation:
-  * :degrees: 0
+  :degrees: 0
 :reference_numbers: AD29094
 :supplier_address: 156 University Ave, Toronto ON, Canada M5H 2H7
 :supplier_company_registrations:

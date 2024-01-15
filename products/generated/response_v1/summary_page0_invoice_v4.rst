@@ -57,10 +57,10 @@ Page 0
     :total_amount: 120.0
     :unit_price:
 :locale:
-  * :currency: EUR
-    :language: fr
+  :currency: EUR
+  :language: fr
 :orientation:
-  * :degrees: 0
+  :degrees: 0
 :reference_numbers:
 :supplier_address:
 :supplier_company_registrations:
