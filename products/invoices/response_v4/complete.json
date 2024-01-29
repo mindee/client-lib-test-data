@@ -390,6 +390,28 @@
                 ]
               ],
               "value": 489.97
+            },
+            "total_tax": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.506,
+                  0.763
+                ],
+                [
+                  0.547,
+                  0.763
+                ],
+                [
+                  0.547,
+                  0.779
+                ],
+                [
+                  0.506,
+                  0.779
+                ]
+              ],
+              "value": 97.98
             }
           }
         },
@@ -698,6 +720,28 @@
               "confidence": 0.0,
               "polygon": [],
               "value": null
+            },
+            "total_tax": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.897,
+                  0.743
+                ],
+                [
+                  0.967,
+                  0.743
+                ],
+                [
+                  0.967,
+                  0.76
+                ],
+                [
+                  0.897,
+                  0.76
+                ]
+              ],
+              "value": 193.2
             }
           }
         }
@@ -1263,6 +1307,29 @@
             ]
           ],
           "value": 489.97
+        },
+        "total_tax": {
+          "confidence": 0.99,
+          "page_id": 1,
+          "polygon": [
+            [
+              0.897,
+              0.743
+            ],
+            [
+              0.967,
+              0.743
+            ],
+            [
+              0.967,
+              0.76
+            ],
+            [
+              0.897,
+              0.76
+            ]
+          ],
+          "value": 193.2
         }
       },
       "processing_time": 2.186,
@@ -1275,6 +1342,7 @@
           "due_date",
           "total_net",
           "total_amount",
+          "total_tax",
           "taxes",
           "supplier_payment_details",
           "supplier_name",
@@ -1289,7 +1357,7 @@
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "4.2"
+        "version": "4.4"
       },
       "started_at": "2023-10-10T15:16:54.559711"
     },
