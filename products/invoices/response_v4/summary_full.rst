@@ -6,7 +6,7 @@ Document
 
 Inference
 #########
-:Product: mindee/invoices v4.2
+:Product: mindee/invoices v4.4
 :Rotation applied: Yes
 
 Prediction
@@ -18,6 +18,7 @@ Prediction
 :Due Date: 2020-02-17
 :Total Net: 489.97
 :Total Amount: 587.95
+:Total Tax: 193.20
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
@@ -67,6 +68,7 @@ Page 0
 :Due Date: 2020-02-17
 :Total Net: 489.97
 :Total Amount: 587.95
+:Total Tax: 97.98
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
@@ -107,6 +109,7 @@ Page 1
 :Due Date: 2020-02-17
 :Total Net:
 :Total Amount: 2608.20
+:Total Tax: 193.20
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |

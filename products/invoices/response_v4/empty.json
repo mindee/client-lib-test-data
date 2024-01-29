@@ -87,6 +87,12 @@
               "polygon": [],
               "value": null
             },
+            "total_tax": {
+              "confidence": 0.0,
+              "page_id": null,
+              "polygon": [],
+              "value": null
+            },
             "line_items": []
           }
         }
@@ -154,6 +160,12 @@
           "value": null
         },
         "total_amount": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "total_tax": {
           "confidence": 0.0,
           "page_id": null,
           "polygon": [],
