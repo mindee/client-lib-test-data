@@ -7,13 +7,13 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/international_id/v1/documents/883583be-a1d5-4fbd-9427-480dedd33aba"
+    "url": "https://api.mindee.net/v1/products/mindee/international_id/v2/documents/cfa20a58-20cf-43b6-8cec-9505fa69d1c2"
   },
   "document": {
-    "id": "883583be-a1d5-4fbd-9427-480dedd33aba",
+    "id": "cfa20a58-20cf-43b6-8cec-9505fa69d1c2",
     "inference": {
       "extras": {},
-      "finished_at": "2024-02-16T09:03:46.127000",
+      "finished_at": "2024-02-16T09:15:49.159000",
       "is_rotation_applied": null,
       "pages": [
         {
@@ -42,10 +42,10 @@
           "value": "12345678A"
         },
         "document_type": {
-          "value": "NATIONAL_ID_CARD"
+          "value": "IDENTIFICATION_CARD"
         },
         "expiry_date": {
-          "value": null
+          "value": "2030-01-01"
         },
         "given_names": [
           {
@@ -53,61 +53,72 @@
           }
         ],
         "issue_date": {
-          "value": "2016-01-01"
+          "value": null
         },
-        "mrz1": {
+        "mrz_line1": {
           "value": "IDESPBAB1834284<44282767Q0<<<<"
         },
-        "mrz2": {
-          "value": "8001010F1301017 ESP<<<<<<<<<<<3"
+        "mrz_line2": {
+          "value": "8001010F1301017ESP<<<<<<<<<<<3"
         },
-        "mrz3": {
+        "mrz_line3": {
           "value": "MUESTRA<MUESTRA<<CARMEN<<<<<<<"
         },
         "nationality": {
           "value": "ESP"
         },
+        "personal_number": {
+          "value": "BAB1834284<44282767Q0"
+        },
         "sex": {
           "value": "F"
         },
+        "state_of_issue": {
+          "value": "MADRID"
+        },
         "surnames": [
+          {
+            "value": "MUESTRA"
+          },
           {
             "value": "MUESTRA"
           }
         ]
       },
-      "processing_time": 3.321,
+      "processing_time": 2.504,
       "product": {
         "features": [
           "document_type",
           "document_number",
-          "country_of_issue",
           "surnames",
           "given_names",
           "sex",
           "birth_date",
           "birth_place",
           "nationality",
+          "personal_number",
+          "country_of_issue",
+          "state_of_issue",
           "issue_date",
           "expiry_date",
           "address",
-          "mrz1",
-          "mrz2",
-          "mrz3"
+          "mrz_line1",
+          "mrz_line2",
+          "mrz_line3"
         ],
         "name": "mindee/international_id",
         "type": "standard",
-        "version": "1.1"
+        "version": "2.0"
       },
-      "started_at": "2024-02-16T09:03:42.630707+00:00"
+      "started_at": "2024-02-16T09:15:46.186503+00:00"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"
   },
   "job": {
-    "available_at": "2024-02-16T09:03:46.136917",
-    "id": "8b90648e-dbb7-4883-afac-85dadf3bf61c",
-    "issued_at": "2024-02-16T09:03:42.630707",
+    "available_at": "2024-02-16T09:15:49.169430",
+    "id": "7ca0c8d7-6069-4473-8b38-c09fe78c4b13",
+    "issued_at": "2024-02-16T09:15:46.186503",
     "status": "completed"
   }
 }

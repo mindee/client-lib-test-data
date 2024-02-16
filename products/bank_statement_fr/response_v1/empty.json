@@ -1,0 +1,96 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": ["document", "job"],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/bank_statement_fr/v1/documents/db609177-788a-44e2-bacc-4b3bbcf129ac"
+  },
+  "document": {
+    "id": "db609177-788a-44e2-bacc-4b3bbcf129ac",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-02-16T14:04:32.707000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "account_number": {
+          "value": null
+        },
+        "bank_address": {
+          "value": null
+        },
+        "bank_name": {
+          "value": null
+        },
+        "client_address": {
+          "value": null
+        },
+        "client_name": {
+          "value": null
+        },
+        "closing_balance": {
+          "value": null
+        },
+        "opening_balance": {
+          "value": null
+        },
+        "statement_date": {
+          "value": null
+        },
+        "statement_end_date": {
+          "value": null
+        },
+        "statement_start_date": {
+          "value": null
+        },
+        "total_credits": {
+          "value": null
+        },
+        "total_debits": {
+          "value": null
+        },
+        "transactions": []
+      },
+      "processing_time": 0.169,
+      "product": {
+        "features": [
+          "account_number",
+          "bank_name",
+          "bank_address",
+          "client_name",
+          "client_address",
+          "statement_date",
+          "statement_start_date",
+          "statement_end_date",
+          "opening_balance",
+          "closing_balance",
+          "transactions",
+          "total_debits",
+          "total_credits"
+        ],
+        "name": "mindee/bank_statement_fr",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-02-16T14:04:32.380196+00:00"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-02-16T14:04:32.718174",
+    "id": "77be14b5-de3e-40cd-9d7e-5fe29e1fd942",
+    "issued_at": "2024-02-16T14:04:32.380196",
+    "status": "completed"
+  }
+}
