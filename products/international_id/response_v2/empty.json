@@ -1,0 +1,113 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/international_id/v2/documents/e0324c43-15c0-4edf-90aa-fc54096303ff"
+  },
+  "document": {
+    "id": "e0324c43-15c0-4edf-90aa-fc54096303ff",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-02-16T09:18:07.978000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "address": {
+          "value": null
+        },
+        "birth_date": {
+          "value": null
+        },
+        "birth_place": {
+          "value": null
+        },
+        "country_of_issue": {
+          "value": null
+        },
+        "document_number": {
+          "value": null
+        },
+        "document_type": {
+          "value": null
+        },
+        "expiry_date": {
+          "value": null
+        },
+        "given_names": [],
+        "issue_date": {
+          "value": null
+        },
+        "mrz_line1": {
+          "value": null
+        },
+        "mrz_line2": {
+          "value": null
+        },
+        "mrz_line3": {
+          "value": null
+        },
+        "nationality": {
+          "value": null
+        },
+        "personal_number": {
+          "value": null
+        },
+        "sex": {
+          "value": null
+        },
+        "state_of_issue": {
+          "value": null
+        },
+        "surnames": []
+      },
+      "processing_time": 0.213,
+      "product": {
+        "features": [
+          "document_type",
+          "document_number",
+          "surnames",
+          "given_names",
+          "sex",
+          "birth_date",
+          "birth_place",
+          "nationality",
+          "personal_number",
+          "country_of_issue",
+          "state_of_issue",
+          "issue_date",
+          "expiry_date",
+          "address",
+          "mrz_line1",
+          "mrz_line2",
+          "mrz_line3"
+        ],
+        "name": "mindee/international_id",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2024-02-16T09:18:07.502305+00:00"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-02-16T09:18:07.992194",
+    "id": "98186e5f-7a65-4ca3-924c-11dcd75cdbf6",
+    "issued_at": "2024-02-16T09:18:07.502305",
+    "status": "completed"
+  }
+}
