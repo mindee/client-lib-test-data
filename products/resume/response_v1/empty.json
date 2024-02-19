@@ -1,0 +1,96 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": ["document", "job"],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/resume/v1/documents/a7039593-fec3-4035-8502-1f243cc6d9fc"
+  },
+  "document": {
+    "id": "a7039593-fec3-4035-8502-1f243cc6d9fc",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-02-19T15:39:48.791000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "address": {
+          "value": null
+        },
+        "certificates": [],
+        "document_language": {
+          "value": null
+        },
+        "document_type": {
+          "value": null
+        },
+        "education": [],
+        "email_address": {
+          "value": null
+        },
+        "given_names": [],
+        "hard_skills": [],
+        "job_applied": {
+          "value": null
+        },
+        "languages": [],
+        "nationality": {
+          "value": null
+        },
+        "phone_number": {
+          "value": null
+        },
+        "profession": {
+          "value": null
+        },
+        "professional_experiences": [],
+        "social_networks_urls": [],
+        "soft_skills": [],
+        "surnames": []
+      },
+      "processing_time": 0.204,
+      "product": {
+        "features": [
+          "document_language",
+          "document_type",
+          "given_names",
+          "surnames",
+          "nationality",
+          "email_address",
+          "phone_number",
+          "address",
+          "social_networks_urls",
+          "profession",
+          "job_applied",
+          "languages",
+          "hard_skills",
+          "soft_skills",
+          "education",
+          "professional_experiences",
+          "certificates"
+        ],
+        "name": "mindee/resume",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-02-19T15:39:48.413024+00:00"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-02-19T15:39:48.802924",
+    "id": "727170da-a379-4e03-ba29-3625c7dad8e3",
+    "issued_at": "2024-02-19T15:39:48.413024",
+    "status": "completed"
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": ["document", "job"],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/resume/v1/documents/bc80bae0-af75-4464-95a9-2419403c75bf"
+  },
+  "document": {
+    "id": "bc80bae0-af75-4464-95a9-2419403c75bf",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-02-19T15:37:06.160000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "address": {
+          "value": "177 Great Portland Street, London W5W 6PQ"
+        },
+        "certificates": [
+          {
+            "grade": null,
+            "name": "PHP Framework (certificate): Zend, Codeigniter, Symfony",
+            "provider": null,
+            "year": "2014"
+          },
+          {
+            "grade": null,
+            "name": "Programming Languages: JavaScript, HTMLS, PHP OOP, CSS, SQL, MySQL",
+            "provider": null,
+            "year": null
+          }
+        ],
+        "document_language": {
+          "value": "ENG"
+        },
+        "document_type": {
+          "value": "RESUME"
+        },
+        "education": [
+          {
+            "degree_domain": "Computer Information Systems",
+            "degree_type": "Bachelor",
+            "end_month": null,
+            "end_year": null,
+            "school": "Columbia University, NY",
+            "start_month": null,
+            "start_year": "2014"
+          }
+        ],
+        "email_address": {
+          "value": "christoper.m@gmail.com"
+        },
+        "given_names": [
+          {
+            "value": "Christopher"
+          }
+        ],
+        "hard_skills": [
+          {
+            "value": "HTML5"
+          },
+          {
+            "value": "PHP OOP"
+          },
+          {
+            "value": "JavaScript"
+          },
+          {
+            "value": "CSS"
+          },
+          {
+            "value": "MySQL"
+          }
+        ],
+        "job_applied": {
+          "value": null
+        },
+        "languages": [
+          {
+            "language": "SPA",
+            "level": "Fluent"
+          },
+          {
+            "language": "ZHO",
+            "level": "Beginner"
+          },
+          {
+            "language": "DEU",
+            "level": "Intermediate"
+          }
+        ],
+        "nationality": {
+          "value": null
+        },
+        "phone_number": {
+          "value": "+44 (0) 20 7666 8555"
+        },
+        "profession": {
+          "value": "Senior Web Developer"
+        },
+        "professional_experiences": [
+          {
+            "contract_type": "Full-Time",
+            "department": null,
+            "employer": "Luna Web Design, New York",
+            "end_month": "05",
+            "end_year": "2019",
+            "role": "Web Developer",
+            "start_month": "09",
+            "start_year": "2015"
+          }
+        ],
+        "social_networks_urls": [
+          {
+            "name": "LinkedIn",
+            "url": "linkedin.com/christopher.morgan"
+          }
+        ],
+        "soft_skills": [
+          {
+            "value": "Project management"
+          },
+          {
+            "value": "Strong decision maker"
+          },
+          {
+            "value": "Innovative"
+          },
+          {
+            "value": "Complex problem solver"
+          },
+          {
+            "value": "Creative design"
+          },
+          {
+            "value": "Service-focused"
+          }
+        ],
+        "surnames": [
+          {
+            "value": "Morgan"
+          }
+        ]
+      },
+      "processing_time": 4.749,
+      "product": {
+        "features": [
+          "document_language",
+          "document_type",
+          "given_names",
+          "surnames",
+          "nationality",
+          "email_address",
+          "phone_number",
+          "address",
+          "social_networks_urls",
+          "profession",
+          "job_applied",
+          "languages",
+          "hard_skills",
+          "soft_skills",
+          "education",
+          "professional_experiences",
+          "certificates"
+        ],
+        "name": "mindee/resume",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-02-19T15:37:01.221803+00:00"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-02-19T15:37:06.173668",
+    "id": "7de33b6c-883e-47e1-be41-c3d65dbf1d44",
+    "issued_at": "2024-02-19T15:37:01.221803",
+    "status": "completed"
+  }
+}
