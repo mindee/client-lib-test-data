@@ -12,6 +12,7 @@
     "issued_at": "2023-03-16T12:33:49.602947",
     "available_at": null,
     "id": "76c90710-3a1b-4b91-8a39-31a6543e347c",
-    "status": "processing"
+    "status": "processing",
+    "error": {}
   }
 }
