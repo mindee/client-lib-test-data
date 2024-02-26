@@ -68,6 +68,7 @@
     "id": "b6caf9e8-9bcc-4412-bcb7-f5b416678f0d",
     "issued_at": "2023-03-21T13:52:56.326107",
     "status": "completed",
+    "status_code": 200,
     "error": {}
   }
 }
