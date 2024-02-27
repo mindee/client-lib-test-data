@@ -9,11 +9,5 @@
     "status": "failure",
     "status_code": 403,
     "url": "https://api.mindee.net/v1/products/mindee/invoice_splitter_async/v1/predict_async"
-  },
-  "job": {
-    "issued_at": "2023-01-01T00:00:00+00:00",
-    "available_at": null,
-    "id": null,
-    "status": null
   }
 }
