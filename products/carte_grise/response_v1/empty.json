@@ -13,7 +13,7 @@
     "inference": {
       "extras": {},
       "finished_at": "2023-01-27T09:32:01.790078",
-      "is_rotation_applied": "True",
+      "is_rotation_applied": true,
       "pages": [
         {
           "extras": {},
