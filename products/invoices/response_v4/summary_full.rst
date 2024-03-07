@@ -6,12 +6,12 @@ Document
 
 Inference
 #########
-:Product: mindee/invoices v4.4
+:Product: mindee/invoices v4.5
 :Rotation applied: Yes
 
 Prediction
 ==========
-:Locale: fr; fr; EUR;
+:Locale: en; en; CAD;
 :Invoice Number: 0042004801351
 :Reference Numbers: AD29094
 :Purchase Date: 2020-02-17
@@ -31,7 +31,9 @@ Prediction
 :Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
 :Customer Name: JIRO DOI
 :Customer Company Registrations:
-:Customer Address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
+:Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
+:Shipping Address:
+:Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
@@ -61,7 +63,7 @@ Page Predictions
 
 Page 0
 ------
-:Locale: fr; fr; EUR;
+:Locale: en; en; CAD;
 :Invoice Number: 0042004801351
 :Reference Numbers:
 :Purchase Date: 2020-02-17
@@ -82,6 +84,8 @@ Page 0
 :Customer Name:
 :Customer Company Registrations:
 :Customer Address:
+:Shipping Address:
+:Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
@@ -102,7 +106,7 @@ Page 0
 
 Page 1
 ------
-:Locale: fr; fr; EUR;
+:Locale: en; en; CAD;
 :Invoice Number:
 :Reference Numbers: AD29094
 :Purchase Date:
@@ -122,7 +126,9 @@ Page 1
 :Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
 :Customer Name: JIRO DOI
 :Customer Company Registrations:
-:Customer Address: 1954 Bloon Street West Toronto, ON, M6P 3K9 Canada
+:Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
+:Shipping Address:
+:Billing Address:
 :Document Type: INVOICE
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+

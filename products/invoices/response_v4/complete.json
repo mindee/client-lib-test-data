@@ -22,6 +22,28 @@
             "value": 0
           },
           "prediction": {
+            "billing_address": {
+              "confidence": 0.88,
+              "polygon": [
+                [
+                  0.034,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.354
+                ],
+                [
+                  0.034,
+                  0.354
+                ]
+              ],
+              "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
+            },
             "customer_address": {
               "confidence": 0.0,
               "polygon": [],
@@ -275,14 +297,19 @@
             ],
             "locale": {
               "confidence": 0.93,
-              "currency": "EUR",
-              "language": "fr"
+              "currency": "CAD",
+              "language": "en"
             },
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
             },
             "reference_numbers": [],
+            "shipping_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "supplier_address": {
               "confidence": 0.0,
               "polygon": [],
@@ -324,6 +351,7 @@
             ],
             "taxes": [
               {
+                "base": null,
                 "confidence": 0.95,
                 "polygon": [
                   [
@@ -422,6 +450,11 @@
             "value": 0
           },
           "prediction": {
+            "billing_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "customer_address": {
               "confidence": 0.26,
               "polygon": [
@@ -442,7 +475,7 @@
                   0.354
                 ]
               ],
-              "value": "1954 Bloon Street West Toronto, ON, M6P 3K9 Canada"
+              "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
             },
             "customer_company_registrations": [],
             "customer_name": {
@@ -591,8 +624,8 @@
             ],
             "locale": {
               "confidence": 0.93,
-              "currency": "EUR",
-              "language": "fr"
+              "currency": "CAD",
+              "language": "en"
             },
             "orientation": {
               "confidence": 0.99,
@@ -622,6 +655,12 @@
                 "value": "AD29094"
               }
             ],
+            "shipping_address": {
+              "confidence": 0.0,
+              "page_id": null,
+              "polygon": [],
+              "value": null
+            },
             "supplier_address": {
               "confidence": 0.53,
               "polygon": [
@@ -671,6 +710,7 @@
             "supplier_payment_details": [],
             "taxes": [
               {
+                "base": null,
                 "confidence": 0.79,
                 "polygon": [
                   [
@@ -747,6 +787,29 @@
         }
       ],
       "prediction": {
+        "billing_address": {
+          "confidence": 0.88,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.034,
+              0.303
+            ],
+            [
+              0.213,
+              0.303
+            ],
+            [
+              0.213,
+              0.354
+            ],
+            [
+              0.034,
+              0.354
+            ]
+          ],
+          "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
+        },
         "customer_address": {
           "confidence": 0.26,
           "page_id": 1,
@@ -768,7 +831,7 @@
               0.354
             ]
           ],
-          "value": "1954 Bloon Street West Toronto, ON, M6P 3K9 Canada"
+          "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
         },
         "customer_company_registrations": [],
         "customer_name": {
@@ -1132,8 +1195,14 @@
         ],
         "locale": {
           "confidence": 0.93,
-          "currency": "EUR",
-          "language": "fr"
+          "currency": "CAD",
+          "language": "en"
+        },
+        "shipping_address": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "reference_numbers": [
           {
@@ -1238,6 +1307,7 @@
         ],
         "taxes": [
           {
+            "base": null,
             "confidence": 0.95,
             "page_id": 0,
             "polygon": [
@@ -1351,13 +1421,15 @@
           "customer_name",
           "customer_company_registrations",
           "customer_address",
+          "shipping_address",
+          "billing_address",
           "document_type",
           "orientation",
           "line_items"
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "4.4"
+        "version": "4.5"
       },
       "started_at": "2023-10-10T15:16:54.559711"
     },
