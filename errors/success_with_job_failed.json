@@ -1,0 +1,20 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": ["job"],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/invoice_splitter/v1/documents/queue/dummy-queue-number"
+  },
+  "job": {
+    "available_at": "2024-01-01T01:01:01.000000",
+    "error": {
+      "code": "ServerError",
+      "details": "An error occurred",
+      "message": "An error occurred"
+    },
+    "id": "dummy-queue-number",
+    "issued_at": "2024-01-01T01:01:01.000000",
+    "status": "failed"
+  }
+}
