@@ -6,7 +6,7 @@ Document
 
 Inference
 #########
-:Product: mindee/invoices v4.5
+:Product: mindee/invoices v4.6
 :Rotation applied: Yes
 
 Prediction
@@ -29,9 +29,13 @@ Prediction
 :Supplier Name: TURNPIKE DESIGNS CO.
 :Supplier Company Registrations:
 :Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
+:Supplier Phone Number: 2121231234
+:Supplier Website: https://www.turnpike-designs.ca
+:Supplier Email: leo.davinci@turnpike-designs.ca
 :Customer Name: JIRO DOI
 :Customer Company Registrations:
 :Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
+:Customer ID: ABCD-1234
 :Shipping Address:
 :Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
@@ -81,9 +85,13 @@ Page 0
 :Supplier Name:
 :Supplier Company Registrations:
 :Supplier Address:
+:Supplier Phone Number: 2121231234
+:Supplier Website: https://www.turnpike-designs.ca
+:Supplier Email:
 :Customer Name:
 :Customer Company Registrations:
 :Customer Address:
+:Customer ID: ABCD-1234
 :Shipping Address:
 :Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
@@ -124,9 +132,13 @@ Page 1
 :Supplier Name: TURNPIKE DESIGNS CO.
 :Supplier Company Registrations:
 :Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
+:Supplier Phone Number:
+:Supplier Website:
+:Supplier Email: leo.davinci@turnpike-designs.ca
 :Customer Name: JIRO DOI
 :Customer Company Registrations:
 :Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
+:Customer ID:
 :Shipping Address:
 :Billing Address:
 :Document Type: INVOICE
