@@ -50,6 +50,28 @@
               "value": null
             },
             "customer_company_registrations": [],
+            "customer_id": {
+              "confidence": 0.8,
+              "polygon": [
+                [
+                  0.034,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.354
+                ],
+                [
+                  0.034,
+                  0.354
+                ]
+              ],
+              "value": "ABCD-1234"
+            },
             "customer_name": {
               "confidence": 0.0,
               "polygon": [],
@@ -316,6 +338,11 @@
               "value": null
             },
             "supplier_company_registrations": [],
+            "supplier_email": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "supplier_name": {
               "confidence": 0.0,
               "polygon": [],
@@ -349,6 +376,50 @@
                 "swift": null
               }
             ],
+            "supplier_phone_number": {
+              "confidence": 0.8,
+              "polygon": [
+                [
+                  0.034,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.354
+                ],
+                [
+                  0.034,
+                  0.354
+                ]
+              ],
+              "value": "2121231234"
+            },
+            "supplier_website": {
+              "confidence": 0.82,
+              "polygon": [
+                [
+                  0.034,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.354
+                ],
+                [
+                  0.034,
+                  0.354
+                ]
+              ],
+              "value": "https://www.turnpike-designs.ca"
+            },
             "taxes": [
               {
                 "base": null,
@@ -478,6 +549,11 @@
               "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
             },
             "customer_company_registrations": [],
+            "customer_id": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "customer_name": {
               "confidence": 0.87,
               "polygon": [
@@ -684,6 +760,28 @@
               "value": "156 University Ave, Toronto ON, Canada M5H 2H7"
             },
             "supplier_company_registrations": [],
+            "supplier_email": {
+              "confidence": 0.3,
+              "polygon": [
+                [
+                  0.164,
+                  0.088
+                ],
+                [
+                  0.399,
+                  0.088
+                ],
+                [
+                  0.399,
+                  0.147
+                ],
+                [
+                  0.164,
+                  0.147
+                ]
+              ],
+              "value": "leo.davinci@turnpike-designs.ca"
+            },
             "supplier_name": {
               "confidence": 0.7,
               "polygon": [
@@ -708,6 +806,16 @@
               "value": "TURNPIKE DESIGNS CO."
             },
             "supplier_payment_details": [],
+            "supplier_phone_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_website": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "taxes": [
               {
                 "base": null,
@@ -834,6 +942,29 @@
           "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
         },
         "customer_company_registrations": [],
+        "customer_id": {
+          "confidence": 0.8,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.034,
+              0.303
+            ],
+            [
+              0.213,
+              0.303
+            ],
+            [
+              0.213,
+              0.354
+            ],
+            [
+              0.034,
+              0.354
+            ]
+          ],
+          "value": "ABCD-1234"
+        },
         "customer_name": {
           "confidence": 0.87,
           "page_id": 1,
@@ -1253,6 +1384,29 @@
           "value": "156 University Ave, Toronto ON, Canada M5H 2H7"
         },
         "supplier_company_registrations": [],
+        "supplier_email": {
+          "confidence": 0.3,
+          "page_id": 1,
+          "polygon": [
+            [
+              0.164,
+              0.088
+            ],
+            [
+              0.399,
+              0.088
+            ],
+            [
+              0.399,
+              0.147
+            ],
+            [
+              0.164,
+              0.147
+            ]
+          ],
+          "value": "leo.davinci@turnpike-designs.ca"
+        },
         "supplier_name": {
           "confidence": 0.7,
           "page_id": 1,
@@ -1305,6 +1459,52 @@
             "swift": null
           }
         ],
+        "supplier_phone_number": {
+          "confidence": 0.8,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.034,
+              0.303
+            ],
+            [
+              0.213,
+              0.303
+            ],
+            [
+              0.213,
+              0.354
+            ],
+            [
+              0.034,
+              0.354
+            ]
+          ],
+          "value": "2121231234"
+        },
+        "supplier_website": {
+          "confidence": 0.82,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.034,
+              0.303
+            ],
+            [
+              0.213,
+              0.303
+            ],
+            [
+              0.213,
+              0.354
+            ],
+            [
+              0.034,
+              0.354
+            ]
+          ],
+          "value": "https://www.turnpike-designs.ca"
+        },
         "taxes": [
           {
             "base": null,
@@ -1418,9 +1618,13 @@
           "supplier_name",
           "supplier_company_registrations",
           "supplier_address",
+          "supplier_phone_number",
+          "supplier_website",
+          "supplier_email",
           "customer_name",
           "customer_company_registrations",
           "customer_address",
+          "customer_id",
           "shipping_address",
           "billing_address",
           "document_type",
@@ -1429,7 +1633,7 @@
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "4.5"
+        "version": "4.6"
       },
       "started_at": "2023-10-10T15:16:54.559711"
     },
