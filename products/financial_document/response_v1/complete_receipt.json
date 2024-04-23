@@ -9,13 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
   },
   "document": {
-    "annotations": {
-      "labels": {}
-    },
-    "id": "69eabee4-8f29-4e11-bb24-6a4ed965910a",
+    "id": "6f110dbe-688d-4113-a38d-8d90f4e42dcb",
     "inference": {
       "extras": {},
-      "finished_at": "2023-01-18T09:46:40.004912",
+      "finished_at": "2024-04-23T13:06:29.739560",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -25,19 +22,30 @@
             "value": 0
           },
           "prediction": {
+            "billing_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "category": {
-              "confidence": 0.94,
+              "confidence": 0.89,
               "value": "food"
             },
             "customer_address": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
             "customer_company_registrations": [],
-            "customer_name": {
-              "confidence": 0,
+            "customer_id": {
+              "confidence": 0.0,
               "polygon": [],
+              "value": null
+            },
+            "customer_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "raw_value": null,
               "value": null
             },
             "date": {
@@ -63,7 +71,7 @@
               "value": "2014-07-07"
             },
             "document_type": {
-              "value": "EXPENSE RECEIPT"
+              "value": "CREDIT CARD RECEIPT"
             },
             "due_date": {
               "confidence": 0.99,
@@ -88,64 +96,70 @@
               "value": "2014-07-07"
             },
             "invoice_number": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
             "line_items": [],
             "locale": {
-              "confidence": 0.72,
+              "confidence": 0.55,
+              "country": "US",
               "currency": "USD",
-              "language": "en"
+              "language": "en",
+              "value": "en-US"
             },
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
             },
-            "supplier_payment_details": [],
-            "supplier_phone_number": {
-              "confidence": 0.89,
-              "polygon": [
-                [
-                  0.069,
-                  0.452
-                ],
-                [
-                  0.931,
-                  0.452
-                ],
-                [
-                  0.931,
-                  0.464
-                ],
-                [
-                  0.069,
-                  0.464
-                ]
-              ],
-              "value": "867-5309"
-            },
             "reference_numbers": [],
-            "subcategory": {
-              "confidence": 0.98,
-              "value": "restaurant"
-            },
-            "supplier_address": {
-              "confidence": 0,
+            "shipping_address": {
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
+            "subcategory": {
+              "confidence": 0.95,
+              "value": "restaurant"
+            },
+            "supplier_address": {
+              "confidence": 0.73,
+              "polygon": [
+                [
+                  0.27,
+                  0.252
+                ],
+                [
+                  0.65,
+                  0.252
+                ],
+                [
+                  0.65,
+                  0.339
+                ],
+                [
+                  0.27,
+                  0.339
+                ]
+              ],
+              "value": "2513 s stemmons freeway lewisville tx 75067"
+            },
             "supplier_company_registrations": [],
+            "supplier_email": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "supplier_name": {
-              "confidence": 0.97,
+              "confidence": 0.95,
               "polygon": [
                 [
                   0.386,
-                  0.228
+                  0.226
                 ],
                 [
                   0.479,
-                  0.228
+                  0.226
                 ],
                 [
                   0.479,
@@ -156,7 +170,36 @@
                   0.252
                 ]
               ],
+              "raw_value": "Logans",
               "value": "LOGANS"
+            },
+            "supplier_payment_details": [],
+            "supplier_phone_number": {
+              "confidence": 0.71,
+              "polygon": [
+                [
+                  0.365,
+                  0.339
+                ],
+                [
+                  0.56,
+                  0.339
+                ],
+                [
+                  0.56,
+                  0.366
+                ],
+                [
+                  0.365,
+                  0.366
+                ]
+              ],
+              "value": "9724596042"
+            },
+            "supplier_website": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "taxes": [
               {
@@ -190,19 +233,19 @@
               "polygon": [
                 [
                   0.635,
-                  0.142
+                  0.143
                 ],
                 [
                   0.778,
-                  0.142
+                  0.143
                 ],
                 [
                   0.778,
-                  0.168
+                  0.167
                 ],
                 [
                   0.635,
-                  0.168
+                  0.167
                 ]
               ],
               "value": "20:20"
@@ -282,21 +325,34 @@
         }
       ],
       "prediction": {
+        "billing_address": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
         "category": {
-          "confidence": 0.94,
+          "confidence": 0.89,
           "value": "food"
         },
         "customer_address": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
         "customer_company_registrations": [],
-        "customer_name": {
-          "confidence": 0,
+        "customer_id": {
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
+          "value": null
+        },
+        "customer_name": {
+          "confidence": 0.0,
+          "page_id": 0,
+          "polygon": [],
+          "raw_value": null,
           "value": null
         },
         "date": {
@@ -323,7 +379,7 @@
           "value": "2014-07-07"
         },
         "document_type": {
-          "value": "EXPENSE RECEIPT"
+          "value": "CREDIT CARD RECEIPT"
         },
         "due_date": {
           "confidence": 0.99,
@@ -349,64 +405,71 @@
           "value": "2014-07-07"
         },
         "invoice_number": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
         "line_items": [],
         "locale": {
-          "confidence": 0.72,
+          "confidence": 0.55,
+          "country": "US",
           "currency": "USD",
-          "language": "en"
-        },
-        "supplier_payment_details": [],
-        "supplier_phone_number": {
-          "confidence": 0.89,
-          "page_id": 0,
-          "polygon": [
-            [
-              0.069,
-              0.452
-            ],
-            [
-              0.931,
-              0.452
-            ],
-            [
-              0.931,
-              0.464
-            ],
-            [
-              0.069,
-              0.464
-            ]
-          ],
-          "value": "867-5309"
+          "language": "en",
+          "value": "en-US"
         },
         "reference_numbers": [],
-        "subcategory": {
-          "confidence": 0.98,
-          "value": "restaurant"
-        },
-        "supplier_address": {
-          "confidence": 0,
+        "shipping_address": {
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
+        "subcategory": {
+          "confidence": 0.95,
+          "value": "restaurant"
+        },
+        "supplier_address": {
+          "confidence": 0.73,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.27,
+              0.252
+            ],
+            [
+              0.65,
+              0.252
+            ],
+            [
+              0.65,
+              0.339
+            ],
+            [
+              0.27,
+              0.339
+            ]
+          ],
+          "value": "2513 s stemmons freeway lewisville tx 75067"
+        },
         "supplier_company_registrations": [],
+        "supplier_email": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
         "supplier_name": {
-          "confidence": 0.97,
+          "confidence": 0.95,
           "page_id": 0,
           "polygon": [
             [
               0.386,
-              0.228
+              0.226
             ],
             [
               0.479,
-              0.228
+              0.226
             ],
             [
               0.479,
@@ -417,7 +480,38 @@
               0.252
             ]
           ],
+          "raw_value": "Logans",
           "value": "LOGANS"
+        },
+        "supplier_payment_details": [],
+        "supplier_phone_number": {
+          "confidence": 0.71,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.365,
+              0.339
+            ],
+            [
+              0.56,
+              0.339
+            ],
+            [
+              0.56,
+              0.366
+            ],
+            [
+              0.365,
+              0.366
+            ]
+          ],
+          "value": "9724596042"
+        },
+        "supplier_website": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "taxes": [
           {
@@ -453,19 +547,19 @@
           "polygon": [
             [
               0.635,
-              0.142
+              0.143
             ],
             [
               0.778,
-              0.142
+              0.143
             ],
             [
               0.778,
-              0.168
+              0.167
             ],
             [
               0.635,
-              0.168
+              0.167
             ]
           ],
           "value": "20:20"
@@ -541,12 +635,12 @@
         },
         "total_tax": {
           "confidence": 0.97,
-          "page_id": 0,
+          "page_id": null,
           "polygon": [],
           "value": 3.34
         }
       },
-      "processing_time": 1.702,
+      "processing_time": 0.702,
       "product": {
         "features": [
           "locale",
@@ -561,9 +655,15 @@
           "supplier_name",
           "supplier_company_registrations",
           "supplier_address",
+          "supplier_phone_number",
           "customer_name",
+          "supplier_website",
+          "supplier_email",
           "customer_company_registrations",
           "customer_address",
+          "customer_id",
+          "shipping_address",
+          "billing_address",
           "document_type",
           "orientation",
           "subcategory",
@@ -575,11 +675,11 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.0"
+        "version": "1.6"
       },
-      "started_at": "2023-01-18T09:46:38.302797"
+      "started_at": "2024-04-23T13:06:29.037915"
     },
     "n_pages": 1,
-    "name": "receipt.jpg"
+    "name": "us_receipt.jpg"
   }
 }

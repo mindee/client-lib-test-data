@@ -1,17 +1,17 @@
 ########
 Document
 ########
-:Mindee ID: 69eabee4-8f29-4e11-bb24-6a4ed965910a
-:Filename: receipt.jpg
+:Mindee ID: 6f110dbe-688d-4113-a38d-8d90f4e42dcb
+:Filename: us_receipt.jpg
 
 Inference
 #########
-:Product: mindee/financial_document v1.0
+:Product: mindee/financial_document v1.6
 :Rotation applied: Yes
 
 Prediction
 ==========
-:Locale: en; en; USD;
+:Locale: en-US; en; US; USD;
 :Invoice Number:
 :Reference Numbers:
 :Purchase Date: 2014-07-07
@@ -27,12 +27,17 @@ Prediction
 :Supplier Payment Details:
 :Supplier Name: LOGANS
 :Supplier Company Registrations:
-:Supplier Address:
-:Supplier Phone Number: 867-5309
+:Supplier Address: 2513 s stemmons freeway lewisville tx 75067
+:Supplier Phone Number: 9724596042
 :Customer Name:
+:Supplier Website:
+:Supplier Email:
 :Customer Company Registrations:
 :Customer Address:
-:Document Type: EXPENSE RECEIPT
+:Customer ID:
+:Shipping Address:
+:Billing Address:
+:Document Type: CREDIT CARD RECEIPT
 :Purchase Subcategory: restaurant
 :Purchase Category: food
 :Total Tax: 3.34
@@ -45,7 +50,7 @@ Page Predictions
 
 Page 0
 ------
-:Locale: en; en; USD;
+:Locale: en-US; en; US; USD;
 :Invoice Number:
 :Reference Numbers:
 :Purchase Date: 2014-07-07
@@ -61,12 +66,17 @@ Page 0
 :Supplier Payment Details:
 :Supplier Name: LOGANS
 :Supplier Company Registrations:
-:Supplier Address:
-:Supplier Phone Number: 867-5309
+:Supplier Address: 2513 s stemmons freeway lewisville tx 75067
+:Supplier Phone Number: 9724596042
 :Customer Name:
+:Supplier Website:
+:Supplier Email:
 :Customer Company Registrations:
 :Customer Address:
-:Document Type: EXPENSE RECEIPT
+:Customer ID:
+:Shipping Address:
+:Billing Address:
+:Document Type: CREDIT CARD RECEIPT
 :Purchase Subcategory: restaurant
 :Purchase Category: food
 :Total Tax: 3.34

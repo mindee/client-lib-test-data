@@ -9,13 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
   },
   "document": {
-    "annotations": {
-      "labels": {}
-    },
-    "id": "69eabee4-8f29-4e11-bb24-6a4ed965910a",
+    "id": "c2a3c343-b411-4bde-9211-1200d02537f6",
     "inference": {
       "extras": {},
-      "finished_at": "2023-01-18T09:58:44.056235",
+      "finished_at": "2024-04-23T13:02:51.148495",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -25,76 +22,121 @@
             "value": 0
           },
           "prediction": {
+            "billing_address": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.033,
+                  0.244
+                ],
+                [
+                  0.205,
+                  0.244
+                ],
+                [
+                  0.205,
+                  0.278
+                ],
+                [
+                  0.033,
+                  0.278
+                ]
+              ],
+              "value": "4312 Wood Road New York, NY 10031"
+            },
             "category": {
               "confidence": 0.76,
               "value": "miscellaneous"
             },
             "customer_address": {
-              "confidence": 0.58,
+              "confidence": 0.99,
               "polygon": [
                 [
-                  0.358,
+                  0.355,
                   0.244
                 ],
                 [
-                  0.524,
+                  0.528,
                   0.244
                 ],
                 [
-                  0.524,
-                  0.277
+                  0.528,
+                  0.278
                 ],
                 [
-                  0.358,
-                  0.277
+                  0.355,
+                  0.278
                 ]
               ],
               "value": "2019 Redbud Drive New York, NY 10011"
             },
             "customer_company_registrations": [],
-            "customer_name": {
-              "confidence": 0.77,
+            "customer_id": {
+              "confidence": 0.99,
               "polygon": [
                 [
-                  0.358,
-                  0.226
+                  0.172,
+                  0.92
                 ],
                 [
-                  0.482,
-                  0.226
+                  0.28,
+                  0.92
                 ],
                 [
-                  0.482,
-                  0.238
+                  0.28,
+                  0.943
                 ],
                 [
-                  0.358,
-                  0.238
+                  0.172,
+                  0.943
                 ]
               ],
+              "value": "1234567890"
+            },
+            "customer_name": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.033,
+                  0.226
+                ],
+                [
+                  0.164,
+                  0.226
+                ],
+                [
+                  0.164,
+                  0.242
+                ],
+                [
+                  0.033,
+                  0.242
+                ]
+              ],
+              "raw_value": "Jessie M Horne",
               "value": "JESSIE M HORNE"
             },
             "date": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.858,
-                  0.231
+                  0.855,
+                  0.229
                 ],
                 [
-                  0.949,
-                  0.231
+                  0.95,
+                  0.229
                 ],
                 [
-                  0.949,
+                  0.95,
                   0.245
                 ],
                 [
-                  0.858,
+                  0.855,
                   0.245
                 ]
               ],
-              "value": "2019-02-11"
+              "value": "2019-11-02"
             },
             "document_type": {
               "value": "INVOICE"
@@ -103,66 +145,66 @@
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.857,
-                  0.283
+                  0.853,
+                  0.28
                 ],
                 [
-                  0.949,
-                  0.283
+                  0.95,
+                  0.28
                 ],
                 [
-                  0.949,
+                  0.95,
                   0.296
                 ],
                 [
-                  0.857,
+                  0.853,
                   0.296
                 ]
               ],
               "value": "2019-02-26"
             },
             "invoice_number": {
-              "confidence": 0.94,
+              "confidence": 0.99,
               "polygon": [
                 [
-                  0.881,
-                  0.205
+                  0.879,
+                  0.204
                 ],
                 [
-                  0.946,
-                  0.205
+                  0.948,
+                  0.204
                 ],
                 [
-                  0.946,
-                  0.218
+                  0.948,
+                  0.22
                 ],
                 [
-                  0.881,
-                  0.218
+                  0.879,
+                  0.22
                 ]
               ],
               "value": "INT-001"
             },
             "line_items": [
               {
-                "confidence": 0.97,
+                "confidence": 0.99,
                 "description": "Front and rear brake cables",
                 "polygon": [
                   [
-                    0.073,
-                    0.384
+                    0.07,
+                    0.379
                   ],
                   [
-                    0.931,
-                    0.384
+                    0.934,
+                    0.379
                   ],
                   [
-                    0.931,
-                    0.397
+                    0.934,
+                    0.403
                   ],
                   [
-                    0.073,
-                    0.397
+                    0.07,
+                    0.403
                   ]
                 ],
                 "product_code": null,
@@ -173,24 +215,24 @@
                 "unit_price": 100.0
               },
               {
-                "confidence": 0.98,
+                "confidence": 0.99,
                 "description": "New set of pedal arms",
                 "polygon": [
                   [
-                    0.069,
-                    0.418
+                    0.068,
+                    0.413
                   ],
                   [
-                    0.931,
-                    0.418
+                    0.932,
+                    0.413
                   ],
                   [
-                    0.931,
-                    0.433
+                    0.932,
+                    0.437
                   ],
                   [
-                    0.069,
-                    0.433
+                    0.068,
+                    0.437
                   ]
                 ],
                 "product_code": null,
@@ -201,24 +243,24 @@
                 "unit_price": 25.0
               },
               {
-                "confidence": 0.97,
-                "description": "Labon 3hrs",
+                "confidence": 0.99,
+                "description": "Labor 3hrs",
                 "polygon": [
                   [
                     0.069,
-                    0.452
+                    0.446
                   ],
                   [
-                    0.931,
-                    0.452
+                    0.932,
+                    0.446
                   ],
                   [
-                    0.931,
-                    0.464
+                    0.932,
+                    0.47
                   ],
                   [
                     0.069,
-                    0.464
+                    0.47
                   ]
                 ],
                 "product_code": null,
@@ -230,92 +272,127 @@
               }
             ],
             "locale": {
-              "confidence": 0.82,
+              "confidence": 0.84,
+              "country": null,
               "currency": "USD",
-              "language": "en"
+              "language": "en",
+              "value": null
             },
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
             },
-            "supplier_payment_details": [],
-            "supplier_phone_number": {
-              "confidence": 0,
-              "polygon": [],
-              "value": null
-            },
             "reference_numbers": [
               {
-                "confidence": 0.88,
+                "confidence": 0.99,
                 "polygon": [
                   [
-                    0.861,
-                    0.256
+                    0.858,
+                    0.255
                   ],
                   [
-                    0.949,
-                    0.256
+                    0.95,
+                    0.255
                   ],
                   [
-                    0.949,
-                    0.27
+                    0.95,
+                    0.271
                   ],
                   [
-                    0.861,
-                    0.27
+                    0.858,
+                    0.271
                   ]
                 ],
                 "value": "2412/2019"
               }
             ],
+            "shipping_address": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.355,
+                  0.244
+                ],
+                [
+                  0.528,
+                  0.244
+                ],
+                [
+                  0.528,
+                  0.278
+                ],
+                [
+                  0.355,
+                  0.278
+                ]
+              ],
+              "value": "2019 Redbud Drive New York, NY 10011"
+            },
             "subcategory": {
-              "confidence": 0,
+              "confidence": 0.0,
               "value": null
             },
             "supplier_address": {
-              "confidence": 0.38,
+              "confidence": 0.99,
               "polygon": [
                 [
-                  0.036,
-                  0.075
+                  0.032,
+                  0.072
                 ],
                 [
-                  0.182,
-                  0.075
+                  0.184,
+                  0.072
                 ],
                 [
-                  0.182,
-                  0.109
+                  0.184,
+                  0.111
                 ],
                 [
-                  0.036,
-                  0.109
+                  0.032,
+                  0.111
                 ]
               ],
               "value": "4490 Oak Drive Albany, NY 12210"
             },
             "supplier_company_registrations": [],
+            "supplier_email": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "supplier_name": {
-              "confidence": 0.88,
+              "confidence": 0.99,
               "polygon": [
                 [
-                  0.036,
-                  0.034
+                  0.033,
+                  0.031
                 ],
                 [
-                  0.192,
-                  0.034
+                  0.193,
+                  0.031
                 ],
                 [
-                  0.192,
-                  0.05
+                  0.193,
+                  0.055
                 ],
                 [
-                  0.036,
-                  0.05
+                  0.033,
+                  0.055
                 ]
               ],
+              "raw_value": "John Smith",
               "value": "JOHN SMITH"
+            },
+            "supplier_payment_details": [],
+            "supplier_phone_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_website": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "taxes": [
               {
@@ -324,20 +401,20 @@
                 "confidence": 0.98,
                 "polygon": [
                   [
-                    0.654,
+                    0.656,
                     0.516
                   ],
                   [
-                    0.931,
+                    0.932,
                     0.516
                   ],
                   [
-                    0.931,
-                    0.534
+                    0.932,
+                    0.533
                   ],
                   [
-                    0.654,
-                    0.534
+                    0.656,
+                    0.533
                   ]
                 ],
                 "rate": 5.0,
@@ -345,12 +422,12 @@
               }
             ],
             "time": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
             "tip": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
@@ -358,42 +435,42 @@
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.841,
-                  0.549
+                  0.835,
+                  0.546
                 ],
                 [
-                  0.936,
-                  0.549
+                  0.935,
+                  0.546
                 ],
                 [
-                  0.936,
-                  0.572
+                  0.935,
+                  0.573
                 ],
                 [
-                  0.841,
-                  0.572
+                  0.835,
+                  0.573
                 ]
               ],
               "value": 204.75
             },
             "total_net": {
-              "confidence": 0.91,
+              "confidence": 0.99,
               "polygon": [
                 [
-                  0.879,
-                  0.484
+                  0.874,
+                  0.482
                 ],
                 [
-                  0.931,
-                  0.484
+                  0.935,
+                  0.482
                 ],
                 [
-                  0.931,
-                  0.496
+                  0.935,
+                  0.501
                 ],
                 [
-                  0.879,
-                  0.496
+                  0.874,
+                  0.501
                 ]
               ],
               "value": 195.0
@@ -407,55 +484,102 @@
         }
       ],
       "prediction": {
+        "billing_address": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.033,
+              0.244
+            ],
+            [
+              0.205,
+              0.244
+            ],
+            [
+              0.205,
+              0.278
+            ],
+            [
+              0.033,
+              0.278
+            ]
+          ],
+          "value": "4312 Wood Road New York, NY 10031"
+        },
         "category": {
           "confidence": 0.76,
           "value": "miscellaneous"
         },
         "customer_address": {
-          "confidence": 0.58,
+          "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.358,
+              0.355,
               0.244
             ],
             [
-              0.524,
+              0.528,
               0.244
             ],
             [
-              0.524,
-              0.277
+              0.528,
+              0.278
             ],
             [
-              0.358,
-              0.277
+              0.355,
+              0.278
             ]
           ],
           "value": "2019 Redbud Drive New York, NY 10011"
         },
         "customer_company_registrations": [],
-        "customer_name": {
-          "confidence": 0.77,
+        "customer_id": {
+          "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.358,
-              0.226
+              0.172,
+              0.92
             ],
             [
-              0.482,
-              0.226
+              0.28,
+              0.92
             ],
             [
-              0.482,
-              0.238
+              0.28,
+              0.943
             ],
             [
-              0.358,
-              0.238
+              0.172,
+              0.943
             ]
           ],
+          "value": "1234567890"
+        },
+        "customer_name": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.033,
+              0.226
+            ],
+            [
+              0.164,
+              0.226
+            ],
+            [
+              0.164,
+              0.242
+            ],
+            [
+              0.033,
+              0.242
+            ]
+          ],
+          "raw_value": "Jessie M Horne",
           "value": "JESSIE M HORNE"
         },
         "date": {
@@ -463,23 +587,23 @@
           "page_id": 0,
           "polygon": [
             [
-              0.858,
-              0.231
+              0.855,
+              0.229
             ],
             [
-              0.949,
-              0.231
+              0.95,
+              0.229
             ],
             [
-              0.949,
+              0.95,
               0.245
             ],
             [
-              0.858,
+              0.855,
               0.245
             ]
           ],
-          "value": "2019-02-11"
+          "value": "2019-11-02"
         },
         "document_type": {
           "value": "INVOICE"
@@ -489,68 +613,68 @@
           "page_id": 0,
           "polygon": [
             [
-              0.857,
-              0.283
+              0.853,
+              0.28
             ],
             [
-              0.949,
-              0.283
+              0.95,
+              0.28
             ],
             [
-              0.949,
+              0.95,
               0.296
             ],
             [
-              0.857,
+              0.853,
               0.296
             ]
           ],
           "value": "2019-02-26"
         },
         "invoice_number": {
-          "confidence": 0.94,
+          "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.881,
-              0.205
+              0.879,
+              0.204
             ],
             [
-              0.946,
-              0.205
+              0.948,
+              0.204
             ],
             [
-              0.946,
-              0.218
+              0.948,
+              0.22
             ],
             [
-              0.881,
-              0.218
+              0.879,
+              0.22
             ]
           ],
           "value": "INT-001"
         },
         "line_items": [
           {
-            "confidence": 0.97,
+            "confidence": 0.99,
             "description": "Front and rear brake cables",
             "page_id": 0,
             "polygon": [
               [
-                0.073,
-                0.384
+                0.07,
+                0.379
               ],
               [
-                0.931,
-                0.384
+                0.934,
+                0.379
               ],
               [
-                0.931,
-                0.397
+                0.934,
+                0.403
               ],
               [
-                0.073,
-                0.397
+                0.07,
+                0.403
               ]
             ],
             "product_code": null,
@@ -561,25 +685,25 @@
             "unit_price": 100.0
           },
           {
-            "confidence": 0.98,
+            "confidence": 0.99,
             "description": "New set of pedal arms",
             "page_id": 0,
             "polygon": [
               [
-                0.069,
-                0.418
+                0.068,
+                0.413
               ],
               [
-                0.931,
-                0.418
+                0.932,
+                0.413
               ],
               [
-                0.931,
-                0.433
+                0.932,
+                0.437
               ],
               [
-                0.069,
-                0.433
+                0.068,
+                0.437
               ]
             ],
             "product_code": null,
@@ -590,25 +714,25 @@
             "unit_price": 25.0
           },
           {
-            "confidence": 0.97,
-            "description": "Labon 3hrs",
+            "confidence": 0.99,
+            "description": "Labor 3hrs",
             "page_id": 0,
             "polygon": [
               [
                 0.069,
-                0.452
+                0.446
               ],
               [
-                0.931,
-                0.452
+                0.932,
+                0.446
               ],
               [
-                0.931,
-                0.464
+                0.932,
+                0.47
               ],
               [
                 0.069,
-                0.464
+                0.47
               ]
             ],
             "product_code": null,
@@ -620,91 +744,130 @@
           }
         ],
         "locale": {
-          "confidence": 0.82,
+          "confidence": 0.84,
+          "country": null,
           "currency": "USD",
-          "language": "en"
-        },
-        "supplier_payment_details": [],
-        "supplier_phone_number": {
-          "confidence": 0,
-          "polygon": [],
+          "language": "en",
           "value": null
         },
         "reference_numbers": [
           {
-            "confidence": 0.88,
+            "confidence": 0.99,
             "page_id": 0,
             "polygon": [
               [
-                0.861,
-                0.256
+                0.858,
+                0.255
               ],
               [
-                0.949,
-                0.256
+                0.95,
+                0.255
               ],
               [
-                0.949,
-                0.27
+                0.95,
+                0.271
               ],
               [
-                0.861,
-                0.27
+                0.858,
+                0.271
               ]
             ],
             "value": "2412/2019"
           }
         ],
-        "subcategory": {
-          "confidence": 0,
-          "value": null
-        },
-        "supplier_address": {
-          "confidence": 0.38,
+        "shipping_address": {
+          "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.036,
-              0.075
+              0.355,
+              0.244
             ],
             [
-              0.182,
-              0.075
+              0.528,
+              0.244
             ],
             [
-              0.182,
-              0.109
+              0.528,
+              0.278
             ],
             [
-              0.036,
-              0.109
+              0.355,
+              0.278
+            ]
+          ],
+          "value": "2019 Redbud Drive New York, NY 10011"
+        },
+        "subcategory": {
+          "confidence": 0.0,
+          "value": null
+        },
+        "supplier_address": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.032,
+              0.072
+            ],
+            [
+              0.184,
+              0.072
+            ],
+            [
+              0.184,
+              0.111
+            ],
+            [
+              0.032,
+              0.111
             ]
           ],
           "value": "4490 Oak Drive Albany, NY 12210"
         },
         "supplier_company_registrations": [],
+        "supplier_email": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
         "supplier_name": {
-          "confidence": 0.88,
+          "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.036,
-              0.034
+              0.033,
+              0.031
             ],
             [
-              0.192,
-              0.034
+              0.193,
+              0.031
             ],
             [
-              0.192,
-              0.05
+              0.193,
+              0.055
             ],
             [
-              0.036,
-              0.05
+              0.033,
+              0.055
             ]
           ],
+          "raw_value": "John Smith",
           "value": "JOHN SMITH"
+        },
+        "supplier_payment_details": [],
+        "supplier_phone_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "supplier_website": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "taxes": [
           {
@@ -714,20 +877,20 @@
             "page_id": 0,
             "polygon": [
               [
-                0.654,
+                0.656,
                 0.516
               ],
               [
-                0.931,
+                0.932,
                 0.516
               ],
               [
-                0.931,
-                0.534
+                0.932,
+                0.533
               ],
               [
-                0.654,
-                0.534
+                0.656,
+                0.533
               ]
             ],
             "rate": 5.0,
@@ -751,43 +914,43 @@
           "page_id": 0,
           "polygon": [
             [
-              0.841,
-              0.549
+              0.835,
+              0.546
             ],
             [
-              0.936,
-              0.549
+              0.935,
+              0.546
             ],
             [
-              0.936,
-              0.572
+              0.935,
+              0.573
             ],
             [
-              0.841,
-              0.572
+              0.835,
+              0.573
             ]
           ],
           "value": 204.75
         },
         "total_net": {
-          "confidence": 0.91,
+          "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.879,
-              0.484
+              0.874,
+              0.482
             ],
             [
-              0.931,
-              0.484
+              0.935,
+              0.482
             ],
             [
-              0.931,
-              0.496
+              0.935,
+              0.501
             ],
             [
-              0.879,
-              0.496
+              0.874,
+              0.501
             ]
           ],
           "value": 195.0
@@ -799,7 +962,7 @@
           "value": 9.75
         }
       },
-      "processing_time": 1.367,
+      "processing_time": 0.91,
       "product": {
         "features": [
           "locale",
@@ -816,8 +979,13 @@
           "supplier_address",
           "supplier_phone_number",
           "customer_name",
+          "supplier_website",
+          "supplier_email",
           "customer_company_registrations",
           "customer_address",
+          "customer_id",
+          "shipping_address",
+          "billing_address",
           "document_type",
           "orientation",
           "subcategory",
@@ -829,11 +997,11 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.0"
+        "version": "1.6"
       },
-      "started_at": "2023-01-18T09:58:42.689183"
+      "started_at": "2024-04-23T13:02:50.238435"
     },
     "n_pages": 1,
-    "name": "invoice.jpg"
+    "name": "default_sample.jpg"
   }
 }
