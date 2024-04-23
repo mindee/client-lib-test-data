@@ -1,6 +1,6 @@
 Page 0
 ------
-:Locale: en; en; USD;
+:Locale: en-US; en; US; USD;
 :Invoice Number:
 :Reference Numbers:
 :Purchase Date: 2014-07-07
@@ -16,12 +16,17 @@ Page 0
 :Supplier Payment Details:
 :Supplier Name: LOGANS
 :Supplier Company Registrations:
-:Supplier Address:
-:Supplier Phone Number: 867-5309
+:Supplier Address: 2513 s stemmons freeway lewisville tx 75067
+:Supplier Phone Number: 9724596042
 :Customer Name:
+:Supplier Website:
+:Supplier Email:
 :Customer Company Registrations:
 :Customer Address:
-:Document Type: EXPENSE RECEIPT
+:Customer ID:
+:Shipping Address:
+:Billing Address:
+:Document Type: CREDIT CARD RECEIPT
 :Purchase Subcategory: restaurant
 :Purchase Category: food
 :Total Tax: 3.34
