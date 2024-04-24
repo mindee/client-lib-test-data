@@ -1,0 +1,62 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/us_mail/v2/documents/562966cf-7eb3-45ec-ac4a-a8a798bc397a"
+  },
+  "document": {
+    "id": "562966cf-7eb3-45ec-ac4a-a8a798bc397a",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-04-24T15:34:08.462000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "recipient_addresses": [],
+        "recipient_names": [],
+        "sender_address": {
+          "value": null
+        },
+        "sender_name": {
+          "value": null
+        }
+      },
+      "processing_time": 0.202,
+      "product": {
+        "features": [
+          "sender_name",
+          "sender_address",
+          "recipient_names",
+          "recipient_addresses"
+        ],
+        "name": "mindee/us_mail",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2024-04-24T15:34:07.938000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-04-24T15:34:08.474000",
+    "error": {},
+    "id": "758b453d-793c-41b0-bddc-eb6eca5d5b18",
+    "issued_at": "2024-04-24T15:34:07.938000",
+    "status": "completed"
+  }
+}
