@@ -6,13 +6,13 @@
     ],
     "status": "success",
     "status_code": 201,
-    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v5/predict"
+    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
   },
   "document": {
-    "id": "44d15af2-47d7-4921-92c1-32c06743d3b9",
+    "id": "c0016a46-53e2-41fb-8910-b319f4e6c80c",
     "inference": {
       "extras": {},
-      "finished_at": "2024-05-15T09:02:58.822600",
+      "finished_at": "2024-05-15T14:20:20.940165",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -22,9 +22,31 @@
             "value": 0
           },
           "prediction": {
+            "billing_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "category": {
               "confidence": 0.99,
               "value": "food"
+            },
+            "customer_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "customer_company_registrations": [],
+            "customer_id": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "customer_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "raw_value": null,
+              "value": null
             },
             "date": {
               "confidence": 0.99,
@@ -48,9 +70,57 @@
               ],
               "value": "2016-02-26"
             },
+            "document_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.329,
+                  0.678
+                ],
+                [
+                  0.428,
+                  0.678
+                ],
+                [
+                  0.428,
+                  0.705
+                ],
+                [
+                  0.329,
+                  0.705
+                ]
+              ],
+              "value": "54/7500"
+            },
             "document_type": {
-              "confidence": 1.0,
               "value": "EXPENSE RECEIPT"
+            },
+            "due_date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.475,
+                  0.173
+                ],
+                [
+                  0.61,
+                  0.173
+                ],
+                [
+                  0.61,
+                  0.195
+                ],
+                [
+                  0.475,
+                  0.195
+                ]
+              ],
+              "value": "2016-02-26"
+            },
+            "invoice_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "line_items": [
               {
@@ -74,7 +144,10 @@
                     0.293
                   ]
                 ],
+                "product_code": null,
                 "quantity": 2.0,
+                "tax_amount": null,
+                "tax_rate": null,
                 "total_amount": 10.2,
                 "unit_price": null
               }
@@ -111,6 +184,12 @@
                 ]
               ],
               "value": "54/7500"
+            },
+            "reference_numbers": [],
+            "shipping_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "subcategory": {
               "confidence": 0.99,
@@ -186,6 +265,11 @@
                 "value": "232153895"
               }
             ],
+            "supplier_email": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "supplier_name": {
               "confidence": 0.96,
               "polygon": [
@@ -209,6 +293,7 @@
               "raw_value": "Clachan",
               "value": "Clachan"
             },
+            "supplier_payment_details": [],
             "supplier_phone_number": {
               "confidence": 0.39,
               "polygon": [
@@ -230,6 +315,11 @@
                 ]
               ],
               "value": "02074940834"
+            },
+            "supplier_website": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "taxes": [
               {
@@ -338,9 +428,35 @@
         }
       ],
       "prediction": {
+        "billing_address": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
         "category": {
           "confidence": 0.99,
           "value": "food"
+        },
+        "customer_address": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "customer_company_registrations": [],
+        "customer_id": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "customer_name": {
+          "confidence": 0.0,
+          "page_id": 0,
+          "polygon": [],
+          "raw_value": null,
+          "value": null
         },
         "date": {
           "confidence": 0.99,
@@ -365,9 +481,60 @@
           ],
           "value": "2016-02-26"
         },
+        "document_number": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.329,
+              0.678
+            ],
+            [
+              0.428,
+              0.678
+            ],
+            [
+              0.428,
+              0.705
+            ],
+            [
+              0.329,
+              0.705
+            ]
+          ],
+          "value": "54/7500"
+        },
         "document_type": {
-          "confidence": 1.0,
           "value": "EXPENSE RECEIPT"
+        },
+        "due_date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.475,
+              0.173
+            ],
+            [
+              0.61,
+              0.173
+            ],
+            [
+              0.61,
+              0.195
+            ],
+            [
+              0.475,
+              0.195
+            ]
+          ],
+          "value": "2016-02-26"
+        },
+        "invoice_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "line_items": [
           {
@@ -392,7 +559,10 @@
                 0.293
               ]
             ],
+            "product_code": null,
             "quantity": 2.0,
+            "tax_amount": null,
+            "tax_rate": null,
             "total_amount": 10.2,
             "unit_price": null
           }
@@ -426,6 +596,13 @@
             ]
           ],
           "value": "54/7500"
+        },
+        "reference_numbers": [],
+        "shipping_address": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "subcategory": {
           "confidence": 0.99,
@@ -504,6 +681,12 @@
             "value": "232153895"
           }
         ],
+        "supplier_email": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
         "supplier_name": {
           "confidence": 0.96,
           "page_id": 0,
@@ -528,6 +711,7 @@
           "raw_value": "Clachan",
           "value": "Clachan"
         },
+        "supplier_payment_details": [],
         "supplier_phone_number": {
           "confidence": 0.39,
           "page_id": 0,
@@ -550,6 +734,12 @@
             ]
           ],
           "value": "02074940834"
+        },
+        "supplier_website": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "taxes": [
           {
@@ -661,33 +851,46 @@
           "value": 1.7
         }
       },
-      "processing_time": 1.18,
+      "processing_time": 1.246,
       "product": {
         "features": [
           "locale",
-          "category",
-          "subcategory",
-          "document_type",
+          "invoice_number",
+          "receipt_number",
+          "document_number",
+          "reference_numbers",
           "date",
-          "time",
-          "total_amount",
+          "due_date",
           "total_net",
-          "total_tax",
-          "tip",
+          "total_amount",
           "taxes",
+          "supplier_payment_details",
           "supplier_name",
           "supplier_company_registrations",
           "supplier_address",
           "supplier_phone_number",
+          "customer_name",
+          "supplier_website",
+          "supplier_email",
+          "customer_company_registrations",
+          "customer_address",
+          "customer_id",
+          "shipping_address",
+          "billing_address",
+          "document_type",
           "orientation",
-          "receipt_number",
+          "subcategory",
+          "category",
+          "total_tax",
+          "tip",
+          "time",
           "line_items"
         ],
-        "name": "mindee/expense_receipts",
+        "name": "mindee/financial_document",
         "type": "standard",
-        "version": "5.2"
+        "version": "1.7"
       },
-      "started_at": "2024-05-15T09:02:57.642819"
+      "started_at": "2024-05-15T14:20:19.694315"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"
