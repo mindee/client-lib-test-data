@@ -1,57 +1,59 @@
 ########
 Document
 ########
-:Mindee ID: c2a3c343-b411-4bde-9211-1200d02537f6
+:Mindee ID: 6c95cfa0-aed1-4ab1-a562-2a0e529a2327
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/financial_document v1.6
+:Product: mindee/financial_document v1.7
 :Rotation applied: Yes
 
 Prediction
 ==========
-:Locale: en; USD;
-:Invoice Number: INT-001
-:Reference Numbers: 2412/2019
-:Purchase Date: 2019-11-02
-:Due Date: 2019-02-26
-:Total Net: 195.00
-:Total Amount: 204.75
+:Locale: en; CAD;
+:Invoice Number: 14
+:Receipt Number:
+:Document Number: 14
+:Reference Numbers: AD29094
+:Purchase Date: 2018-09-25
+:Due Date:
+:Total Net:
+:Total Amount: 2608.20
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
-  |               |        | 5.00     | 9.75          |
+  |               |        | 8.00     | 193.20        |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier Name: JOHN SMITH
+:Supplier Name: TURNPIKE DESIGNS
 :Supplier Company Registrations:
-:Supplier Address: 4490 Oak Drive Albany, NY 12210
-:Supplier Phone Number:
-:Customer Name: JESSIE M HORNE
+:Supplier Address: 156 University Ave, Toronto ON, Canada, M5H 2H7
+:Supplier Phone Number: 4165551212
+:Customer Name: JIRO DOI
 :Supplier Website:
-:Supplier Email:
+:Supplier Email: i_doi@example.com
 :Customer Company Registrations:
-:Customer Address: 2019 Redbud Drive New York, NY 10011
-:Customer ID: 1234567890
-:Shipping Address: 2019 Redbud Drive New York, NY 10011
-:Billing Address: 4312 Wood Road New York, NY 10031
+:Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
+:Customer ID:
+:Shipping Address:
+:Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
 :Purchase Subcategory:
 :Purchase Category: miscellaneous
-:Total Tax: 9.75
+:Total Tax: 193.20
 :Tip and Gratuity:
 :Purchase Time:
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
   | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
   +======================================+==============+==========+============+==============+==============+============+
-  | Front and rear brake cables          |              | 1.00     |            |              | 100.00       | 100.00     |
+  | Platinum web hosting package Down... |              | 1.00     |            |              | 65.00        | 65.00      |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | New set of pedal arms                |              | 2.00     |            |              | 50.00        | 25.00      |
+  | 2 page website design Includes ba... |              | 3.00     |            |              | 2100.00      | 2100.00    |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Labor 3hrs                           |              | 3.00     |            |              | 45.00        | 15.00      |
+  | Mobile designs Includes responsiv... |              | 1.00     |            |              | 250.00       | 250.00     |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
 
 Page Predictions
@@ -59,45 +61,47 @@ Page Predictions
 
 Page 0
 ------
-:Locale: en; USD;
-:Invoice Number: INT-001
-:Reference Numbers: 2412/2019
-:Purchase Date: 2019-11-02
-:Due Date: 2019-02-26
-:Total Net: 195.00
-:Total Amount: 204.75
+:Locale: en; CAD;
+:Invoice Number: 14
+:Receipt Number:
+:Document Number: 14
+:Reference Numbers: AD29094
+:Purchase Date: 2018-09-25
+:Due Date:
+:Total Net:
+:Total Amount: 2608.20
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
-  |               |        | 5.00     | 9.75          |
+  |               |        | 8.00     | 193.20        |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier Name: JOHN SMITH
+:Supplier Name: TURNPIKE DESIGNS
 :Supplier Company Registrations:
-:Supplier Address: 4490 Oak Drive Albany, NY 12210
-:Supplier Phone Number:
-:Customer Name: JESSIE M HORNE
+:Supplier Address: 156 University Ave, Toronto ON, Canada, M5H 2H7
+:Supplier Phone Number: 4165551212
+:Customer Name: JIRO DOI
 :Supplier Website:
-:Supplier Email:
+:Supplier Email: i_doi@example.com
 :Customer Company Registrations:
-:Customer Address: 2019 Redbud Drive New York, NY 10011
-:Customer ID: 1234567890
-:Shipping Address: 2019 Redbud Drive New York, NY 10011
-:Billing Address: 4312 Wood Road New York, NY 10031
+:Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
+:Customer ID:
+:Shipping Address:
+:Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
 :Purchase Subcategory:
 :Purchase Category: miscellaneous
-:Total Tax: 9.75
+:Total Tax: 193.20
 :Tip and Gratuity:
 :Purchase Time:
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
   | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
   +======================================+==============+==========+============+==============+==============+============+
-  | Front and rear brake cables          |              | 1.00     |            |              | 100.00       | 100.00     |
+  | Platinum web hosting package Down... |              | 1.00     |            |              | 65.00        | 65.00      |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | New set of pedal arms                |              | 2.00     |            |              | 50.00        | 25.00      |
+  | 2 page website design Includes ba... |              | 3.00     |            |              | 2100.00      | 2100.00    |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Labor 3hrs                           |              | 3.00     |            |              | 45.00        | 15.00      |
+  | Mobile designs Includes responsiv... |              | 1.00     |            |              | 250.00       | 250.00     |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+

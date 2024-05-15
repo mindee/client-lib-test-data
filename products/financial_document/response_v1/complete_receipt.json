@@ -6,13 +6,13 @@
     ],
     "status": "success",
     "status_code": 201,
-    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
+    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v5/predict"
   },
   "document": {
-    "id": "6f110dbe-688d-4113-a38d-8d90f4e42dcb",
+    "id": "44d15af2-47d7-4921-92c1-32c06743d3b9",
     "inference": {
       "extras": {},
-      "finished_at": "2024-04-23T13:06:29.739560",
+      "finished_at": "2024-05-15T09:02:58.822600",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -22,523 +22,561 @@
             "value": 0
           },
           "prediction": {
-            "billing_address": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
-            },
             "category": {
-              "confidence": 0.89,
+              "confidence": 0.99,
               "value": "food"
-            },
-            "customer_address": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
-            },
-            "customer_company_registrations": [],
-            "customer_id": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
-            },
-            "customer_name": {
-              "confidence": 0.0,
-              "polygon": [],
-              "raw_value": null,
-              "value": null
             },
             "date": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.238,
-                  0.132
+                  0.475,
+                  0.173
                 ],
                 [
-                  0.353,
-                  0.132
+                  0.61,
+                  0.173
                 ],
                 [
-                  0.353,
-                  0.161
+                  0.61,
+                  0.195
                 ],
                 [
-                  0.238,
-                  0.161
+                  0.475,
+                  0.195
                 ]
               ],
-              "value": "2014-07-07"
+              "value": "2016-02-26"
             },
             "document_type": {
-              "value": "CREDIT CARD RECEIPT"
+              "confidence": 1.0,
+              "value": "EXPENSE RECEIPT"
             },
-            "due_date": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.238,
-                  0.132
+            "line_items": [
+              {
+                "confidence": 0.97,
+                "description": "Meantime Pale",
+                "polygon": [
+                  [
+                    0.235,
+                    0.268
+                  ],
+                  [
+                    0.686,
+                    0.261
+                  ],
+                  [
+                    0.687,
+                    0.285
+                  ],
+                  [
+                    0.236,
+                    0.293
+                  ]
                 ],
-                [
-                  0.353,
-                  0.132
-                ],
-                [
-                  0.353,
-                  0.161
-                ],
-                [
-                  0.238,
-                  0.161
-                ]
-              ],
-              "value": "2014-07-07"
-            },
-            "invoice_number": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
-            },
-            "line_items": [],
+                "quantity": 2.0,
+                "total_amount": 10.2,
+                "unit_price": null
+              }
+            ],
             "locale": {
-              "confidence": 0.55,
-              "country": "US",
-              "currency": "USD",
+              "confidence": 0.82,
+              "country": "GB",
+              "currency": "GBP",
               "language": "en",
-              "value": "en-US"
+              "value": "en-GB"
             },
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
             },
-            "reference_numbers": [],
-            "shipping_address": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+            "receipt_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.329,
+                  0.678
+                ],
+                [
+                  0.428,
+                  0.678
+                ],
+                [
+                  0.428,
+                  0.705
+                ],
+                [
+                  0.329,
+                  0.705
+                ]
+              ],
+              "value": "54/7500"
             },
             "subcategory": {
-              "confidence": 0.95,
+              "confidence": 0.99,
               "value": "restaurant"
             },
             "supplier_address": {
-              "confidence": 0.73,
+              "confidence": 0.87,
               "polygon": [
                 [
-                  0.27,
-                  0.252
+                  0.34,
+                  0.086
                 ],
                 [
-                  0.65,
-                  0.252
+                  0.532,
+                  0.086
                 ],
                 [
-                  0.65,
-                  0.339
+                  0.532,
+                  0.131
                 ],
                 [
-                  0.27,
-                  0.339
+                  0.34,
+                  0.131
                 ]
               ],
-              "value": "2513 s stemmons freeway lewisville tx 75067"
+              "value": "34 kingley street w1b 5qh"
             },
-            "supplier_company_registrations": [],
-            "supplier_email": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
-            },
+            "supplier_company_registrations": [
+              {
+                "confidence": 0.95,
+                "polygon": [
+                  [
+                    0.375,
+                    0.941
+                  ],
+                  [
+                    0.548,
+                    0.941
+                  ],
+                  [
+                    0.548,
+                    0.971
+                  ],
+                  [
+                    0.375,
+                    0.971
+                  ]
+                ],
+                "type": "VAT NUMBER",
+                "value": "232153895"
+              },
+              {
+                "confidence": 0.98,
+                "polygon": [
+                  [
+                    0.215,
+                    0.71
+                  ],
+                  [
+                    0.374,
+                    0.71
+                  ],
+                  [
+                    0.374,
+                    0.736
+                  ],
+                  [
+                    0.215,
+                    0.736
+                  ]
+                ],
+                "type": "VAT NUMBER",
+                "value": "232153895"
+              }
+            ],
             "supplier_name": {
-              "confidence": 0.95,
+              "confidence": 0.96,
               "polygon": [
                 [
-                  0.386,
-                  0.226
+                  0.395,
+                  0.067
                 ],
                 [
-                  0.479,
-                  0.226
+                  0.475,
+                  0.067
                 ],
                 [
-                  0.479,
-                  0.252
+                  0.475,
+                  0.088
                 ],
                 [
-                  0.386,
-                  0.252
+                  0.395,
+                  0.088
                 ]
               ],
-              "raw_value": "Logans",
-              "value": "LOGANS"
+              "raw_value": "Clachan",
+              "value": "Clachan"
             },
-            "supplier_payment_details": [],
             "supplier_phone_number": {
-              "confidence": 0.71,
+              "confidence": 0.39,
               "polygon": [
                 [
-                  0.365,
-                  0.339
+                  0.371,
+                  0.905
                 ],
                 [
-                  0.56,
-                  0.339
+                  0.575,
+                  0.905
                 ],
                 [
-                  0.56,
-                  0.366
+                  0.575,
+                  0.936
                 ],
                 [
-                  0.365,
-                  0.366
+                  0.371,
+                  0.936
                 ]
               ],
-              "value": "9724596042"
-            },
-            "supplier_website": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "value": "02074940834"
             },
             "taxes": [
               {
-                "base": null,
-                "code": "TAX",
-                "confidence": 0.97,
+                "base": 8.5,
+                "code": "VAT",
+                "confidence": 0.99,
                 "polygon": [
                   [
-                    0.147,
-                    0.65
+                    0.17,
+                    0.647
                   ],
                   [
-                    0.78,
-                    0.65
+                    0.719,
+                    0.647
                   ],
                   [
-                    0.78,
-                    0.679
+                    0.719,
+                    0.675
                   ],
                   [
-                    0.147,
-                    0.679
+                    0.17,
+                    0.675
                   ]
                 ],
-                "rate": null,
-                "value": 3.34
+                "rate": 20.0,
+                "value": 1.7
               }
             ],
             "time": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.635,
-                  0.143
+                  0.619,
+                  0.172
                 ],
                 [
-                  0.778,
-                  0.143
+                  0.679,
+                  0.172
                 ],
                 [
-                  0.778,
-                  0.167
+                  0.679,
+                  0.19
                 ],
                 [
-                  0.635,
-                  0.167
+                  0.619,
+                  0.19
                 ]
               ],
-              "value": "20:20"
+              "value": "15:20"
             },
             "tip": {
-              "confidence": 0.89,
-              "polygon": [
-                [
-                  0.6,
-                  0.752
-                ],
-                [
-                  0.774,
-                  0.752
-                ],
-                [
-                  0.774,
-                  0.801
-                ],
-                [
-                  0.6,
-                  0.801
-                ]
-              ],
-              "value": 10.0
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "total_amount": {
-              "confidence": 0.05,
+              "confidence": 0.99,
               "polygon": [
                 [
-                  0.61,
-                  0.813
+                  0.549,
+                  0.619
                 ],
                 [
-                  0.773,
-                  0.813
+                  0.715,
+                  0.619
                 ],
                 [
-                  0.773,
-                  0.87
+                  0.715,
+                  0.642
                 ],
                 [
-                  0.61,
-                  0.87
+                  0.549,
+                  0.642
                 ]
               ],
-              "value": 53.82
+              "value": 10.2
             },
             "total_net": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.698,
-                  0.625
+                  0.641,
+                  0.38
                 ],
                 [
-                  0.78,
-                  0.625
+                  0.695,
+                  0.38
                 ],
                 [
-                  0.78,
-                  0.649
+                  0.695,
+                  0.399
                 ],
                 [
-                  0.698,
-                  0.649
+                  0.641,
+                  0.399
                 ]
               ],
-              "value": 40.48
+              "value": 8.5
             },
             "total_tax": {
-              "confidence": 0.97,
+              "confidence": 0.99,
               "polygon": [],
-              "value": 3.34
+              "value": 1.7
             }
           }
         }
       ],
       "prediction": {
-        "billing_address": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
-        },
         "category": {
-          "confidence": 0.89,
+          "confidence": 0.99,
           "value": "food"
-        },
-        "customer_address": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
-        },
-        "customer_company_registrations": [],
-        "customer_id": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
-        },
-        "customer_name": {
-          "confidence": 0.0,
-          "page_id": 0,
-          "polygon": [],
-          "raw_value": null,
-          "value": null
         },
         "date": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.238,
-              0.132
+              0.475,
+              0.173
             ],
             [
-              0.353,
-              0.132
+              0.61,
+              0.173
             ],
             [
-              0.353,
-              0.161
+              0.61,
+              0.195
             ],
             [
-              0.238,
-              0.161
+              0.475,
+              0.195
             ]
           ],
-          "value": "2014-07-07"
+          "value": "2016-02-26"
         },
         "document_type": {
-          "value": "CREDIT CARD RECEIPT"
+          "confidence": 1.0,
+          "value": "EXPENSE RECEIPT"
         },
-        "due_date": {
+        "line_items": [
+          {
+            "confidence": 0.97,
+            "description": "Meantime Pale",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.235,
+                0.268
+              ],
+              [
+                0.686,
+                0.261
+              ],
+              [
+                0.687,
+                0.285
+              ],
+              [
+                0.236,
+                0.293
+              ]
+            ],
+            "quantity": 2.0,
+            "total_amount": 10.2,
+            "unit_price": null
+          }
+        ],
+        "locale": {
+          "confidence": 0.82,
+          "country": "GB",
+          "currency": "GBP",
+          "language": "en",
+          "value": "en-GB"
+        },
+        "receipt_number": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.238,
-              0.132
+              0.329,
+              0.678
             ],
             [
-              0.353,
-              0.132
+              0.428,
+              0.678
             ],
             [
-              0.353,
-              0.161
+              0.428,
+              0.705
             ],
             [
-              0.238,
-              0.161
+              0.329,
+              0.705
             ]
           ],
-          "value": "2014-07-07"
-        },
-        "invoice_number": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
-        },
-        "line_items": [],
-        "locale": {
-          "confidence": 0.55,
-          "country": "US",
-          "currency": "USD",
-          "language": "en",
-          "value": "en-US"
-        },
-        "reference_numbers": [],
-        "shipping_address": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "value": "54/7500"
         },
         "subcategory": {
-          "confidence": 0.95,
+          "confidence": 0.99,
           "value": "restaurant"
         },
         "supplier_address": {
-          "confidence": 0.73,
+          "confidence": 0.87,
           "page_id": 0,
           "polygon": [
             [
-              0.27,
-              0.252
+              0.34,
+              0.086
             ],
             [
-              0.65,
-              0.252
+              0.532,
+              0.086
             ],
             [
-              0.65,
-              0.339
+              0.532,
+              0.131
             ],
             [
-              0.27,
-              0.339
+              0.34,
+              0.131
             ]
           ],
-          "value": "2513 s stemmons freeway lewisville tx 75067"
+          "value": "34 kingley street w1b 5qh"
         },
-        "supplier_company_registrations": [],
-        "supplier_email": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
-        },
-        "supplier_name": {
-          "confidence": 0.95,
-          "page_id": 0,
-          "polygon": [
-            [
-              0.386,
-              0.226
-            ],
-            [
-              0.479,
-              0.226
-            ],
-            [
-              0.479,
-              0.252
-            ],
-            [
-              0.386,
-              0.252
-            ]
-          ],
-          "raw_value": "Logans",
-          "value": "LOGANS"
-        },
-        "supplier_payment_details": [],
-        "supplier_phone_number": {
-          "confidence": 0.71,
-          "page_id": 0,
-          "polygon": [
-            [
-              0.365,
-              0.339
-            ],
-            [
-              0.56,
-              0.339
-            ],
-            [
-              0.56,
-              0.366
-            ],
-            [
-              0.365,
-              0.366
-            ]
-          ],
-          "value": "9724596042"
-        },
-        "supplier_website": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
-        },
-        "taxes": [
+        "supplier_company_registrations": [
           {
-            "base": null,
-            "code": "TAX",
-            "confidence": 0.97,
+            "confidence": 0.95,
             "page_id": 0,
             "polygon": [
               [
-                0.147,
-                0.65
+                0.375,
+                0.941
               ],
               [
-                0.78,
-                0.65
+                0.548,
+                0.941
               ],
               [
-                0.78,
-                0.679
+                0.548,
+                0.971
               ],
               [
-                0.147,
-                0.679
+                0.375,
+                0.971
               ]
             ],
-            "rate": null,
-            "value": 3.34
+            "type": "VAT NUMBER",
+            "value": "232153895"
+          },
+          {
+            "confidence": 0.98,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.215,
+                0.71
+              ],
+              [
+                0.374,
+                0.71
+              ],
+              [
+                0.374,
+                0.736
+              ],
+              [
+                0.215,
+                0.736
+              ]
+            ],
+            "type": "VAT NUMBER",
+            "value": "232153895"
+          }
+        ],
+        "supplier_name": {
+          "confidence": 0.96,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.395,
+              0.067
+            ],
+            [
+              0.475,
+              0.067
+            ],
+            [
+              0.475,
+              0.088
+            ],
+            [
+              0.395,
+              0.088
+            ]
+          ],
+          "raw_value": "Clachan",
+          "value": "Clachan"
+        },
+        "supplier_phone_number": {
+          "confidence": 0.39,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.371,
+              0.905
+            ],
+            [
+              0.575,
+              0.905
+            ],
+            [
+              0.575,
+              0.936
+            ],
+            [
+              0.371,
+              0.936
+            ]
+          ],
+          "value": "02074940834"
+        },
+        "taxes": [
+          {
+            "base": 8.5,
+            "code": "VAT",
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.17,
+                0.647
+              ],
+              [
+                0.719,
+                0.647
+              ],
+              [
+                0.719,
+                0.675
+              ],
+              [
+                0.17,
+                0.675
+              ]
+            ],
+            "rate": 20.0,
+            "value": 1.7
           }
         ],
         "time": {
@@ -546,140 +584,112 @@
           "page_id": 0,
           "polygon": [
             [
-              0.635,
-              0.143
+              0.619,
+              0.172
             ],
             [
-              0.778,
-              0.143
+              0.679,
+              0.172
             ],
             [
-              0.778,
-              0.167
+              0.679,
+              0.19
             ],
             [
-              0.635,
-              0.167
+              0.619,
+              0.19
             ]
           ],
-          "value": "20:20"
+          "value": "15:20"
         },
         "tip": {
-          "confidence": 0.89,
-          "page_id": 0,
-          "polygon": [
-            [
-              0.6,
-              0.752
-            ],
-            [
-              0.774,
-              0.752
-            ],
-            [
-              0.774,
-              0.801
-            ],
-            [
-              0.6,
-              0.801
-            ]
-          ],
-          "value": 10.0
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "total_amount": {
-          "confidence": 0.05,
+          "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.61,
-              0.813
+              0.549,
+              0.619
             ],
             [
-              0.773,
-              0.813
+              0.715,
+              0.619
             ],
             [
-              0.773,
-              0.87
+              0.715,
+              0.642
             ],
             [
-              0.61,
-              0.87
+              0.549,
+              0.642
             ]
           ],
-          "value": 53.82
+          "value": 10.2
         },
         "total_net": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.698,
-              0.625
+              0.641,
+              0.38
             ],
             [
-              0.78,
-              0.625
+              0.695,
+              0.38
             ],
             [
-              0.78,
-              0.649
+              0.695,
+              0.399
             ],
             [
-              0.698,
-              0.649
+              0.641,
+              0.399
             ]
           ],
-          "value": 40.48
+          "value": 8.5
         },
         "total_tax": {
-          "confidence": 0.97,
+          "confidence": 0.99,
           "page_id": null,
           "polygon": [],
-          "value": 3.34
+          "value": 1.7
         }
       },
-      "processing_time": 0.702,
+      "processing_time": 1.18,
       "product": {
         "features": [
           "locale",
-          "invoice_number",
-          "reference_numbers",
+          "category",
+          "subcategory",
+          "document_type",
           "date",
-          "due_date",
-          "total_net",
+          "time",
           "total_amount",
+          "total_net",
+          "total_tax",
+          "tip",
           "taxes",
-          "supplier_payment_details",
           "supplier_name",
           "supplier_company_registrations",
           "supplier_address",
           "supplier_phone_number",
-          "customer_name",
-          "supplier_website",
-          "supplier_email",
-          "customer_company_registrations",
-          "customer_address",
-          "customer_id",
-          "shipping_address",
-          "billing_address",
-          "document_type",
           "orientation",
-          "subcategory",
-          "category",
-          "total_tax",
-          "tip",
-          "time",
+          "receipt_number",
           "line_items"
         ],
-        "name": "mindee/financial_document",
+        "name": "mindee/expense_receipts",
         "type": "standard",
-        "version": "1.6"
+        "version": "5.2"
       },
-      "started_at": "2024-04-23T13:06:29.037915"
+      "started_at": "2024-05-15T09:02:57.642819"
     },
     "n_pages": 1,
-    "name": "us_receipt.jpg"
+    "name": "default_sample.jpg"
   }
 }

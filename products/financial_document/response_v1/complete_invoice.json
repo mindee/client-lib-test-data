@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
   },
   "document": {
-    "id": "c2a3c343-b411-4bde-9211-1200d02537f6",
+    "id": "6c95cfa0-aed1-4ab1-a562-2a0e529a2327",
     "inference": {
       "extras": {},
-      "finished_at": "2024-04-23T13:02:51.148495",
+      "finished_at": "2024-05-15T09:03:00.246957",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -26,255 +26,243 @@
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.033,
-                  0.244
+                  0.032,
+                  0.302
                 ],
                 [
-                  0.205,
-                  0.244
+                  0.215,
+                  0.302
                 ],
                 [
-                  0.205,
-                  0.278
+                  0.215,
+                  0.356
                 ],
                 [
-                  0.033,
-                  0.278
+                  0.032,
+                  0.356
                 ]
               ],
-              "value": "4312 Wood Road New York, NY 10031"
+              "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
             },
             "category": {
-              "confidence": 0.76,
+              "confidence": 0.68,
               "value": "miscellaneous"
             },
             "customer_address": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.355,
-                  0.244
+                  0.032,
+                  0.302
                 ],
                 [
-                  0.528,
-                  0.244
+                  0.215,
+                  0.302
                 ],
                 [
-                  0.528,
-                  0.278
+                  0.215,
+                  0.356
                 ],
                 [
-                  0.355,
-                  0.278
+                  0.032,
+                  0.356
                 ]
               ],
-              "value": "2019 Redbud Drive New York, NY 10011"
+              "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
             },
             "customer_company_registrations": [],
             "customer_id": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.172,
-                  0.92
-                ],
-                [
-                  0.28,
-                  0.92
-                ],
-                [
-                  0.28,
-                  0.943
-                ],
-                [
-                  0.172,
-                  0.943
-                ]
-              ],
-              "value": "1234567890"
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "customer_name": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.033,
-                  0.226
+                  0.032,
+                  0.284
                 ],
                 [
-                  0.164,
-                  0.226
+                  0.1,
+                  0.284
                 ],
                 [
-                  0.164,
-                  0.242
+                  0.1,
+                  0.299
                 ],
                 [
-                  0.033,
-                  0.242
+                  0.032,
+                  0.299
                 ]
               ],
-              "raw_value": "Jessie M Horne",
-              "value": "JESSIE M HORNE"
+              "raw_value": "Jiro Doi",
+              "value": "JIRO DOI"
             },
             "date": {
+              "confidence": 0.96,
+              "polygon": [
+                [
+                  0.839,
+                  0.303
+                ],
+                [
+                  0.934,
+                  0.303
+                ],
+                [
+                  0.934,
+                  0.32
+                ],
+                [
+                  0.839,
+                  0.32
+                ]
+              ],
+              "value": "2018-09-25"
+            },
+            "document_number": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.855,
-                  0.229
+                  0.841,
+                  0.264
                 ],
                 [
-                  0.95,
-                  0.229
+                  0.862,
+                  0.264
                 ],
                 [
-                  0.95,
-                  0.245
+                  0.862,
+                  0.283
                 ],
                 [
-                  0.855,
-                  0.245
+                  0.841,
+                  0.283
                 ]
               ],
-              "value": "2019-11-02"
+              "value": "14"
             },
             "document_type": {
               "value": "INVOICE"
             },
             "due_date": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.853,
-                  0.28
-                ],
-                [
-                  0.95,
-                  0.28
-                ],
-                [
-                  0.95,
-                  0.296
-                ],
-                [
-                  0.853,
-                  0.296
-                ]
-              ],
-              "value": "2019-02-26"
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "invoice_number": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.879,
-                  0.204
+                  0.841,
+                  0.264
                 ],
                 [
-                  0.948,
-                  0.204
+                  0.862,
+                  0.264
                 ],
                 [
-                  0.948,
-                  0.22
+                  0.862,
+                  0.283
                 ],
                 [
-                  0.879,
-                  0.22
+                  0.841,
+                  0.283
                 ]
               ],
-              "value": "INT-001"
+              "value": "14"
             },
             "line_items": [
               {
                 "confidence": 0.99,
-                "description": "Front and rear brake cables",
+                "description": "Platinum web hosting package Down 35mb, Up 100mb",
                 "polygon": [
                   [
-                    0.07,
-                    0.379
+                    0.032,
+                    0.501
                   ],
                   [
-                    0.934,
-                    0.379
+                    0.965,
+                    0.501
                   ],
                   [
-                    0.934,
-                    0.403
+                    0.965,
+                    0.537
                   ],
                   [
-                    0.07,
-                    0.403
+                    0.032,
+                    0.537
                   ]
                 ],
                 "product_code": null,
                 "quantity": 1.0,
                 "tax_amount": null,
                 "tax_rate": null,
-                "total_amount": 100.0,
-                "unit_price": 100.0
+                "total_amount": 65.0,
+                "unit_price": 65.0
               },
               {
                 "confidence": 0.99,
-                "description": "New set of pedal arms",
+                "description": "2 page website design Includes basic wireframes, and responsive templates",
                 "polygon": [
                   [
-                    0.068,
-                    0.413
+                    0.031,
+                    0.558
                   ],
                   [
-                    0.932,
-                    0.413
+                    0.966,
+                    0.558
                   ],
                   [
-                    0.932,
-                    0.437
+                    0.966,
+                    0.6
                   ],
                   [
-                    0.068,
-                    0.437
-                  ]
-                ],
-                "product_code": null,
-                "quantity": 2.0,
-                "tax_amount": null,
-                "tax_rate": null,
-                "total_amount": 50.0,
-                "unit_price": 25.0
-              },
-              {
-                "confidence": 0.99,
-                "description": "Labor 3hrs",
-                "polygon": [
-                  [
-                    0.069,
-                    0.446
-                  ],
-                  [
-                    0.932,
-                    0.446
-                  ],
-                  [
-                    0.932,
-                    0.47
-                  ],
-                  [
-                    0.069,
-                    0.47
+                    0.031,
+                    0.6
                   ]
                 ],
                 "product_code": null,
                 "quantity": 3.0,
                 "tax_amount": null,
                 "tax_rate": null,
-                "total_amount": 45.0,
-                "unit_price": 15.0
+                "total_amount": 2100.0,
+                "unit_price": 2100.0
+              },
+              {
+                "confidence": 0.99,
+                "description": "Mobile designs Includes responsive navigation",
+                "polygon": [
+                  [
+                    0.032,
+                    0.622
+                  ],
+                  [
+                    0.965,
+                    0.622
+                  ],
+                  [
+                    0.965,
+                    0.664
+                  ],
+                  [
+                    0.032,
+                    0.664
+                  ]
+                ],
+                "product_code": null,
+                "quantity": 1.0,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 250.0,
+                "unit_price": 250.0
               }
             ],
             "locale": {
-              "confidence": 0.84,
+              "confidence": 0.94,
               "country": null,
-              "currency": "USD",
+              "currency": "CAD",
               "language": "en",
               "value": null
             },
@@ -282,51 +270,39 @@
               "confidence": 0.99,
               "degrees": 0
             },
+            "receipt_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "reference_numbers": [
               {
                 "confidence": 0.99,
                 "polygon": [
                   [
-                    0.858,
-                    0.255
+                    0.839,
+                    0.284
                   ],
                   [
-                    0.95,
-                    0.255
+                    0.914,
+                    0.284
                   ],
                   [
-                    0.95,
-                    0.271
+                    0.914,
+                    0.3
                   ],
                   [
-                    0.858,
-                    0.271
+                    0.839,
+                    0.3
                   ]
                 ],
-                "value": "2412/2019"
+                "value": "AD29094"
               }
             ],
             "shipping_address": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.355,
-                  0.244
-                ],
-                [
-                  0.528,
-                  0.244
-                ],
-                [
-                  0.528,
-                  0.278
-                ],
-                [
-                  0.355,
-                  0.278
-                ]
-              ],
-              "value": "2019 Redbud Drive New York, NY 10011"
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "subcategory": {
               "confidence": 0.0,
@@ -336,58 +312,92 @@
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.032,
-                  0.072
+                  0.752,
+                  0.128
                 ],
                 [
-                  0.184,
-                  0.072
+                  0.966,
+                  0.128
                 ],
                 [
-                  0.184,
-                  0.111
+                  0.966,
+                  0.164
                 ],
                 [
-                  0.032,
-                  0.111
+                  0.752,
+                  0.164
                 ]
               ],
-              "value": "4490 Oak Drive Albany, NY 12210"
+              "value": "156 University Ave, Toronto ON, Canada, M5H 2H7"
             },
             "supplier_company_registrations": [],
             "supplier_email": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.96,
+              "polygon": [
+                [
+                  0.026,
+                  0.375
+                ],
+                [
+                  0.193,
+                  0.375
+                ],
+                [
+                  0.193,
+                  0.399
+                ],
+                [
+                  0.026,
+                  0.399
+                ]
+              ],
+              "value": "i_doi@example.com"
             },
             "supplier_name": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.033,
-                  0.031
+                  0.82,
+                  0.107
                 ],
                 [
-                  0.193,
-                  0.031
+                  0.966,
+                  0.107
                 ],
                 [
-                  0.193,
-                  0.055
+                  0.966,
+                  0.126
                 ],
                 [
-                  0.033,
-                  0.055
+                  0.82,
+                  0.126
                 ]
               ],
-              "raw_value": "John Smith",
-              "value": "JOHN SMITH"
+              "raw_value": "Turnpike Designs",
+              "value": "TURNPIKE DESIGNS"
             },
             "supplier_payment_details": [],
             "supplier_phone_number": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.027,
+                  0.395
+                ],
+                [
+                  0.148,
+                  0.395
+                ],
+                [
+                  0.148,
+                  0.414
+                ],
+                [
+                  0.027,
+                  0.414
+                ]
+              ],
+              "value": "4165551212"
             },
             "supplier_website": {
               "confidence": 0.0,
@@ -401,24 +411,24 @@
                 "confidence": 0.98,
                 "polygon": [
                   [
-                    0.656,
-                    0.516
+                    0.783,
+                    0.745
                   ],
                   [
-                    0.932,
-                    0.516
+                    0.965,
+                    0.745
                   ],
                   [
-                    0.932,
-                    0.533
+                    0.965,
+                    0.762
                   ],
                   [
-                    0.656,
-                    0.533
+                    0.783,
+                    0.762
                   ]
                 ],
-                "rate": 5.0,
-                "value": 9.75
+                "rate": 8.0,
+                "value": 193.2
               }
             ],
             "time": {
@@ -435,50 +445,50 @@
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.835,
-                  0.546
+                  0.881,
+                  0.839
                 ],
                 [
-                  0.935,
-                  0.546
+                  0.97,
+                  0.839
                 ],
                 [
-                  0.935,
-                  0.573
+                  0.97,
+                  0.861
                 ],
                 [
-                  0.835,
-                  0.573
+                  0.881,
+                  0.861
                 ]
               ],
-              "value": 204.75
+              "value": 2608.2
             },
             "total_net": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "total_tax": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.874,
-                  0.482
+                  0.895,
+                  0.743
                 ],
                 [
-                  0.935,
-                  0.482
+                  0.969,
+                  0.743
                 ],
                 [
-                  0.935,
-                  0.501
+                  0.969,
+                  0.764
                 ],
                 [
-                  0.874,
-                  0.501
+                  0.895,
+                  0.764
                 ]
               ],
-              "value": 195.0
-            },
-            "total_tax": {
-              "confidence": 0.98,
-              "polygon": [],
-              "value": 9.75
+              "value": 193.2
             }
           }
         }
@@ -489,26 +499,26 @@
           "page_id": 0,
           "polygon": [
             [
-              0.033,
-              0.244
+              0.032,
+              0.302
             ],
             [
-              0.205,
-              0.244
+              0.215,
+              0.302
             ],
             [
-              0.205,
-              0.278
+              0.215,
+              0.356
             ],
             [
-              0.033,
-              0.278
+              0.032,
+              0.356
             ]
           ],
-          "value": "4312 Wood Road New York, NY 10031"
+          "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
         },
         "category": {
-          "confidence": 0.76,
+          "confidence": 0.68,
           "value": "miscellaneous"
         },
         "customer_address": {
@@ -516,238 +526,233 @@
           "page_id": 0,
           "polygon": [
             [
-              0.355,
-              0.244
+              0.032,
+              0.302
             ],
             [
-              0.528,
-              0.244
+              0.215,
+              0.302
             ],
             [
-              0.528,
-              0.278
+              0.215,
+              0.356
             ],
             [
-              0.355,
-              0.278
+              0.032,
+              0.356
             ]
           ],
-          "value": "2019 Redbud Drive New York, NY 10011"
+          "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
         },
         "customer_company_registrations": [],
         "customer_id": {
-          "confidence": 0.99,
-          "page_id": 0,
-          "polygon": [
-            [
-              0.172,
-              0.92
-            ],
-            [
-              0.28,
-              0.92
-            ],
-            [
-              0.28,
-              0.943
-            ],
-            [
-              0.172,
-              0.943
-            ]
-          ],
-          "value": "1234567890"
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "customer_name": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.033,
-              0.226
+              0.032,
+              0.284
             ],
             [
-              0.164,
-              0.226
+              0.1,
+              0.284
             ],
             [
-              0.164,
-              0.242
+              0.1,
+              0.299
             ],
             [
-              0.033,
-              0.242
+              0.032,
+              0.299
             ]
           ],
-          "raw_value": "Jessie M Horne",
-          "value": "JESSIE M HORNE"
+          "raw_value": "Jiro Doi",
+          "value": "JIRO DOI"
         },
         "date": {
+          "confidence": 0.96,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.839,
+              0.303
+            ],
+            [
+              0.934,
+              0.303
+            ],
+            [
+              0.934,
+              0.32
+            ],
+            [
+              0.839,
+              0.32
+            ]
+          ],
+          "value": "2018-09-25"
+        },
+        "document_number": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.855,
-              0.229
+              0.841,
+              0.264
             ],
             [
-              0.95,
-              0.229
+              0.862,
+              0.264
             ],
             [
-              0.95,
-              0.245
+              0.862,
+              0.283
             ],
             [
-              0.855,
-              0.245
+              0.841,
+              0.283
             ]
           ],
-          "value": "2019-11-02"
+          "value": "14"
         },
         "document_type": {
           "value": "INVOICE"
         },
         "due_date": {
-          "confidence": 0.99,
-          "page_id": 0,
-          "polygon": [
-            [
-              0.853,
-              0.28
-            ],
-            [
-              0.95,
-              0.28
-            ],
-            [
-              0.95,
-              0.296
-            ],
-            [
-              0.853,
-              0.296
-            ]
-          ],
-          "value": "2019-02-26"
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "invoice_number": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.879,
-              0.204
+              0.841,
+              0.264
             ],
             [
-              0.948,
-              0.204
+              0.862,
+              0.264
             ],
             [
-              0.948,
-              0.22
+              0.862,
+              0.283
             ],
             [
-              0.879,
-              0.22
+              0.841,
+              0.283
             ]
           ],
-          "value": "INT-001"
+          "value": "14"
         },
         "line_items": [
           {
             "confidence": 0.99,
-            "description": "Front and rear brake cables",
+            "description": "Platinum web hosting package Down 35mb, Up 100mb",
             "page_id": 0,
             "polygon": [
               [
-                0.07,
-                0.379
+                0.032,
+                0.501
               ],
               [
-                0.934,
-                0.379
+                0.965,
+                0.501
               ],
               [
-                0.934,
-                0.403
+                0.965,
+                0.537
               ],
               [
-                0.07,
-                0.403
+                0.032,
+                0.537
               ]
             ],
             "product_code": null,
             "quantity": 1.0,
             "tax_amount": null,
             "tax_rate": null,
-            "total_amount": 100.0,
-            "unit_price": 100.0
+            "total_amount": 65.0,
+            "unit_price": 65.0
           },
           {
             "confidence": 0.99,
-            "description": "New set of pedal arms",
+            "description": "2 page website design Includes basic wireframes, and responsive templates",
             "page_id": 0,
             "polygon": [
               [
-                0.068,
-                0.413
+                0.031,
+                0.558
               ],
               [
-                0.932,
-                0.413
+                0.966,
+                0.558
               ],
               [
-                0.932,
-                0.437
+                0.966,
+                0.6
               ],
               [
-                0.068,
-                0.437
-              ]
-            ],
-            "product_code": null,
-            "quantity": 2.0,
-            "tax_amount": null,
-            "tax_rate": null,
-            "total_amount": 50.0,
-            "unit_price": 25.0
-          },
-          {
-            "confidence": 0.99,
-            "description": "Labor 3hrs",
-            "page_id": 0,
-            "polygon": [
-              [
-                0.069,
-                0.446
-              ],
-              [
-                0.932,
-                0.446
-              ],
-              [
-                0.932,
-                0.47
-              ],
-              [
-                0.069,
-                0.47
+                0.031,
+                0.6
               ]
             ],
             "product_code": null,
             "quantity": 3.0,
             "tax_amount": null,
             "tax_rate": null,
-            "total_amount": 45.0,
-            "unit_price": 15.0
+            "total_amount": 2100.0,
+            "unit_price": 2100.0
+          },
+          {
+            "confidence": 0.99,
+            "description": "Mobile designs Includes responsive navigation",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.032,
+                0.622
+              ],
+              [
+                0.965,
+                0.622
+              ],
+              [
+                0.965,
+                0.664
+              ],
+              [
+                0.032,
+                0.664
+              ]
+            ],
+            "product_code": null,
+            "quantity": 1.0,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 250.0,
+            "unit_price": 250.0
           }
         ],
         "locale": {
-          "confidence": 0.84,
+          "confidence": 0.94,
           "country": null,
-          "currency": "USD",
+          "currency": "CAD",
           "language": "en",
+          "value": null
+        },
+        "receipt_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
           "value": null
         },
         "reference_numbers": [
@@ -756,47 +761,30 @@
             "page_id": 0,
             "polygon": [
               [
-                0.858,
-                0.255
+                0.839,
+                0.284
               ],
               [
-                0.95,
-                0.255
+                0.914,
+                0.284
               ],
               [
-                0.95,
-                0.271
+                0.914,
+                0.3
               ],
               [
-                0.858,
-                0.271
+                0.839,
+                0.3
               ]
             ],
-            "value": "2412/2019"
+            "value": "AD29094"
           }
         ],
         "shipping_address": {
-          "confidence": 0.99,
-          "page_id": 0,
-          "polygon": [
-            [
-              0.355,
-              0.244
-            ],
-            [
-              0.528,
-              0.244
-            ],
-            [
-              0.528,
-              0.278
-            ],
-            [
-              0.355,
-              0.278
-            ]
-          ],
-          "value": "2019 Redbud Drive New York, NY 10011"
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "subcategory": {
           "confidence": 0.0,
@@ -807,61 +795,95 @@
           "page_id": 0,
           "polygon": [
             [
-              0.032,
-              0.072
+              0.752,
+              0.128
             ],
             [
-              0.184,
-              0.072
+              0.966,
+              0.128
             ],
             [
-              0.184,
-              0.111
+              0.966,
+              0.164
             ],
             [
-              0.032,
-              0.111
+              0.752,
+              0.164
             ]
           ],
-          "value": "4490 Oak Drive Albany, NY 12210"
+          "value": "156 University Ave, Toronto ON, Canada, M5H 2H7"
         },
         "supplier_company_registrations": [],
         "supplier_email": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "confidence": 0.96,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.026,
+              0.375
+            ],
+            [
+              0.193,
+              0.375
+            ],
+            [
+              0.193,
+              0.399
+            ],
+            [
+              0.026,
+              0.399
+            ]
+          ],
+          "value": "i_doi@example.com"
         },
         "supplier_name": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.033,
-              0.031
+              0.82,
+              0.107
             ],
             [
-              0.193,
-              0.031
+              0.966,
+              0.107
             ],
             [
-              0.193,
-              0.055
+              0.966,
+              0.126
             ],
             [
-              0.033,
-              0.055
+              0.82,
+              0.126
             ]
           ],
-          "raw_value": "John Smith",
-          "value": "JOHN SMITH"
+          "raw_value": "Turnpike Designs",
+          "value": "TURNPIKE DESIGNS"
         },
         "supplier_payment_details": [],
         "supplier_phone_number": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.027,
+              0.395
+            ],
+            [
+              0.148,
+              0.395
+            ],
+            [
+              0.148,
+              0.414
+            ],
+            [
+              0.027,
+              0.414
+            ]
+          ],
+          "value": "4165551212"
         },
         "supplier_website": {
           "confidence": 0.0,
@@ -877,24 +899,24 @@
             "page_id": 0,
             "polygon": [
               [
-                0.656,
-                0.516
+                0.783,
+                0.745
               ],
               [
-                0.932,
-                0.516
+                0.965,
+                0.745
               ],
               [
-                0.932,
-                0.533
+                0.965,
+                0.762
               ],
               [
-                0.656,
-                0.533
+                0.783,
+                0.762
               ]
             ],
-            "rate": 5.0,
-            "value": 9.75
+            "rate": 8.0,
+            "value": 193.2
           }
         ],
         "time": {
@@ -914,59 +936,61 @@
           "page_id": 0,
           "polygon": [
             [
-              0.835,
-              0.546
+              0.881,
+              0.839
             ],
             [
-              0.935,
-              0.546
+              0.97,
+              0.839
             ],
             [
-              0.935,
-              0.573
+              0.97,
+              0.861
             ],
             [
-              0.835,
-              0.573
+              0.881,
+              0.861
             ]
           ],
-          "value": 204.75
+          "value": 2608.2
         },
         "total_net": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "total_tax": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.874,
-              0.482
+              0.895,
+              0.743
             ],
             [
-              0.935,
-              0.482
+              0.969,
+              0.743
             ],
             [
-              0.935,
-              0.501
+              0.969,
+              0.764
             ],
             [
-              0.874,
-              0.501
+              0.895,
+              0.764
             ]
           ],
-          "value": 195.0
-        },
-        "total_tax": {
-          "confidence": 0.98,
-          "page_id": 0,
-          "polygon": [],
-          "value": 9.75
+          "value": 193.2
         }
       },
-      "processing_time": 0.91,
+      "processing_time": 1.069,
       "product": {
         "features": [
           "locale",
           "invoice_number",
+          "receipt_number",
+          "document_number",
           "reference_numbers",
           "date",
           "due_date",
@@ -997,9 +1021,9 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.6"
+        "version": "1.7"
       },
-      "started_at": "2024-04-23T13:02:50.238435"
+      "started_at": "2024-05-15T09:02:59.177542"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"

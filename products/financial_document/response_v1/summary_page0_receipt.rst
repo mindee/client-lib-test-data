@@ -1,35 +1,30 @@
 Page 0
 ------
-:Locale: en-US; en; US; USD;
-:Invoice Number:
-:Reference Numbers:
-:Purchase Date: 2014-07-07
-:Due Date: 2014-07-07
-:Total Net: 40.48
-:Total Amount: 53.82
+:Expense Locale: en-GB; en; GB; GBP;
+:Purchase Category: food
+:Purchase Subcategory: restaurant
+:Document Type: EXPENSE RECEIPT
+:Purchase Date: 2016-02-26
+:Purchase Time: 15:20
+:Total Amount: 10.20
+:Total Net: 8.50
+:Total Tax: 1.70
+:Tip and Gratuity:
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
-  |               | TAX    |          | 3.34          |
+  | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
-:Supplier Payment Details:
-:Supplier Name: LOGANS
-:Supplier Company Registrations:
-:Supplier Address: 2513 s stemmons freeway lewisville tx 75067
-:Supplier Phone Number: 9724596042
-:Customer Name:
-:Supplier Website:
-:Supplier Email:
-:Customer Company Registrations:
-:Customer Address:
-:Customer ID:
-:Shipping Address:
-:Billing Address:
-:Document Type: CREDIT CARD RECEIPT
-:Purchase Subcategory: restaurant
-:Purchase Category: food
-:Total Tax: 3.34
-:Tip and Gratuity: 10.00
-:Purchase Time: 20:20
+:Supplier Name: Clachan
+:Supplier Company Registrations: 232153895
+                                 232153895
+:Supplier Address: 34 kingley street w1b 5qh
+:Supplier Phone Number: 02074940834
+:Receipt Number: 54/7500
 :Line Items:
+  +--------------------------------------+----------+--------------+------------+
+  | Description                          | Quantity | Total Amount | Unit Price |
+  +======================================+==========+==============+============+
+  | Meantime Pale                        | 2.00     | 10.20        |            |
+  +--------------------------------------+----------+--------------+------------+

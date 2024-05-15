@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
   },
   "document": {
-    "id": "d8f43c50-6235-4d1b-9409-47f458bc9d92",
+    "id": "7e1cfa24-42a8-48aa-b67a-4f0203c8f993",
     "inference": {
       "extras": {},
-      "finished_at": "2024-04-23T09:46:56.403293",
+      "finished_at": "2024-05-15T09:03:02.612584",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -53,6 +53,11 @@
               "polygon": [],
               "value": null
             },
+            "document_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
             "document_type": {
               "value": "EXPENSE RECEIPT"
             },
@@ -71,11 +76,17 @@
               "confidence": 0.0,
               "country": null,
               "currency": "EUR",
-              "language": null
+              "language": null,
+              "value": null
             },
             "orientation": {
               "confidence": 0.51,
               "degrees": 0
+            },
+            "receipt_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "reference_numbers": [],
             "shipping_address": {
@@ -181,6 +192,12 @@
           "polygon": [],
           "value": null
         },
+        "document_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
         "document_type": {
           "value": "EXPENSE RECEIPT"
         },
@@ -201,7 +218,14 @@
           "confidence": 0.0,
           "country": null,
           "currency": "EUR",
-          "language": null
+          "language": null,
+          "value": null
+        },
+        "receipt_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "reference_numbers": [],
         "shipping_address": {
@@ -279,11 +303,13 @@
           "value": null
         }
       },
-      "processing_time": 0.46,
+      "processing_time": 0.416,
       "product": {
         "features": [
           "locale",
           "invoice_number",
+          "receipt_number",
+          "document_number",
           "reference_numbers",
           "date",
           "due_date",
@@ -314,9 +340,9 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.6"
+        "version": "1.7"
       },
-      "started_at": "2024-04-23T09:46:55.943632"
+      "started_at": "2024-05-15T09:03:02.196968"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
