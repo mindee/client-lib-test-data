@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v5/predict"
   },
   "document": {
-    "id": "aa1a8095-20c6-4080-98bd-4684d2807365",
+    "id": "6af99493-3013-41a3-98bc-a26de9a519b1",
     "inference": {
       "extras": {},
-      "finished_at": "2023-04-13T12:16:38.053945",
+      "finished_at": "2024-05-15T09:02:57.267355",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -27,7 +27,7 @@
               "value": "transport"
             },
             "date": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
@@ -37,59 +37,65 @@
             },
             "line_items": [],
             "locale": {
-              "confidence": 0,
+              "confidence": 0.0,
               "country": null,
-              "currency": null,
+              "currency": "EUR",
               "language": null,
               "value": null
             },
             "orientation": {
-              "confidence": 0.52,
+              "confidence": 0.51,
               "degrees": 0
+            },
+            "receipt_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "subcategory": {
               "confidence": 0.61,
               "value": "plane"
             },
             "supplier_address": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
             "supplier_company_registrations": [],
             "supplier_name": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
+              "raw_value": null,
               "value": null
             },
             "supplier_phone_number": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
             "taxes": [],
             "time": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
             "tip": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
             "total_amount": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
             "total_net": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             },
             "total_tax": {
-              "confidence": 0,
+              "confidence": 0.0,
               "polygon": [],
               "value": null
             }
@@ -102,7 +108,7 @@
           "value": "transport"
         },
         "date": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
@@ -113,10 +119,16 @@
         },
         "line_items": [],
         "locale": {
-          "confidence": 0,
+          "confidence": 0.0,
           "country": null,
-          "currency": null,
+          "currency": "EUR",
           "language": null,
+          "value": null
+        },
+        "receipt_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
           "value": null
         },
         "subcategory": {
@@ -124,57 +136,58 @@
           "value": "plane"
         },
         "supplier_address": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
         "supplier_company_registrations": [],
         "supplier_name": {
-          "confidence": 0,
-          "page_id": null,
+          "confidence": 0.0,
+          "page_id": 0,
           "polygon": [],
+          "raw_value": null,
           "value": null
         },
         "supplier_phone_number": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
         "taxes": [],
         "time": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
         "tip": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
         "total_amount": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
         "total_net": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
         "total_tax": {
-          "confidence": 0,
+          "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         }
       },
-      "processing_time": 0.458,
+      "processing_time": 0.301,
       "product": {
         "features": [
           "locale",
@@ -193,15 +206,16 @@
           "supplier_address",
           "supplier_phone_number",
           "orientation",
+          "receipt_number",
           "line_items"
         ],
         "name": "mindee/expense_receipts",
         "type": "standard",
-        "version": "5.0"
+        "version": "5.2"
       },
-      "started_at": "2023-04-13T12:16:37.596159"
+      "started_at": "2024-05-15T09:02:56.966298"
     },
     "n_pages": 1,
-    "name": "receipt.jpg"
+    "name": "blank_1.pdf"
   }
 }

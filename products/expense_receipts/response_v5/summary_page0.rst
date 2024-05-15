@@ -16,13 +16,15 @@ Page 0
   +===============+========+==========+===============+
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
-:Supplier Name: CLACHAN
+:Supplier Name: Clachan
 :Supplier Company Registrations: 232153895
+                                 232153895
 :Supplier Address: 34 kingley street w1b 5qh
 :Supplier Phone Number: 02074940834
+:Receipt Number: 54/7500
 :Line Items:
   +--------------------------------------+----------+--------------+------------+
   | Description                          | Quantity | Total Amount | Unit Price |
   +======================================+==========+==============+============+
-  | meantime pale                        | 2.00     | 10.20        |            |
+  | Meantime Pale                        | 2.00     | 10.20        |            |
   +--------------------------------------+----------+--------------+------------+

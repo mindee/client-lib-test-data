@@ -1,18 +1,20 @@
 ########
 Document
 ########
-:Mindee ID: 503895c6-eced-42e2-a6fc-0292b7ccf680
+:Mindee ID: 1e9fe134-bad5-412e-acff-0b39f5dd24c7
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/financial_document v1.6
+:Product: mindee/financial_document v1.7
 :Rotation applied: Yes
 
 Prediction
 ==========
 :Locale: en; USD;
 :Invoice Number: INT-001
+:Receipt Number:
+:Document Number: INT-001
 :Reference Numbers: 2412/2019
 :Purchase Date: 2019-11-02
 :Due Date: 2019-02-26
@@ -61,6 +63,8 @@ Page 0
 ------
 :Locale: en; USD;
 :Invoice Number: INT-001
+:Receipt Number:
+:Document Number: INT-001
 :Reference Numbers: 2412/2019
 :Purchase Date: 2019-11-02
 :Due Date: 2019-02-26
