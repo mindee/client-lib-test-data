@@ -207,7 +207,7 @@
                 ]
               ],
               "raw_value": "Clachan",
-              "value": "Clachan"
+              "value": "CLACHAN"
             },
             "supplier_phone_number": {
               "confidence": 0.39,
@@ -526,7 +526,7 @@
             ]
           ],
           "raw_value": "Clachan",
-          "value": "Clachan"
+          "value": "CLACHAN"
         },
         "supplier_phone_number": {
           "confidence": 0.39,
