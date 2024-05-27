@@ -11,7 +11,7 @@ Inference
 
 Prediction
 ==========
-:Locale: en; CAD;
+:Locale: en; en; CAD;
 :Invoice Number: 14
 :Receipt Number:
 :Document Number: 14
@@ -61,7 +61,7 @@ Page Predictions
 
 Page 0
 ------
-:Locale: en; CAD;
+:Locale: en; en; CAD;
 :Invoice Number: 14
 :Receipt Number:
 :Document Number: 14

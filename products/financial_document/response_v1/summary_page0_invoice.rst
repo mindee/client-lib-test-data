@@ -1,6 +1,6 @@
 Page 0
 ------
-:Locale: en; CAD;
+:Locale: en; en; CAD;
 :Invoice Number: 14
 :Receipt Number:
 :Document Number: 14

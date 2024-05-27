@@ -11,7 +11,7 @@ Inference
 
 Prediction
 ==========
-:Locale: en; USD;
+:Locale: en; en; USD;
 :Invoice Number: INT-001
 :Receipt Number:
 :Document Number: INT-001
@@ -61,7 +61,7 @@ Page Predictions
 
 Page 0
 ------
-:Locale: en; USD;
+:Locale: en; en; USD;
 :Invoice Number: INT-001
 :Receipt Number:
 :Document Number: INT-001
