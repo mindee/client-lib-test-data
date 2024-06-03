@@ -1,0 +1,130 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/international_id/v2/documents/74f8c7b2-67a9-45e1-9db8-f9ef1cc53e70"
+  },
+  "document": {
+    "id": "74f8c7b2-67a9-45e1-9db8-f9ef1cc53e70",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-06-03T09:01:49.354000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {
+            "full_text_ocr": {
+              "content": "DOMICILIO\nC/REAL N13, 1 DCHA\nEQUIPO\nAAA000000\n85-8 A\nCOLLADO VILLALBA\nMADRID\nMADRID\nMADRID\nLUGAR DE NACIMIENTO\nCAMPO DE CRIPTANA\nCIUDAD REAL\nESPANA\nHIJO DE\nJOSE LUIS Y MARIA LUISA\nIDESPBAB1834284<44282767Q0<<<<\n8001010F1301017ESP<<<<<<<<<<<\nMUESTRA MUESTRA<<CARMEN<<<<<<<\nESPAÑA O DOCUMENTO NACIONAL DE IDENTIDAD\nDNI 12345678A\nAPELLIDOS\nMUESTRA\nMUESTRA\nNOMBRE\nCARMEN\nSEXO\nBAB 83426\nF\nNACIONALIDAD\nESP\nFECHA DE NACIMIENTO\n01 01 1980\nNUM SOPORT\nVALIDEZ\nBAB18342601 01 2016\n010106\n987654",
+              "language": "es"
+            }
+          },
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "address": {
+          "value": "C/REAL N13, 1 DCHA EQUIPO AAA000000 85-8 A COLLADO VILLALBA MADRID MADRID MADRID"
+        },
+        "birth_date": {
+          "value": "1980-01-01"
+        },
+        "birth_place": {
+          "value": "CAMPO DE CRIPTANA CIUDAD REAL ESPANA"
+        },
+        "country_of_issue": {
+          "value": "ESP"
+        },
+        "document_number": {
+          "value": "12345678A"
+        },
+        "document_type": {
+          "value": "IDENTIFICATION_CARD"
+        },
+        "expiry_date": {
+          "value": "2026-01-01"
+        },
+        "given_names": [
+          {
+            "value": "CARMEN"
+          }
+        ],
+        "issue_date": {
+          "value": "2016-01-01"
+        },
+        "mrz_line1": {
+          "value": "IDESPBAB1834284<44282767Q0<<<<"
+        },
+        "mrz_line2": {
+          "value": "8001010F1301017ESP<<<<<<<<<<<"
+        },
+        "mrz_line3": {
+          "value": "MUESTRA MUESTRA<<CARMEN<<<<<<<"
+        },
+        "nationality": {
+          "value": "ESP"
+        },
+        "personal_number": {
+          "value": "BAB1834284<44282767Q0"
+        },
+        "sex": {
+          "value": "F"
+        },
+        "state_of_issue": {
+          "value": "MADRID"
+        },
+        "surnames": [
+          {
+            "value": "MUESTRA"
+          },
+          {
+            "value": "MUESTRA"
+          }
+        ]
+      },
+      "processing_time": 3.685,
+      "product": {
+        "features": [
+          "document_type",
+          "document_number",
+          "surnames",
+          "given_names",
+          "sex",
+          "birth_date",
+          "birth_place",
+          "nationality",
+          "personal_number",
+          "country_of_issue",
+          "state_of_issue",
+          "issue_date",
+          "expiry_date",
+          "address",
+          "mrz_line1",
+          "mrz_line2",
+          "mrz_line3"
+        ],
+        "name": "mindee/international_id",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2024-06-03T09:01:45.527000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-06-03T09:01:49.523000",
+    "error": {},
+    "id": "49b4a82f-02d7-4bcc-9b97-71a1cb15537e",
+    "issued_at": "2024-06-03T09:01:45.527000",
+    "status": "completed"
+  }
+}
