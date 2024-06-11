@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: d71a80ef-efd1-4112-8fcc-d5a53f1e9baa
+:Mindee ID: d96fb043-8fb8-4adc-820c-387aae83376d
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/expense_receipts v5.2
+:Product: mindee/expense_receipts v5.3
 :Rotation applied: Yes
 
 Prediction
@@ -27,10 +27,10 @@ Prediction
   +===============+========+==========+===============+
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
-:Supplier Name: CLACHAN
+:Supplier Name: clachan
 :Supplier Company Registrations: 232153895
                                  232153895
-:Supplier Address: 34 kingley street w1b 5qh
+:Supplier Address: 34 Kingley Street W1B 50H
 :Supplier Phone Number: 02074940834
 :Receipt Number: 54/7500
 :Line Items:
@@ -61,10 +61,10 @@ Page 0
   +===============+========+==========+===============+
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
-:Supplier Name: CLACHAN
+:Supplier Name: clachan
 :Supplier Company Registrations: 232153895
                                  232153895
-:Supplier Address: 34 kingley street w1b 5qh
+:Supplier Address: 34 Kingley Street W1B 50H
 :Supplier Phone Number: 02074940834
 :Receipt Number: 54/7500
 :Line Items:
