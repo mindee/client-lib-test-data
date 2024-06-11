@@ -6,7 +6,7 @@
     ],
     "status": "success",
     "status_code": 201,
-    "url": "http://api.mindee.net/v1/products/mindee/passport/v1/predict?include_mvision=True"
+    "url": "http://api.mindee.net/v1/products/mindee/passport/v1/predict"
   },
   "document": {
     "annotations": {
