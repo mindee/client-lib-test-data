@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: c0016a46-53e2-41fb-8910-b319f4e6c80c
+:Mindee ID: c4b939ce-bf05-4011-b0f0-10ac9bbcbfca
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/financial_document v1.7
+:Product: mindee/financial_document v1.8
 :Rotation applied: Yes
 
 Prediction
@@ -27,10 +27,10 @@ Prediction
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier Name: CLACHAN
+:Supplier Name: clachan
 :Supplier Company Registrations: 232153895
                                  232153895
-:Supplier Address: 34 kingley street w1b 5qh
+:Supplier Address: 34 Kingley Street W1B 50H
 :Supplier Phone Number: 02074940834
 :Customer Name:
 :Supplier Website:
@@ -74,10 +74,10 @@ Page 0
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier Name: CLACHAN
+:Supplier Name: clachan
 :Supplier Company Registrations: 232153895
                                  232153895
-:Supplier Address: 34 kingley street w1b 5qh
+:Supplier Address: 34 Kingley Street W1B 50H
 :Supplier Phone Number: 02074940834
 :Customer Name:
 :Supplier Website:

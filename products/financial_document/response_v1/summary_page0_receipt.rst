@@ -16,10 +16,10 @@ Page 0
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details:
-:Supplier Name: CLACHAN
+:Supplier Name: clachan
 :Supplier Company Registrations: 232153895
                                  232153895
-:Supplier Address: 34 kingley street w1b 5qh
+:Supplier Address: 34 Kingley Street W1B 50H
 :Supplier Phone Number: 02074940834
 :Customer Name:
 :Supplier Website:
