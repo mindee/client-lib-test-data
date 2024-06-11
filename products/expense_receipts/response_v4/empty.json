@@ -6,7 +6,7 @@
     ],
     "status": "success",
     "status_code": 201,
-    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v4/predict?include_mvision=True"
+    "url": "https://api.mindee.net/v1/products/mindee/expense_receipts/v4/predict"
   },
   "document": {
     "annotations": {
