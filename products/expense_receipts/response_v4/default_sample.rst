@@ -17,7 +17,7 @@ Prediction
 :Subcategory: restaurant
 :Document type: EXPENSE RECEIPT
 :Time: 15:20
-:Supplier name: CLACHAN
+:Supplier name: clachan
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
@@ -40,7 +40,7 @@ Page 0
 :Subcategory: restaurant
 :Document type: EXPENSE RECEIPT
 :Time: 15:20
-:Supplier name: CLACHAN
+:Supplier name: clachan
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
