@@ -17,8 +17,8 @@ Page 0
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
 :Supplier Name: clachan
-:Supplier Company Registrations: 232153895
-                                 232153895
+:Supplier Company Registrations: Type: VAT NUMBER, Value: 232153895
+                                 Type: VAT NUMBER, Value: 232153895
 :Supplier Address: 34 Kingley Street W1B 50H
 :Supplier Phone Number: 02074940834
 :Receipt Number: 54/7500
