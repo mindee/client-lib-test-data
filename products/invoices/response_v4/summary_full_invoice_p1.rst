@@ -2,7 +2,7 @@
 Document
 ########
 :Mindee ID: a42925d3-4ae5-4d94-8772-ab8c4ecd0a0b
-:Filename: invoice.pdf
+:Filename: default_sample_002-002.pdf
 
 Inference
 #########
