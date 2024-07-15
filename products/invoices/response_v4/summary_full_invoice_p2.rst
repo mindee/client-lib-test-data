@@ -1,8 +1,8 @@
 ########
 Document
 ########
-:Mindee ID: 6e729e0f-ece5-4891-ac41-6feda741bc3d
-:Filename: default_sample_001-001.pdf
+:Mindee ID: 71ff764a-dd74-425e-ab0d-26de7623d667
+:Filename: default_sample_002-002.pdf
 
 Inference
 #########
@@ -16,7 +16,7 @@ Prediction
 :Reference Numbers: AD29094
 :Purchase Date: 2018-09-25
 :Due Date:
-:Total Net:
+:Total Net: 2145.00
 :Total Amount: 2608.20
 :Total Tax: 193.20
 :Taxes:
@@ -60,7 +60,7 @@ Page 0
 :Reference Numbers: AD29094
 :Purchase Date: 2018-09-25
 :Due Date:
-:Total Net:
+:Total Net: 2145.00
 :Total Amount: 2608.20
 :Total Tax: 193.20
 :Taxes:
