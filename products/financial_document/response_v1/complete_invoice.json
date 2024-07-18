@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
   },
   "document": {
-    "id": "6c95cfa0-aed1-4ab1-a562-2a0e529a2327",
+    "id": "ac66256c-6243-4c88-a287-ebba8a31edf1",
     "inference": {
       "extras": {},
-      "finished_at": "2024-05-15T09:03:00.246957",
+      "finished_at": "2024-07-18T10:01:43.260608",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -200,10 +200,11 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 65.0,
+                "unit_measure": null,
                 "unit_price": 65.0
               },
               {
-                "confidence": 0.99,
+                "confidence": 0.98,
                 "description": "2 page website design Includes basic wireframes, and responsive templates",
                 "polygon": [
                   [
@@ -228,10 +229,11 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 2100.0,
+                "unit_measure": null,
                 "unit_price": 2100.0
               },
               {
-                "confidence": 0.99,
+                "confidence": 0.98,
                 "description": "Mobile designs Includes responsive navigation",
                 "polygon": [
                   [
@@ -256,6 +258,7 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 250.0,
+                "unit_measure": "1",
                 "unit_price": 250.0
               }
             ],
@@ -408,7 +411,7 @@
               {
                 "base": null,
                 "code": null,
-                "confidence": 0.98,
+                "confidence": 0.99,
                 "polygon": [
                   [
                     0.783,
@@ -464,9 +467,26 @@
               "value": 2608.2
             },
             "total_net": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.881,
+                  0.724
+                ],
+                [
+                  0.969,
+                  0.724
+                ],
+                [
+                  0.969,
+                  0.745
+                ],
+                [
+                  0.881,
+                  0.745
+                ]
+              ],
+              "value": 2145.0
             },
             "total_tax": {
               "confidence": 0.99,
@@ -681,10 +701,11 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 65.0,
+            "unit_measure": null,
             "unit_price": 65.0
           },
           {
-            "confidence": 0.99,
+            "confidence": 0.98,
             "description": "2 page website design Includes basic wireframes, and responsive templates",
             "page_id": 0,
             "polygon": [
@@ -710,10 +731,11 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 2100.0,
+            "unit_measure": null,
             "unit_price": 2100.0
           },
           {
-            "confidence": 0.99,
+            "confidence": 0.98,
             "description": "Mobile designs Includes responsive navigation",
             "page_id": 0,
             "polygon": [
@@ -739,6 +761,7 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 250.0,
+            "unit_measure": "1",
             "unit_price": 250.0
           }
         ],
@@ -895,7 +918,7 @@
           {
             "base": null,
             "code": null,
-            "confidence": 0.98,
+            "confidence": 0.99,
             "page_id": 0,
             "polygon": [
               [
@@ -955,10 +978,27 @@
           "value": 2608.2
         },
         "total_net": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.881,
+              0.724
+            ],
+            [
+              0.969,
+              0.724
+            ],
+            [
+              0.969,
+              0.745
+            ],
+            [
+              0.881,
+              0.745
+            ]
+          ],
+          "value": 2145.0
         },
         "total_tax": {
           "confidence": 0.99,
@@ -984,7 +1024,7 @@
           "value": 193.2
         }
       },
-      "processing_time": 1.069,
+      "processing_time": 0.71,
       "product": {
         "features": [
           "locale",
@@ -1021,9 +1061,9 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.7"
+        "version": "1.9"
       },
-      "started_at": "2024-05-15T09:02:59.177542"
+      "started_at": "2024-07-18T10:01:42.550239"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"

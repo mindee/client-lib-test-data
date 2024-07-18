@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
   },
   "document": {
-    "id": "7e1cfa24-42a8-48aa-b67a-4f0203c8f993",
+    "id": "c868d26c-91b3-47ba-a299-21c2f149a060",
     "inference": {
       "extras": {},
-      "finished_at": "2024-05-15T09:03:02.612584",
+      "finished_at": "2024-07-18T10:01:44.984882",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -80,7 +80,7 @@
               "value": null
             },
             "orientation": {
-              "confidence": 0.51,
+              "confidence": 0.4,
               "degrees": 0
             },
             "receipt_number": {
@@ -303,7 +303,7 @@
           "value": null
         }
       },
-      "processing_time": 0.416,
+      "processing_time": 0.32,
       "product": {
         "features": [
           "locale",
@@ -340,9 +340,9 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.7"
+        "version": "1.9"
       },
-      "started_at": "2024-05-15T09:03:02.196968"
+      "started_at": "2024-07-18T10:01:44.664494"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"

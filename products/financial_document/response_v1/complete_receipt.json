@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
   },
   "document": {
-    "id": "c4b939ce-bf05-4011-b0f0-10ac9bbcbfca",
+    "id": "f40a8701-fda1-44a0-8c44-46cbb5d657d5",
     "inference": {
       "extras": {},
-      "finished_at": "2024-06-11T13:15:18.461211",
+      "finished_at": "2024-07-18T10:01:42.359846",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -122,36 +122,7 @@
               "polygon": [],
               "value": null
             },
-            "line_items": [
-              {
-                "confidence": 0.99,
-                "description": "Meantime Pale",
-                "polygon": [
-                  [
-                    0.231,
-                    0.263
-                  ],
-                  [
-                    0.685,
-                    0.255
-                  ],
-                  [
-                    0.686,
-                    0.289
-                  ],
-                  [
-                    0.233,
-                    0.297
-                  ]
-                ],
-                "product_code": null,
-                "quantity": 2.0,
-                "tax_amount": null,
-                "tax_rate": null,
-                "total_amount": 10.2,
-                "unit_price": null
-              }
-            ],
+            "line_items": [],
             "locale": {
               "confidence": 0.82,
               "country": "GB",
@@ -536,37 +507,7 @@
           "polygon": [],
           "value": null
         },
-        "line_items": [
-          {
-            "confidence": 0.99,
-            "description": "Meantime Pale",
-            "page_id": 0,
-            "polygon": [
-              [
-                0.231,
-                0.263
-              ],
-              [
-                0.685,
-                0.255
-              ],
-              [
-                0.686,
-                0.289
-              ],
-              [
-                0.233,
-                0.297
-              ]
-            ],
-            "product_code": null,
-            "quantity": 2.0,
-            "tax_amount": null,
-            "tax_rate": null,
-            "total_amount": 10.2,
-            "unit_price": null
-          }
-        ],
+        "line_items": [],
         "locale": {
           "confidence": 0.82,
           "country": "GB",
@@ -851,7 +792,7 @@
           "value": 1.7
         }
       },
-      "processing_time": 1.29,
+      "processing_time": 1.217,
       "product": {
         "features": [
           "locale",
@@ -888,9 +829,9 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.8"
+        "version": "1.9"
       },
-      "started_at": "2024-06-11T13:15:17.171348"
+      "started_at": "2024-07-18T10:01:41.143345"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"

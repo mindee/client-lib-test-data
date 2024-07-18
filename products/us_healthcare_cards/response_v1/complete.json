@@ -1,0 +1,124 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/us_healthcare_cards/v1/documents/0ced9f49-00c0-4a1d-8221-4a1538813a95"
+  },
+  "document": {
+    "id": "0ced9f49-00c0-4a1d-8221-4a1538813a95",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-07-18T09:54:50.223000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "company_name": {
+          "value": "UnitedHealthcare"
+        },
+        "copays": [
+          {
+            "service_fees": 20.0,
+            "service_name": "office visit"
+          },
+          {
+            "service_fees": 300.0,
+            "service_name": "emergency"
+          },
+          {
+            "service_fees": 75.0,
+            "service_name": "urgent care"
+          },
+          {
+            "service_fees": 30.0,
+            "service_name": "specialist"
+          }
+        ],
+        "dependents": [
+          {
+            "value": "SPOUSE SMITH"
+          },
+          {
+            "value": "CHILD1 SMITH"
+          },
+          {
+            "value": "CHILD2 SMITH"
+          },
+          {
+            "value": "CHILD3 SMITH"
+          }
+        ],
+        "enrollment_date": {
+          "value": "2023-09-13"
+        },
+        "group_number": {
+          "value": "98765"
+        },
+        "issuer_80840": {
+          "value": null
+        },
+        "member_id": {
+          "value": "123456789"
+        },
+        "member_name": {
+          "value": "SUBSCRIBER SMITH"
+        },
+        "payer_id": {
+          "value": "87726"
+        },
+        "rx_bin": {
+          "value": "610279"
+        },
+        "rx_grp": {
+          "value": "UHEALTH"
+        },
+        "rx_pcn": {
+          "value": "9999"
+        }
+      },
+      "processing_time": 2.997,
+      "product": {
+        "features": [
+          "company_name",
+          "member_name",
+          "member_id",
+          "issuer_80840",
+          "dependents",
+          "group_number",
+          "payer_id",
+          "rx_bin",
+          "rx_grp",
+          "rx_pcn",
+          "copays",
+          "enrollment_date"
+        ],
+        "name": "mindee/us_healthcare_cards",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-07-18T09:54:47.026000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-07-18T09:54:50.233000",
+    "error": {},
+    "id": "b3696a50-286f-411f-bde0-9b3ed632409c",
+    "issued_at": "2024-07-18T09:54:47.026000",
+    "status": "completed"
+  }
+}
