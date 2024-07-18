@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict"
   },
   "document": {
-    "id": "b2c752a6-d261-4b52-9cb8-84761a748bd4",
+    "id": "656c2ec1-0920-4556-9bc2-772162bc698a",
     "inference": {
       "extras": {},
-      "finished_at": "2024-07-18T11:33:07.543816",
+      "finished_at": "2023-10-10T15:16:56.745799",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -23,9 +23,26 @@
           },
           "prediction": {
             "billing_address": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.88,
+              "polygon": [
+                [
+                  0.034,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.354
+                ],
+                [
+                  0.034,
+                  0.354
+                ]
+              ],
+              "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
             },
             "customer_address": {
               "confidence": 0.0,
@@ -34,9 +51,26 @@
             },
             "customer_company_registrations": [],
             "customer_id": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.8,
+              "polygon": [
+                [
+                  0.034,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.354
+                ],
+                [
+                  0.034,
+                  0.354
+                ]
+              ],
+              "value": "ABCD-1234"
             },
             "customer_name": {
               "confidence": 0.0,
@@ -48,20 +82,20 @@
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.285,
+                  0.288,
                   0.306
                 ],
                 [
-                  0.349,
+                  0.346,
                   0.306
                 ],
                 [
-                  0.349,
-                  0.318
+                  0.346,
+                  0.319
                 ],
                 [
-                  0.285,
-                  0.318
+                  0.288,
+                  0.319
                 ]
               ],
               "value": "2020-02-17"
@@ -70,37 +104,229 @@
               "value": "INVOICE"
             },
             "due_date": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
-            },
-            "invoice_number": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.175,
+                  0.382,
+                  0.306
+                ],
+                [
+                  0.44,
+                  0.306
+                ],
+                [
+                  0.44,
+                  0.318
+                ],
+                [
+                  0.382,
+                  0.318
+                ]
+              ],
+              "value": "2020-02-17"
+            },
+            "invoice_number": {
+              "confidence": 0.72,
+              "polygon": [
+                [
+                  0.177,
                   0.307
                 ],
                 [
-                  0.267,
+                  0.27,
                   0.307
                 ],
                 [
-                  0.267,
+                  0.27,
                   0.32
                 ],
                 [
-                  0.175,
+                  0.177,
                   0.32
                 ]
               ],
               "value": "0042004801351"
             },
-            "line_items": [],
+            "line_items": [
+              {
+                "confidence": 0.84,
+                "description": "S)BOIE 5X500 FEUILLES A4",
+                "polygon": [
+                  [
+                    0.173,
+                    0.604
+                  ],
+                  [
+                    0.906,
+                    0.6
+                  ],
+                  [
+                    0.906,
+                    0.613
+                  ],
+                  [
+                    0.173,
+                    0.617
+                  ]
+                ],
+                "product_code": null,
+                "quantity": null,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 2.63,
+                "unit_measure": null,
+                "unit_price": null
+              },
+              {
+                "confidence": 0.96,
+                "description": "RAM 500F DCP BLANC A4 100G",
+                "polygon": [
+                  [
+                    0.171,
+                    0.619
+                  ],
+                  [
+                    0.907,
+                    0.615
+                  ],
+                  [
+                    0.907,
+                    0.628
+                  ],
+                  [
+                    0.171,
+                    0.632
+                  ]
+                ],
+                "product_code": null,
+                "quantity": null,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 0.98,
+                "unit_measure": null,
+                "unit_price": null
+              },
+              {
+                "confidence": 0.96,
+                "description": "PQ 960 ETIQUETTES L METAL",
+                "polygon": [
+                  [
+                    0.17,
+                    0.634
+                  ],
+                  [
+                    0.908,
+                    0.63
+                  ],
+                  [
+                    0.908,
+                    0.644
+                  ],
+                  [
+                    0.17,
+                    0.648
+                  ]
+                ],
+                "product_code": null,
+                "quantity": null,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 4.07,
+                "unit_measure": null,
+                "unit_price": null
+              },
+              {
+                "confidence": 0.94,
+                "description": "CARTOUCHE L NR BROTHER TN247BK",
+                "polygon": [
+                  [
+                    0.17,
+                    0.649
+                  ],
+                  [
+                    0.909,
+                    0.645
+                  ],
+                  [
+                    0.909,
+                    0.659
+                  ],
+                  [
+                    0.171,
+                    0.663
+                  ]
+                ],
+                "product_code": null,
+                "quantity": null,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 9.47,
+                "unit_measure": null,
+                "unit_price": null
+              },
+              {
+                "confidence": 0.93,
+                "description": "PQ20 ETIQ ULTRA RESIS METAXXDC",
+                "polygon": [
+                  [
+                    0.168,
+                    0.665
+                  ],
+                  [
+                    0.908,
+                    0.661
+                  ],
+                  [
+                    0.908,
+                    0.675
+                  ],
+                  [
+                    0.168,
+                    0.679
+                  ]
+                ],
+                "product_code": null,
+                "quantity": null,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 4.31,
+                "unit_measure": null,
+                "unit_price": null
+              },
+              {
+                "confidence": 0.89,
+                "description": "FO2 IMPRIM MULTIFONCT MFC-L3770CDW",
+                "polygon": [
+                  [
+                    0.166,
+                    0.681
+                  ],
+                  [
+                    0.914,
+                    0.676
+                  ],
+                  [
+                    0.914,
+                    0.704
+                  ],
+                  [
+                    0.166,
+                    0.708
+                  ]
+                ],
+                "product_code": null,
+                "quantity": null,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 120.0,
+                "unit_measure": null,
+                "unit_price": null
+              }
+            ],
             "locale": {
-              "confidence": 0.71,
-              "currency": "EUR",
-              "language": "fr"
+              "confidence": 0.93,
+              "currency": "CAD",
+              "language": "en"
             },
             "orientation": {
               "confidence": 0.99,
@@ -132,16 +358,16 @@
             "supplier_payment_details": [
               {
                 "account_number": null,
-                "confidence": 0.99,
+                "confidence": 0.33,
                 "iban": "FR7640254025476501124705368",
                 "polygon": [
                   [
                     0.666,
-                    0.12
+                    0.123
                   ],
                   [
                     0.861,
-                    0.12
+                    0.123
                   ],
                   [
                     0.861,
@@ -157,51 +383,68 @@
               }
             ],
             "supplier_phone_number": {
-              "confidence": 0.99,
+              "confidence": 0.8,
               "polygon": [
                 [
-                  0.177,
-                  0.237
+                  0.034,
+                  0.303
                 ],
                 [
-                  0.261,
-                  0.237
+                  0.213,
+                  0.303
                 ],
                 [
-                  0.261,
-                  0.249
+                  0.213,
+                  0.354
                 ],
                 [
-                  0.177,
-                  0.249
+                  0.034,
+                  0.354
                 ]
               ],
-              "value": "0505444490"
+              "value": "2121231234"
             },
             "supplier_website": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.82,
+              "polygon": [
+                [
+                  0.034,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.303
+                ],
+                [
+                  0.213,
+                  0.354
+                ],
+                [
+                  0.034,
+                  0.354
+                ]
+              ],
+              "value": "https://www.turnpike-designs.ca"
             },
             "taxes": [
               {
-                "base": 489.97,
-                "confidence": 0.99,
+                "base": null,
+                "confidence": 0.95,
                 "polygon": [
                   [
-                    0.291,
-                    0.747
+                    0.292,
+                    0.749
                   ],
                   [
-                    0.709,
-                    0.747
+                    0.543,
+                    0.749
                   ],
                   [
-                    0.709,
+                    0.543,
                     0.763
                   ],
                   [
-                    0.291,
+                    0.292,
                     0.763
                   ]
                 ],
@@ -213,20 +456,20 @@
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.887,
-                  0.761
+                  0.889,
+                  0.783
                 ],
                 [
-                  0.936,
-                  0.761
+                  0.94,
+                  0.783
                 ],
                 [
-                  0.936,
-                  0.777
+                  0.94,
+                  0.797
                 ],
                 [
-                  0.887,
-                  0.777
+                  0.889,
+                  0.797
                 ]
               ],
               "value": 587.95
@@ -236,19 +479,19 @@
               "polygon": [
                 [
                   0.661,
-                  0.762
+                  0.764
                 ],
                 [
-                  0.711,
-                  0.762
+                  0.709,
+                  0.764
                 ],
                 [
-                  0.711,
-                  0.779
+                  0.709,
+                  0.78
                 ],
                 [
                   0.661,
-                  0.779
+                  0.78
                 ]
               ],
               "value": 489.97
@@ -285,45 +528,28 @@
           },
           "prediction": {
             "billing_address": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.033,
-                  0.302
-                ],
-                [
-                  0.216,
-                  0.302
-                ],
-                [
-                  0.216,
-                  0.356
-                ],
-                [
-                  0.033,
-                  0.356
-                ]
-              ],
-              "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "customer_address": {
-              "confidence": 0.99,
+              "confidence": 0.26,
               "polygon": [
                 [
-                  0.033,
-                  0.302
+                  0.035,
+                  0.303
                 ],
                 [
-                  0.216,
-                  0.302
+                  0.212,
+                  0.303
                 ],
                 [
-                  0.216,
-                  0.356
+                  0.212,
+                  0.354
                 ],
                 [
-                  0.033,
-                  0.356
+                  0.035,
+                  0.354
                 ]
               ],
               "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
@@ -335,57 +561,57 @@
               "value": null
             },
             "customer_name": {
-              "confidence": 0.99,
+              "confidence": 0.87,
               "polygon": [
                 [
-                  0.034,
+                  0.037,
                   0.284
                 ],
                 [
-                  0.101,
+                  0.099,
                   0.284
                 ],
                 [
-                  0.101,
-                  0.299
+                  0.099,
+                  0.297
                 ],
                 [
-                  0.034,
-                  0.299
+                  0.037,
+                  0.297
                 ]
               ],
               "raw_value": "Jiro Doi",
               "value": "JIRO DOI"
             },
             "date": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.839,
-                  0.304
-                ],
-                [
-                  0.933,
-                  0.304
-                ],
-                [
-                  0.933,
-                  0.318
-                ],
-                [
-                  0.839,
-                  0.318
-                ]
-              ],
-              "value": "2018-09-25"
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "document_type": {
               "value": "INVOICE"
             },
             "due_date": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.92,
+              "polygon": [
+                [
+                  0.84,
+                  0.326
+                ],
+                [
+                  0.941,
+                  0.326
+                ],
+                [
+                  0.941,
+                  0.34
+                ],
+                [
+                  0.84,
+                  0.34
+                ]
+              ],
+              "value": "2020-02-17"
             },
             "invoice_number": {
               "confidence": 0.0,
@@ -394,24 +620,24 @@
             },
             "line_items": [
               {
-                "confidence": 0.99,
+                "confidence": 0.97,
                 "description": "Platinum web hosting package Down 35mb, Up 100mb",
                 "polygon": [
                   [
-                    0.032,
-                    0.495
+                    0.035,
+                    0.501
                   ],
                   [
-                    0.966,
-                    0.495
+                    0.963,
+                    0.501
                   ],
                   [
-                    0.966,
-                    0.536
+                    0.963,
+                    0.535
                   ],
                   [
-                    0.032,
-                    0.536
+                    0.035,
+                    0.535
                   ]
                 ],
                 "product_code": null,
@@ -423,23 +649,23 @@
                 "unit_price": 65.0
               },
               {
-                "confidence": 0.99,
+                "confidence": 0.97,
                 "description": "2 page website design Includes basic wireframes, and responsive templates",
                 "polygon": [
                   [
-                    0.032,
-                    0.556
+                    0.035,
+                    0.562
                   ],
                   [
-                    0.964,
-                    0.556
+                    0.963,
+                    0.562
                   ],
                   [
-                    0.964,
+                    0.963,
                     0.598
                   ],
                   [
-                    0.032,
+                    0.035,
                     0.598
                   ]
                 ],
@@ -452,24 +678,24 @@
                 "unit_price": 2100.0
               },
               {
-                "confidence": 0.99,
+                "confidence": 0.97,
                 "description": "Mobile designs Includes responsive navigation",
                 "polygon": [
                   [
-                    0.032,
-                    0.622
+                    0.035,
+                    0.626
                   ],
                   [
-                    0.966,
-                    0.622
+                    0.963,
+                    0.626
                   ],
                   [
-                    0.966,
-                    0.663
+                    0.963,
+                    0.662
                   ],
                   [
-                    0.032,
-                    0.663
+                    0.035,
+                    0.662
                   ]
                 ],
                 "product_code": null,
@@ -482,9 +708,9 @@
               }
             ],
             "locale": {
-              "confidence": 0.71,
-              "currency": "EUR",
-              "language": "fr"
+              "confidence": 0.93,
+              "currency": "CAD",
+              "language": "en"
             },
             "orientation": {
               "confidence": 0.99,
@@ -492,23 +718,23 @@
             },
             "reference_numbers": [
               {
-                "confidence": 0.99,
+                "confidence": 0.9,
                 "polygon": [
                   [
-                    0.838,
+                    0.84,
                     0.284
                   ],
                   [
-                    0.914,
+                    0.913,
                     0.284
                   ],
                   [
-                    0.914,
-                    0.301
+                    0.913,
+                    0.298
                   ],
                   [
-                    0.838,
-                    0.301
+                    0.84,
+                    0.298
                   ]
                 ],
                 "value": "AD29094"
@@ -516,76 +742,77 @@
             ],
             "shipping_address": {
               "confidence": 0.0,
+              "page_id": null,
               "polygon": [],
               "value": null
             },
             "supplier_address": {
-              "confidence": 0.99,
+              "confidence": 0.53,
               "polygon": [
                 [
-                  0.754,
-                  0.127
+                  0.757,
+                  0.129
                 ],
                 [
-                  0.966,
-                  0.127
+                  0.963,
+                  0.129
                 ],
                 [
-                  0.966,
-                  0.164
+                  0.963,
+                  0.162
                 ],
                 [
-                  0.754,
-                  0.164
+                  0.757,
+                  0.162
                 ]
               ],
-              "value": "156 University Ave, Toronto ON, Canada, M5H 2H7"
+              "value": "156 University Ave, Toronto ON, Canada M5H 2H7"
             },
             "supplier_company_registrations": [],
             "supplier_email": {
-              "confidence": 0.99,
+              "confidence": 0.3,
               "polygon": [
                 [
-                  0.03,
-                  0.379
+                  0.164,
+                  0.088
                 ],
                 [
-                  0.189,
-                  0.379
+                  0.399,
+                  0.088
                 ],
                 [
-                  0.189,
-                  0.395
+                  0.399,
+                  0.147
                 ],
                 [
-                  0.03,
-                  0.395
+                  0.164,
+                  0.147
                 ]
               ],
-              "value": "j_doi@example.com"
+              "value": "leo.davinci@turnpike-designs.ca"
             },
             "supplier_name": {
-              "confidence": 0.99,
+              "confidence": 0.7,
               "polygon": [
                 [
-                  0.818,
-                  0.109
+                  0.164,
+                  0.088
                 ],
                 [
-                  0.966,
-                  0.109
+                  0.399,
+                  0.088
                 ],
                 [
-                  0.966,
-                  0.126
+                  0.399,
+                  0.147
                 ],
                 [
-                  0.818,
-                  0.126
+                  0.164,
+                  0.147
                 ]
               ],
-              "raw_value": "Turnpike Designs",
-              "value": "TURNPIKE DESIGNS"
+              "raw_value": "Turnpike Designs Co.",
+              "value": "TURNPIKE DESIGNS CO."
             },
             "supplier_payment_details": [],
             "supplier_phone_number": {
@@ -598,11 +825,53 @@
               "polygon": [],
               "value": null
             },
-            "taxes": [],
+            "taxes": [
+              {
+                "base": null,
+                "confidence": 0.79,
+                "polygon": [
+                  [
+                    0.785,
+                    0.744
+                  ],
+                  [
+                    0.963,
+                    0.744
+                  ],
+                  [
+                    0.963,
+                    0.758
+                  ],
+                  [
+                    0.785,
+                    0.758
+                  ]
+                ],
+                "rate": 8.0,
+                "value": 193.2
+              }
+            ],
             "total_amount": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.887,
+                  0.84
+                ],
+                [
+                  0.969,
+                  0.84
+                ],
+                [
+                  0.969,
+                  0.857
+                ],
+                [
+                  0.887,
+                  0.857
+                ]
+              ],
+              "value": 2608.2
             },
             "total_net": {
               "confidence": 0.0,
@@ -610,86 +879,120 @@
               "value": null
             },
             "total_tax": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.897,
+                  0.743
+                ],
+                [
+                  0.967,
+                  0.743
+                ],
+                [
+                  0.967,
+                  0.76
+                ],
+                [
+                  0.897,
+                  0.76
+                ]
+              ],
+              "value": 193.2
             }
           }
         }
       ],
       "prediction": {
         "billing_address": {
-          "confidence": 0.99,
-          "page_id": 1,
+          "confidence": 0.88,
+          "page_id": 0,
           "polygon": [
             [
-              0.033,
-              0.302
+              0.034,
+              0.303
             ],
             [
-              0.216,
-              0.302
+              0.213,
+              0.303
             ],
             [
-              0.216,
-              0.356
+              0.213,
+              0.354
             ],
             [
-              0.033,
-              0.356
+              0.034,
+              0.354
             ]
           ],
           "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
         },
         "customer_address": {
-          "confidence": 0.99,
+          "confidence": 0.26,
           "page_id": 1,
           "polygon": [
             [
-              0.033,
-              0.302
+              0.035,
+              0.303
             ],
             [
-              0.216,
-              0.302
+              0.212,
+              0.303
             ],
             [
-              0.216,
-              0.356
+              0.212,
+              0.354
             ],
             [
-              0.033,
-              0.356
+              0.035,
+              0.354
             ]
           ],
           "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
         },
         "customer_company_registrations": [],
         "customer_id": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
-        },
-        "customer_name": {
-          "confidence": 0.99,
-          "page_id": 1,
+          "confidence": 0.8,
+          "page_id": 0,
           "polygon": [
             [
               0.034,
-              0.284
+              0.303
             ],
             [
-              0.101,
-              0.284
+              0.213,
+              0.303
             ],
             [
-              0.101,
-              0.299
+              0.213,
+              0.354
             ],
             [
               0.034,
-              0.299
+              0.354
+            ]
+          ],
+          "value": "ABCD-1234"
+        },
+        "customer_name": {
+          "confidence": 0.87,
+          "page_id": 1,
+          "polygon": [
+            [
+              0.037,
+              0.284
+            ],
+            [
+              0.099,
+              0.284
+            ],
+            [
+              0.099,
+              0.297
+            ],
+            [
+              0.037,
+              0.297
             ]
           ],
           "raw_value": "Jiro Doi",
@@ -700,20 +1003,20 @@
           "page_id": 0,
           "polygon": [
             [
-              0.285,
+              0.288,
               0.306
             ],
             [
-              0.349,
+              0.346,
               0.306
             ],
             [
-              0.349,
-              0.318
+              0.346,
+              0.319
             ],
             [
-              0.285,
-              0.318
+              0.288,
+              0.319
             ]
           ],
           "value": "2020-02-17"
@@ -722,29 +1025,46 @@
           "value": "INVOICE"
         },
         "due_date": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
-        },
-        "invoice_number": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.175,
+              0.382,
+              0.306
+            ],
+            [
+              0.44,
+              0.306
+            ],
+            [
+              0.44,
+              0.318
+            ],
+            [
+              0.382,
+              0.318
+            ]
+          ],
+          "value": "2020-02-17"
+        },
+        "invoice_number": {
+          "confidence": 0.72,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.177,
               0.307
             ],
             [
-              0.267,
+              0.27,
               0.307
             ],
             [
-              0.267,
+              0.27,
               0.32
             ],
             [
-              0.175,
+              0.177,
               0.32
             ]
           ],
@@ -752,25 +1072,205 @@
         },
         "line_items": [
           {
-            "confidence": 0.99,
+            "confidence": 0.84,
+            "description": "S)BOIE 5X500 FEUILLES A4",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.173,
+                0.604
+              ],
+              [
+                0.906,
+                0.6
+              ],
+              [
+                0.906,
+                0.613
+              ],
+              [
+                0.173,
+                0.617
+              ]
+            ],
+            "product_code": null,
+            "quantity": null,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 2.63,
+            "unit_measure": null,
+            "unit_price": null
+          },
+          {
+            "confidence": 0.96,
+            "description": "RAM 500F DCP BLANC A4 100G",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.171,
+                0.619
+              ],
+              [
+                0.907,
+                0.615
+              ],
+              [
+                0.907,
+                0.628
+              ],
+              [
+                0.171,
+                0.632
+              ]
+            ],
+            "product_code": null,
+            "quantity": null,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 0.98,
+            "unit_measure": null,
+            "unit_price": null
+          },
+          {
+            "confidence": 0.96,
+            "description": "PQ 960 ETIQUETTES L METAL",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.17,
+                0.634
+              ],
+              [
+                0.908,
+                0.63
+              ],
+              [
+                0.908,
+                0.644
+              ],
+              [
+                0.17,
+                0.648
+              ]
+            ],
+            "product_code": null,
+            "quantity": null,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 4.07,
+            "unit_measure": null,
+            "unit_price": null
+          },
+          {
+            "confidence": 0.94,
+            "description": "CARTOUCHE L NR BROTHER TN247BK",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.17,
+                0.649
+              ],
+              [
+                0.909,
+                0.645
+              ],
+              [
+                0.909,
+                0.659
+              ],
+              [
+                0.171,
+                0.663
+              ]
+            ],
+            "product_code": null,
+            "quantity": null,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 9.47,
+            "unit_measure": null,
+            "unit_price": null
+          },
+          {
+            "confidence": 0.93,
+            "description": "PQ20 ETIQ ULTRA RESIS METAXXDC",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.168,
+                0.665
+              ],
+              [
+                0.908,
+                0.661
+              ],
+              [
+                0.908,
+                0.675
+              ],
+              [
+                0.168,
+                0.679
+              ]
+            ],
+            "product_code": null,
+            "quantity": null,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 4.31,
+            "unit_measure": null,
+            "unit_price": null
+          },
+          {
+            "confidence": 0.89,
+            "description": "FO2 IMPRIM MULTIFONCT MFC-L3770CDW",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.166,
+                0.681
+              ],
+              [
+                0.914,
+                0.676
+              ],
+              [
+                0.914,
+                0.704
+              ],
+              [
+                0.166,
+                0.708
+              ]
+            ],
+            "product_code": null,
+            "quantity": null,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 120.0,
+            "unit_measure": null,
+            "unit_price": null
+          },
+          {
+            "confidence": 0.97,
             "description": "Platinum web hosting package Down 35mb, Up 100mb",
             "page_id": 1,
             "polygon": [
               [
-                0.032,
-                0.495
+                0.035,
+                0.501
               ],
               [
-                0.966,
-                0.495
+                0.963,
+                0.501
               ],
               [
-                0.966,
-                0.536
+                0.963,
+                0.535
               ],
               [
-                0.032,
-                0.536
+                0.035,
+                0.535
               ]
             ],
             "product_code": null,
@@ -782,24 +1282,24 @@
             "unit_price": 65.0
           },
           {
-            "confidence": 0.99,
+            "confidence": 0.97,
             "description": "2 page website design Includes basic wireframes, and responsive templates",
             "page_id": 1,
             "polygon": [
               [
-                0.032,
-                0.556
+                0.035,
+                0.562
               ],
               [
-                0.964,
-                0.556
+                0.963,
+                0.562
               ],
               [
-                0.964,
+                0.963,
                 0.598
               ],
               [
-                0.032,
+                0.035,
                 0.598
               ]
             ],
@@ -812,25 +1312,25 @@
             "unit_price": 2100.0
           },
           {
-            "confidence": 0.99,
+            "confidence": 0.97,
             "description": "Mobile designs Includes responsive navigation",
             "page_id": 1,
             "polygon": [
               [
-                0.032,
-                0.622
+                0.035,
+                0.626
               ],
               [
-                0.966,
-                0.622
+                0.963,
+                0.626
               ],
               [
-                0.966,
-                0.663
+                0.963,
+                0.662
               ],
               [
-                0.032,
-                0.663
+                0.035,
+                0.662
               ]
             ],
             "product_code": null,
@@ -843,126 +1343,126 @@
           }
         ],
         "locale": {
-          "confidence": 0.71,
-          "currency": "EUR",
-          "language": "fr"
+          "confidence": 0.93,
+          "currency": "CAD",
+          "language": "en"
         },
-        "reference_numbers": [
-          {
-            "confidence": 0.99,
-            "page_id": 1,
-            "polygon": [
-              [
-                0.838,
-                0.284
-              ],
-              [
-                0.914,
-                0.284
-              ],
-              [
-                0.914,
-                0.301
-              ],
-              [
-                0.838,
-                0.301
-              ]
-            ],
-            "value": "AD29094"
-          }
-        ],
         "shipping_address": {
           "confidence": 0.0,
           "page_id": null,
           "polygon": [],
           "value": null
         },
+        "reference_numbers": [
+          {
+            "confidence": 0.9,
+            "page_id": 1,
+            "polygon": [
+              [
+                0.84,
+                0.284
+              ],
+              [
+                0.913,
+                0.284
+              ],
+              [
+                0.913,
+                0.298
+              ],
+              [
+                0.84,
+                0.298
+              ]
+            ],
+            "value": "AD29094"
+          }
+        ],
         "supplier_address": {
-          "confidence": 0.99,
+          "confidence": 0.53,
           "page_id": 1,
           "polygon": [
             [
-              0.754,
-              0.127
+              0.757,
+              0.129
             ],
             [
-              0.966,
-              0.127
+              0.963,
+              0.129
             ],
             [
-              0.966,
-              0.164
+              0.963,
+              0.162
             ],
             [
-              0.754,
-              0.164
+              0.757,
+              0.162
             ]
           ],
-          "value": "156 University Ave, Toronto ON, Canada, M5H 2H7"
+          "value": "156 University Ave, Toronto ON, Canada M5H 2H7"
         },
         "supplier_company_registrations": [],
         "supplier_email": {
-          "confidence": 0.99,
+          "confidence": 0.3,
           "page_id": 1,
           "polygon": [
             [
-              0.03,
-              0.379
+              0.164,
+              0.088
             ],
             [
-              0.189,
-              0.379
+              0.399,
+              0.088
             ],
             [
-              0.189,
-              0.395
+              0.399,
+              0.147
             ],
             [
-              0.03,
-              0.395
+              0.164,
+              0.147
             ]
           ],
-          "value": "j_doi@example.com"
+          "value": "leo.davinci@turnpike-designs.ca"
         },
         "supplier_name": {
-          "confidence": 0.99,
+          "confidence": 0.7,
           "page_id": 1,
           "polygon": [
             [
-              0.818,
-              0.109
+              0.164,
+              0.088
             ],
             [
-              0.966,
-              0.109
+              0.399,
+              0.088
             ],
             [
-              0.966,
-              0.126
+              0.399,
+              0.147
             ],
             [
-              0.818,
-              0.126
+              0.164,
+              0.147
             ]
           ],
-          "raw_value": "Turnpike Designs",
-          "value": "TURNPIKE DESIGNS"
+          "raw_value": "Turnpike Designs Co.",
+          "value": "TURNPIKE DESIGNS CO."
         },
         "supplier_payment_details": [
           {
             "account_number": null,
-            "confidence": 0.99,
+            "confidence": 0.33,
             "iban": "FR7640254025476501124705368",
             "page_id": 0,
             "polygon": [
               [
                 0.666,
-                0.12
+                0.123
               ],
               [
                 0.861,
-                0.12
+                0.123
               ],
               [
                 0.861,
@@ -978,54 +1478,71 @@
           }
         ],
         "supplier_phone_number": {
-          "confidence": 0.99,
+          "confidence": 0.8,
           "page_id": 0,
           "polygon": [
             [
-              0.177,
-              0.237
+              0.034,
+              0.303
             ],
             [
-              0.261,
-              0.237
+              0.213,
+              0.303
             ],
             [
-              0.261,
-              0.249
+              0.213,
+              0.354
             ],
             [
-              0.177,
-              0.249
+              0.034,
+              0.354
             ]
           ],
-          "value": "0505444490"
+          "value": "2121231234"
         },
         "supplier_website": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "confidence": 0.82,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.034,
+              0.303
+            ],
+            [
+              0.213,
+              0.303
+            ],
+            [
+              0.213,
+              0.354
+            ],
+            [
+              0.034,
+              0.354
+            ]
+          ],
+          "value": "https://www.turnpike-designs.ca"
         },
         "taxes": [
           {
-            "base": 489.97,
-            "confidence": 0.99,
+            "base": null,
+            "confidence": 0.95,
             "page_id": 0,
             "polygon": [
               [
-                0.291,
-                0.747
+                0.292,
+                0.749
               ],
               [
-                0.709,
-                0.747
+                0.543,
+                0.749
               ],
               [
-                0.709,
+                0.543,
                 0.763
               ],
               [
-                0.291,
+                0.292,
                 0.763
               ]
             ],
@@ -1038,20 +1555,20 @@
           "page_id": 0,
           "polygon": [
             [
-              0.887,
-              0.761
+              0.889,
+              0.783
             ],
             [
-              0.936,
-              0.761
+              0.94,
+              0.783
             ],
             [
-              0.936,
-              0.777
+              0.94,
+              0.797
             ],
             [
-              0.887,
-              0.777
+              0.889,
+              0.797
             ]
           ],
           "value": 587.95
@@ -1062,48 +1579,48 @@
           "polygon": [
             [
               0.661,
-              0.762
+              0.764
             ],
             [
-              0.711,
-              0.762
+              0.709,
+              0.764
             ],
             [
-              0.711,
-              0.779
+              0.709,
+              0.78
             ],
             [
               0.661,
-              0.779
+              0.78
             ]
           ],
           "value": 489.97
         },
         "total_tax": {
           "confidence": 0.99,
-          "page_id": 0,
+          "page_id": 1,
           "polygon": [
             [
-              0.506,
-              0.763
+              0.897,
+              0.743
             ],
             [
-              0.547,
-              0.763
+              0.967,
+              0.743
             ],
             [
-              0.547,
-              0.779
+              0.967,
+              0.76
             ],
             [
-              0.506,
-              0.779
+              0.897,
+              0.76
             ]
           ],
-          "value": 97.98
+          "value": 193.2
         }
       },
-      "processing_time": 1.686,
+      "processing_time": 2.186,
       "product": {
         "features": [
           "locale",
@@ -1134,9 +1651,9 @@
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "4.7"
+        "version": "4.6"
       },
-      "started_at": "2024-07-18T11:33:05.857374"
+      "started_at": "2023-10-10T15:16:54.559711"
     },
     "n_pages": 2,
     "name": "invoice.pdf"
