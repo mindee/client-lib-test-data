@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: c4b939ce-bf05-4011-b0f0-10ac9bbcbfca
+:Mindee ID: f40a8701-fda1-44a0-8c44-46cbb5d657d5
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/financial_document v1.8
+:Product: mindee/financial_document v1.9
 :Rotation applied: Yes
 
 Prediction
@@ -47,11 +47,6 @@ Prediction
 :Tip and Gratuity:
 :Purchase Time: 15:20
 :Line Items:
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
-  +======================================+==============+==========+============+==============+==============+============+
-  | Meantime Pale                        |              | 2.00     |            |              | 10.20        |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
 
 Page Predictions
 ================
@@ -94,8 +89,3 @@ Page 0
 :Tip and Gratuity:
 :Purchase Time: 15:20
 :Line Items:
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
-  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit Price |
-  +======================================+==============+==========+============+==============+==============+============+
-  | Meantime Pale                        |              | 2.00     |            |              | 10.20        |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+------------+
