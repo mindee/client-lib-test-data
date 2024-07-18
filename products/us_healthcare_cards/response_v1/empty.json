@@ -1,0 +1,94 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/us_healthcare_cards/v1/documents/c3469258-0fa1-4e43-bfa5-c69bcdd99495"
+  },
+  "document": {
+    "id": "c3469258-0fa1-4e43-bfa5-c69bcdd99495",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-07-18T09:54:51.740000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "company_name": {
+          "value": null
+        },
+        "copays": [],
+        "dependents": [],
+        "enrollment_date": {
+          "value": null
+        },
+        "group_number": {
+          "value": null
+        },
+        "issuer_80840": {
+          "value": null
+        },
+        "member_id": {
+          "value": null
+        },
+        "member_name": {
+          "value": null
+        },
+        "payer_id": {
+          "value": null
+        },
+        "rx_bin": {
+          "value": null
+        },
+        "rx_grp": {
+          "value": null
+        },
+        "rx_pcn": {
+          "value": null
+        }
+      },
+      "processing_time": 0.14,
+      "product": {
+        "features": [
+          "company_name",
+          "member_name",
+          "member_id",
+          "issuer_80840",
+          "dependents",
+          "group_number",
+          "payer_id",
+          "rx_bin",
+          "rx_grp",
+          "rx_pcn",
+          "copays",
+          "enrollment_date"
+        ],
+        "name": "mindee/us_healthcare_cards",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-07-18T09:54:51.481000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-07-18T09:54:51.749000",
+    "error": {},
+    "id": "a2ef79fd-db6b-418f-8aa6-36bb5244365d",
+    "issued_at": "2024-07-18T09:54:51.481000",
+    "status": "completed"
+  }
+}
