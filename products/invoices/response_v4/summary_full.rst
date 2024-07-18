@@ -1,8 +1,8 @@
 ########
 Document
 ########
-:Mindee ID: 372d9d08-59d8-4e1c-9622-06648c1c238b
-:Filename: default_sample.jpg
+:Mindee ID: b2c752a6-d261-4b52-9cb8-84761a748bd4
+:Filename: invoice.pdf
 
 Inference
 #########
@@ -11,27 +11,27 @@ Inference
 
 Prediction
 ==========
-:Locale: en; en; CAD;
-:Invoice Number: 14
+:Locale: fr; fr; EUR;
+:Invoice Number: 0042004801351
 :Reference Numbers: AD29094
-:Purchase Date: 2018-09-25
+:Purchase Date: 2020-02-17
 :Due Date:
-:Total Net: 2145.00
-:Total Amount: 2608.20
-:Total Tax: 193.20
+:Total Net: 489.97
+:Total Amount: 587.95
+:Total Tax: 97.98
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
-  |               |        | 8.00     | 193.20        |
+  | 489.97        |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
-:Supplier Payment Details:
+:Supplier Payment Details: FR7640254025476501124705368;
 :Supplier Name: TURNPIKE DESIGNS
 :Supplier Company Registrations:
 :Supplier Address: 156 University Ave, Toronto ON, Canada, M5H 2H7
-:Supplier Phone Number: 4165551212
+:Supplier Phone Number: 0505444490
 :Supplier Website:
-:Supplier Email: i_doi@example.com
+:Supplier Email: j_doi@example.com
 :Customer Name: JIRO DOI
 :Customer Company Registrations:
 :Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
@@ -55,27 +55,57 @@ Page Predictions
 
 Page 0
 ------
-:Locale: en; en; CAD;
-:Invoice Number: 14
-:Reference Numbers: AD29094
-:Purchase Date: 2018-09-25
+:Locale: fr; fr; EUR;
+:Invoice Number: 0042004801351
+:Reference Numbers:
+:Purchase Date: 2020-02-17
 :Due Date:
-:Total Net: 2145.00
-:Total Amount: 2608.20
-:Total Tax: 193.20
+:Total Net: 489.97
+:Total Amount: 587.95
+:Total Tax: 97.98
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
-  |               |        | 8.00     | 193.20        |
+  | 489.97        |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
+:Supplier Payment Details: FR7640254025476501124705368;
+:Supplier Name:
+:Supplier Company Registrations:
+:Supplier Address:
+:Supplier Phone Number: 0505444490
+:Supplier Website:
+:Supplier Email:
+:Customer Name:
+:Customer Company Registrations:
+:Customer Address:
+:Customer ID:
+:Shipping Address:
+:Billing Address:
+:Document Type: INVOICE
+:Line Items:
+
+Page 1
+------
+:Locale: fr; fr; EUR;
+:Invoice Number:
+:Reference Numbers: AD29094
+:Purchase Date: 2018-09-25
+:Due Date:
+:Total Net:
+:Total Amount:
+:Total Tax:
+:Taxes:
+  +---------------+--------+----------+---------------+
+  | Base          | Code   | Rate (%) | Amount        |
+  +===============+========+==========+===============+
 :Supplier Payment Details:
 :Supplier Name: TURNPIKE DESIGNS
 :Supplier Company Registrations:
 :Supplier Address: 156 University Ave, Toronto ON, Canada, M5H 2H7
-:Supplier Phone Number: 4165551212
+:Supplier Phone Number:
 :Supplier Website:
-:Supplier Email: i_doi@example.com
+:Supplier Email: j_doi@example.com
 :Customer Name: JIRO DOI
 :Customer Company Registrations:
 :Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada

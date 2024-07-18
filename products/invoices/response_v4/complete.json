@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict"
   },
   "document": {
-    "id": "372d9d08-59d8-4e1c-9622-06648c1c238b",
+    "id": "b2c752a6-d261-4b52-9cb8-84761a748bd4",
     "inference": {
       "extras": {},
-      "finished_at": "2024-07-18T11:24:31.011876",
+      "finished_at": "2024-07-18T11:33:07.543816",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -23,22 +23,284 @@
           },
           "prediction": {
             "billing_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "customer_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "customer_company_registrations": [],
+            "customer_id": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "customer_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "raw_value": null,
+              "value": null
+            },
+            "date": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.032,
+                  0.285,
+                  0.306
+                ],
+                [
+                  0.349,
+                  0.306
+                ],
+                [
+                  0.349,
+                  0.318
+                ],
+                [
+                  0.285,
+                  0.318
+                ]
+              ],
+              "value": "2020-02-17"
+            },
+            "document_type": {
+              "value": "INVOICE"
+            },
+            "due_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "invoice_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.175,
+                  0.307
+                ],
+                [
+                  0.267,
+                  0.307
+                ],
+                [
+                  0.267,
+                  0.32
+                ],
+                [
+                  0.175,
+                  0.32
+                ]
+              ],
+              "value": "0042004801351"
+            },
+            "line_items": [],
+            "locale": {
+              "confidence": 0.71,
+              "currency": "EUR",
+              "language": "fr"
+            },
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "reference_numbers": [],
+            "shipping_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_address": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_company_registrations": [],
+            "supplier_email": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_name": {
+              "confidence": 0.0,
+              "polygon": [],
+              "raw_value": null,
+              "value": null
+            },
+            "supplier_payment_details": [
+              {
+                "account_number": null,
+                "confidence": 0.99,
+                "iban": "FR7640254025476501124705368",
+                "polygon": [
+                  [
+                    0.666,
+                    0.12
+                  ],
+                  [
+                    0.861,
+                    0.12
+                  ],
+                  [
+                    0.861,
+                    0.14
+                  ],
+                  [
+                    0.666,
+                    0.14
+                  ]
+                ],
+                "routing_number": null,
+                "swift": null
+              }
+            ],
+            "supplier_phone_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.177,
+                  0.237
+                ],
+                [
+                  0.261,
+                  0.237
+                ],
+                [
+                  0.261,
+                  0.249
+                ],
+                [
+                  0.177,
+                  0.249
+                ]
+              ],
+              "value": "0505444490"
+            },
+            "supplier_website": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "taxes": [
+              {
+                "base": 489.97,
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.291,
+                    0.747
+                  ],
+                  [
+                    0.709,
+                    0.747
+                  ],
+                  [
+                    0.709,
+                    0.763
+                  ],
+                  [
+                    0.291,
+                    0.763
+                  ]
+                ],
+                "rate": 20.0,
+                "value": 97.98
+              }
+            ],
+            "total_amount": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.887,
+                  0.761
+                ],
+                [
+                  0.936,
+                  0.761
+                ],
+                [
+                  0.936,
+                  0.777
+                ],
+                [
+                  0.887,
+                  0.777
+                ]
+              ],
+              "value": 587.95
+            },
+            "total_net": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.661,
+                  0.762
+                ],
+                [
+                  0.711,
+                  0.762
+                ],
+                [
+                  0.711,
+                  0.779
+                ],
+                [
+                  0.661,
+                  0.779
+                ]
+              ],
+              "value": 489.97
+            },
+            "total_tax": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.506,
+                  0.763
+                ],
+                [
+                  0.547,
+                  0.763
+                ],
+                [
+                  0.547,
+                  0.779
+                ],
+                [
+                  0.506,
+                  0.779
+                ]
+              ],
+              "value": 97.98
+            }
+          }
+        },
+        {
+          "extras": {},
+          "id": 1,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "billing_address": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.033,
                   0.302
                 ],
                 [
-                  0.215,
+                  0.216,
                   0.302
                 ],
                 [
-                  0.215,
+                  0.216,
                   0.356
                 ],
                 [
-                  0.032,
+                  0.033,
                   0.356
                 ]
               ],
@@ -48,19 +310,19 @@
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.032,
+                  0.033,
                   0.302
                 ],
                 [
-                  0.215,
+                  0.216,
                   0.302
                 ],
                 [
-                  0.215,
+                  0.216,
                   0.356
                 ],
                 [
-                  0.032,
+                  0.033,
                   0.356
                 ]
               ],
@@ -76,19 +338,19 @@
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.032,
+                  0.034,
                   0.284
                 ],
                 [
-                  0.1,
+                  0.101,
                   0.284
                 ],
                 [
-                  0.1,
+                  0.101,
                   0.299
                 ],
                 [
-                  0.032,
+                  0.034,
                   0.299
                 ]
               ],
@@ -96,23 +358,23 @@
               "value": "JIRO DOI"
             },
             "date": {
-              "confidence": 0.96,
+              "confidence": 0.99,
               "polygon": [
                 [
                   0.839,
-                  0.303
+                  0.304
                 ],
                 [
-                  0.934,
-                  0.303
+                  0.933,
+                  0.304
                 ],
                 [
-                  0.934,
-                  0.32
+                  0.933,
+                  0.318
                 ],
                 [
                   0.839,
-                  0.32
+                  0.318
                 ]
               ],
               "value": "2018-09-25"
@@ -126,26 +388,9 @@
               "value": null
             },
             "invoice_number": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.841,
-                  0.264
-                ],
-                [
-                  0.862,
-                  0.264
-                ],
-                [
-                  0.862,
-                  0.283
-                ],
-                [
-                  0.841,
-                  0.283
-                ]
-              ],
-              "value": "14"
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "line_items": [
               {
@@ -154,19 +399,19 @@
                 "polygon": [
                   [
                     0.032,
-                    0.501
+                    0.495
                   ],
                   [
-                    0.965,
-                    0.501
+                    0.966,
+                    0.495
                   ],
                   [
-                    0.965,
-                    0.537
+                    0.966,
+                    0.536
                   ],
                   [
                     0.032,
-                    0.537
+                    0.536
                   ]
                 ],
                 "product_code": null,
@@ -178,24 +423,24 @@
                 "unit_price": 65.0
               },
               {
-                "confidence": 0.98,
+                "confidence": 0.99,
                 "description": "2 page website design Includes basic wireframes, and responsive templates",
                 "polygon": [
                   [
-                    0.031,
-                    0.558
+                    0.032,
+                    0.556
                   ],
                   [
-                    0.966,
-                    0.558
+                    0.964,
+                    0.556
                   ],
                   [
-                    0.966,
-                    0.6
+                    0.964,
+                    0.598
                   ],
                   [
-                    0.031,
-                    0.6
+                    0.032,
+                    0.598
                   ]
                 ],
                 "product_code": null,
@@ -207,7 +452,7 @@
                 "unit_price": 2100.0
               },
               {
-                "confidence": 0.98,
+                "confidence": 0.99,
                 "description": "Mobile designs Includes responsive navigation",
                 "polygon": [
                   [
@@ -215,16 +460,16 @@
                     0.622
                   ],
                   [
-                    0.965,
+                    0.966,
                     0.622
                   ],
                   [
-                    0.965,
-                    0.664
+                    0.966,
+                    0.663
                   ],
                   [
                     0.032,
-                    0.664
+                    0.663
                   ]
                 ],
                 "product_code": null,
@@ -237,9 +482,9 @@
               }
             ],
             "locale": {
-              "confidence": 0.94,
-              "currency": "CAD",
-              "language": "en"
+              "confidence": 0.71,
+              "currency": "EUR",
+              "language": "fr"
             },
             "orientation": {
               "confidence": 0.99,
@@ -250,7 +495,7 @@
                 "confidence": 0.99,
                 "polygon": [
                   [
-                    0.839,
+                    0.838,
                     0.284
                   ],
                   [
@@ -259,11 +504,11 @@
                   ],
                   [
                     0.914,
-                    0.3
+                    0.301
                   ],
                   [
-                    0.839,
-                    0.3
+                    0.838,
+                    0.301
                   ]
                 ],
                 "value": "AD29094"
@@ -278,19 +523,19 @@
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.752,
-                  0.128
+                  0.754,
+                  0.127
                 ],
                 [
                   0.966,
-                  0.128
+                  0.127
                 ],
                 [
                   0.966,
                   0.164
                 ],
                 [
-                  0.752,
+                  0.754,
                   0.164
                 ]
               ],
@@ -298,44 +543,44 @@
             },
             "supplier_company_registrations": [],
             "supplier_email": {
-              "confidence": 0.96,
+              "confidence": 0.99,
               "polygon": [
                 [
-                  0.026,
-                  0.375
+                  0.03,
+                  0.379
                 ],
                 [
-                  0.193,
-                  0.375
+                  0.189,
+                  0.379
                 ],
                 [
-                  0.193,
-                  0.399
+                  0.189,
+                  0.395
                 ],
                 [
-                  0.026,
-                  0.399
+                  0.03,
+                  0.395
                 ]
               ],
-              "value": "i_doi@example.com"
+              "value": "j_doi@example.com"
             },
             "supplier_name": {
               "confidence": 0.99,
               "polygon": [
                 [
-                  0.82,
-                  0.107
+                  0.818,
+                  0.109
                 ],
                 [
                   0.966,
-                  0.107
+                  0.109
                 ],
                 [
                   0.966,
                   0.126
                 ],
                 [
-                  0.82,
+                  0.818,
                   0.126
                 ]
               ],
@@ -344,123 +589,30 @@
             },
             "supplier_payment_details": [],
             "supplier_phone_number": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.027,
-                  0.395
-                ],
-                [
-                  0.148,
-                  0.395
-                ],
-                [
-                  0.148,
-                  0.414
-                ],
-                [
-                  0.027,
-                  0.414
-                ]
-              ],
-              "value": "4165551212"
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "supplier_website": {
               "confidence": 0.0,
               "polygon": [],
               "value": null
             },
-            "taxes": [
-              {
-                "base": null,
-                "confidence": 0.99,
-                "polygon": [
-                  [
-                    0.783,
-                    0.745
-                  ],
-                  [
-                    0.965,
-                    0.745
-                  ],
-                  [
-                    0.965,
-                    0.762
-                  ],
-                  [
-                    0.783,
-                    0.762
-                  ]
-                ],
-                "rate": 8.0,
-                "value": 193.2
-              }
-            ],
+            "taxes": [],
             "total_amount": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.881,
-                  0.839
-                ],
-                [
-                  0.97,
-                  0.839
-                ],
-                [
-                  0.97,
-                  0.861
-                ],
-                [
-                  0.881,
-                  0.861
-                ]
-              ],
-              "value": 2608.2
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "total_net": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.881,
-                  0.724
-                ],
-                [
-                  0.969,
-                  0.724
-                ],
-                [
-                  0.969,
-                  0.745
-                ],
-                [
-                  0.881,
-                  0.745
-                ]
-              ],
-              "value": 2145.0
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "total_tax": {
-              "confidence": 0.99,
-              "polygon": [
-                [
-                  0.895,
-                  0.743
-                ],
-                [
-                  0.969,
-                  0.743
-                ],
-                [
-                  0.969,
-                  0.764
-                ],
-                [
-                  0.895,
-                  0.764
-                ]
-              ],
-              "value": 193.2
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             }
           }
         }
@@ -468,22 +620,22 @@
       "prediction": {
         "billing_address": {
           "confidence": 0.99,
-          "page_id": 0,
+          "page_id": 1,
           "polygon": [
             [
-              0.032,
+              0.033,
               0.302
             ],
             [
-              0.215,
+              0.216,
               0.302
             ],
             [
-              0.215,
+              0.216,
               0.356
             ],
             [
-              0.032,
+              0.033,
               0.356
             ]
           ],
@@ -491,22 +643,22 @@
         },
         "customer_address": {
           "confidence": 0.99,
-          "page_id": 0,
+          "page_id": 1,
           "polygon": [
             [
-              0.032,
+              0.033,
               0.302
             ],
             [
-              0.215,
+              0.216,
               0.302
             ],
             [
-              0.215,
+              0.216,
               0.356
             ],
             [
-              0.032,
+              0.033,
               0.356
             ]
           ],
@@ -521,22 +673,22 @@
         },
         "customer_name": {
           "confidence": 0.99,
-          "page_id": 0,
+          "page_id": 1,
           "polygon": [
             [
-              0.032,
+              0.034,
               0.284
             ],
             [
-              0.1,
+              0.101,
               0.284
             ],
             [
-              0.1,
+              0.101,
               0.299
             ],
             [
-              0.032,
+              0.034,
               0.299
             ]
           ],
@@ -544,27 +696,27 @@
           "value": "JIRO DOI"
         },
         "date": {
-          "confidence": 0.96,
+          "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.839,
-              0.303
+              0.285,
+              0.306
             ],
             [
-              0.934,
-              0.303
+              0.349,
+              0.306
             ],
             [
-              0.934,
-              0.32
+              0.349,
+              0.318
             ],
             [
-              0.839,
-              0.32
+              0.285,
+              0.318
             ]
           ],
-          "value": "2018-09-25"
+          "value": "2020-02-17"
         },
         "document_type": {
           "value": "INVOICE"
@@ -580,45 +732,45 @@
           "page_id": 0,
           "polygon": [
             [
-              0.841,
-              0.264
+              0.175,
+              0.307
             ],
             [
-              0.862,
-              0.264
+              0.267,
+              0.307
             ],
             [
-              0.862,
-              0.283
+              0.267,
+              0.32
             ],
             [
-              0.841,
-              0.283
+              0.175,
+              0.32
             ]
           ],
-          "value": "14"
+          "value": "0042004801351"
         },
         "line_items": [
           {
             "confidence": 0.99,
             "description": "Platinum web hosting package Down 35mb, Up 100mb",
-            "page_id": 0,
+            "page_id": 1,
             "polygon": [
               [
                 0.032,
-                0.501
+                0.495
               ],
               [
-                0.965,
-                0.501
+                0.966,
+                0.495
               ],
               [
-                0.965,
-                0.537
+                0.966,
+                0.536
               ],
               [
                 0.032,
-                0.537
+                0.536
               ]
             ],
             "product_code": null,
@@ -630,25 +782,25 @@
             "unit_price": 65.0
           },
           {
-            "confidence": 0.98,
+            "confidence": 0.99,
             "description": "2 page website design Includes basic wireframes, and responsive templates",
-            "page_id": 0,
+            "page_id": 1,
             "polygon": [
               [
-                0.031,
-                0.558
+                0.032,
+                0.556
               ],
               [
-                0.966,
-                0.558
+                0.964,
+                0.556
               ],
               [
-                0.966,
-                0.6
+                0.964,
+                0.598
               ],
               [
-                0.031,
-                0.6
+                0.032,
+                0.598
               ]
             ],
             "product_code": null,
@@ -660,25 +812,25 @@
             "unit_price": 2100.0
           },
           {
-            "confidence": 0.98,
+            "confidence": 0.99,
             "description": "Mobile designs Includes responsive navigation",
-            "page_id": 0,
+            "page_id": 1,
             "polygon": [
               [
                 0.032,
                 0.622
               ],
               [
-                0.965,
+                0.966,
                 0.622
               ],
               [
-                0.965,
-                0.664
+                0.966,
+                0.663
               ],
               [
                 0.032,
-                0.664
+                0.663
               ]
             ],
             "product_code": null,
@@ -691,17 +843,17 @@
           }
         ],
         "locale": {
-          "confidence": 0.94,
-          "currency": "CAD",
-          "language": "en"
+          "confidence": 0.71,
+          "currency": "EUR",
+          "language": "fr"
         },
         "reference_numbers": [
           {
             "confidence": 0.99,
-            "page_id": 0,
+            "page_id": 1,
             "polygon": [
               [
-                0.839,
+                0.838,
                 0.284
               ],
               [
@@ -710,11 +862,11 @@
               ],
               [
                 0.914,
-                0.3
+                0.301
               ],
               [
-                0.839,
-                0.3
+                0.838,
+                0.301
               ]
             ],
             "value": "AD29094"
@@ -728,22 +880,22 @@
         },
         "supplier_address": {
           "confidence": 0.99,
-          "page_id": 0,
+          "page_id": 1,
           "polygon": [
             [
-              0.752,
-              0.128
+              0.754,
+              0.127
             ],
             [
               0.966,
-              0.128
+              0.127
             ],
             [
               0.966,
               0.164
             ],
             [
-              0.752,
+              0.754,
               0.164
             ]
           ],
@@ -751,75 +903,102 @@
         },
         "supplier_company_registrations": [],
         "supplier_email": {
-          "confidence": 0.96,
-          "page_id": 0,
+          "confidence": 0.99,
+          "page_id": 1,
           "polygon": [
             [
-              0.026,
-              0.375
+              0.03,
+              0.379
             ],
             [
-              0.193,
-              0.375
+              0.189,
+              0.379
             ],
             [
-              0.193,
-              0.399
+              0.189,
+              0.395
             ],
             [
-              0.026,
-              0.399
+              0.03,
+              0.395
             ]
           ],
-          "value": "i_doi@example.com"
+          "value": "j_doi@example.com"
         },
         "supplier_name": {
           "confidence": 0.99,
-          "page_id": 0,
+          "page_id": 1,
           "polygon": [
             [
-              0.82,
-              0.107
+              0.818,
+              0.109
             ],
             [
               0.966,
-              0.107
+              0.109
             ],
             [
               0.966,
               0.126
             ],
             [
-              0.82,
+              0.818,
               0.126
             ]
           ],
           "raw_value": "Turnpike Designs",
           "value": "TURNPIKE DESIGNS"
         },
-        "supplier_payment_details": [],
+        "supplier_payment_details": [
+          {
+            "account_number": null,
+            "confidence": 0.99,
+            "iban": "FR7640254025476501124705368",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.666,
+                0.12
+              ],
+              [
+                0.861,
+                0.12
+              ],
+              [
+                0.861,
+                0.14
+              ],
+              [
+                0.666,
+                0.14
+              ]
+            ],
+            "routing_number": null,
+            "swift": null
+          }
+        ],
         "supplier_phone_number": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.027,
-              0.395
+              0.177,
+              0.237
             ],
             [
-              0.148,
-              0.395
+              0.261,
+              0.237
             ],
             [
-              0.148,
-              0.414
+              0.261,
+              0.249
             ],
             [
-              0.027,
-              0.414
+              0.177,
+              0.249
             ]
           ],
-          "value": "4165551212"
+          "value": "0505444490"
         },
         "supplier_website": {
           "confidence": 0.0,
@@ -829,29 +1008,29 @@
         },
         "taxes": [
           {
-            "base": null,
+            "base": 489.97,
             "confidence": 0.99,
             "page_id": 0,
             "polygon": [
               [
-                0.783,
-                0.745
+                0.291,
+                0.747
               ],
               [
-                0.965,
-                0.745
+                0.709,
+                0.747
               ],
               [
-                0.965,
-                0.762
+                0.709,
+                0.763
               ],
               [
-                0.783,
-                0.762
+                0.291,
+                0.763
               ]
             ],
-            "rate": 8.0,
-            "value": 193.2
+            "rate": 20.0,
+            "value": 97.98
           }
         ],
         "total_amount": {
@@ -859,72 +1038,72 @@
           "page_id": 0,
           "polygon": [
             [
-              0.881,
-              0.839
+              0.887,
+              0.761
             ],
             [
-              0.97,
-              0.839
+              0.936,
+              0.761
             ],
             [
-              0.97,
-              0.861
+              0.936,
+              0.777
             ],
             [
-              0.881,
-              0.861
+              0.887,
+              0.777
             ]
           ],
-          "value": 2608.2
+          "value": 587.95
         },
         "total_net": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.881,
-              0.724
+              0.661,
+              0.762
             ],
             [
-              0.969,
-              0.724
+              0.711,
+              0.762
             ],
             [
-              0.969,
-              0.745
+              0.711,
+              0.779
             ],
             [
-              0.881,
-              0.745
+              0.661,
+              0.779
             ]
           ],
-          "value": 2145.0
+          "value": 489.97
         },
         "total_tax": {
           "confidence": 0.99,
           "page_id": 0,
           "polygon": [
             [
-              0.895,
-              0.743
+              0.506,
+              0.763
             ],
             [
-              0.969,
-              0.743
+              0.547,
+              0.763
             ],
             [
-              0.969,
-              0.764
+              0.547,
+              0.779
             ],
             [
-              0.895,
-              0.764
+              0.506,
+              0.779
             ]
           ],
-          "value": 193.2
+          "value": 97.98
         }
       },
-      "processing_time": 0.626,
+      "processing_time": 1.686,
       "product": {
         "features": [
           "locale",
@@ -957,9 +1136,9 @@
         "type": "standard",
         "version": "4.7"
       },
-      "started_at": "2024-07-18T11:24:30.386229"
+      "started_at": "2024-07-18T11:33:05.857374"
     },
-    "n_pages": 1,
-    "name": "default_sample.jpg"
+    "n_pages": 2,
+    "name": "invoice.pdf"
   }
 }

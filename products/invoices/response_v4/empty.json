@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict"
   },
   "document": {
-    "id": "56d1d4c0-02fb-49b8-91e4-a6c15b675c40",
+    "id": "88611809-354c-4922-9abb-95e5735c0a12",
     "inference": {
       "extras": {},
-      "finished_at": "2024-07-18T11:24:31.515356",
+      "finished_at": "2024-07-18T11:33:07.985954",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -239,7 +239,7 @@
           "value": null
         }
       },
-      "processing_time": 0.313,
+      "processing_time": 0.281,
       "product": {
         "features": [
           "locale",
@@ -272,7 +272,7 @@
         "type": "standard",
         "version": "4.7"
       },
-      "started_at": "2024-07-18T11:24:31.202742"
+      "started_at": "2024-07-18T11:33:07.705412"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
