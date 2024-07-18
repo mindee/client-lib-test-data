@@ -174,6 +174,7 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 2.63,
+                "unit_measure": null,
                 "unit_price": null
               },
               {
@@ -202,6 +203,7 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 0.98,
+                "unit_measure": null,
                 "unit_price": null
               },
               {
@@ -230,6 +232,7 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 4.07,
+                "unit_measure": null,
                 "unit_price": null
               },
               {
@@ -258,6 +261,7 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 9.47,
+                "unit_measure": null,
                 "unit_price": null
               },
               {
@@ -286,6 +290,7 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 4.31,
+                "unit_measure": null,
                 "unit_price": null
               },
               {
@@ -314,6 +319,7 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 120.0,
+                "unit_measure": null,
                 "unit_price": null
               }
             ],
@@ -639,6 +645,7 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 65.0,
+                "unit_measure": null,
                 "unit_price": 65.0
               },
               {
@@ -667,6 +674,7 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 2100.0,
+                "unit_measure": null,
                 "unit_price": 2100.0
               },
               {
@@ -695,6 +703,7 @@
                 "tax_amount": null,
                 "tax_rate": null,
                 "total_amount": 250.0,
+                "unit_measure": "1",
                 "unit_price": 250.0
               }
             ],
@@ -1089,6 +1098,7 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 2.63,
+            "unit_measure": null,
             "unit_price": null
           },
           {
@@ -1118,6 +1128,7 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 0.98,
+            "unit_measure": null,
             "unit_price": null
           },
           {
@@ -1147,6 +1158,7 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 4.07,
+            "unit_measure": null,
             "unit_price": null
           },
           {
@@ -1176,6 +1188,7 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 9.47,
+            "unit_measure": null,
             "unit_price": null
           },
           {
@@ -1205,6 +1218,7 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 4.31,
+            "unit_measure": null,
             "unit_price": null
           },
           {
@@ -1234,6 +1248,7 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 120.0,
+            "unit_measure": null,
             "unit_price": null
           },
           {
@@ -1263,6 +1278,7 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 65.0,
+            "unit_measure": null,
             "unit_price": 65.0
           },
           {
@@ -1292,6 +1308,7 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 2100.0,
+            "unit_measure": null,
             "unit_price": 2100.0
           },
           {
@@ -1321,6 +1338,7 @@
             "tax_amount": null,
             "tax_rate": null,
             "total_amount": 250.0,
+            "unit_measure": "1",
             "unit_price": 250.0
           }
         ],

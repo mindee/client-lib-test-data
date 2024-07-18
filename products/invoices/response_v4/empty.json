@@ -9,10 +9,10 @@
     "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict"
   },
   "document": {
-    "id": "2e060a41-389d-4a1e-b299-288843ffa1a6",
+    "id": "88611809-354c-4922-9abb-95e5735c0a12",
     "inference": {
       "extras": {},
-      "finished_at": "2024-04-22T15:59:22.765320",
+      "finished_at": "2024-07-18T11:33:07.985954",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -69,7 +69,7 @@
               "language": null
             },
             "orientation": {
-              "confidence": 0.51,
+              "confidence": 0.4,
               "degrees": 0
             },
             "reference_numbers": [],
@@ -222,13 +222,13 @@
         "taxes": [],
         "total_amount": {
           "confidence": 0.0,
-          "page_id": null,
+          "page_id": 0,
           "polygon": [],
           "value": null
         },
         "total_net": {
           "confidence": 0.0,
-          "page_id": null,
+          "page_id": 0,
           "polygon": [],
           "value": null
         },
@@ -239,7 +239,7 @@
           "value": null
         }
       },
-      "processing_time": 0.412,
+      "processing_time": 0.281,
       "product": {
         "features": [
           "locale",
@@ -270,9 +270,9 @@
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "4.6"
+        "version": "4.7"
       },
-      "started_at": "2024-04-22T15:59:22.353312"
+      "started_at": "2024-07-18T11:33:07.705412"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
