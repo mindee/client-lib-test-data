@@ -75,5 +75,3 @@ Page 0
 :Billing Address:
 :Document Type: INVOICE
 :Line Items:
-
-
