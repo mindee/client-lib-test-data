@@ -1,0 +1,114 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/payslip_fra/v2/documents/5dc84ea2-c23f-4a73-aa5e-70b7964654e0"
+  },
+  "document": {
+    "id": "5dc84ea2-c23f-4a73-aa5e-70b7964654e0",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-09-13T12:52:42.875000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "bank_account_details": {
+          "bank_name": null,
+          "iban": null,
+          "swift": null
+        },
+        "employee": {
+          "address": null,
+          "date_of_birth": null,
+          "first_name": null,
+          "last_name": null,
+          "phone_number": null,
+          "registration_number": null,
+          "social_security_number": null
+        },
+        "employer": {
+          "address": null,
+          "company_id": null,
+          "company_site": null,
+          "naf_code": null,
+          "name": null,
+          "phone_number": null,
+          "urssaf_number": null
+        },
+        "employment": {
+          "category": null,
+          "coefficient": null,
+          "collective_agreement": null,
+          "job_title": null,
+          "position_level": null,
+          "start_date": null
+        },
+        "pay_detail": {
+          "gross_salary": null,
+          "gross_salary_ytd": null,
+          "income_tax_rate": null,
+          "income_tax_withheld": null,
+          "net_paid": null,
+          "net_paid_before_tax": null,
+          "net_taxable": null,
+          "net_taxable_ytd": null,
+          "total_cost_employer": null,
+          "total_taxes_and_deductions": null
+        },
+        "pay_period": {
+          "end_date": null,
+          "month": null,
+          "payment_date": null,
+          "start_date": null,
+          "year": null
+        },
+        "pto": {
+          "accrued_this_period": null,
+          "balance_end_of_period": null,
+          "used_this_period": null
+        },
+        "salary_details": []
+      },
+      "processing_time": 0.514,
+      "product": {
+        "features": [
+          "employee",
+          "employer",
+          "bank_account_details",
+          "employment",
+          "salary_details",
+          "pay_detail",
+          "pto",
+          "pay_period"
+        ],
+        "name": "mindee/payslip_fra",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2024-09-13T12:52:42.230000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-09-13T12:52:42.886000",
+    "error": {},
+    "id": "2c477909-fd51-4c49-9fae-eda7a37186e0",
+    "issued_at": "2024-09-13T12:52:42.230000",
+    "status": "completed"
+  }
+}

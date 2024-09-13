@@ -1,0 +1,121 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/payslip_fra/v2/documents/972edba5-25aa-49d0-8431-e2557ddd788e"
+  },
+  "document": {
+    "id": "972edba5-25aa-49d0-8431-e2557ddd788e",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-09-13T12:52:40.910000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "bank_account_details": {
+          "bank_name": "made-up-bank",
+          "iban": "FR1234567899876543211234567891234567",
+          "swift": "012345678"
+        },
+        "employee": {
+          "address": "52 RUE DES FLEURS 33500 LIBOURNE FRANCE",
+          "date_of_birth": "1968-02-26",
+          "first_name": "Jean Luc",
+          "last_name": "Picard",
+          "phone_number": "+33123456789",
+          "registration_number": "333333333",
+          "social_security_number": "123456789012345"
+        },
+        "employer": {
+          "address": "1 RUE DU TONNOT 25210 DOUBS",
+          "company_id": "12345678901234",
+          "company_site": "http://example.com",
+          "naf_code": "1234A",
+          "name": "DEMO COMPANY",
+          "phone_number": "+33987654321",
+          "urssaf_number": "12345678912932"
+        },
+        "employment": {
+          "category": "Cadre",
+          "coefficient": 600.0,
+          "collective_agreement": "Construction -- Promotion",
+          "job_title": "Directeur R\u00e9gional du D\u00e9veloppement",
+          "position_level": "Senior Director",
+          "start_date": "2022-05-01"
+        },
+        "pay_detail": {
+          "gross_salary": 7184.27,
+          "gross_salary_ytd": 18074.81,
+          "income_tax_rate": 17.6,
+          "income_tax_withheld": 1030.99,
+          "net_paid": 3868.32,
+          "net_paid_before_tax": 4899.31,
+          "net_taxable": 5857.9,
+          "net_taxable_ytd": 14752.73,
+          "total_cost_employer": 10486.94,
+          "total_taxes_and_deductions": 1650.36
+        },
+        "pay_period": {
+          "end_date": "2023-03-31",
+          "month": "03",
+          "payment_date": "2023-03-29",
+          "start_date": "2023-03-01",
+          "year": "2023"
+        },
+        "pto": {
+          "accrued_this_period": 6.17,
+          "balance_end_of_period": 6.17,
+          "used_this_period": 3
+        },
+        "salary_details": [
+          {
+            "amount": 4000,
+            "base": 151,
+            "description": "Base Salary",
+            "rate": 26.49
+          }
+        ]
+      },
+      "processing_time": 20.228,
+      "product": {
+        "features": [
+          "employee",
+          "employer",
+          "bank_account_details",
+          "employment",
+          "salary_details",
+          "pay_detail",
+          "pto",
+          "pay_period"
+        ],
+        "name": "mindee/payslip_fra",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2024-09-13T12:52:20.577000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-09-13T12:52:40.925000",
+    "error": {},
+    "id": "13bcff85-4fda-4afb-9d7b-2ec5bbe815fd",
+    "issued_at": "2024-09-13T12:52:20.577000",
+    "status": "completed"
+  }
+}

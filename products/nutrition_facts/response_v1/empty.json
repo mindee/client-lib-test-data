@@ -1,0 +1,128 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/nutrition_facts/v1/documents/6dc5d800-a3ce-41a2-95fb-5107ffeb8118"
+  },
+  "document": {
+    "id": "6dc5d800-a3ce-41a2-95fb-5107ffeb8118",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-09-13T12:52:16.285000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "added_sugars": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        },
+        "calories": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        },
+        "cholesterol": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        },
+        "dietary_fiber": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        },
+        "nutrients": [],
+        "protein": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        },
+        "saturated_fat": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        },
+        "serving_per_box": {
+          "value": null
+        },
+        "serving_size": {
+          "amount": null,
+          "unit": null
+        },
+        "sodium": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null,
+          "unit": null
+        },
+        "total_carbohydrate": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        },
+        "total_fat": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        },
+        "total_sugars": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        },
+        "trans_fat": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        }
+      },
+      "processing_time": 0.243,
+      "product": {
+        "features": [
+          "serving_per_box",
+          "serving_size",
+          "calories",
+          "total_fat",
+          "saturated_fat",
+          "trans_fat",
+          "cholesterol",
+          "total_carbohydrate",
+          "dietary_fiber",
+          "total_sugars",
+          "added_sugars",
+          "protein",
+          "sodium",
+          "nutrients"
+        ],
+        "name": "mindee/nutrition_facts",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-09-13T12:52:15.919000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-09-13T12:52:16.296000",
+    "error": {},
+    "id": "b04c7013-693d-4b06-bfdf-d6d7fcb19193",
+    "issued_at": "2024-09-13T12:52:15.919000",
+    "status": "completed"
+  }
+}

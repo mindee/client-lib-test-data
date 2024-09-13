@@ -1,0 +1,171 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/energy_bill_fra/v1/documents/17f0ccef-e3fe-4a28-838d-d704489d6ce7"
+  },
+  "document": {
+    "id": "17f0ccef-e3fe-4a28-838d-d704489d6ce7",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-09-13T12:51:58.608000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        },
+        {
+          "extras": {},
+          "id": 1,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        },
+        {
+          "extras": {},
+          "id": 2,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "contract_id": {
+          "value": "1234567890"
+        },
+        "delivery_point": {
+          "value": "98765432109876"
+        },
+        "due_date": {
+          "value": "2021-02-15"
+        },
+        "energy_consumer": {
+          "address": "12 AVENUE DES R\u00caVES, RDC A 123 COUR FAUSSE A, 75000 PARIS",
+          "name": "John Doe"
+        },
+        "energy_supplier": {
+          "address": "TSA 12345, 12345 DEMOCITY CEDEX, 75001 PARIS",
+          "name": "EDF"
+        },
+        "energy_usage": [
+          {
+            "description": "Consommation (HT)",
+            "end_date": "2021-01-27",
+            "start_date": "2020-11-28",
+            "tax_rate": 20.0,
+            "total": 898.43,
+            "unit_price": 10.47
+          }
+        ],
+        "invoice_date": {
+          "value": "2021-01-29"
+        },
+        "invoice_number": {
+          "value": "10123590373"
+        },
+        "meter_details": {
+          "meter_number": "620",
+          "meter_type": "electricity",
+          "unit": "kWh"
+        },
+        "subscription": [
+          {
+            "description": "Abonnement \u00e9lectricit\u00e9",
+            "end_date": "2021-02-28",
+            "start_date": "2021-01-01",
+            "tax_rate": 5.5,
+            "total": 59.0,
+            "unit_price": 29.5
+          }
+        ],
+        "taxes_and_contributions": [
+          {
+            "description": "Contribution au Service Public de l'Electricit\u00e9",
+            "end_date": "2021-01-27",
+            "start_date": "2020-11-28",
+            "tax_rate": 20.0,
+            "total": 193.07,
+            "unit_price": 2.25
+          },
+          {
+            "description": "D\u00e9partementale sur la Conso Finale Electricit\u00e9 Taxe",
+            "end_date": "2020-12-31",
+            "start_date": "2020-11-28",
+            "tax_rate": 20.0,
+            "total": 13.98,
+            "unit_price": 0.3315
+          },
+          {
+            "description": "Communale sur la Conso Finale Electricit\u00e9 Taxe",
+            "end_date": "2021-01-27",
+            "start_date": "2021-01-01",
+            "tax_rate": 20.0,
+            "total": 28.56,
+            "unit_price": 0.6545
+          },
+          {
+            "description": "Contribution Tarifaire d'Acheminement",
+            "end_date": "2020-12-31",
+            "start_date": "2020-11-28",
+            "tax_rate": 20.0,
+            "total": 27.96,
+            "unit_price": 0.663
+          }
+        ],
+        "total_amount": {
+          "value": 1479.85
+        },
+        "total_before_taxes": {
+          "value": 1241.03
+        },
+        "total_taxes": {
+          "value": 238.82
+        }
+      },
+      "processing_time": 11.046,
+      "product": {
+        "features": [
+          "invoice_number",
+          "contract_id",
+          "delivery_point",
+          "invoice_date",
+          "due_date",
+          "total_before_taxes",
+          "total_taxes",
+          "total_amount",
+          "energy_supplier",
+          "energy_consumer",
+          "subscription",
+          "energy_usage",
+          "taxes_and_contributions",
+          "meter_details"
+        ],
+        "name": "mindee/energy_bill_fra",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-09-13T12:51:47.364000"
+    },
+    "n_pages": 3,
+    "name": "default_sample.pdf"
+  },
+  "job": {
+    "available_at": "2024-09-13T12:51:58.625000",
+    "error": {},
+    "id": "f696db5e-9c02-416f-847b-8af5a52124a9",
+    "issued_at": "2024-09-13T12:51:47.364000",
+    "status": "completed"
+  }
+}

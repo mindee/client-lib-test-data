@@ -1,0 +1,112 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/bill_of_lading/v1/documents/aa24741a-ec45-4fac-a4f6-c29fbdf3d96b"
+  },
+  "document": {
+    "id": "aa24741a-ec45-4fac-a4f6-c29fbdf3d96b",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-09-13T12:51:42.610000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "bill_of_lading_number": {
+          "value": "XYZ123456"
+        },
+        "carrier": {
+          "name": "GLOBAL SHIPPING CO.,LTD.",
+          "professional_number": "123456789",
+          "scac": "XYZS"
+        },
+        "carrier_items": [
+          {
+            "description": "ELECTRONIC COMPONENTS\nP/N: 12345\n50 PCS\nDRAWING NO. A1B2C3\nP/O: 987654\nFFAU1234567/40'HQ/CFS-CFS\nICTN/500KGS/1.5M3\nLOT NO. 112233\nSEAL NO:ABC1234567\nMADE IN CHINA",
+            "gross_weight": 500,
+            "measurement": 1.5,
+            "measurement_unit": "cbm",
+            "quantity": 1,
+            "weight_unit": "kgs"
+          }
+        ],
+        "consignee": {
+          "address": "789 TRADE STREET, SINGAPORE 567890, SINGAPORE",
+          "email": "example@example.com",
+          "name": "PACIFIC TRADING CO.",
+          "phone": "65-65432100"
+        },
+        "date_of_issue": {
+          "value": "2022-09-30"
+        },
+        "departure_date": {
+          "value": "2024-01-01"
+        },
+        "notify_party": {
+          "address": "789 TRADE STREET, SINGAPORE 567890, SINGAPORE",
+          "email": "example@example2.com",
+          "name": "PACIFIC TRADING CO.",
+          "phone": "65-65432100"
+        },
+        "place_of_delivery": {
+          "value": "LOS ANGELES, USA"
+        },
+        "port_of_discharge": {
+          "value": "LOS ANGELES, USA"
+        },
+        "port_of_loading": {
+          "value": "SHANGHAI, CHINA"
+        },
+        "shipper": {
+          "address": "123 OCEAN DRIVE, SHANGHAI, CHINA",
+          "email": "example@example3.com",
+          "name": "GLOBAL FREIGHT SOLUTIONS INC.",
+          "phone": "86-21-12345678"
+        }
+      },
+      "processing_time": 6.061,
+      "product": {
+        "features": [
+          "bill_of_lading_number",
+          "shipper",
+          "consignee",
+          "notify_party",
+          "carrier",
+          "carrier_items",
+          "port_of_loading",
+          "port_of_discharge",
+          "place_of_delivery",
+          "date_of_issue",
+          "departure_date"
+        ],
+        "name": "mindee/bill_of_lading",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-09-13T12:51:36.375000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-09-13T12:51:42.624000",
+    "error": {},
+    "id": "78f3b3af-2cda-47d7-bbdf-4428dd108956",
+    "issued_at": "2024-09-13T12:51:36.375000",
+    "status": "completed"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/bill_of_lading/v1/documents/22d94cd6-663a-47b7-80e1-956a810329b6"
+  },
+  "document": {
+    "id": "22d94cd6-663a-47b7-80e1-956a810329b6",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-09-13T12:51:43.185000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "bill_of_lading_number": {
+          "value": null
+        },
+        "carrier": {
+          "name": null,
+          "professional_number": null,
+          "scac": null
+        },
+        "carrier_items": [],
+        "consignee": {
+          "address": null,
+          "email": null,
+          "name": null,
+          "phone": null
+        },
+        "date_of_issue": {
+          "value": null
+        },
+        "departure_date": {
+          "value": null
+        },
+        "notify_party": {
+          "address": null,
+          "email": null,
+          "name": null,
+          "phone": null
+        },
+        "place_of_delivery": {
+          "value": null
+        },
+        "port_of_discharge": {
+          "value": null
+        },
+        "port_of_loading": {
+          "value": null
+        },
+        "shipper": {
+          "address": null,
+          "email": null,
+          "name": null,
+          "phone": null
+        }
+      },
+      "processing_time": 0.198,
+      "product": {
+        "features": [
+          "bill_of_lading_number",
+          "shipper",
+          "consignee",
+          "notify_party",
+          "carrier",
+          "carrier_items",
+          "port_of_loading",
+          "port_of_discharge",
+          "place_of_delivery",
+          "date_of_issue",
+          "departure_date"
+        ],
+        "name": "mindee/bill_of_lading",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-09-13T12:51:42.908000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-09-13T12:51:43.195000",
+    "error": {},
+    "id": "0549db6e-73fc-4eb6-b0ae-42e38d2e2436",
+    "issued_at": "2024-09-13T12:51:42.908000",
+    "status": "completed"
+  }
+}
