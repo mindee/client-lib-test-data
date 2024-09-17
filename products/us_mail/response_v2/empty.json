@@ -7,13 +7,13 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/us_mail/v2/documents/562966cf-7eb3-45ec-ac4a-a8a798bc397a"
+    "url": "https://api.mindee.net/v1/products/mindee/us_mail/v2/documents/199b0ee1-4ca3-45a7-af0b-3456a04e47cc"
   },
   "document": {
-    "id": "562966cf-7eb3-45ec-ac4a-a8a798bc397a",
+    "id": "199b0ee1-4ca3-45a7-af0b-3456a04e47cc",
     "inference": {
       "extras": {},
-      "finished_at": "2024-04-24T15:34:08.462000",
+      "finished_at": "2024-09-17T09:42:32.492000",
       "is_rotation_applied": null,
       "pages": [
         {
@@ -29,13 +29,17 @@
         "recipient_addresses": [],
         "recipient_names": [],
         "sender_address": {
-          "value": null
+          "city": null,
+          "complete": null,
+          "postal_code": null,
+          "state": null,
+          "street": null
         },
         "sender_name": {
           "value": null
         }
       },
-      "processing_time": 0.202,
+      "processing_time": 0.174,
       "product": {
         "features": [
           "sender_name",
@@ -47,16 +51,16 @@
         "type": "standard",
         "version": "2.0"
       },
-      "started_at": "2024-04-24T15:34:07.938000"
+      "started_at": "2024-09-17T09:42:32.152000"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
   },
   "job": {
-    "available_at": "2024-04-24T15:34:08.474000",
+    "available_at": "2024-09-17T09:42:32.506000",
     "error": {},
-    "id": "758b453d-793c-41b0-bddc-eb6eca5d5b18",
-    "issued_at": "2024-04-24T15:34:07.938000",
+    "id": "48091aab-6153-41e3-a5ea-bec6ca1d11f3",
+    "issued_at": "2024-09-17T09:42:32.152000",
     "status": "completed"
   }
 }
