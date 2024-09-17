@@ -1,0 +1,104 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/energy_bill_fra/v1/documents/8f964027-309c-421c-98e2-72e0ec761e3e"
+  },
+  "document": {
+    "id": "8f964027-309c-421c-98e2-72e0ec761e3e",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-09-13T12:52:00.699000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "contract_id": {
+          "value": null
+        },
+        "delivery_point": {
+          "value": null
+        },
+        "due_date": {
+          "value": null
+        },
+        "energy_consumer": {
+          "address": null,
+          "name": null
+        },
+        "energy_supplier": {
+          "address": null,
+          "name": null
+        },
+        "energy_usage": [],
+        "invoice_date": {
+          "value": null
+        },
+        "invoice_number": {
+          "value": null
+        },
+        "meter_details": {
+          "meter_number": null,
+          "meter_type": null,
+          "unit": null
+        },
+        "subscription": [],
+        "taxes_and_contributions": [],
+        "total_amount": {
+          "value": null
+        },
+        "total_before_taxes": {
+          "value": null
+        },
+        "total_taxes": {
+          "value": null
+        }
+      },
+      "processing_time": 0.267,
+      "product": {
+        "features": [
+          "invoice_number",
+          "contract_id",
+          "delivery_point",
+          "invoice_date",
+          "due_date",
+          "total_before_taxes",
+          "total_taxes",
+          "total_amount",
+          "energy_supplier",
+          "energy_consumer",
+          "subscription",
+          "energy_usage",
+          "taxes_and_contributions",
+          "meter_details"
+        ],
+        "name": "mindee/energy_bill_fra",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-09-13T12:52:00.332000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-09-13T12:52:00.710000",
+    "error": {},
+    "id": "adc7fece-0163-4db4-9033-ef6d7c59c80c",
+    "issued_at": "2024-09-13T12:52:00.332000",
+    "status": "completed"
+  }
+}

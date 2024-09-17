@@ -1,0 +1,157 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/nutrition_facts/v1/documents/38a12fe0-5d69-4ca4-9b30-12f1b659311c"
+  },
+  "document": {
+    "id": "38a12fe0-5d69-4ca4-9b30-12f1b659311c",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-09-13T13:23:18.963000",
+      "is_rotation_applied": null,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": null
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "added_sugars": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": null
+        },
+        "calories": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": 250
+        },
+        "cholesterol": {
+          "daily_value": 10,
+          "per_100g": null,
+          "per_serving": 30
+        },
+        "dietary_fiber": {
+          "daily_value": 0,
+          "per_100g": null,
+          "per_serving": 0
+        },
+        "nutrients": [
+          {
+            "daily_value": 12,
+            "name": "Vitamin A",
+            "per_100g": null,
+            "per_serving": 4,
+            "unit": "mcg"
+          },
+          {
+            "daily_value": 12,
+            "name": "Vitamin C",
+            "per_100g": null,
+            "per_serving": 2,
+            "unit": "mg"
+          },
+          {
+            "daily_value": 12,
+            "name": "Calcium",
+            "per_100g": null,
+            "per_serving": 45.6,
+            "unit": "mg"
+          },
+          {
+            "daily_value": 12,
+            "name": "Iron",
+            "per_100g": null,
+            "per_serving": 0.9,
+            "unit": "mg"
+          }
+        ],
+        "protein": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": 5
+        },
+        "saturated_fat": {
+          "daily_value": 15,
+          "per_100g": null,
+          "per_serving": 3
+        },
+        "serving_per_box": {
+          "value": 2
+        },
+        "serving_size": {
+          "amount": 228,
+          "unit": "g"
+        },
+        "sodium": {
+          "daily_value": 20,
+          "per_100g": null,
+          "per_serving": 470,
+          "unit": "mg"
+        },
+        "total_carbohydrate": {
+          "daily_value": 10,
+          "per_100g": null,
+          "per_serving": 31
+        },
+        "total_fat": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": 12
+        },
+        "total_sugars": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": 5
+        },
+        "trans_fat": {
+          "daily_value": null,
+          "per_100g": null,
+          "per_serving": 3
+        }
+      },
+      "processing_time": 6.184,
+      "product": {
+        "features": [
+          "serving_per_box",
+          "serving_size",
+          "calories",
+          "total_fat",
+          "saturated_fat",
+          "trans_fat",
+          "cholesterol",
+          "total_carbohydrate",
+          "dietary_fiber",
+          "total_sugars",
+          "added_sugars",
+          "protein",
+          "sodium",
+          "nutrients"
+        ],
+        "name": "mindee/nutrition_facts",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-09-13T13:23:12.657000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-09-13T13:23:18.974000",
+    "error": {},
+    "id": "0d2b54c4-7295-4151-a4d5-59c8a8509a48",
+    "issued_at": "2024-09-13T13:23:12.657000",
+    "status": "completed"
+  }
+}
