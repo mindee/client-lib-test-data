@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: aa24741a-ec45-4fac-a4f6-c29fbdf3d96b
+:Mindee ID: 3b5250a1-b52c-4e0b-bc3e-2f0146b04e29
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/bill_of_lading v1.0
+:Product: mindee/bill_of_lading v1.1
 :Rotation applied: No
 
 Prediction

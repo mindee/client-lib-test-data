@@ -7,13 +7,13 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/bill_of_lading/v1/documents/22d94cd6-663a-47b7-80e1-956a810329b6"
+    "url": "https://api.mindee.net/v1/products/mindee/bill_of_lading/v1/documents/bf090b4a-7c18-45e3-85c5-610389a4d179"
   },
   "document": {
-    "id": "22d94cd6-663a-47b7-80e1-956a810329b6",
+    "id": "bf090b4a-7c18-45e3-85c5-610389a4d179",
     "inference": {
       "extras": {},
-      "finished_at": "2024-09-13T12:51:43.185000",
+      "finished_at": "2024-09-17T11:56:22.818000",
       "is_rotation_applied": null,
       "pages": [
         {
@@ -69,7 +69,7 @@
           "phone": null
         }
       },
-      "processing_time": 0.198,
+      "processing_time": 0.17,
       "product": {
         "features": [
           "bill_of_lading_number",
@@ -86,18 +86,18 @@
         ],
         "name": "mindee/bill_of_lading",
         "type": "standard",
-        "version": "1.0"
+        "version": "1.1"
       },
-      "started_at": "2024-09-13T12:51:42.908000"
+      "started_at": "2024-09-17T11:56:22.475000"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
   },
   "job": {
-    "available_at": "2024-09-13T12:51:43.195000",
+    "available_at": "2024-09-17T11:56:22.830000",
     "error": {},
-    "id": "0549db6e-73fc-4eb6-b0ae-42e38d2e2436",
-    "issued_at": "2024-09-13T12:51:42.908000",
+    "id": "5483e387-1669-4b02-96fd-1d51fe646bd0",
+    "issued_at": "2024-09-17T11:56:22.475000",
     "status": "completed"
   }
 }
