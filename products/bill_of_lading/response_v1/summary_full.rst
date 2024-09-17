@@ -6,7 +6,7 @@ Document
 
 Inference
 #########
-:Product: mindee/bill_of_lading v1.0
+:Product: mindee/bill_of_lading v1.1
 :Rotation applied: No
 
 Prediction
