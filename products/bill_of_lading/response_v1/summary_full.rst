@@ -35,7 +35,7 @@ Prediction
   +--------------------------------------+--------------+-------------+------------------+----------+-------------+
   | Description                          | Gross Weight | Measurement | Measurement Unit | Quantity | Weight Unit |
   +======================================+==============+=============+==================+==========+=============+
-  | ELECTRONIC COMPONENTS\nP/N: 12345... | 500.00       | 1.50        | cbm              | 1        | kgs         |
+  | ELECTRONIC COMPONENTS\nP/N: 12345... | 500.00       | 1.50        | cbm              | 1.00     | kgs         |
   +--------------------------------------+--------------+-------------+------------------+----------+-------------+
 :Port of Loading: SHANGHAI, CHINA
 :Port of Discharge: LOS ANGELES, USA
