@@ -33,7 +33,7 @@ Prediction
 :Supplier Website:
 :Supplier Email:
 :Customer Name:
-:Customer Company Registrations:
+:Customer Company Registrations: Type: CF, Value: 26443700179
 :Customer Address:
 :Customer ID:
 :Shipping Address:
@@ -68,7 +68,7 @@ Page 0
 :Supplier Website:
 :Supplier Email:
 :Customer Name:
-:Customer Company Registrations:
+:Customer Company Registrations: Type: CF, Value: 26443700179
 :Customer Address:
 :Customer ID:
 :Shipping Address:
