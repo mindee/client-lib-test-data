@@ -29,7 +29,7 @@ Prediction
 :Supplier Name:
 :Supplier Company Registrations: Type: CF, Value: 72544370017
 :Supplier Address:
-:Supplier Phone Number: 0505444490
+:Supplier Phone Number: 050544490
 :Supplier Website:
 :Supplier Email:
 :Customer Name:
@@ -64,7 +64,7 @@ Page 0
 :Supplier Name:
 :Supplier Company Registrations: Type: CF, Value: 72544370017
 :Supplier Address:
-:Supplier Phone Number: 0505444490
+:Supplier Phone Number: 050544490
 :Supplier Website:
 :Supplier Email:
 :Customer Name:
