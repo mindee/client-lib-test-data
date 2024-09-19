@@ -27,7 +27,7 @@ Prediction
   +===============+========+==========+===============+
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
-:Supplier Name: clachan
+:Supplier Name: Clachan
 :Supplier Company Registrations: Type: VAT NUMBER, Value: 232153895
                                  Type: VAT NUMBER, Value: 232153895
 :Supplier Address: 34 Kingley Street W1B 50H
@@ -61,7 +61,7 @@ Page 0
   +===============+========+==========+===============+
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
-:Supplier Name: clachan
+:Supplier Name: Clachan
 :Supplier Company Registrations: Type: VAT NUMBER, Value: 232153895
                                  Type: VAT NUMBER, Value: 232153895
 :Supplier Address: 34 Kingley Street W1B 50H

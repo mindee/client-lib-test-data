@@ -31,7 +31,7 @@ Prediction
 :Supplier Address: 156 University Ave, Toronto ON, Canada, M5H 2H7
 :Supplier Phone Number: 4165551212
 :Supplier Website:
-:Supplier Email: i_doi@example.com
+:Supplier Email: ldoi@example.com
 :Customer Name: JIRO DOI
 :Customer Company Registrations:
 :Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
@@ -75,7 +75,7 @@ Page 0
 :Supplier Address: 156 University Ave, Toronto ON, Canada, M5H 2H7
 :Supplier Phone Number: 4165551212
 :Supplier Website:
-:Supplier Email: i_doi@example.com
+:Supplier Email: ldoi@example.com
 :Customer Name: JIRO DOI
 :Customer Company Registrations:
 :Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
