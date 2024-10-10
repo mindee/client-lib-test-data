@@ -6,16 +6,18 @@ Document
 
 Inference
 #########
-:Product: mindee/invoices v4.7
+:Product: mindee/invoices v4.8
 :Rotation applied: Yes
 
 Prediction
 ==========
 :Locale: en; en; CAD;
 :Invoice Number: 14
+:Purchase Order Number: AD29094
 :Reference Numbers: AD29094
 :Purchase Date: 2018-09-25
 :Due Date:
+:Payment Date:
 :Total Net: 2145.00
 :Total Amount: 2608.20
 :Total Tax: 193.20
@@ -57,9 +59,11 @@ Page 0
 ------
 :Locale: en; en; CAD;
 :Invoice Number: 14
+:Purchase Order Number: AD29094
 :Reference Numbers: AD29094
 :Purchase Date: 2018-09-25
 :Due Date:
+:Payment Date:
 :Total Net: 2145.00
 :Total Amount: 2608.20
 :Total Tax: 193.20
