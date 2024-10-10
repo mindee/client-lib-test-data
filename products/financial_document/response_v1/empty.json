@@ -12,7 +12,7 @@
     "id": "c868d26c-91b3-47ba-a299-21c2f149a060",
     "inference": {
       "extras": {},
-      "finished_at": "2024-07-18T10:01:44.984882",
+      "finished_at": "2024-10-10T12:59:29.008789",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -82,6 +82,16 @@
             "orientation": {
               "confidence": 0.4,
               "degrees": 0
+            },
+            "payment_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "po_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "receipt_number": {
               "confidence": 0.0,
@@ -221,6 +231,18 @@
           "language": null,
           "value": null
         },
+        "payment_date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "po_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
         "receipt_number": {
           "confidence": 0.0,
           "page_id": null,
@@ -308,11 +330,13 @@
         "features": [
           "locale",
           "invoice_number",
+          "po_number",
           "receipt_number",
           "document_number",
           "reference_numbers",
           "date",
           "due_date",
+          "payment_date",
           "total_net",
           "total_amount",
           "taxes",
@@ -340,9 +364,9 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.9"
+        "version": "1.10"
       },
-      "started_at": "2024-07-18T10:01:44.664494"
+      "started_at": "2024-10-10T12:59:28.614789"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"

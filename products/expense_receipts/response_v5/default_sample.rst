@@ -13,7 +13,7 @@ Prediction
 ==========
 :Expense Locale: en-GB; en; GB; GBP;
 :Purchase Category: food
-:Purchase Subcategory:
+:Purchase Subcategory: restaurant
 :Document Type: EXPENSE RECEIPT
 :Purchase Date: 2016-02-26
 :Purchase Time: 15:20
@@ -47,7 +47,7 @@ Page 0
 ------
 :Expense Locale: en-GB; en; GB; GBP;
 :Purchase Category: food
-:Purchase Subcategory:
+:Purchase Subcategory: restaurant
 :Document Type: EXPENSE RECEIPT
 :Purchase Date: 2016-02-26
 :Purchase Time: 15:20

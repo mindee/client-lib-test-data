@@ -12,7 +12,7 @@
     "id": "88611809-354c-4922-9abb-95e5735c0a12",
     "inference": {
       "extras": {},
-      "finished_at": "2024-07-18T11:33:07.985954",
+      "finished_at": "2024-10-10T13:03:34.019503",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -54,6 +54,7 @@
             },
             "due_date": {
               "confidence": 0.0,
+              "is_computed": false,
               "polygon": [],
               "value": null
             },
@@ -71,6 +72,16 @@
             "orientation": {
               "confidence": 0.4,
               "degrees": 0
+            },
+            "payment_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "po_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "reference_numbers": [],
             "shipping_address": {
@@ -163,7 +174,8 @@
         },
         "due_date": {
           "confidence": 0.0,
-          "page_id": null,
+          "is_computed": false,
+          "page_id": 0,
           "polygon": [],
           "value": null
         },
@@ -178,6 +190,18 @@
           "confidence": 0.84,
           "currency": "EUR",
           "language": null
+        },
+        "payment_date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "po_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "reference_numbers": [],
         "shipping_address": {
@@ -244,9 +268,11 @@
         "features": [
           "locale",
           "invoice_number",
+          "po_number",
           "reference_numbers",
           "date",
           "due_date",
+          "payment_date",
           "total_net",
           "total_amount",
           "total_tax",
@@ -270,9 +296,9 @@
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "4.7"
+        "version": "4.8"
       },
-      "started_at": "2024-07-18T11:33:07.705412"
+      "started_at": "2024-10-10T13:03:33.631789"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"

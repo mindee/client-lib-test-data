@@ -12,7 +12,7 @@
     "id": "ac66256c-6243-4c88-a287-ebba8a31edf1",
     "inference": {
       "extras": {},
-      "finished_at": "2024-07-18T10:01:43.260608",
+      "finished_at": "2024-10-09T13:03:17.853505",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -148,6 +148,7 @@
             },
             "due_date": {
               "confidence": 0.0,
+              "is_computed": false,
               "polygon": [],
               "value": null
             },
@@ -272,6 +273,33 @@
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
+            },
+            "payment_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "po_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.65,
+                  0.366
+                ],
+                [
+                  0.709,
+                  0.366
+                ],
+                [
+                  0.709,
+                  0.387
+                ],
+                [
+                  0.65,
+                  0.387
+                ]
+              ],
+              "value": "AD29094"
             },
             "receipt_number": {
               "confidence": 0.0,
@@ -646,7 +674,8 @@
         },
         "due_date": {
           "confidence": 0.0,
-          "page_id": null,
+          "is_computed": false,
+          "page_id": 0,
           "polygon": [],
           "value": null
         },
@@ -771,6 +800,35 @@
           "currency": "CAD",
           "language": "en",
           "value": null
+        },
+        "payment_date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "po_number": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.65,
+              0.366
+            ],
+            [
+              0.709,
+              0.366
+            ],
+            [
+              0.709,
+              0.387
+            ],
+            [
+              0.65,
+              0.387
+            ]
+          ],
+          "value": "AD29094"
         },
         "receipt_number": {
           "confidence": 0.0,
@@ -1029,11 +1087,13 @@
         "features": [
           "locale",
           "invoice_number",
+          "po_number",
           "receipt_number",
           "document_number",
           "reference_numbers",
           "date",
           "due_date",
+          "payment_date",
           "total_net",
           "total_amount",
           "taxes",
@@ -1061,9 +1121,9 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.9"
+        "version": "1.10"
       },
-      "started_at": "2024-07-18T10:01:42.550239"
+      "started_at": "2024-10-09T13:03:16.649500"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"
