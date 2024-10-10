@@ -6,16 +6,18 @@ Document
 
 Inference
 #########
-:Product: mindee/invoices v4.7
+:Product: mindee/invoices v4.8
 :Rotation applied: Yes
 
 Prediction
 ==========
 :Locale: fr; fr; EUR;
 :Invoice Number: 0042004801351
+:Purchase Order Number:
 :Reference Numbers:
 :Purchase Date: 2020-02-17
 :Due Date:
+:Payment Date:
 :Total Net: 489.97
 :Total Amount: 587.95
 :Total Tax: 97.98
@@ -48,9 +50,11 @@ Page 0
 ------
 :Locale: fr; fr; EUR;
 :Invoice Number: 0042004801351
+:Purchase Order Number:
 :Reference Numbers:
 :Purchase Date: 2020-02-17
 :Due Date:
+:Payment Date:
 :Total Net: 489.97
 :Total Amount: 587.95
 :Total Tax: 97.98
