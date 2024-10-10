@@ -6,18 +6,20 @@ Document
 
 Inference
 #########
-:Product: mindee/financial_document v1.9
+:Product: mindee/financial_document v1.10
 :Rotation applied: Yes
 
 Prediction
 ==========
 :Locale: en-GB; en; GB; GBP;
 :Invoice Number:
+:Purchase Order Number:
 :Receipt Number: 54/7500
 :Document Number: 54/7500
 :Reference Numbers:
 :Purchase Date: 2016-02-26
 :Due Date: 2016-02-26
+:Payment Date: 2016-02-26
 :Total Net: 8.50
 :Total Amount: 10.20
 :Taxes:
@@ -47,6 +49,11 @@ Prediction
 :Tip and Gratuity:
 :Purchase Time: 15:20
 :Line Items:
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
+  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit of measure | Unit Price |
+  +======================================+==============+==========+============+==============+==============+=================+============+
+  | Meantime Pale                        |              | 2.00     |            |              | 10.20        |                 |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
 
 Page Predictions
 ================
@@ -55,11 +62,13 @@ Page 0
 ------
 :Locale: en-GB; en; GB; GBP;
 :Invoice Number:
+:Purchase Order Number:
 :Receipt Number: 54/7500
 :Document Number: 54/7500
 :Reference Numbers:
 :Purchase Date: 2016-02-26
 :Due Date: 2016-02-26
+:Payment Date: 2016-02-26
 :Total Net: 8.50
 :Total Amount: 10.20
 :Taxes:
@@ -89,3 +98,8 @@ Page 0
 :Tip and Gratuity:
 :Purchase Time: 15:20
 :Line Items:
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
+  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit of measure | Unit Price |
+  +======================================+==============+==========+============+==============+==============+=================+============+
+  | Meantime Pale                        |              | 2.00     |            |              | 10.20        |                 |            |
+  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+

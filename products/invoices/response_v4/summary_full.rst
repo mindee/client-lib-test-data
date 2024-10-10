@@ -6,16 +6,18 @@ Document
 
 Inference
 #########
-:Product: mindee/invoices v4.6
+:Product: mindee/invoices v4.8
 :Rotation applied: Yes
 
 Prediction
 ==========
 :Locale: en; en; CAD;
 :Invoice Number: 0042004801351
+:Purchase Order Number: AD29094
 :Reference Numbers: AD29094
 :Purchase Date: 2020-02-17
 :Due Date: 2020-02-17
+:Payment Date:
 :Total Net: 489.97
 :Total Amount: 587.95
 :Total Tax: 193.20
@@ -23,7 +25,7 @@ Prediction
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
-  |               |        | 20.00    | 97.98         |
+  | 489.97        |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details: FR7640254025476501124705368;
 :Supplier Name: TURNPIKE DESIGNS CO.
@@ -69,9 +71,11 @@ Page 0
 ------
 :Locale: en; en; CAD;
 :Invoice Number: 0042004801351
+:Purchase Order Number:
 :Reference Numbers:
 :Purchase Date: 2020-02-17
 :Due Date: 2020-02-17
+:Payment Date:
 :Total Net: 489.97
 :Total Amount: 587.95
 :Total Tax: 97.98
@@ -79,13 +83,13 @@ Page 0
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
-  |               |        | 20.00    | 97.98         |
+  | 489.97        |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
 :Supplier Payment Details: FR7640254025476501124705368;
 :Supplier Name:
 :Supplier Company Registrations:
 :Supplier Address:
-:Supplier Phone Number: 2121231234
+:Supplier Phone Number: 050544490
 :Supplier Website: https://www.turnpike-designs.ca
 :Supplier Email:
 :Customer Name:
@@ -116,9 +120,11 @@ Page 1
 ------
 :Locale: en; en; CAD;
 :Invoice Number:
+:Purchase Order Number: AD29094
 :Reference Numbers: AD29094
-:Purchase Date:
+:Purchase Date: 2018-09-25
 :Due Date: 2020-02-17
+:Payment Date:
 :Total Net:
 :Total Amount: 2608.20
 :Total Tax: 193.20
@@ -140,7 +146,7 @@ Page 1
 :Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Customer ID:
 :Shipping Address:
-:Billing Address:
+:Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+

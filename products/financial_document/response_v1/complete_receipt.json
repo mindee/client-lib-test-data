@@ -12,7 +12,7 @@
     "id": "f40a8701-fda1-44a0-8c44-46cbb5d657d5",
     "inference": {
       "extras": {},
-      "finished_at": "2024-07-18T10:01:42.359846",
+      "finished_at": "2024-10-10T12:59:27.324295",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -97,6 +97,7 @@
             },
             "due_date": {
               "confidence": 0.99,
+              "is_computed": false,
               "polygon": [
                 [
                   0.472,
@@ -122,7 +123,37 @@
               "polygon": [],
               "value": null
             },
-            "line_items": [],
+            "line_items": [
+              {
+                "confidence": 0.99,
+                "description": "Meantime Pale",
+                "polygon": [
+                  [
+                    0.235,
+                    0.264
+                  ],
+                  [
+                    0.685,
+                    0.256
+                  ],
+                  [
+                    0.686,
+                    0.289
+                  ],
+                  [
+                    0.236,
+                    0.297
+                  ]
+                ],
+                "product_code": null,
+                "quantity": 2.0,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 10.2,
+                "unit_measure": null,
+                "unit_price": null
+              }
+            ],
             "locale": {
               "confidence": 0.82,
               "country": "GB",
@@ -133,6 +164,33 @@
             "orientation": {
               "confidence": 0.99,
               "degrees": 0
+            },
+            "payment_date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.475,
+                  0.167
+                ],
+                [
+                  0.61,
+                  0.167
+                ],
+                [
+                  0.61,
+                  0.199
+                ],
+                [
+                  0.475,
+                  0.199
+                ]
+              ],
+              "value": "2016-02-26"
+            },
+            "po_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
             },
             "receipt_number": {
               "confidence": 0.99,
@@ -480,6 +538,7 @@
         },
         "due_date": {
           "confidence": 0.99,
+          "is_computed": false,
           "page_id": 0,
           "polygon": [
             [
@@ -507,13 +566,73 @@
           "polygon": [],
           "value": null
         },
-        "line_items": [],
+        "line_items": [
+          {
+            "confidence": 0.99,
+            "description": "Meantime Pale",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.235,
+                0.264
+              ],
+              [
+                0.685,
+                0.256
+              ],
+              [
+                0.686,
+                0.289
+              ],
+              [
+                0.236,
+                0.297
+              ]
+            ],
+            "product_code": null,
+            "quantity": 2.0,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 10.2,
+            "unit_measure": null,
+            "unit_price": null
+          }
+        ],
         "locale": {
           "confidence": 0.82,
           "country": "GB",
           "currency": "GBP",
           "language": "en",
           "value": "en-GB"
+        },
+        "payment_date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.475,
+              0.167
+            ],
+            [
+              0.61,
+              0.167
+            ],
+            [
+              0.61,
+              0.199
+            ],
+            [
+              0.475,
+              0.199
+            ]
+          ],
+          "value": "2016-02-26"
+        },
+        "po_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
         },
         "receipt_number": {
           "confidence": 0.99,
@@ -797,11 +916,13 @@
         "features": [
           "locale",
           "invoice_number",
+          "po_number",
           "receipt_number",
           "document_number",
           "reference_numbers",
           "date",
           "due_date",
+          "payment_date",
           "total_net",
           "total_amount",
           "taxes",
@@ -829,9 +950,9 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.9"
+        "version": "1.10"
       },
-      "started_at": "2024-07-18T10:01:41.143345"
+      "started_at": "2024-10-10T12:59:26.081997"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"
