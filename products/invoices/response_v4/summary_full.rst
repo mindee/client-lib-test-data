@@ -11,7 +11,7 @@ Inference
 
 Prediction
 ==========
-:Locale: en; en; CAD;
+:Locale: en-CA; en; CA; CAD;
 :Invoice Number: 0042004801351
 :Purchase Order Number: AD29094
 :Reference Numbers: AD29094
@@ -69,7 +69,7 @@ Page Predictions
 
 Page 0
 ------
-:Locale: en; en; CAD;
+:Locale: en-CA; en; CA; CAD;
 :Invoice Number: 0042004801351
 :Purchase Order Number:
 :Reference Numbers:
@@ -118,7 +118,7 @@ Page 0
 
 Page 1
 ------
-:Locale: en; en; CAD;
+:Locale: en-CA; en; CA; CAD;
 :Invoice Number:
 :Purchase Order Number: AD29094
 :Reference Numbers: AD29094
