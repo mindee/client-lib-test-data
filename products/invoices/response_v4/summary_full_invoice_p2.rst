@@ -6,7 +6,7 @@ Document
 
 Inference
 #########
-:Product: mindee/invoices v4.8
+:Product: mindee/invoices v4.9
 :Rotation applied: Yes
 
 Prediction
