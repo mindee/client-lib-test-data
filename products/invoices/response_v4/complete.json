@@ -326,8 +326,10 @@
             ],
             "locale": {
               "confidence": 0.93,
+              "country": "CA",
               "currency": "CAD",
-              "language": "en"
+              "language": "en",
+              "value": "en-CA"
             },
             "orientation": {
               "confidence": 0.99,
@@ -721,8 +723,10 @@
             ],
             "locale": {
               "confidence": 0.93,
+              "country": "CA",
               "currency": "CAD",
-              "language": "en"
+              "language": "en",
+              "value": "en-CA"
             },
             "orientation": {
               "confidence": 0.99,
@@ -1384,8 +1388,10 @@
         ],
         "locale": {
           "confidence": 0.93,
+          "country": "CA",
           "currency": "CAD",
-          "language": "en"
+          "language": "en",
+          "value": "en-CA"
         },
         "payment_date": {
           "confidence": 0.0,

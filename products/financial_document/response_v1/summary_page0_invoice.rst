@@ -1,6 +1,6 @@
 Page 0
 ------
-:Locale: en; en; CAD;
+:Locale: en-CA; en; CA; CAD;
 :Invoice Number: 14
 :Purchase Order Number: AD29094
 :Receipt Number:

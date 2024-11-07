@@ -265,10 +265,10 @@
             ],
             "locale": {
               "confidence": 0.94,
-              "country": null,
+              "country": "CA",
               "currency": "CAD",
               "language": "en",
-              "value": null
+              "value": "en-CA"
             },
             "orientation": {
               "confidence": 0.99,
@@ -796,10 +796,10 @@
         ],
         "locale": {
           "confidence": 0.94,
-          "country": null,
+          "country": "CA",
           "currency": "CAD",
           "language": "en",
-          "value": null
+          "value": "en-CA"
         },
         "payment_date": {
           "confidence": 0.0,

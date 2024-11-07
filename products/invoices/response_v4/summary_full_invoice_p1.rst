@@ -11,7 +11,7 @@ Inference
 
 Prediction
 ==========
-:Locale: fr; fr; EUR;
+:Locale: fr-FR; fr; FR; EUR;
 :Invoice Number: 0042004801351
 :Purchase Order Number:
 :Reference Numbers:
@@ -48,7 +48,7 @@ Page Predictions
 
 Page 0
 ------
-:Locale: fr; fr; EUR;
+:Locale: fr-FR; fr; FR; EUR;
 :Invoice Number: 0042004801351
 :Purchase Order Number:
 :Reference Numbers:

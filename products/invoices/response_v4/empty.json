@@ -66,8 +66,10 @@
             "line_items": [],
             "locale": {
               "confidence": 0.84,
+              "country": null,
               "currency": "EUR",
-              "language": null
+              "language": null,
+              "value": null
             },
             "orientation": {
               "confidence": 0.4,
@@ -188,8 +190,10 @@
         "line_items": [],
         "locale": {
           "confidence": 0.84,
+          "country": null,
           "currency": "EUR",
-          "language": null
+          "language": null,
+          "value": null
         },
         "payment_date": {
           "confidence": 0.0,
