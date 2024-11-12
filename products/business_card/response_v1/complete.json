@@ -1,0 +1,99 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/business_card/v1/documents/6f9a261f-7609-4687-9af0-46a45156566e"
+  },
+  "document": {
+    "id": "6f9a261f-7609-4687-9af0-46a45156566e",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-07T16:16:01.484000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "address": {
+          "value": "178 Main Avenue, Providence, RI 02111"
+        },
+        "company": {
+          "value": "RemoteGlobal"
+        },
+        "email": {
+          "value": "amorin@remoteglobalconsulting.com"
+        },
+        "fax_number": {
+          "value": "+14015555556"
+        },
+        "firstname": {
+          "value": "Andrew"
+        },
+        "job_title": {
+          "value": "Founder & CEO"
+        },
+        "lastname": {
+          "value": "Morin"
+        },
+        "mobile_number": {
+          "value": "+13015555555"
+        },
+        "phone_number": {
+          "value": "+14015555555"
+        },
+        "social_media": [
+          {
+            "value": "https://www.linkedin.com/in/johndoe"
+          },
+          {
+            "value": "https://twitter.com/johndoe"
+          }
+        ],
+        "website": {
+          "value": "www.remoteglobalconsulting.com"
+        }
+      },
+      "processing_time": 1.742,
+      "product": {
+        "features": [
+          "firstname",
+          "lastname",
+          "job_title",
+          "company",
+          "email",
+          "phone_number",
+          "mobile_number",
+          "fax_number",
+          "address",
+          "website",
+          "social_media"
+        ],
+        "name": "mindee/business_card",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-11-07T16:15:59.564000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-11-07T16:16:01.493000",
+    "error": {},
+    "id": "51dc289c-3363-4c96-b7ed-132c269d8d50",
+    "issued_at": "2024-11-07T16:15:59.564000",
+    "status": "completed"
+  }
+}

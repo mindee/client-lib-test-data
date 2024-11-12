@@ -1,23 +1,26 @@
 {
   "api_request": {
     "error": {},
-    "resources": ["document", "job"],
+    "resources": [
+      "document",
+      "job"
+    ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/resume/v1/documents/a7039593-fec3-4035-8502-1f243cc6d9fc"
+    "url": "https://api.mindee.net/v1/products/mindee/resume/v1/documents/9d8a4e32-997c-4430-ac50-a11b5ac59eb7"
   },
   "document": {
-    "id": "a7039593-fec3-4035-8502-1f243cc6d9fc",
+    "id": "9d8a4e32-997c-4430-ac50-a11b5ac59eb7",
     "inference": {
       "extras": {},
-      "finished_at": "2024-02-19T15:39:48.791000",
-      "is_rotation_applied": null,
+      "finished_at": "2024-11-07T16:40:29.302000",
+      "is_rotation_applied": true,
       "pages": [
         {
           "extras": {},
           "id": 0,
           "orientation": {
-            "value": null
+            "value": 0
           },
           "prediction": {}
         }
@@ -57,7 +60,7 @@
         "soft_skills": [],
         "surnames": []
       },
-      "processing_time": 0.204,
+      "processing_time": 0.236,
       "product": {
         "features": [
           "document_language",
@@ -80,17 +83,18 @@
         ],
         "name": "mindee/resume",
         "type": "standard",
-        "version": "1.0"
+        "version": "1.1"
       },
-      "started_at": "2024-02-19T15:39:48.413024+00:00"
+      "started_at": "2024-11-07T16:40:28.927000"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
   },
   "job": {
-    "available_at": "2024-02-19T15:39:48.802924",
-    "id": "727170da-a379-4e03-ba29-3625c7dad8e3",
-    "issued_at": "2024-02-19T15:39:48.413024",
+    "available_at": "2024-11-07T16:40:29.312000",
+    "error": {},
+    "id": "d9fbf306-798c-48c1-b0ed-c766411faeb3",
+    "issued_at": "2024-11-07T16:40:28.927000",
     "status": "completed"
   }
 }
