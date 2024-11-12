@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: bc80bae0-af75-4464-95a9-2419403c75bf
+:Mindee ID: 9daa3085-152c-454e-9245-636f13fc9dc3
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/resume v1.0
+:Product: mindee/resume v1.1
 :Rotation applied: No
 
 Prediction
@@ -35,13 +35,14 @@ Prediction
   +----------+----------------------+
   | ZHO      | Beginner             |
   +----------+----------------------+
-  | DEU      | Intermediate         |
+  | DEU      | Beginner             |
   +----------+----------------------+
 :Hard Skills: HTML5
               PHP OOP
               JavaScript
               CSS
               MySQL
+              SQL
 :Soft Skills: Project management
               Strong decision maker
               Innovative
@@ -52,19 +53,19 @@ Prediction
   +-----------------+---------------------------+-----------+----------+---------------------------+-------------+------------+
   | Domain          | Degree                    | End Month | End Year | School                    | Start Month | Start Year |
   +=================+===========================+===========+==========+===========================+=============+============+
-  | Computer Inf... | Bachelor                  |           |          | Columbia University, NY   |             | 2014       |
+  | Computer Inf... | Bachelor                  | July      | 2014     | Columbia University, NY   | May         | 2015       |
   +-----------------+---------------------------+-----------+----------+---------------------------+-------------+------------+
 :Professional Experiences:
-  +-----------------+------------+---------------------------+-----------+----------+----------------------+-------------+------------+
-  | Contract Type   | Department | Employer                  | End Month | End Year | Role                 | Start Month | Start Year |
-  +=================+============+===========================+===========+==========+======================+=============+============+
-  | Full-Time       |            | Luna Web Design, New York | 05        | 2019     | Web Developer        | 09          | 2015       |
-  +-----------------+------------+---------------------------+-----------+----------+----------------------+-------------+------------+
+  +-----------------+------------+-------------+---------------------------+-----------+----------+----------------------+-------------+------------+
+  | Contract Type   | Department | Description | Employer                  | End Month | End Year | Role                 | Start Month | Start Year |
+  +=================+============+=============+===========================+===========+==========+======================+=============+============+
+  | Full-Time       | IT         | Cooperate with designers to create clean interfaces and simple, intuitive interactions and experiences. Develop project concepts and maintain optimal workflow. Work with senior developer to manage large, complex design projects for corporate clients. Complete detailed programming and development tasks for front end public and internal websites as well as challenging back-end server code. Carry out quality assurance tests to discover errors and optimize usability. | Luna Web Design, New York | 05        | 2019     | Web Developer        | 09          | 2015       |
+  +-----------------+------------+-------------+---------------------------+-----------+----------+----------------------+-------------+------------+
 :Certificates:
   +------------+--------------------------------+---------------------------+------+
   | Grade      | Name                           | Provider                  | Year |
   +============+================================+===========================+======+
-  |            | PHP Framework (certificate)... |                           | 2014 |
+  | A+         | PHP Framework (certificate)... | University of Null        | 2014 |
   +------------+--------------------------------+---------------------------+------+
-  |            | Programming Languages: Java... |                           |      |
+  | B          | Programming Languages: Java... | University of Test Data   | 2012 |
   +------------+--------------------------------+---------------------------+------+
