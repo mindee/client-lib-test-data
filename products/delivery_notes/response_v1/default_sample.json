@@ -1,0 +1,78 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/delivery_notes/v1/documents/d5ead821-edec-4d31-a69a-cf3998d9a506"
+  },
+  "document": {
+    "id": "d5ead821-edec-4d31-a69a-cf3998d9a506",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-07T16:12:04.995000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "customer_address": {
+          "value": "4312 Wood Road, New York, NY 10031"
+        },
+        "customer_name": {
+          "value": "Jessie M Horne"
+        },
+        "delivery_date": {
+          "value": "2019-10-02"
+        },
+        "delivery_number": {
+          "value": "INT-001"
+        },
+        "supplier_address": {
+          "value": "4490 Oak Drive, Albany, NY 12210"
+        },
+        "supplier_name": {
+          "value": "John Smith"
+        },
+        "total_amount": {
+          "value": 204.75
+        }
+      },
+      "processing_time": 1.843,
+      "product": {
+        "features": [
+          "delivery_date",
+          "delivery_number",
+          "supplier_name",
+          "supplier_address",
+          "customer_name",
+          "customer_address",
+          "total_amount"
+        ],
+        "name": "mindee/delivery_notes",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-11-07T16:12:03.019000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-11-07T16:12:05.015000",
+    "error": {},
+    "id": "4b40dd1a-a98d-40b8-90b0-2dc7b743ae17",
+    "issued_at": "2024-11-07T16:12:03.019000",
+    "status": "completed"
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/ind_passport/v1/documents/c3b00b98-d56e-4d87-a970-7d14700acc97"
+  },
+  "document": {
+    "id": "c3b00b98-d56e-4d87-a970-7d14700acc97",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-07T16:35:55.909000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "address1": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "address2": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "address3": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "birth_date": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "birth_place": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "country": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "expiry_date": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "file_number": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "gender": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "given_names": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "id_number": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "issuance_date": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "issuance_place": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "legal_guardian": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz1": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz2": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "name_of_mother": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "name_of_spouse": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "old_passport_date_of_issue": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "old_passport_number": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "old_passport_place_of_issue": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "page_number": {
+          "value": null
+        },
+        "surname": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 0.179,
+      "product": {
+        "features": [
+          "page_number",
+          "country",
+          "id_number",
+          "given_names",
+          "surname",
+          "birth_date",
+          "birth_place",
+          "issuance_place",
+          "gender",
+          "issuance_date",
+          "expiry_date",
+          "mrz1",
+          "mrz2",
+          "legal_guardian",
+          "name_of_spouse",
+          "name_of_mother",
+          "old_passport_date_of_issue",
+          "old_passport_number",
+          "address1",
+          "address2",
+          "address3",
+          "old_passport_place_of_issue",
+          "file_number"
+        ],
+        "name": "mindee/ind_passport",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-11-07T16:35:55.631000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-11-07T16:35:55.920000",
+    "error": {},
+    "id": "09cf1eab-94de-49b3-a185-49680bb44646",
+    "issued_at": "2024-11-07T16:35:55.631000",
+    "status": "completed"
+  }
+}

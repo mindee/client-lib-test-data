@@ -1,7 +1,10 @@
 {
   "api_request": {
     "error": {},
-    "resources": ["document", "job"],
+    "resources": [
+      "document",
+      "job"
+    ],
     "status": "success",
     "status_code": 200,
     "url": "https://api.mindee.net/v1/products/mindee/resume/v1/documents/9daa3085-152c-454e-9245-636f13fc9dc3"
@@ -10,34 +13,28 @@
     "id": "9daa3085-152c-454e-9245-636f13fc9dc3",
     "inference": {
       "extras": {},
-      "finished_at": "2024-02-19T15:37:06.160000",
-      "is_rotation_applied": null,
+      "finished_at": "2024-11-07T16:41:21.273000",
+      "is_rotation_applied": true,
       "pages": [
         {
           "extras": {},
           "id": 0,
           "orientation": {
-            "value": null
+            "value": 0
           },
           "prediction": {}
         }
       ],
       "prediction": {
         "address": {
-          "value": "177 Great Portland Street, London W5W 6PQ"
+          "value": "177 Great Portland Street, London, W5W 6PQ"
         },
         "certificates": [
           {
-            "grade": "A+",
-            "name": "PHP Framework (certificate): Zend, Codeigniter, Symfony",
-            "provider": "University of Null",
-            "year": "2014"
-          },
-          {
-            "grade": "B",
-            "name": "Programming Languages: JavaScript, HTMLS, PHP OOP, CSS, SQL, MySQL",
-            "provider": "University of Test Data",
-            "year": "2012"
+            "grade": null,
+            "name": "PHP Framework (certificate):Zend,Codeigniter,Symfony",
+            "provider": null,
+            "year": null
           }
         ],
         "document_language": {
@@ -50,11 +47,11 @@
           {
             "degree_domain": "Computer Information Systems",
             "degree_type": "Bachelor",
-            "end_month": "July",
+            "end_month": null,
             "end_year": "2014",
             "school": "Columbia University, NY",
-            "start_month": "May",
-            "start_year": "2015"
+            "start_month": null,
+            "start_year": null
           }
         ],
         "email_address": {
@@ -106,15 +103,15 @@
           "value": null
         },
         "phone_number": {
-          "value": "+44 (0) 20 7666 8555"
+          "value": "+44 (0)20 7666 8555"
         },
         "profession": {
           "value": "Senior Web Developer"
         },
         "professional_experiences": [
           {
-            "contract_type": "Full-Time",
-            "department": "IT",
+            "contract_type": null,
+            "department": null,
             "description": "Cooperate with designers to create clean interfaces and simple, intuitive interactions and experiences. Develop project concepts and maintain optimal workflow. Work with senior developer to manage large, complex design projects for corporate clients. Complete detailed programming and development tasks for front end public and internal websites as well as challenging back-end server code. Carry out quality assurance tests to discover errors and optimize usability.",
             "employer": "Luna Web Design, New York",
             "end_month": "05",
@@ -135,6 +132,9 @@
             "value": "Project management"
           },
           {
+            "value": "Creative design"
+          },
+          {
             "value": "Strong decision maker"
           },
           {
@@ -142,9 +142,6 @@
           },
           {
             "value": "Complex problem solver"
-          },
-          {
-            "value": "Creative design"
           },
           {
             "value": "Service-focused"
@@ -156,7 +153,7 @@
           }
         ]
       },
-      "processing_time": 4.749,
+      "processing_time": 6.503,
       "product": {
         "features": [
           "document_language",
@@ -188,6 +185,7 @@
   },
   "job": {
     "available_at": "2024-11-07T16:41:21.286000",
+    "error": {},
     "id": "3ce36948-1a9b-416d-8546-0d190530c581",
     "issued_at": "2024-11-07T16:41:14.628000",
     "status": "completed"

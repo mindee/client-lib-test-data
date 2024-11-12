@@ -1,0 +1,78 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/delivery_notes/v1/documents/cde706c0-8e4a-4ae1-8d44-311a13925629"
+  },
+  "document": {
+    "id": "cde706c0-8e4a-4ae1-8d44-311a13925629",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-07T16:13:31.428000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "customer_address": {
+          "value": null
+        },
+        "customer_name": {
+          "value": null
+        },
+        "delivery_date": {
+          "value": null
+        },
+        "delivery_number": {
+          "value": null
+        },
+        "supplier_address": {
+          "value": null
+        },
+        "supplier_name": {
+          "value": null
+        },
+        "total_amount": {
+          "value": null
+        }
+      },
+      "processing_time": 0.265,
+      "product": {
+        "features": [
+          "delivery_date",
+          "delivery_number",
+          "supplier_name",
+          "supplier_address",
+          "customer_name",
+          "customer_address",
+          "total_amount"
+        ],
+        "name": "mindee/delivery_notes",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-11-07T16:13:31.067000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-11-07T16:13:31.437000",
+    "error": {},
+    "id": "c82bf0c0-b189-463b-968f-a3d9deda4a2e",
+    "issued_at": "2024-11-07T16:13:31.067000",
+    "status": "completed"
+  }
+}

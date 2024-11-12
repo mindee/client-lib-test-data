@@ -1,0 +1,92 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/business_card/v1/documents/91d04d1b-535b-4909-aac0-a206e95afb56"
+  },
+  "document": {
+    "id": "91d04d1b-535b-4909-aac0-a206e95afb56",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-07T16:14:30.979000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "address": {
+          "value": null
+        },
+        "company": {
+          "value": null
+        },
+        "email": {
+          "value": null
+        },
+        "fax_number": {
+          "value": null
+        },
+        "firstname": {
+          "value": null
+        },
+        "job_title": {
+          "value": null
+        },
+        "lastname": {
+          "value": null
+        },
+        "mobile_number": {
+          "value": null
+        },
+        "phone_number": {
+          "value": null
+        },
+        "social_media": [],
+        "website": {
+          "value": null
+        }
+      },
+      "processing_time": 0.202,
+      "product": {
+        "features": [
+          "firstname",
+          "lastname",
+          "job_title",
+          "company",
+          "email",
+          "phone_number",
+          "mobile_number",
+          "fax_number",
+          "address",
+          "website",
+          "social_media"
+        ],
+        "name": "mindee/business_card",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-11-07T16:14:30.630000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-11-07T16:14:30.991000",
+    "error": {},
+    "id": "f886ea87-1aeb-4fcc-9b21-c211ff6ee18e",
+    "issued_at": "2024-11-07T16:14:30.630000",
+    "status": "completed"
+  }
+}

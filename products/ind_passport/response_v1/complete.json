@@ -1,0 +1,422 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/ind_passport/v1/documents/cf88fd43-eaa1-497a-ba29-a9569a4edaa7"
+  },
+  "document": {
+    "id": "cf88fd43-eaa1-497a-ba29-a9569a4edaa7",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-07T16:35:03.643000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "address1": {
+          "page_id": 0,
+          "polygon": [
+            [0.390, 0.095],
+            [0.480, 0.095],
+            [0.480, 0.115],
+            [0.390, 0.115]
+          ],
+          "value": "123, Green Park Avenue"
+        },
+        "address2": {
+          "page_id": 0,
+          "polygon": [
+            [0.385, 0.122],
+            [0.485, 0.122],
+            [0.485, 0.142],
+            [0.385, 0.142]
+          ],
+          "value": "Flat No. 12B, Green View Apartments"
+        },
+        "address3": {
+          "page_id": 0,
+          "polygon": [
+            [0.380, 0.149],
+            [0.490, 0.149],
+            [0.490, 0.169],
+            [0.380, 0.169]
+          ],
+          "value": "Near City Park, Sector 15"
+        },
+        "birth_date": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.754,
+              0.406
+            ],
+            [
+              0.909,
+              0.406
+            ],
+            [
+              0.909,
+              0.439
+            ],
+            [
+              0.754,
+              0.439
+            ]
+          ],
+          "value": "1959-09-23"
+        },
+        "birth_place": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.383,
+              0.476
+            ],
+            [
+              0.554,
+              0.476
+            ],
+            [
+              0.554,
+              0.509
+            ],
+            [
+              0.383,
+              0.509
+            ]
+          ],
+          "value": "GUNDUGOLANU"
+        },
+        "country": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.602,
+              0.151
+            ],
+            [
+              0.644,
+              0.151
+            ],
+            [
+              0.644,
+              0.178
+            ],
+            [
+              0.602,
+              0.178
+            ]
+          ],
+          "value": "IND"
+        },
+        "expiry_date": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.752,
+              0.679
+            ],
+            [
+              0.905,
+              0.679
+            ],
+            [
+              0.905,
+              0.71
+            ],
+            [
+              0.752,
+              0.71
+            ]
+          ],
+          "value": "2021-10-10"
+        },
+        "file_number": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.679,
+              0.208
+            ],
+            [
+              0.691,
+              0.208
+            ],
+            [
+              0.691,
+              0.401
+            ],
+            [
+              0.679,
+              0.401
+            ]
+          ],
+          "value": "AB182736483928"
+        },
+        "gender": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.679,
+              0.408
+            ],
+            [
+              0.691,
+              0.408
+            ],
+            [
+              0.691,
+              0.431
+            ],
+            [
+              0.679,
+              0.431
+            ]
+          ],
+          "value": "F"
+        },
+        "given_names": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.385,
+              0.304
+            ],
+            [
+              0.581,
+              0.304
+            ],
+            [
+              0.581,
+              0.331
+            ],
+            [
+              0.385,
+              0.331
+            ]
+          ],
+          "value": "JOCELYN MICHELLE"
+        },
+        "id_number": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.776,
+              0.161
+            ],
+            [
+              0.967,
+              0.161
+            ],
+            [
+              0.967,
+              0.195
+            ],
+            [
+              0.776,
+              0.195
+            ]
+          ],
+          "value": "J8369854"
+        },
+        "issuance_date": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.471,
+              0.673
+            ],
+            [
+              0.623,
+              0.673
+            ],
+            [
+              0.623,
+              0.702
+            ],
+            [
+              0.471,
+              0.702
+            ]
+          ],
+          "value": "2011-10-11"
+        },
+        "issuance_place": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.471,
+              0.567
+            ],
+            [
+              0.611,
+              0.567
+            ],
+            [
+              0.611,
+              0.603
+            ],
+            [
+              0.471,
+              0.603
+            ]
+          ],
+          "value": "HYDERABAD"
+        },
+        "legal_guardian": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz1": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.077,
+              0.785
+            ],
+            [
+              0.876,
+              0.785
+            ],
+            [
+              0.876,
+              0.856
+            ],
+            [
+              0.077,
+              0.856
+            ]
+          ],
+          "value": "P<DOE<<JOCELYNMICHELLE<<<<<<<<<<<<<<<<<<<<<"
+        },
+        "mrz2": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.072,
+              0.839
+            ],
+            [
+              0.875,
+              0.839
+            ],
+            [
+              0.875,
+              0.913
+            ],
+            [
+              0.072,
+              0.913
+            ]
+          ],
+          "value": "J8369854<4IND5909234F2110101<<<<<<<<<<<<<<<8"
+        },
+        "name_of_mother": {
+          "page_id": 0,
+          "polygon": [],
+          "value": "Jane Doe"
+        },
+        "name_of_spouse": {
+          "page_id": 0,
+          "polygon": [],
+          "value": "John Not-Doe"
+        },
+        "old_passport_date_of_issue": {
+          "page_id": 0,
+          "polygon": [],
+          "value": "2002-01-01"
+        },
+        "old_passport_number": {
+          "page_id": 0,
+          "polygon": [],
+          "value": "B7654321"
+        },
+        "old_passport_place_of_issue": {
+          "page_id": null,
+          "polygon": [],
+          "value": "Mumbai"
+        },
+        "page_number": {
+          "value": "1"
+        },
+        "surname": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.389,
+              0.217
+            ],
+            [
+              0.43,
+              0.217
+            ],
+            [
+              0.43,
+              0.234
+            ],
+            [
+              0.389,
+              0.234
+            ]
+          ],
+          "value": "DOE"
+        }
+      },
+      "processing_time": 9.802,
+      "product": {
+        "features": [
+          "page_number",
+          "country",
+          "id_number",
+          "given_names",
+          "surname",
+          "birth_date",
+          "birth_place",
+          "issuance_place",
+          "gender",
+          "issuance_date",
+          "expiry_date",
+          "mrz1",
+          "mrz2",
+          "legal_guardian",
+          "name_of_spouse",
+          "name_of_mother",
+          "old_passport_date_of_issue",
+          "old_passport_number",
+          "address1",
+          "address2",
+          "address3",
+          "old_passport_place_of_issue",
+          "file_number"
+        ],
+        "name": "mindee/ind_passport",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-11-07T16:34:53.522000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-11-07T16:35:03.659000",
+    "error": {},
+    "id": "d2e0d01f-4b5e-41c8-ac4c-ffa32bf80355",
+    "issued_at": "2024-11-07T16:34:53.522000",
+    "status": "completed"
+  }
+}
