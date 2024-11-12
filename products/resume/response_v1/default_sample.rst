@@ -56,11 +56,11 @@ Prediction
   | Computer Inf... | Bachelor                  |           | 2014     | Columbia University, NY   |             |            |
   +-----------------+---------------------------+-----------+----------+---------------------------+-------------+------------+
 :Professional Experiences:
-  +-----------------+------------+-------------+---------------------------+-----------+----------+----------------------+-------------+------------+
-  | Contract Type   | Department | Description | Employer                  | End Month | End Year | Role                 | Start Month | Start Year |
-  +=================+============+=============+===========================+===========+==========+======================+=============+============+
-  |                 |            | Cooperate with designers to create clean interfaces and simple, intuitive interactions and experiences. Develop project concepts and maintain optimal workflow. Work with senior developer to manage large, complex design projects for corporate clients. Complete detailed programming and development tasks for front end public and internal websites as well as challenging back-end server code. Carry out quality assurance tests to discover errors and optimize usability. | Luna Web Design, New York | 05        | 2019     | Web Developer        | 09          | 2015       |
-  +-----------------+------------+-------------+---------------------------+-----------+----------+----------------------+-------------+------------+
+  +-----------------+------------+--------------------------------------+---------------------------+-----------+----------+----------------------+-------------+------------+
+  | Contract Type   | Department | Description                          | Employer                  | End Month | End Year | Role                 | Start Month | Start Year |
+  +=================+============+======================================+===========================+===========+==========+======================+=============+============+
+  |                 |            | Cooperate with designers to creat... | Luna Web Design, New York | 05        | 2019     | Web Developer        | 09          | 2015       |
+  +-----------------+------------+--------------------------------------+---------------------------+-----------+----------+----------------------+-------------+------------+
 :Certificates:
   +------------+--------------------------------+---------------------------+------+
   | Grade      | Name                           | Provider                  | Year |
