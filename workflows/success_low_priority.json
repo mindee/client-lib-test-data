@@ -1,0 +1,28 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "execution"
+    ],
+    "status": "success",
+    "status_code": 202,
+    "url": "https://api.mindee.net/v1/workflows/07ebf237-ff27-4eee-b6a2-425df4a5cca6/executions"
+  },
+  "execution": {
+    "batch_name": null,
+    "created_at": null,
+    "file": {
+      "alias": "low-priority-sample-test",
+      "name": "default_sample.jpg"
+    },
+    "id": "b743e123-e18c-4b62-8a07-811a4f72afd3",
+    "inference": null,
+    "priority": "low",
+    "reviewed_at": null,
+    "reviewed_prediction": null,
+    "status": "processing",
+    "type": "manual",
+    "uploaded_at": "2024-11-13T13:17:01.315179+00:00",
+    "workflow_id": "07ebf237-ff27-4eee-b6a2-425df4a5cca6"
+  }
+}
