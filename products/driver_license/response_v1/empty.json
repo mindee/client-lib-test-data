@@ -1,0 +1,128 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/driver_license/v1/documents/9dcba4c4-4271-4732-85d4-ca06515825af"
+  },
+  "document": {
+    "id": "9dcba4c4-4271-4732-85d4-ca06515825af",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-26T14:33:59.411000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "category": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "country_code": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "date_of_birth": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "dd_number": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "expiry_date": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "first_name": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "id": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "issued_date": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "issuing_authority": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "last_name": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "mrz": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "place_of_birth": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "state": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 0.185,
+      "product": {
+        "features": [
+          "country_code",
+          "state",
+          "id",
+          "category",
+          "last_name",
+          "first_name",
+          "date_of_birth",
+          "place_of_birth",
+          "expiry_date",
+          "issued_date",
+          "issuing_authority",
+          "mrz",
+          "dd_number"
+        ],
+        "name": "mindee/driver_license",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-11-26T14:33:59.120000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-11-26T14:33:59.429000",
+    "error": {},
+    "id": "6483c00f-37e8-4ea3-ac55-7f3c5441bd4d",
+    "issued_at": "2024-11-26T14:33:59.120000",
+    "status": "completed"
+  }
+}
