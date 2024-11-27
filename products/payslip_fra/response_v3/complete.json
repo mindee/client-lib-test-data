@@ -27,27 +27,27 @@
       ],
       "prediction": {
         "bank_account_details": {
-          "bank_name": null,
-          "iban": null,
-          "swift": null
+          "bank_name": "made-up-bank",
+          "iban": "FR1234567899876543211234567891234567",
+          "swift": "012345678"
         },
         "employee": {
           "address": "52 RUE DES FLEURS 33500 LIBOURNE FRANCE",
-          "date_of_birth": null,
+          "date_of_birth": "1968-02-26",
           "first_name": "Jean Luc",
           "last_name": "Picard",
-          "phone_number": null,
-          "registration_number": null,
+          "phone_number": "+33123456789",
+          "registration_number": "333333333",
           "social_security_number": "123456789012345"
         },
         "employer": {
           "address": "1 RUE DU TONNOT 25210 DOUBS",
           "company_id": "12345678901234",
-          "company_site": null,
+          "company_site": "http://example.com",
           "naf_code": "1234A",
           "name": "DEMO COMPANY",
-          "phone_number": null,
-          "urssaf_number": null
+          "phone_number": "+33987654321",
+          "urssaf_number": "12345678912932"
         },
         "employment": {
           "category": "Cadre",
@@ -55,8 +55,8 @@
           "collective_agreement": "Construction -- Promotion",
           "job_title": "Directeur R\u00e9gional du D\u00e9veloppement",
           "position_level": "Niveau 5 Echelon 3",
-          "seniority_date": null,
-          "start_date": "2022-05-01"
+          "seniority_date": "2022-05-01",
+          "start_date": "2022-05-17"
         },
         "paid_time_off": [
           {
@@ -70,8 +70,8 @@
             "accrued": 6.17,
             "period": "N",
             "pto_type": "VACATION",
-            "remaining": 6.17,
-            "used": null
+            "remaining": 4.17,
+            "used": 2.0
           },
           {
             "accrued": 2.01,
@@ -102,18 +102,18 @@
         },
         "salary_details": [
           {
-            "amount": 6666.67,
-            "base": null,
+            "amount": 4000,
+            "base": 151,
             "description": "Salaire de base",
             "number": null,
-            "rate": null
+            "rate": 26.49
           },
           {
             "amount": 9.3,
             "base": null,
             "description": "Part patronale Mutuelle NR",
-            "number": null,
-            "rate": null
+            "number": 1.0,
+            "rate": 9.3
           },
           {
             "amount": 508.3,

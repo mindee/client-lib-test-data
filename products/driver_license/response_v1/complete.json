@@ -231,13 +231,47 @@
         },
         "mrz": {
           "page_id": 0,
-          "polygon": [],
-          "value": null
+          "polygon": [
+            [
+              0.384,
+              0.395
+            ],
+            [
+              0.521,
+              0.395
+            ],
+            [
+              0.521,
+              0.437
+            ],
+            [
+              0.384,
+              0.437
+            ]
+          ],
+          "value": "I<USASAMPLE<<JELANI<<<<<<<<<<<<<<<<<"
         },
         "place_of_birth": {
           "page_id": 0,
-          "polygon": [],
-          "value": null
+          "polygon": [
+            [
+              0.384,
+              0.395
+            ],
+            [
+              0.521,
+              0.395
+            ],
+            [
+              0.521,
+              0.437
+            ],
+            [
+              0.384,
+              0.437
+            ]
+          ],
+          "value": "Ulaanbaatar, MNG"
         },
         "state": {
           "page_id": 0,

@@ -18,9 +18,9 @@ Prediction
 :Last Name: Sample
 :First Name: Jelani
 :Date of Birth: 1957-02-01
-:Place of Birth:
+:Place of Birth: Ulaanbaatar, MNG
 :Expiry Date: 2018-02-01
 :Issued Date: 2013-01-10
 :Issuing Authority:
-:MRZ:
+:MRZ: I<USASAMPLE<<JELANI<<<<<<<<<<<<<<<<<
 :DD Number: DD1234567890123456
