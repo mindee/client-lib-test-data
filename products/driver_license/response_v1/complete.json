@@ -1,0 +1,332 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/driver_license/v1/documents/fbdeae38-ada3-43ac-aa58-e01a3d47e474"
+  },
+  "document": {
+    "id": "fbdeae38-ada3-43ac-aa58-e01a3d47e474",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-26T13:24:54.317000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "category": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.386,
+              0.251
+            ],
+            [
+              0.492,
+              0.251
+            ],
+            [
+              0.492,
+              0.282
+            ],
+            [
+              0.386,
+              0.282
+            ]
+          ],
+          "value": "D"
+        },
+        "country_code": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.039,
+              0.045
+            ],
+            [
+              0.421,
+              0.045
+            ],
+            [
+              0.421,
+              0.147
+            ],
+            [
+              0.039,
+              0.147
+            ]
+          ],
+          "value": "USA"
+        },
+        "date_of_birth": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.732,
+              0.322
+            ],
+            [
+              0.916,
+              0.322
+            ],
+            [
+              0.916,
+              0.372
+            ],
+            [
+              0.732,
+              0.372
+            ]
+          ],
+          "value": "1957-02-01"
+        },
+        "dd_number": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.383,
+              0.85
+            ],
+            [
+              0.658,
+              0.85
+            ],
+            [
+              0.658,
+              0.989
+            ],
+            [
+              0.383,
+              0.989
+            ]
+          ],
+          "value": "DD1234567890123456"
+        },
+        "expiry_date": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.445,
+              0.635
+            ],
+            [
+              0.631,
+              0.635
+            ],
+            [
+              0.631,
+              0.68
+            ],
+            [
+              0.445,
+              0.68
+            ]
+          ],
+          "value": "2018-02-01"
+        },
+        "first_name": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.384,
+              0.452
+            ],
+            [
+              0.502,
+              0.452
+            ],
+            [
+              0.502,
+              0.491
+            ],
+            [
+              0.384,
+              0.491
+            ]
+          ],
+          "value": "Jelani"
+        },
+        "id": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.723,
+              0.259
+            ],
+            [
+              0.914,
+              0.259
+            ],
+            [
+              0.914,
+              0.311
+            ],
+            [
+              0.723,
+              0.311
+            ]
+          ],
+          "value": "D12345678"
+        },
+        "issued_date": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.736,
+              0.635
+            ],
+            [
+              0.922,
+              0.635
+            ],
+            [
+              0.922,
+              0.68
+            ],
+            [
+              0.736,
+              0.68
+            ]
+          ],
+          "value": "2013-01-10"
+        },
+        "issuing_authority": {
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "last_name": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.384,
+              0.395
+            ],
+            [
+              0.521,
+              0.395
+            ],
+            [
+              0.521,
+              0.437
+            ],
+            [
+              0.384,
+              0.437
+            ]
+          ],
+          "value": "Sample"
+        },
+        "mrz": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.384,
+              0.395
+            ],
+            [
+              0.521,
+              0.395
+            ],
+            [
+              0.521,
+              0.437
+            ],
+            [
+              0.384,
+              0.437
+            ]
+          ],
+          "value": "I<USASAMPLE<<JELANI<<<<<<<<<<<<<<<<<"
+        },
+        "place_of_birth": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.384,
+              0.395
+            ],
+            [
+              0.521,
+              0.395
+            ],
+            [
+              0.521,
+              0.437
+            ],
+            [
+              0.384,
+              0.437
+            ]
+          ],
+          "value": "Ulaanbaatar, MNG"
+        },
+        "state": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.508,
+              0.546
+            ],
+            [
+              0.542,
+              0.546
+            ],
+            [
+              0.542,
+              0.579
+            ],
+            [
+              0.508,
+              0.579
+            ]
+          ],
+          "value": "AZ"
+        }
+      },
+      "processing_time": 8.061,
+      "product": {
+        "features": [
+          "country_code",
+          "state",
+          "id",
+          "category",
+          "last_name",
+          "first_name",
+          "date_of_birth",
+          "place_of_birth",
+          "expiry_date",
+          "issued_date",
+          "issuing_authority",
+          "mrz",
+          "dd_number"
+        ],
+        "name": "mindee/driver_license",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-11-26T13:24:46.119000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-11-26T13:24:54.330000",
+    "error": {},
+    "id": "72f1128d-741a-494f-a75d-a1a1bcdb8536",
+    "issued_at": "2024-11-26T13:24:46.119000",
+    "status": "completed"
+  }
+}

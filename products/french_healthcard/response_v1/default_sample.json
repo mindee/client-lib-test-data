@@ -1,0 +1,144 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/french_healthcard/v1/documents/9ee2733d-933a-4dcd-a73a-a31395e3b288"
+  },
+  "document": {
+    "id": "9ee2733d-933a-4dcd-a73a-a31395e3b288",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-26T15:24:56.969000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "given_names": [
+          {
+            "page_id": 0,
+            "polygon": [
+              [
+                0.282,
+                0.671
+              ],
+              [
+                0.441,
+                0.671
+              ],
+              [
+                0.441,
+                0.709
+              ],
+              [
+                0.282,
+                0.709
+              ]
+            ],
+            "value": "NATHALIE"
+          }
+        ],
+        "issuance_date": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.443,
+              0.438
+            ],
+            [
+              0.605,
+              0.438
+            ],
+            [
+              0.605,
+              0.475
+            ],
+            [
+              0.443,
+              0.475
+            ]
+          ],
+          "value": "2007-01-01"
+        },
+        "social_security": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.282,
+              0.838
+            ],
+            [
+              0.616,
+              0.838
+            ],
+            [
+              0.616,
+              0.873
+            ],
+            [
+              0.282,
+              0.873
+            ]
+          ],
+          "value": "2 69 05 49 588 157 80"
+        },
+        "surname": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.284,
+              0.727
+            ],
+            [
+              0.422,
+              0.727
+            ],
+            [
+              0.422,
+              0.766
+            ],
+            [
+              0.284,
+              0.766
+            ]
+          ],
+          "value": "DURAND"
+        }
+      },
+      "processing_time": 2.12,
+      "product": {
+        "features": [
+          "given_names",
+          "surname",
+          "social_security",
+          "issuance_date"
+        ],
+        "name": "mindee/french_healthcard",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-11-26T15:24:54.731000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-11-26T15:24:56.981000",
+    "error": {},
+    "id": "3d86a5b2-4789-43da-8180-ea0c9146ceac",
+    "issued_at": "2024-11-26T15:24:54.731000",
+    "status": "completed"
+  }
+}

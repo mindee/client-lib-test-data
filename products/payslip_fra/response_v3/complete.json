@@ -1,0 +1,155 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/payslip_fra/v3/documents/a479e3e7-6838-4e82-9a7d-99289f34ec7f"
+  },
+  "document": {
+    "id": "a479e3e7-6838-4e82-9a7d-99289f34ec7f",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-26T15:46:39.083000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "bank_account_details": {
+          "bank_name": "made-up-bank",
+          "iban": "FR1234567899876543211234567891234567",
+          "swift": "012345678"
+        },
+        "employee": {
+          "address": "52 RUE DES FLEURS 33500 LIBOURNE FRANCE",
+          "date_of_birth": "1968-02-26",
+          "first_name": "Jean Luc",
+          "last_name": "Picard",
+          "phone_number": "+33123456789",
+          "registration_number": "333333333",
+          "social_security_number": "123456789012345"
+        },
+        "employer": {
+          "address": "1 RUE DU TONNOT 25210 DOUBS",
+          "company_id": "12345678901234",
+          "company_site": "http://example.com",
+          "naf_code": "1234A",
+          "name": "DEMO COMPANY",
+          "phone_number": "+33987654321",
+          "urssaf_number": "12345678912932"
+        },
+        "employment": {
+          "category": "Cadre",
+          "coefficient": "600,000",
+          "collective_agreement": "Construction -- Promotion",
+          "job_title": "Directeur R\u00e9gional du D\u00e9veloppement",
+          "position_level": "Niveau 5 Echelon 3",
+          "seniority_date": "2022-05-01",
+          "start_date": "2022-05-17"
+        },
+        "paid_time_off": [
+          {
+            "accrued": null,
+            "period": "N-1",
+            "pto_type": "VACATION",
+            "remaining": null,
+            "used": null
+          },
+          {
+            "accrued": 6.17,
+            "period": "N",
+            "pto_type": "VACATION",
+            "remaining": 4.17,
+            "used": 2.0
+          },
+          {
+            "accrued": 2.01,
+            "period": "N",
+            "pto_type": "RTT",
+            "remaining": 2.01,
+            "used": null
+          }
+        ],
+        "pay_detail": {
+          "gross_salary": 7184.27,
+          "gross_salary_ytd": 18074.81,
+          "income_tax_rate": 17.6,
+          "income_tax_withheld": 1030.99,
+          "net_paid": 3868.32,
+          "net_paid_before_tax": 4899.31,
+          "net_taxable": 5857.9,
+          "net_taxable_ytd": 14752.73,
+          "total_cost_employer": 10486.94,
+          "total_taxes_and_deductions": 1650.36
+        },
+        "pay_period": {
+          "end_date": "2023-03-31",
+          "month": "03",
+          "payment_date": "2023-03-29",
+          "start_date": "2023-03-01",
+          "year": "2023"
+        },
+        "salary_details": [
+          {
+            "amount": 4000,
+            "base": 151,
+            "description": "Salaire de base",
+            "number": null,
+            "rate": 26.49
+          },
+          {
+            "amount": 9.3,
+            "base": null,
+            "description": "Part patronale Mutuelle NR",
+            "number": 1.0,
+            "rate": 9.3
+          },
+          {
+            "amount": 508.3,
+            "base": null,
+            "description": "Avantages en nature voiture",
+            "number": null,
+            "rate": null
+          }
+        ]
+      },
+      "processing_time": 17.39,
+      "product": {
+        "features": [
+          "pay_period",
+          "employee",
+          "employer",
+          "bank_account_details",
+          "employment",
+          "salary_details",
+          "pay_detail",
+          "paid_time_off"
+        ],
+        "name": "mindee/payslip_fra",
+        "type": "standard",
+        "version": "3.0"
+      },
+      "started_at": "2024-11-26T15:46:21.468000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-11-26T15:46:39.093000",
+    "error": {},
+    "id": "f4d2483e-24d6-40fc-a033-16852a21cdec",
+    "issued_at": "2024-11-26T15:46:21.468000",
+    "status": "completed"
+  }
+}

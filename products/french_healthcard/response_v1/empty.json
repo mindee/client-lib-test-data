@@ -1,0 +1,70 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/french_healthcard/v1/documents/df845a77-4540-4479-a471-fe7757859337"
+  },
+  "document": {
+    "id": "df845a77-4540-4479-a471-fe7757859337",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-11-26T14:37:16.668000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "given_names": [],
+        "issuance_date": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "social_security": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "surname": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 0.206,
+      "product": {
+        "features": [
+          "given_names",
+          "surname",
+          "social_security",
+          "issuance_date"
+        ],
+        "name": "mindee/french_healthcard",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2024-11-26T14:37:16.317000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-11-26T14:37:16.680000",
+    "error": {},
+    "id": "aa7f2ca2-8d68-4ab7-90d1-ddbb098d4677",
+    "issued_at": "2024-11-26T14:37:16.317000",
+    "status": "completed"
+  }
+}
