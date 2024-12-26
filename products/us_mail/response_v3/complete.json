@@ -1,0 +1,98 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/us_mail/v3/documents/da14772e-a2ed-47eb-abe4-74e71904169d"
+  },
+  "document": {
+    "id": "da14772e-a2ed-47eb-abe4-74e71904169d",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-12-26T09:48:46.335000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "is_return_to_sender": {
+          "value": false
+        },
+        "recipient_addresses": [
+          {
+            "city": "Detroit",
+            "complete": "1234 Market Street, Detroit, Michigan 12345",
+            "is_address_change": false,
+            "postal_code": "12345",
+            "private_mailbox_number": "4321",
+            "state": "MI",
+            "street": "1234 Market Street",
+            "unit": null
+          },
+          {
+            "city": "Miami",
+            "complete": "1234 Mockingbird Lane Suite 300, PMB 5678, Miami, FL 33101",
+            "is_address_change": true,
+            "postal_code": "33101",
+            "private_mailbox_number": "5678",
+            "state": "FL",
+            "street": "1234 Mockingbird Lane",
+            "unit": "Suite 300"
+          }
+        ],
+        "recipient_names": [
+          {
+            "value": "Dr. Victor Fries"
+          },
+          {
+            "value": "Oswald C. Cobblepot"
+          }
+        ],
+        "sender_address": {
+          "city": "Dallas",
+          "complete": "54321 Elm Street, Dallas, Texas 54321",
+          "postal_code": "54321",
+          "state": "TX",
+          "street": "54321 Elm Street"
+        },
+        "sender_name": {
+          "value": "company zed"
+        }
+      },
+      "processing_time": 5.963,
+      "product": {
+        "features": [
+          "sender_name",
+          "sender_address",
+          "recipient_names",
+          "recipient_addresses",
+          "is_return_to_sender"
+        ],
+        "name": "mindee/us_mail",
+        "type": "standard",
+        "version": "3.0"
+      },
+      "started_at": "2024-12-26T09:48:40.199000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2024-12-26T09:48:46.347000",
+    "error": {},
+    "id": "a6834a9f-18c9-4c32-b796-02a3e61c22bc",
+    "issued_at": "2024-12-26T09:48:40.199000",
+    "status": "completed"
+  }
+}

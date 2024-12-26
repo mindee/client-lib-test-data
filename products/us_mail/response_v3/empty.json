@@ -1,0 +1,70 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/us_mail/v3/documents/e520fcb9-ad2b-49f2-bdc5-3f0e3b283f8c"
+  },
+  "document": {
+    "id": "e520fcb9-ad2b-49f2-bdc5-3f0e3b283f8c",
+    "inference": {
+      "extras": {},
+      "finished_at": "2024-12-26T09:36:54.579000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "is_return_to_sender": {
+          "value": null
+        },
+        "recipient_addresses": [],
+        "recipient_names": [],
+        "sender_address": {
+          "city": null,
+          "complete": null,
+          "postal_code": null,
+          "state": null,
+          "street": null
+        },
+        "sender_name": {
+          "value": null
+        }
+      },
+      "processing_time": 0.248,
+      "product": {
+        "features": [
+          "sender_name",
+          "sender_address",
+          "recipient_names",
+          "recipient_addresses",
+          "is_return_to_sender"
+        ],
+        "name": "mindee/us_mail",
+        "type": "standard",
+        "version": "3.0"
+      },
+      "started_at": "2024-12-26T09:36:54.230000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2024-12-26T09:36:54.608000",
+    "error": {},
+    "id": "6e0a2633-e60d-407f-8d4d-686b2923c64c",
+    "issued_at": "2024-12-26T09:36:54.230000",
+    "status": "completed"
+  }
+}
