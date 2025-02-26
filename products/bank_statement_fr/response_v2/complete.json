@@ -1,0 +1,188 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/bank_statement_fr/v2/documents/3c1811c0-9876-45ae-91ad-c2e9cd75dd83"
+  },
+  "document": {
+    "id": "3c1811c0-9876-45ae-91ad-c2e9cd75dd83",
+    "inference": {
+      "extras": {},
+      "finished_at": "2025-02-26T13:41:47.054000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "account_number": {
+          "value": "XXXXXXXXXXXXXX"
+        },
+        "bank_address": {
+          "value": "1 rue de la Banque, 100210 Cassette"
+        },
+        "bank_name": {
+          "value": "Banque lafinancepourtous"
+        },
+        "client_address": {
+          "value": "1 rue des Cigales, 100210 Cassette"
+        },
+        "client_names": [
+          {
+            "value": "Karine Plume"
+          }
+        ],
+        "closing_balance": {
+          "value": -278.96
+        },
+        "opening_balance": {
+          "value": 22.15
+        },
+        "statement_date": {
+          "value": "2002-02-28"
+        },
+        "statement_end_date": {
+          "value": "2002-02-28"
+        },
+        "statement_start_date": {
+          "value": "2002-02-01"
+        },
+        "total_credits": {
+          "value": 1339.62
+        },
+        "total_debits": {
+          "value": 1618.58
+        },
+        "transactions": [
+          {
+            "amount": 1240.0,
+            "date": "2002-02-01",
+            "description": "Virement salaire"
+          },
+          {
+            "amount": -520.0,
+            "date": "2002-02-02",
+            "description": "Virement loyer"
+          },
+          {
+            "amount": -312.0,
+            "date": "2002-02-03",
+            "description": "D\u00e9bit Carte n\u00baxxxx"
+          },
+          {
+            "amount": 12.47,
+            "date": "2002-02-04",
+            "description": "Virement CPAM"
+          },
+          {
+            "amount": 65.0,
+            "date": "2002-02-05",
+            "description": "Virement APL"
+          },
+          {
+            "amount": -110.0,
+            "date": "2002-02-07",
+            "description": "D\u00e9bit Carte nxxxxxxxxxxxxxxxx"
+          },
+          {
+            "amount": -3.3,
+            "date": "2002-02-08",
+            "description": "Cotisation mensuelle carte bancaire"
+          },
+          {
+            "amount": -120.0,
+            "date": "2002-02-09",
+            "description": "Ch\u00e8que n\u00b0 xxxxxx98"
+          },
+          {
+            "amount": -60.0,
+            "date": "2002-02-09",
+            "description": "Retrait esp\u00e8ces DAB"
+          },
+          {
+            "amount": -55.0,
+            "date": "2002-02-15",
+            "description": "Ch\u00e8que n\u00b0 xxxxxx99"
+          },
+          {
+            "amount": -80.0,
+            "date": "2002-02-16",
+            "description": "Pr\u00e9l\u00e8vement supercr\u00e9dit"
+          },
+          {
+            "amount": -120.0,
+            "date": "2002-02-17",
+            "description": "Ch\u00e8que n\u00b0 xxxxx 100"
+          },
+          {
+            "amount": -163.25,
+            "date": "2002-02-20",
+            "description": "D\u00e9bit Carte n\u00baxxxxxxxxxxxxx"
+          },
+          {
+            "amount": -25.5,
+            "date": "2002-02-21",
+            "description": "D\u00e9bit Carte n\u00b0xxxxxxxxxxxxxxxxxx"
+          },
+          {
+            "amount": -30.0,
+            "date": "2002-02-24",
+            "description": "Pr\u00e9l\u00e8vement Op\u00e9rateur t\u00e9l\u00e9phonique"
+          },
+          {
+            "amount": -6.53,
+            "date": "2002-02-25",
+            "description": "Agios"
+          },
+          {
+            "amount": -13.0,
+            "date": "2002-02-28",
+            "description": "Frais irr\u00e9gularit\u00e9s et incidents de janvier"
+          }
+        ]
+      },
+      "processing_time": 26.388,
+      "product": {
+        "features": [
+          "account_number",
+          "bank_name",
+          "bank_address",
+          "client_names",
+          "client_address",
+          "statement_date",
+          "statement_start_date",
+          "statement_end_date",
+          "opening_balance",
+          "closing_balance",
+          "transactions",
+          "total_debits",
+          "total_credits"
+        ],
+        "name": "mindee/bank_statement_fr",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2025-02-26T13:41:20.445000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2025-02-26T13:41:47.064000",
+    "error": {},
+    "id": "b06fd394-dd63-435a-b151-49176d7284fc",
+    "issued_at": "2025-02-26T13:41:20.445000",
+    "status": "completed"
+  }
+}
