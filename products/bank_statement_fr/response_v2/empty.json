@@ -1,0 +1,98 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/bank_statement_fr/v2/documents/14102346-7227-4ecf-bd23-66ad1e13906a"
+  },
+  "document": {
+    "id": "14102346-7227-4ecf-bd23-66ad1e13906a",
+    "inference": {
+      "extras": {},
+      "finished_at": "2025-02-26T14:22:49.863000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "account_number": {
+          "value": null
+        },
+        "bank_address": {
+          "value": null
+        },
+        "bank_name": {
+          "value": null
+        },
+        "client_address": {
+          "value": null
+        },
+        "client_names": [],
+        "closing_balance": {
+          "value": null
+        },
+        "opening_balance": {
+          "value": null
+        },
+        "statement_date": {
+          "value": null
+        },
+        "statement_end_date": {
+          "value": null
+        },
+        "statement_start_date": {
+          "value": null
+        },
+        "total_credits": {
+          "value": null
+        },
+        "total_debits": {
+          "value": null
+        },
+        "transactions": []
+      },
+      "processing_time": 0.846,
+      "product": {
+        "features": [
+          "account_number",
+          "bank_name",
+          "bank_address",
+          "client_names",
+          "client_address",
+          "statement_date",
+          "statement_start_date",
+          "statement_end_date",
+          "opening_balance",
+          "closing_balance",
+          "transactions",
+          "total_debits",
+          "total_credits"
+        ],
+        "name": "mindee/bank_statement_fr",
+        "type": "standard",
+        "version": "2.0"
+      },
+      "started_at": "2025-02-26T14:22:28.782000"
+    },
+    "n_pages": 1,
+    "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2025-02-26T14:22:49.872000",
+    "error": {},
+    "id": "448170c0-daf5-4758-8d23-1dc7d13e0f3f",
+    "issued_at": "2025-02-26T14:22:28.782000",
+    "status": "completed"
+  }
+}
