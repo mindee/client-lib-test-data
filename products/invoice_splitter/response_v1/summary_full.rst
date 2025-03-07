@@ -6,35 +6,19 @@ Document
 
 Inference
 #########
-:Product: mindee/invoice_splitter_beta v1.0
+:Product: mindee/invoice_splitter v1.2
 :Rotation applied: No
 
 Prediction
 ==========
 :Invoice Page Groups:
-  :Page indexes: 0
-  :Page indexes: 1, 2, 3
-  :Page indexes: 4
+  +--------------------------------------------------------------------------+
+  | Page Indexes                                                             |
+  +==========================================================================+
+  | 0                                                                        |
+  +--------------------------------------------------------------------------+
+  | 1, 2, 3                                                                  |
+  +--------------------------------------------------------------------------+
+  | 4                                                                        |
+  +--------------------------------------------------------------------------+
 
-Page Predictions
-================
-
-Page 0
-------
-:Invoice Page Groups:
-
-Page 1
-------
-:Invoice Page Groups:
-
-Page 2
-------
-:Invoice Page Groups:
-
-Page 3
-------
-:Invoice Page Groups:
-
-Page 4
-------
-:Invoice Page Groups:
