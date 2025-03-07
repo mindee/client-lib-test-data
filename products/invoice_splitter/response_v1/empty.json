@@ -15,7 +15,7 @@
     "id": "69eabee4-8f29-4e11-bb24-6a4ed965910a",
     "inference": {
       "extras": {},
-      "finished_at": "2023-01-13T16:29:20.335255",
+      "finished_at": "2025-01-13T16:29:20.335255",
       "is_rotation_applied": null,
       "pages": [
         {
@@ -37,11 +37,11 @@
       "processing_time": 1.837,
       "product": {
         "features": ["invoice_page_groups"],
-        "name": "mindee/invoice_splitter_beta",
+        "name": "mindee/invoice_splitter",
         "type": "standard",
-        "version": "1.0"
+        "version": "1.2"
       },
-      "started_at": "2023-01-13T16:29:18.498178"
+      "started_at": "2025-01-13T16:29:18.498178"
     },
     "n_pages": 2,
     "name": "invoice.pdf"
