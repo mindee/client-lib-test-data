@@ -7,20 +7,20 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/energy_bill_fra/v1/documents/17f0ccef-e3fe-4a28-838d-d704489d6ce7"
+    "url": "https://api.mindee.net/v1/products/mindee/energy_bill_fra/v1/documents/ff1f2ca8-4d29-44d8-a564-599a982a4ef7"
   },
   "document": {
-    "id": "17f0ccef-e3fe-4a28-838d-d704489d6ce7",
+    "id": "ff1f2ca8-4d29-44d8-a564-599a982a4ef7",
     "inference": {
       "extras": {},
-      "finished_at": "2024-09-13T12:51:58.608000",
-      "is_rotation_applied": null,
+      "finished_at": "2025-03-19T16:25:25.009000",
+      "is_rotation_applied": true,
       "pages": [
         {
           "extras": {},
           "id": 0,
           "orientation": {
-            "value": null
+            "value": 0
           },
           "prediction": {}
         },
@@ -28,7 +28,7 @@
           "extras": {},
           "id": 1,
           "orientation": {
-            "value": null
+            "value": 0
           },
           "prediction": {}
         },
@@ -36,14 +36,14 @@
           "extras": {},
           "id": 2,
           "orientation": {
-            "value": null
+            "value": 0
           },
           "prediction": {}
         }
       ],
       "prediction": {
         "contract_id": {
-          "value": "1234567890"
+          "value": "9876543210"
         },
         "delivery_point": {
           "value": "98765432109876"
@@ -52,33 +52,35 @@
           "value": "2021-02-15"
         },
         "energy_consumer": {
-          "address": "12 AVENUE DES R\u00caVES, RDC A 123 COUR FAUSSE A, 75000 PARIS",
-          "name": "John Doe"
+          "address": "123 RUE DE L'IMAGINAIRE, 75001 PARIS",
+          "name": "JOHN DOE"
         },
         "energy_supplier": {
-          "address": "TSA 12345, 12345 DEMOCITY CEDEX, 75001 PARIS",
+          "address": "TSA 12345, 12345 DEMOCITY CEDEX",
           "name": "EDF"
         },
         "energy_usage": [
           {
-            "description": "Consommation (HT)",
+            "consumption": 8581,
+            "description": "Consommation \u00e9lectricit\u00e9",
             "end_date": "2021-01-27",
             "start_date": "2020-11-28",
             "tax_rate": 20.0,
             "total": 898.43,
-            "unit_price": 10.47
+            "unit": "kWh",
+            "unit_price": 0.1047
           }
         ],
         "invoice_date": {
           "value": "2021-01-29"
         },
         "invoice_number": {
-          "value": "10123590373"
+          "value": "1234567890"
         },
         "meter_details": {
           "meter_number": "620",
           "meter_type": "electricity",
-          "unit": "kWh"
+          "unit": "36kVA"
         },
         "subscription": [
           {
@@ -97,31 +99,31 @@
             "start_date": "2020-11-28",
             "tax_rate": 20.0,
             "total": 193.07,
-            "unit_price": 2.25
+            "unit_price": 0.0225
           },
           {
-            "description": "D\u00e9partementale sur la Conso Finale Electricit\u00e9 Taxe",
-            "end_date": "2020-12-31",
+            "description": "Taxe D\u00e9partementale sur la Conso Finale Electricit\u00e9",
+            "end_date": "2021-01-27",
             "start_date": "2020-11-28",
             "tax_rate": 20.0,
             "total": 13.98,
-            "unit_price": 0.3315
+            "unit_price": 0.003315
           },
           {
-            "description": "Communale sur la Conso Finale Electricit\u00e9 Taxe",
+            "description": "Taxe Communale sur la Conso Finale Electricit\u00e9",
             "end_date": "2021-01-27",
-            "start_date": "2021-01-01",
+            "start_date": "2020-11-28",
             "tax_rate": 20.0,
             "total": 28.56,
-            "unit_price": 0.6545
+            "unit_price": 0.006545
           },
           {
-            "description": "Contribution Tarifaire d'Acheminement",
-            "end_date": "2020-12-31",
+            "description": "Taxe Communale sur la Conso Finale Electricit\u00e9",
+            "end_date": "2021-01-27",
             "start_date": "2020-11-28",
             "tax_rate": 20.0,
             "total": 27.96,
-            "unit_price": 0.663
+            "unit_price": 0.00663
           }
         ],
         "total_amount": {
@@ -134,7 +136,7 @@
           "value": 238.82
         }
       },
-      "processing_time": 11.046,
+      "processing_time": 19.683,
       "product": {
         "features": [
           "invoice_number",
@@ -154,18 +156,18 @@
         ],
         "name": "mindee/energy_bill_fra",
         "type": "standard",
-        "version": "1.0"
+        "version": "1.2"
       },
-      "started_at": "2024-09-13T12:51:47.364000"
+      "started_at": "2025-03-19T16:25:05.173000"
     },
     "n_pages": 3,
     "name": "default_sample.pdf"
   },
   "job": {
-    "available_at": "2024-09-13T12:51:58.625000",
+    "available_at": "2025-03-19T16:25:25.019000",
     "error": {},
-    "id": "f696db5e-9c02-416f-847b-8af5a52124a9",
-    "issued_at": "2024-09-13T12:51:47.364000",
+    "id": "55a63b8a-5717-4c1d-9f5f-472130a5a42b",
+    "issued_at": "2025-03-19T16:25:05.173000",
     "status": "completed"
   }
 }

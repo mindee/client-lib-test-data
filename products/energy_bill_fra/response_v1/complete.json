@@ -61,11 +61,13 @@
         },
         "energy_usage": [
           {
+            "consumption": 8581,
             "description": "Consommation (HT)",
             "end_date": "2021-01-27",
             "start_date": "2020-11-28",
             "tax_rate": 20.0,
             "total": 898.43,
+            "unit": "kWh",
             "unit_price": 10.47
           }
         ],
