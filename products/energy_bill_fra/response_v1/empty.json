@@ -7,20 +7,20 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/energy_bill_fra/v1/documents/8f964027-309c-421c-98e2-72e0ec761e3e"
+    "url": "https://api.mindee.net/v1/products/mindee/energy_bill_fra/v1/documents/02bca6c1-e395-4186-8fed-4461ab0ec7c3"
   },
   "document": {
-    "id": "8f964027-309c-421c-98e2-72e0ec761e3e",
+    "id": "02bca6c1-e395-4186-8fed-4461ab0ec7c3",
     "inference": {
       "extras": {},
-      "finished_at": "2024-09-13T12:52:00.699000",
-      "is_rotation_applied": null,
+      "finished_at": "2025-03-19T16:20:42.020000",
+      "is_rotation_applied": true,
       "pages": [
         {
           "extras": {},
           "id": 0,
           "orientation": {
-            "value": null
+            "value": 0
           },
           "prediction": {}
         }
@@ -67,7 +67,7 @@
           "value": null
         }
       },
-      "processing_time": 0.267,
+      "processing_time": 0.192,
       "product": {
         "features": [
           "invoice_number",
@@ -87,18 +87,18 @@
         ],
         "name": "mindee/energy_bill_fra",
         "type": "standard",
-        "version": "1.0"
+        "version": "1.2"
       },
-      "started_at": "2024-09-13T12:52:00.332000"
+      "started_at": "2025-03-19T16:20:41.755000"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
   },
   "job": {
-    "available_at": "2024-09-13T12:52:00.710000",
+    "available_at": "2025-03-19T16:20:42.043000",
     "error": {},
-    "id": "adc7fece-0163-4db4-9033-ef6d7c59c80c",
-    "issued_at": "2024-09-13T12:52:00.332000",
+    "id": "6d0bd2dd-3533-4e77-833e-19cbec767314",
+    "issued_at": "2025-03-19T16:20:41.755000",
     "status": "completed"
   }
 }
