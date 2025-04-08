@@ -2,17 +2,18 @@
   "api_request": {
     "error": {},
     "resources": [
-      "document"
+      "document",
+      "job"
     ],
     "status": "success",
-    "status_code": 201,
-    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/documents/04c8b29b-55c4-48d4-85d3-a9b691c841b8"
   },
   "document": {
-    "id": "c868d26c-91b3-47ba-a299-21c2f149a060",
+    "id": "04c8b29b-55c4-48d4-85d3-a9b691c841b8",
     "inference": {
       "extras": {},
-      "finished_at": "2024-10-10T12:59:29.008789",
+      "finished_at": "2025-04-08T08:52:44.148000",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -23,17 +24,33 @@
           },
           "prediction": {
             "billing_address": {
+              "address_complement": null,
+              "city": null,
               "confidence": 0.0,
+              "country": null,
+              "po_box": null,
               "polygon": [],
+              "postal_code": null,
+              "state": null,
+              "street_name": null,
+              "street_number": null,
               "value": null
             },
             "category": {
-              "confidence": 0.6,
-              "value": "transport"
+              "confidence": 1.0,
+              "value": "miscellaneous"
             },
             "customer_address": {
+              "address_complement": null,
+              "city": null,
               "confidence": 0.0,
+              "country": null,
+              "po_box": null,
               "polygon": [],
+              "postal_code": null,
+              "state": null,
+              "street_name": null,
+              "street_number": null,
               "value": null
             },
             "customer_company_registrations": [],
@@ -61,8 +78,13 @@
             "document_type": {
               "value": "EXPENSE RECEIPT"
             },
+            "document_type_extended": {
+              "confidence": 0.91,
+              "value": "EXPENSE RECEIPT"
+            },
             "due_date": {
               "confidence": 0.0,
+              "is_computed": false,
               "polygon": [],
               "value": null
             },
@@ -80,7 +102,7 @@
               "value": null
             },
             "orientation": {
-              "confidence": 0.4,
+              "confidence": 0.52,
               "degrees": 0
             },
             "payment_date": {
@@ -100,17 +122,33 @@
             },
             "reference_numbers": [],
             "shipping_address": {
+              "address_complement": null,
+              "city": null,
               "confidence": 0.0,
+              "country": null,
+              "po_box": null,
               "polygon": [],
+              "postal_code": null,
+              "state": null,
+              "street_name": null,
+              "street_number": null,
               "value": null
             },
             "subcategory": {
-              "confidence": 0.61,
-              "value": "plane"
+              "confidence": 0.0,
+              "value": null
             },
             "supplier_address": {
+              "address_complement": null,
+              "city": null,
               "confidence": 0.0,
+              "country": null,
+              "po_box": null,
               "polygon": [],
+              "postal_code": null,
+              "state": null,
+              "street_name": null,
+              "street_number": null,
               "value": null
             },
             "supplier_company_registrations": [],
@@ -167,19 +205,35 @@
       ],
       "prediction": {
         "billing_address": {
+          "address_complement": null,
+          "city": null,
           "confidence": 0.0,
+          "country": null,
           "page_id": null,
+          "po_box": null,
           "polygon": [],
+          "postal_code": null,
+          "state": null,
+          "street_name": null,
+          "street_number": null,
           "value": null
         },
         "category": {
-          "confidence": 0.6,
-          "value": "transport"
+          "confidence": 1.0,
+          "value": "miscellaneous"
         },
         "customer_address": {
+          "address_complement": null,
+          "city": null,
           "confidence": 0.0,
+          "country": null,
           "page_id": null,
+          "po_box": null,
           "polygon": [],
+          "postal_code": null,
+          "state": null,
+          "street_name": null,
+          "street_number": null,
           "value": null
         },
         "customer_company_registrations": [],
@@ -211,9 +265,14 @@
         "document_type": {
           "value": "EXPENSE RECEIPT"
         },
+        "document_type_extended": {
+          "confidence": 0.91,
+          "value": "EXPENSE RECEIPT"
+        },
         "due_date": {
           "confidence": 0.0,
-          "page_id": null,
+          "is_computed": false,
+          "page_id": 0,
           "polygon": [],
           "value": null
         },
@@ -251,19 +310,35 @@
         },
         "reference_numbers": [],
         "shipping_address": {
+          "address_complement": null,
+          "city": null,
           "confidence": 0.0,
+          "country": null,
           "page_id": null,
+          "po_box": null,
           "polygon": [],
+          "postal_code": null,
+          "state": null,
+          "street_name": null,
+          "street_number": null,
           "value": null
         },
         "subcategory": {
-          "confidence": 0.61,
-          "value": "plane"
+          "confidence": 0.0,
+          "value": null
         },
         "supplier_address": {
+          "address_complement": null,
+          "city": null,
           "confidence": 0.0,
+          "country": null,
           "page_id": null,
+          "po_box": null,
           "polygon": [],
+          "postal_code": null,
+          "state": null,
+          "street_name": null,
+          "street_number": null,
           "value": null
         },
         "supplier_company_registrations": [],
@@ -325,7 +400,7 @@
           "value": null
         }
       },
-      "processing_time": 0.32,
+      "processing_time": 0.21774721145629883,
       "product": {
         "features": [
           "locale",
@@ -354,6 +429,7 @@
           "shipping_address",
           "billing_address",
           "document_type",
+          "document_type_extended",
           "orientation",
           "subcategory",
           "category",
@@ -364,11 +440,18 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.10"
+        "version": "1.12"
       },
-      "started_at": "2024-10-10T12:59:28.614789"
+      "started_at": "2025-04-08T08:52:43.781000"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2025-04-08T08:52:44.159000",
+    "error": {},
+    "id": "f130236e-389d-40c5-b62a-19b046a0ac85",
+    "issued_at": "2025-04-08T08:52:43.781000",
+    "status": "completed"
   }
 }

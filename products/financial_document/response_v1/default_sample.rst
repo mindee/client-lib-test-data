@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: a80ac0ee-26f6-4e2e-988a-960b240d5ba7
+:Mindee ID: f52333ab-811e-4647-993e-ad79e072afa3
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/financial_document v1.11
+:Product: mindee/financial_document v1.12
 :Rotation applied: Yes
 
 Prediction
@@ -42,6 +42,7 @@ Prediction
 :Shipping Address: 2019 Redbud Drive New York, NY 10011
 :Billing Address: 4312 Wood Road New York, NY 10031
 :Document Type: INVOICE
+:Document Type Extended: INVOICE
 :Purchase Subcategory:
 :Purchase Category: miscellaneous
 :Total Tax: 9.75
@@ -94,6 +95,7 @@ Page 0
 :Shipping Address: 2019 Redbud Drive New York, NY 10011
 :Billing Address: 4312 Wood Road New York, NY 10031
 :Document Type: INVOICE
+:Document Type Extended: INVOICE
 :Purchase Subcategory:
 :Purchase Category: miscellaneous
 :Total Tax: 9.75

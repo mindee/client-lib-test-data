@@ -6,7 +6,7 @@ Document
 
 Inference
 #########
-:Product: mindee/invoices v4.9
+:Product: mindee/invoices v4.10
 :Rotation applied: Yes
 
 Prediction
@@ -41,6 +41,7 @@ Prediction
 :Shipping Address:
 :Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
+:Document Type Extended: INVOICE
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
   | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit of measure | Unit Price |
@@ -87,6 +88,7 @@ Page 0
 :Shipping Address:
 :Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
+:Document Type Extended: INVOICE
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
   | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit of measure | Unit Price |

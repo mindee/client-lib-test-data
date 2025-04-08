@@ -2,11 +2,12 @@
   "api_request": {
     "error": {},
     "resources": [
-      "document"
+      "document",
+      "job"
     ],
     "status": "success",
-    "status_code": 201,
-    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/predict"
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/documents/fac5e52a-87d6-465b-bc60-07cbb5236633"
   },
   "document": {
     "id": "f40a8701-fda1-44a0-8c44-46cbb5d657d5",
@@ -23,30 +24,161 @@
           },
           "prediction": {
             "billing_address": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "address_complement": "dummy complement 123",
+              "city": "Toronto",
+              "confidence": 0.99,
+              "country": "Canada",
+              "po_box": "PO BOX 4001 STN A",
+              "polygon": [
+                [
+                  0.032,
+                  0.302
+                ],
+                [
+                  0.215,
+                  0.302
+                ],
+                [
+                  0.215,
+                  0.356
+                ],
+                [
+                  0.032,
+                  0.356
+                ]
+              ],
+              "postal_code": "M6P 3K9",
+              "state": "ON",
+              "street_name": "Bloor Street West",
+              "street_number": "1954",
+              "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
             },
             "category": {
               "confidence": 0.99,
               "value": "food"
             },
             "customer_address": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "address_complement": "fake address complement",
+              "city": "Toronto",
+              "confidence": 0.99,
+              "country": "Canada",
+              "po_box": "PO BOX 4002 STN B",
+              "polygon": [
+                [
+                  0.032,
+                  0.302
+                ],
+                [
+                  0.215,
+                  0.302
+                ],
+                [
+                  0.215,
+                  0.356
+                ],
+                [
+                  0.032,
+                  0.356
+                ]
+              ],
+              "postal_code": "M6P 3K9",
+              "state": "ON",
+              "street_name": "Bloor Street West",
+              "street_number": "1954",
+              "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
             },
-            "customer_company_registrations": [],
+            "customer_company_registrations": [
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.374,
+                    0.939
+                  ],
+                  [
+                    0.547,
+                    0.939
+                  ],
+                  [
+                    0.547,
+                    0.972
+                  ],
+                  [
+                    0.374,
+                    0.972
+                  ]
+                ],
+                "type": "VAT NUMBER",
+                "value": "2321538952"
+              },
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.214,
+                    0.706
+                  ],
+                  [
+                    0.372,
+                    0.706
+                  ],
+                  [
+                    0.372,
+                    0.738
+                  ],
+                  [
+                    0.214,
+                    0.738
+                  ]
+                ],
+                "type": "VAT NUMBER",
+                "value": "2321538952"
+              }
+            ],
             "customer_id": {
               "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "polygon": [
+                [
+                  0.032,
+                  0.284
+                ],
+                [
+                  0.101,
+                  0.284
+                ],
+                [
+                  0.101,
+                  0.299
+                ],
+                [
+                  0.032,
+                  0.299
+                ]
+              ],
+              "value": "fake customer"
             },
             "customer_name": {
-              "confidence": 0.0,
-              "polygon": [],
-              "raw_value": null,
-              "value": null
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.032,
+                  0.284
+                ],
+                [
+                  0.1,
+                  0.284
+                ],
+                [
+                  0.1,
+                  0.299
+                ],
+                [
+                  0.032,
+                  0.299
+                ]
+              ],
+              "raw_value": "Jiro Doi",
+              "value": "JIRO DOI"
             },
             "date": {
               "confidence": 0.99,
@@ -93,6 +225,10 @@
               "value": "54/7500"
             },
             "document_type": {
+              "value": "EXPENSE RECEIPT"
+            },
+            "document_type_extended": {
+              "confidence": 1.0,
               "value": "EXPENSE RECEIPT"
             },
             "due_date": {
@@ -145,13 +281,13 @@
                     0.297
                   ]
                 ],
-                "product_code": null,
-                "quantity": 2.0,
-                "tax_amount": null,
-                "tax_rate": null,
-                "total_amount": 10.2,
-                "unit_measure": null,
-                "unit_price": null
+                "product_code": "01234",
+                "quantity": 1.0,
+                "tax_amount": 0.4321,
+                "tax_rate": 0.1234,
+                "total_amount": 65.0,
+                "unit_measure": "kg",
+                "unit_price": 65.0
               }
             ],
             "locale": {
@@ -188,9 +324,26 @@
               "value": "2016-02-26"
             },
             "po_number": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.65,
+                  0.366
+                ],
+                [
+                  0.709,
+                  0.366
+                ],
+                [
+                  0.709,
+                  0.387
+                ],
+                [
+                  0.65,
+                  0.387
+                ]
+              ],
+              "value": "AD29094"
             },
             "receipt_number": {
               "confidence": 0.99,
@@ -214,37 +367,93 @@
               ],
               "value": "54/7500"
             },
-            "reference_numbers": [],
+            "reference_numbers": [
+              {
+                "confidence": 0.9,
+                "polygon": [
+                  [
+                    0.84,
+                    0.285
+                  ],
+                  [
+                    0.913,
+                    0.285
+                  ],
+                  [
+                    0.913,
+                    0.297
+                  ],
+                  [
+                    0.84,
+                    0.297
+                  ]
+                ],
+                "value": "AD29094"
+              }
+            ],
             "shipping_address": {
+              "address_complement": "fake shipping address complement",
+              "city": "Toronto",
               "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "country": "Canada",
+              "po_box": "PO BOX 4003 STN C",
+              "polygon": [
+                [
+                  0.839,
+                  0.284
+                ],
+                [
+                  0.914,
+                  0.284
+                ],
+                [
+                  0.914,
+                  0.3
+                ],
+                [
+                  0.839,
+                  0.3
+                ]
+              ],
+              "postal_code": "M6P 3K8",
+              "state": "ON",
+              "street_name": "Bloor Street West",
+              "street_number": "1956",
+              "value": "1956 Bloor Street West Toronto, ON, M6P 3K8 Canada"
             },
             "subcategory": {
               "confidence": 0.98,
               "value": "restaurant"
             },
             "supplier_address": {
+              "address_complement": "dummy complement 321",
+              "city": "Toronto",
               "confidence": 0.99,
+              "country": "Canada",
+              "po_box": "PO BOX 4003 STN D",
               "polygon": [
                 [
-                  0.336,
-                  0.079
+                  0.752,
+                  0.127
                 ],
                 [
-                  0.536,
-                  0.079
+                  0.967,
+                  0.127
                 ],
                 [
-                  0.536,
-                  0.135
+                  0.967,
+                  0.164
                 ],
                 [
-                  0.336,
-                  0.135
+                  0.752,
+                  0.164
                 ]
               ],
-              "value": "34 Kingley Street W1B 50H"
+              "postal_code": "M5H 2H7",
+              "state": "ON",
+              "street_name": "University Ave",
+              "street_number": "156",
+              "value": "156 University Ave, Toronto ON, Canada, M5H 2H7"
             },
             "supplier_company_registrations": [
               {
@@ -295,9 +504,27 @@
               }
             ],
             "supplier_email": {
-              "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "confidence": 0.96,
+              "page_id": 0,
+              "polygon": [
+                [
+                  0.026,
+                  0.375
+                ],
+                [
+                  0.193,
+                  0.375
+                ],
+                [
+                  0.193,
+                  0.399
+                ],
+                [
+                  0.026,
+                  0.399
+                ]
+              ],
+              "value": "fake_email@example.com"
             },
             "supplier_name": {
               "confidence": 0.99,
@@ -322,7 +549,33 @@
               "raw_value": "clachan",
               "value": "clachan"
             },
-            "supplier_payment_details": [],
+            "supplier_payment_details": [
+              {
+                "account_number": "0123463849340",
+                "confidence": 0.33,
+                "iban": "FR7640254025476501124705368",
+                "polygon": [
+                  [
+                    0.666,
+                    0.123
+                  ],
+                  [
+                    0.861,
+                    0.123
+                  ],
+                  [
+                    0.861,
+                    0.14
+                  ],
+                  [
+                    0.666,
+                    0.14
+                  ]
+                ],
+                "routing_number": "0123456",
+                "swift": "AB123456"
+              }
+            ],
             "supplier_phone_number": {
               "confidence": 0.99,
               "polygon": [
@@ -347,8 +600,25 @@
             },
             "supplier_website": {
               "confidence": 0.0,
-              "polygon": [],
-              "value": null
+              "polygon": [
+                [
+                  0.029,
+                  0.396
+                ],
+                [
+                  0.147,
+                  0.396
+                ],
+                [
+                  0.147,
+                  0.414
+                ],
+                [
+                  0.029,
+                  0.414
+                ]
+              ],
+              "value": "example.com"
             },
             "taxes": [
               {
@@ -458,34 +728,166 @@
       ],
       "prediction": {
         "billing_address": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "address_complement": "dummy complement 123",
+          "city": "Toronto",
+          "confidence": 0.99,
+          "country": "Canada",
+          "page_id": 0,
+          "po_box": "PO BOX 4001 STN A",
+          "polygon": [
+            [
+              0.032,
+              0.302
+            ],
+            [
+              0.215,
+              0.302
+            ],
+            [
+              0.215,
+              0.356
+            ],
+            [
+              0.032,
+              0.356
+            ]
+          ],
+          "postal_code": "M6P 3K9",
+          "state": "ON",
+          "street_name": "Bloor Street West",
+          "street_number": "1954",
+          "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
         },
         "category": {
           "confidence": 0.99,
           "value": "food"
         },
         "customer_address": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "address_complement": "fake address complement",
+          "city": "Toronto",
+          "confidence": 0.99,
+          "country": "Canada",
+          "page_id": 0,
+          "po_box": "PO BOX 4002 STN B",
+          "polygon": [
+            [
+              0.032,
+              0.302
+            ],
+            [
+              0.215,
+              0.302
+            ],
+            [
+              0.215,
+              0.356
+            ],
+            [
+              0.032,
+              0.356
+            ]
+          ],
+          "postal_code": "M6P 3K9",
+          "state": "ON",
+          "street_name": "Bloor Street West",
+          "street_number": "1954",
+          "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
         },
-        "customer_company_registrations": [],
+        "customer_company_registrations": [
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.374,
+                0.939
+              ],
+              [
+                0.547,
+                0.939
+              ],
+              [
+                0.547,
+                0.972
+              ],
+              [
+                0.374,
+                0.972
+              ]
+            ],
+            "type": "VAT NUMBER",
+            "value": "2321538952"
+          },
+          {
+            "confidence": 0.99,
+            "polygon": [
+              [
+                0.214,
+                0.706
+              ],
+              [
+                0.372,
+                0.706
+              ],
+              [
+                0.372,
+                0.738
+              ],
+              [
+                0.214,
+                0.738
+              ]
+            ],
+            "type": "VAT NUMBER",
+            "value": "2321538952"
+          }
+        ],
         "customer_id": {
           "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "page_id": 0,
+          "polygon": [
+            [
+              0.032,
+              0.284
+            ],
+            [
+              0.101,
+              0.284
+            ],
+            [
+              0.101,
+              0.299
+            ],
+            [
+              0.032,
+              0.299
+            ]
+          ],
+          "value": "fake customer"
         },
         "customer_name": {
-          "confidence": 0.0,
+          "confidence": 0.99,
           "page_id": 0,
-          "polygon": [],
-          "raw_value": null,
-          "value": null
+          "polygon": [
+            [
+              0.032,
+              0.284
+            ],
+            [
+              0.1,
+              0.284
+            ],
+            [
+              0.1,
+              0.299
+            ],
+            [
+              0.032,
+              0.299
+            ]
+          ],
+          "raw_value": "Jiro Doi",
+          "value": "JIRO DOI"
         },
         "date": {
           "confidence": 0.99,
@@ -535,6 +937,10 @@
         },
         "document_type": {
           "value": "EXPENSE RECEIPT"
+        },
+        "document_type_extended": {
+          "confidence": 1.0,
+          "value": "INVOICE"
         },
         "due_date": {
           "confidence": 0.99,
@@ -589,13 +995,13 @@
                 0.297
               ]
             ],
-            "product_code": null,
-            "quantity": 2.0,
-            "tax_amount": null,
-            "tax_rate": null,
-            "total_amount": 10.2,
-            "unit_measure": null,
-            "unit_price": null
+            "product_code": "01234",
+            "quantity": 1.0,
+            "tax_amount": 0.4321,
+            "tax_rate": 0.1234,
+            "total_amount": 65.0,
+            "unit_measure": "kg",
+            "unit_price": 65.0
           }
         ],
         "locale": {
@@ -629,10 +1035,27 @@
           "value": "2016-02-26"
         },
         "po_number": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.65,
+              0.366
+            ],
+            [
+              0.709,
+              0.366
+            ],
+            [
+              0.709,
+              0.387
+            ],
+            [
+              0.65,
+              0.387
+            ]
+          ],
+          "value": "AD29094"
         },
         "receipt_number": {
           "confidence": 0.99,
@@ -657,39 +1080,96 @@
           ],
           "value": "54/7500"
         },
-        "reference_numbers": [],
+        "reference_numbers": [
+          {
+            "confidence": 0.9,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.84,
+                0.285
+              ],
+              [
+                0.913,
+                0.285
+              ],
+              [
+                0.913,
+                0.297
+              ],
+              [
+                0.84,
+                0.297
+              ]
+            ],
+            "value": "AD29094"
+          }
+        ],
         "shipping_address": {
+          "address_complement": "fake shipping address complement",
+          "city": "Toronto",
           "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "country": "Canada",
+          "page_id": 0,
+          "po_box": "PO BOX 4003 STN C",
+          "polygon": [
+            [
+              0.839,
+              0.284
+            ],
+            [
+              0.914,
+              0.284
+            ],
+            [
+              0.914,
+              0.3
+            ],
+            [
+              0.839,
+              0.3
+            ]
+          ],
+          "postal_code": "M6P 3K8",
+          "state": "ON",
+          "street_name": "Bloor Street West",
+          "street_number": "1956",
+          "value": "1956 Bloor Street West Toronto, ON, M6P 3K8 Canada"
         },
         "subcategory": {
           "confidence": 0.98,
           "value": "restaurant"
         },
         "supplier_address": {
+          "address_complement": "dummy complement 321",
+          "city": "Toronto",
           "confidence": 0.99,
+          "country": "Canada",
           "page_id": 0,
+          "po_box": "PO BOX 4003 STN D",
           "polygon": [
             [
-              0.336,
-              0.079
+              0.752,
+              0.127
             ],
             [
-              0.536,
-              0.079
+              0.967,
+              0.127
             ],
             [
-              0.536,
-              0.135
+              0.967,
+              0.164
             ],
             [
-              0.336,
-              0.135
+              0.752,
+              0.164
             ]
           ],
-          "value": "34 Kingley Street W1B 50H"
+          "postal_code": "M5H 2H7",
+          "state": "ON",
+          "street_name": "University Ave",
+          "street_number": "156",
+          "value": "156 University Ave, Toronto ON, Canada, M5H 2H7"
         },
         "supplier_company_registrations": [
           {
@@ -742,10 +1222,27 @@
           }
         ],
         "supplier_email": {
-          "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "confidence": 0.96,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.026,
+              0.375
+            ],
+            [
+              0.193,
+              0.375
+            ],
+            [
+              0.193,
+              0.399
+            ],
+            [
+              0.026,
+              0.399
+            ]
+          ],
+          "value": "fake_email@example.com"
         },
         "supplier_name": {
           "confidence": 0.99,
@@ -771,7 +1268,34 @@
           "raw_value": "clachan",
           "value": "clachan"
         },
-        "supplier_payment_details": [],
+        "supplier_payment_details": [
+          {
+            "account_number": "0123463849340",
+            "confidence": 0.33,
+            "iban": "FR7640254025476501124705368",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.666,
+                0.123
+              ],
+              [
+                0.861,
+                0.123
+              ],
+              [
+                0.861,
+                0.14
+              ],
+              [
+                0.666,
+                0.14
+              ]
+            ],
+            "routing_number": "0123456",
+            "swift": "AB123456"
+          }
+        ],
         "supplier_phone_number": {
           "confidence": 0.99,
           "page_id": 0,
@@ -797,9 +1321,26 @@
         },
         "supplier_website": {
           "confidence": 0.0,
-          "page_id": null,
-          "polygon": [],
-          "value": null
+          "page_id": 0,
+          "polygon": [
+            [
+              0.029,
+              0.396
+            ],
+            [
+              0.147,
+              0.396
+            ],
+            [
+              0.147,
+              0.414
+            ],
+            [
+              0.029,
+              0.414
+            ]
+          ],
+          "value": "example.com"
         },
         "taxes": [
           {
@@ -940,6 +1481,7 @@
           "shipping_address",
           "billing_address",
           "document_type",
+          "document_type_extended",
           "orientation",
           "subcategory",
           "category",
@@ -950,11 +1492,18 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.11"
+        "version": "1.12"
       },
       "started_at": "2024-10-10T12:59:26.081997"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2025-04-07T14:43:37.142000",
+    "error": {},
+    "id": "da6f5161-9d30-47ea-a557-941a0a0238b5",
+    "issued_at": "2025-04-07T14:43:36.168000",
+    "status": "completed"
   }
 }
