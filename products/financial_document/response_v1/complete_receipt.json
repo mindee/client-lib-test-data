@@ -938,6 +938,10 @@
         "document_type": {
           "value": "EXPENSE RECEIPT"
         },
+        "document_type_extended": {
+          "confidence": 1.0,
+          "value": "INVOICE"
+        },
         "due_date": {
           "confidence": 0.99,
           "is_computed": false,
@@ -1488,11 +1492,18 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.11"
+        "version": "1.12"
       },
       "started_at": "2024-10-10T12:59:26.081997"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2025-04-07T14:43:37.142000",
+    "error": {},
+    "id": "da6f5161-9d30-47ea-a557-941a0a0238b5",
+    "issued_at": "2025-04-07T14:43:36.168000",
+    "status": "completed"
   }
 }

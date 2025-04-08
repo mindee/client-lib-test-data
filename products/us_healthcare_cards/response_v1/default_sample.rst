@@ -1,13 +1,13 @@
 ########
 Document
 ########
-:Mindee ID: 0ced9f49-00c0-4a1d-8221-4a1538813a95
+:Mindee ID: 1e71d5f0-dedb-4070-9d94-9207cd9570b5
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/us_healthcare_cards v1.0
-:Rotation applied: No
+:Product: mindee/us_healthcare_cards v1.2
+:Rotation applied: Yes
 
 Prediction
 ==========
@@ -22,18 +22,19 @@ Prediction
 :Group Number: 98765
 :Payer ID: 87726
 :RX BIN: 610279
+:RX ID:
 :RX GRP: UHEALTH
 :RX PCN: 9999
 :copays:
   +--------------+--------------+
   | Service Fees | Service Name |
   +==============+==============+
-  | 20.00        | office visit |
+  | 300.00       | emergency_room |
   +--------------+--------------+
-  | 300.00       | emergency    |
+  | 20.00        | office_visit |
   +--------------+--------------+
-  | 75.00        | urgent care  |
+  | 75.00        | urgent_care  |
   +--------------+--------------+
   | 30.00        | specialist   |
   +--------------+--------------+
-:Enrollment Date: 2023-09-13
+:Enrollment Date:

@@ -31,16 +31,16 @@
         },
         "copays": [
           {
-            "service_fees": 20.0,
-            "service_name": "office visit"
+            "service_fees": 300.0,
+            "service_name": "emergency_room"
           },
           {
-            "service_fees": 300.0,
-            "service_name": "emergency"
+            "service_fees": 20.0,
+            "service_name": "office_visit"
           },
           {
             "service_fees": 75.0,
-            "service_name": "urgent care"
+            "service_name": "urgent_care"
           },
           {
             "service_fees": 30.0,
@@ -62,7 +62,7 @@
           }
         ],
         "enrollment_date": {
-          "value": "2023-09-13"
+          "value": null
         },
         "group_number": {
           "value": "98765"
@@ -86,13 +86,13 @@
           "value": "UHEALTH"
         },
         "rx_id": {
-          "value": "123456 01"
+          "value": null
         },
         "rx_pcn": {
           "value": "9999"
         }
       },
-      "processing_time": 2.997,
+      "processing_time": 9.891,
       "product": {
         "features": [
           "company_name",

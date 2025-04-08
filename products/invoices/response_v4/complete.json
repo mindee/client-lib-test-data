@@ -103,6 +103,10 @@
             "document_type": {
               "value": "INVOICE"
             },
+            "document_type_extended": {
+              "confidence": 1.0,
+              "value": "INVOICE"
+            },
             "due_date": {
               "confidence": 0.99,
               "is_computed": false,
@@ -604,6 +608,10 @@
             "document_type": {
               "value": "INVOICE"
             },
+            "document_type_extended": {
+              "confidence": 1.0,
+              "value": "INVOICE"
+            },
             "due_date": {
               "confidence": 0.92,
               "is_computed": false,
@@ -1065,6 +1073,10 @@
           "value": "2020-02-17"
         },
         "document_type": {
+          "value": "INVOICE"
+        },
+        "document_type_extended": {
+          "confidence": 1.0,
           "value": "INVOICE"
         },
         "due_date": {
@@ -1723,6 +1735,7 @@
           "shipping_address",
           "billing_address",
           "document_type",
+          "document_type_extended",
           "orientation",
           "line_items"
         ],
