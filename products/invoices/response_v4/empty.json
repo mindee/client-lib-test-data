@@ -2,17 +2,18 @@
   "api_request": {
     "error": {},
     "resources": [
-      "document"
+      "document",
+      "job"
     ],
     "status": "success",
-    "status_code": 201,
-    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict"
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/documents/95b18b56-7d0e-4698-9356-1ba8fda01cc6"
   },
   "document": {
-    "id": "88611809-354c-4922-9abb-95e5735c0a12",
+    "id": "95b18b56-7d0e-4698-9356-1ba8fda01cc6",
     "inference": {
       "extras": {},
-      "finished_at": "2024-10-10T13:03:34.019503",
+      "finished_at": "2025-04-08T07:50:26.265000",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -23,13 +24,29 @@
           },
           "prediction": {
             "billing_address": {
+              "address_complement": null,
+              "city": null,
               "confidence": 0.0,
+              "country": null,
+              "po_box": null,
               "polygon": [],
+              "postal_code": null,
+              "state": null,
+              "street_name": null,
+              "street_number": null,
               "value": null
             },
             "customer_address": {
+              "address_complement": null,
+              "city": null,
               "confidence": 0.0,
+              "country": null,
+              "po_box": null,
               "polygon": [],
+              "postal_code": null,
+              "state": null,
+              "street_name": null,
+              "street_number": null,
               "value": null
             },
             "customer_company_registrations": [],
@@ -52,6 +69,10 @@
             "document_type": {
               "value": "INVOICE"
             },
+            "document_type_extended": {
+              "confidence": 0.52,
+              "value": "INVOICE"
+            },
             "due_date": {
               "confidence": 0.0,
               "is_computed": false,
@@ -65,14 +86,14 @@
             },
             "line_items": [],
             "locale": {
-              "confidence": 0.84,
+              "confidence": 0.0,
               "country": null,
-              "currency": "EUR",
+              "currency": "Other",
               "language": null,
               "value": null
             },
             "orientation": {
-              "confidence": 0.4,
+              "confidence": 0.52,
               "degrees": 0
             },
             "payment_date": {
@@ -87,13 +108,29 @@
             },
             "reference_numbers": [],
             "shipping_address": {
+              "address_complement": null,
+              "city": null,
               "confidence": 0.0,
+              "country": null,
+              "po_box": null,
               "polygon": [],
+              "postal_code": null,
+              "state": null,
+              "street_name": null,
+              "street_number": null,
               "value": null
             },
             "supplier_address": {
+              "address_complement": null,
+              "city": null,
               "confidence": 0.0,
+              "country": null,
+              "po_box": null,
               "polygon": [],
+              "postal_code": null,
+              "state": null,
+              "street_name": null,
+              "street_number": null,
               "value": null
             },
             "supplier_company_registrations": [],
@@ -140,15 +177,31 @@
       ],
       "prediction": {
         "billing_address": {
+          "address_complement": null,
+          "city": null,
           "confidence": 0.0,
+          "country": null,
           "page_id": null,
+          "po_box": null,
           "polygon": [],
+          "postal_code": null,
+          "state": null,
+          "street_name": null,
+          "street_number": null,
           "value": null
         },
         "customer_address": {
+          "address_complement": null,
+          "city": null,
           "confidence": 0.0,
+          "country": null,
           "page_id": null,
+          "po_box": null,
           "polygon": [],
+          "postal_code": null,
+          "state": null,
+          "street_name": null,
+          "street_number": null,
           "value": null
         },
         "customer_company_registrations": [],
@@ -174,6 +227,10 @@
         "document_type": {
           "value": "INVOICE"
         },
+        "document_type_extended": {
+          "confidence": 0.52,
+          "value": "INVOICE"
+        },
         "due_date": {
           "confidence": 0.0,
           "is_computed": false,
@@ -189,9 +246,9 @@
         },
         "line_items": [],
         "locale": {
-          "confidence": 0.84,
+          "confidence": 0.0,
           "country": null,
-          "currency": "EUR",
+          "currency": "Other",
           "language": null,
           "value": null
         },
@@ -209,15 +266,31 @@
         },
         "reference_numbers": [],
         "shipping_address": {
+          "address_complement": null,
+          "city": null,
           "confidence": 0.0,
+          "country": null,
           "page_id": null,
+          "po_box": null,
           "polygon": [],
+          "postal_code": null,
+          "state": null,
+          "street_name": null,
+          "street_number": null,
           "value": null
         },
         "supplier_address": {
+          "address_complement": null,
+          "city": null,
           "confidence": 0.0,
+          "country": null,
           "page_id": null,
+          "po_box": null,
           "polygon": [],
+          "postal_code": null,
+          "state": null,
+          "street_name": null,
+          "street_number": null,
           "value": null
         },
         "supplier_company_registrations": [],
@@ -267,7 +340,7 @@
           "value": null
         }
       },
-      "processing_time": 0.281,
+      "processing_time": 0.26687145233154297,
       "product": {
         "features": [
           "locale",
@@ -295,16 +368,24 @@
           "shipping_address",
           "billing_address",
           "document_type",
+          "document_type_extended",
           "orientation",
           "line_items"
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "4.8"
+        "version": "4.10"
       },
-      "started_at": "2024-10-10T13:03:33.631789"
+      "started_at": "2025-04-08T07:50:25.812000"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
+  },
+  "job": {
+    "available_at": "2025-04-08T07:50:26.275000",
+    "error": {},
+    "id": "810351d7-686f-4e9b-a0a6-a3e5924f128a",
+    "issued_at": "2025-04-08T07:50:25.812000",
+    "status": "completed"
   }
 }

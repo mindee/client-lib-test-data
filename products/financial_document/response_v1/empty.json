@@ -7,13 +7,13 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/documents/345d7e3f-644b-4ee4-b666-0fba106fa70c"
+    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/documents/04c8b29b-55c4-48d4-85d3-a9b691c841b8"
   },
   "document": {
-    "id": "345d7e3f-644b-4ee4-b666-0fba106fa70c",
+    "id": "04c8b29b-55c4-48d4-85d3-a9b691c841b8",
     "inference": {
       "extras": {},
-      "finished_at": "2025-04-07T14:40:15.058000",
+      "finished_at": "2025-04-08T08:52:44.148000",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -400,7 +400,7 @@
           "value": null
         }
       },
-      "processing_time": 0.24100542068481445,
+      "processing_time": 0.21774721145629883,
       "product": {
         "features": [
           "locale",
@@ -442,16 +442,16 @@
         "type": "standard",
         "version": "1.12"
       },
-      "started_at": "2025-04-07T14:40:14.617000"
+      "started_at": "2025-04-08T08:52:43.781000"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
   },
   "job": {
-    "available_at": "2025-04-07T14:40:15.070000",
+    "available_at": "2025-04-08T08:52:44.159000",
     "error": {},
-    "id": "537d5081-c98b-4c57-b4c7-5bbfbc089fc9",
-    "issued_at": "2025-04-07T14:40:14.617000",
+    "id": "f130236e-389d-40c5-b62a-19b046a0ac85",
+    "issued_at": "2025-04-08T08:52:43.781000",
     "status": "completed"
   }
 }

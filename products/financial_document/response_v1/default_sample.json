@@ -1,0 +1,1280 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/documents/f52333ab-811e-4647-993e-ad79e072afa3"
+  },
+  "document": {
+    "id": "f52333ab-811e-4647-993e-ad79e072afa3",
+    "inference": {
+      "extras": {},
+      "finished_at": "2025-04-08T08:52:48.956000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "billing_address": {
+              "address_complement": null,
+              "city": "New York",
+              "confidence": 0.99,
+              "country": null,
+              "po_box": null,
+              "polygon": [
+                [
+                  0.033,
+                  0.244
+                ],
+                [
+                  0.205,
+                  0.244
+                ],
+                [
+                  0.205,
+                  0.278
+                ],
+                [
+                  0.033,
+                  0.278
+                ]
+              ],
+              "postal_code": "10031",
+              "state": "NY",
+              "street_name": "Wood Road",
+              "street_number": "4312",
+              "value": "4312 Wood Road New York, NY 10031"
+            },
+            "category": {
+              "confidence": 0.76,
+              "value": "miscellaneous"
+            },
+            "customer_address": {
+              "address_complement": null,
+              "city": "New York",
+              "confidence": 0.99,
+              "country": null,
+              "po_box": null,
+              "polygon": [
+                [
+                  0.355,
+                  0.244
+                ],
+                [
+                  0.528,
+                  0.244
+                ],
+                [
+                  0.528,
+                  0.278
+                ],
+                [
+                  0.355,
+                  0.278
+                ]
+              ],
+              "postal_code": "10011",
+              "state": "NY",
+              "street_name": "Redbud Drive New",
+              "street_number": "2019",
+              "value": "2019 Redbud Drive New York, NY 10011"
+            },
+            "customer_company_registrations": [],
+            "customer_id": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.172,
+                  0.92
+                ],
+                [
+                  0.28,
+                  0.92
+                ],
+                [
+                  0.28,
+                  0.942
+                ],
+                [
+                  0.172,
+                  0.942
+                ]
+              ],
+              "value": "1234567890"
+            },
+            "customer_name": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.033,
+                  0.225
+                ],
+                [
+                  0.163,
+                  0.225
+                ],
+                [
+                  0.163,
+                  0.242
+                ],
+                [
+                  0.033,
+                  0.242
+                ]
+              ],
+              "raw_value": "Jessie M Horne",
+              "value": "JESSIE M HORNE"
+            },
+            "date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.856,
+                  0.229
+                ],
+                [
+                  0.95,
+                  0.229
+                ],
+                [
+                  0.95,
+                  0.246
+                ],
+                [
+                  0.856,
+                  0.246
+                ]
+              ],
+              "value": "2019-11-02"
+            },
+            "document_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.878,
+                  0.204
+                ],
+                [
+                  0.947,
+                  0.204
+                ],
+                [
+                  0.947,
+                  0.219
+                ],
+                [
+                  0.878,
+                  0.219
+                ]
+              ],
+              "value": "INT-001"
+            },
+            "document_type": {
+              "value": "INVOICE"
+            },
+            "document_type_extended": {
+              "confidence": 1.0,
+              "value": "INVOICE"
+            },
+            "due_date": {
+              "confidence": 0.99,
+              "is_computed": true,
+              "polygon": [
+                [
+                  0.216,
+                  0.87
+                ],
+                [
+                  0.216,
+                  0.886
+                ],
+                [
+                  0.28,
+                  0.886
+                ],
+                [
+                  0.28,
+                  0.87
+                ]
+              ],
+              "value": "2019-11-17"
+            },
+            "invoice_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.878,
+                  0.204
+                ],
+                [
+                  0.947,
+                  0.204
+                ],
+                [
+                  0.947,
+                  0.219
+                ],
+                [
+                  0.878,
+                  0.219
+                ]
+              ],
+              "value": "INT-001"
+            },
+            "line_items": [
+              {
+                "confidence": 0.99,
+                "description": "Front and rear brake cables",
+                "polygon": [
+                  [
+                    0.07,
+                    0.378
+                  ],
+                  [
+                    0.934,
+                    0.378
+                  ],
+                  [
+                    0.934,
+                    0.403
+                  ],
+                  [
+                    0.07,
+                    0.403
+                  ]
+                ],
+                "product_code": null,
+                "quantity": 1.0,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 100.0,
+                "unit_measure": null,
+                "unit_price": 100.0
+              },
+              {
+                "confidence": 0.99,
+                "description": "New set of pedal arms",
+                "polygon": [
+                  [
+                    0.068,
+                    0.413
+                  ],
+                  [
+                    0.933,
+                    0.413
+                  ],
+                  [
+                    0.933,
+                    0.437
+                  ],
+                  [
+                    0.068,
+                    0.437
+                  ]
+                ],
+                "product_code": null,
+                "quantity": 2.0,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 50.0,
+                "unit_measure": null,
+                "unit_price": 25.0
+              },
+              {
+                "confidence": 0.99,
+                "description": "Labor 3hrs",
+                "polygon": [
+                  [
+                    0.069,
+                    0.446
+                  ],
+                  [
+                    0.933,
+                    0.446
+                  ],
+                  [
+                    0.933,
+                    0.47
+                  ],
+                  [
+                    0.069,
+                    0.47
+                  ]
+                ],
+                "product_code": null,
+                "quantity": 3.0,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 45.0,
+                "unit_measure": null,
+                "unit_price": 15.0
+              }
+            ],
+            "locale": {
+              "confidence": 0.85,
+              "country": "US",
+              "currency": "USD",
+              "language": "en",
+              "value": "en-US"
+            },
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "payment_date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.216,
+                  0.87
+                ],
+                [
+                  0.216,
+                  0.886
+                ],
+                [
+                  0.28,
+                  0.886
+                ],
+                [
+                  0.28,
+                  0.87
+                ]
+              ],
+              "value": "2019-11-17"
+            },
+            "po_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.859,
+                  0.254
+                ],
+                [
+                  0.95,
+                  0.254
+                ],
+                [
+                  0.95,
+                  0.271
+                ],
+                [
+                  0.859,
+                  0.271
+                ]
+              ],
+              "value": "2412/2019"
+            },
+            "receipt_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "reference_numbers": [
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.859,
+                    0.254
+                  ],
+                  [
+                    0.95,
+                    0.254
+                  ],
+                  [
+                    0.95,
+                    0.271
+                  ],
+                  [
+                    0.859,
+                    0.271
+                  ]
+                ],
+                "value": "2412/2019"
+              }
+            ],
+            "shipping_address": {
+              "address_complement": null,
+              "city": "New York",
+              "confidence": 0.99,
+              "country": null,
+              "po_box": null,
+              "polygon": [
+                [
+                  0.355,
+                  0.244
+                ],
+                [
+                  0.528,
+                  0.244
+                ],
+                [
+                  0.528,
+                  0.278
+                ],
+                [
+                  0.355,
+                  0.278
+                ]
+              ],
+              "postal_code": "10011",
+              "state": "NY",
+              "street_name": "Redbud Drive New",
+              "street_number": "2019",
+              "value": "2019 Redbud Drive New York, NY 10011"
+            },
+            "subcategory": {
+              "confidence": 0.0,
+              "value": null
+            },
+            "supplier_address": {
+              "address_complement": null,
+              "city": "Albany",
+              "confidence": 0.99,
+              "country": null,
+              "po_box": null,
+              "polygon": [
+                [
+                  0.032,
+                  0.073
+                ],
+                [
+                  0.184,
+                  0.073
+                ],
+                [
+                  0.184,
+                  0.11
+                ],
+                [
+                  0.032,
+                  0.11
+                ]
+              ],
+              "postal_code": "12210",
+              "state": "NY",
+              "street_name": "Oak Drive",
+              "street_number": "4490",
+              "value": "4490 Oak Drive Albany, NY 12210"
+            },
+            "supplier_company_registrations": [],
+            "supplier_email": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_name": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.033,
+                  0.031
+                ],
+                [
+                  0.194,
+                  0.031
+                ],
+                [
+                  0.194,
+                  0.055
+                ],
+                [
+                  0.033,
+                  0.055
+                ]
+              ],
+              "raw_value": "John Smith",
+              "value": "JOHN SMITH"
+            },
+            "supplier_payment_details": [],
+            "supplier_phone_number": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "supplier_website": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "taxes": [
+              {
+                "base": 195.0,
+                "code": null,
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.652,
+                    0.515
+                  ],
+                  [
+                    0.652,
+                    0.534
+                  ],
+                  [
+                    0.933,
+                    0.534
+                  ],
+                  [
+                    0.933,
+                    0.515
+                  ]
+                ],
+                "rate": 5.0,
+                "value": 9.75
+              }
+            ],
+            "time": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "tip": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "total_amount": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.835,
+                  0.547
+                ],
+                [
+                  0.935,
+                  0.547
+                ],
+                [
+                  0.935,
+                  0.572
+                ],
+                [
+                  0.835,
+                  0.572
+                ]
+              ],
+              "value": 204.75
+            },
+            "total_net": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.874,
+                  0.481
+                ],
+                [
+                  0.935,
+                  0.481
+                ],
+                [
+                  0.935,
+                  0.501
+                ],
+                [
+                  0.874,
+                  0.501
+                ]
+              ],
+              "value": 195.0
+            },
+            "total_tax": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.889,
+                  0.513
+                ],
+                [
+                  0.936,
+                  0.513
+                ],
+                [
+                  0.936,
+                  0.534
+                ],
+                [
+                  0.889,
+                  0.534
+                ]
+              ],
+              "value": 9.75
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "billing_address": {
+          "address_complement": null,
+          "city": "New York",
+          "confidence": 0.99,
+          "country": null,
+          "page_id": 0,
+          "po_box": null,
+          "polygon": [
+            [
+              0.033,
+              0.244
+            ],
+            [
+              0.205,
+              0.244
+            ],
+            [
+              0.205,
+              0.278
+            ],
+            [
+              0.033,
+              0.278
+            ]
+          ],
+          "postal_code": "10031",
+          "state": "NY",
+          "street_name": "Wood Road",
+          "street_number": "4312",
+          "value": "4312 Wood Road New York, NY 10031"
+        },
+        "category": {
+          "confidence": 0.76,
+          "value": "miscellaneous"
+        },
+        "customer_address": {
+          "address_complement": null,
+          "city": "New York",
+          "confidence": 0.99,
+          "country": null,
+          "page_id": 0,
+          "po_box": null,
+          "polygon": [
+            [
+              0.355,
+              0.244
+            ],
+            [
+              0.528,
+              0.244
+            ],
+            [
+              0.528,
+              0.278
+            ],
+            [
+              0.355,
+              0.278
+            ]
+          ],
+          "postal_code": "10011",
+          "state": "NY",
+          "street_name": "Redbud Drive New",
+          "street_number": "2019",
+          "value": "2019 Redbud Drive New York, NY 10011"
+        },
+        "customer_company_registrations": [],
+        "customer_id": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.172,
+              0.92
+            ],
+            [
+              0.28,
+              0.92
+            ],
+            [
+              0.28,
+              0.942
+            ],
+            [
+              0.172,
+              0.942
+            ]
+          ],
+          "value": "1234567890"
+        },
+        "customer_name": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.033,
+              0.225
+            ],
+            [
+              0.163,
+              0.225
+            ],
+            [
+              0.163,
+              0.242
+            ],
+            [
+              0.033,
+              0.242
+            ]
+          ],
+          "raw_value": "Jessie M Horne",
+          "value": "JESSIE M HORNE"
+        },
+        "date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.856,
+              0.229
+            ],
+            [
+              0.95,
+              0.229
+            ],
+            [
+              0.95,
+              0.246
+            ],
+            [
+              0.856,
+              0.246
+            ]
+          ],
+          "value": "2019-11-02"
+        },
+        "document_number": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.878,
+              0.204
+            ],
+            [
+              0.947,
+              0.204
+            ],
+            [
+              0.947,
+              0.219
+            ],
+            [
+              0.878,
+              0.219
+            ]
+          ],
+          "value": "INT-001"
+        },
+        "document_type": {
+          "value": "INVOICE"
+        },
+        "document_type_extended": {
+          "confidence": 1.0,
+          "value": "INVOICE"
+        },
+        "due_date": {
+          "confidence": 0.99,
+          "is_computed": true,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.216,
+              0.87
+            ],
+            [
+              0.216,
+              0.886
+            ],
+            [
+              0.28,
+              0.886
+            ],
+            [
+              0.28,
+              0.87
+            ]
+          ],
+          "value": "2019-11-17"
+        },
+        "invoice_number": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.878,
+              0.204
+            ],
+            [
+              0.947,
+              0.204
+            ],
+            [
+              0.947,
+              0.219
+            ],
+            [
+              0.878,
+              0.219
+            ]
+          ],
+          "value": "INT-001"
+        },
+        "line_items": [
+          {
+            "confidence": 0.99,
+            "description": "Front and rear brake cables",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.07,
+                0.378
+              ],
+              [
+                0.934,
+                0.378
+              ],
+              [
+                0.934,
+                0.403
+              ],
+              [
+                0.07,
+                0.403
+              ]
+            ],
+            "product_code": null,
+            "quantity": 1.0,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 100.0,
+            "unit_measure": null,
+            "unit_price": 100.0
+          },
+          {
+            "confidence": 0.99,
+            "description": "New set of pedal arms",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.068,
+                0.413
+              ],
+              [
+                0.933,
+                0.413
+              ],
+              [
+                0.933,
+                0.437
+              ],
+              [
+                0.068,
+                0.437
+              ]
+            ],
+            "product_code": null,
+            "quantity": 2.0,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 50.0,
+            "unit_measure": null,
+            "unit_price": 25.0
+          },
+          {
+            "confidence": 0.99,
+            "description": "Labor 3hrs",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.069,
+                0.446
+              ],
+              [
+                0.933,
+                0.446
+              ],
+              [
+                0.933,
+                0.47
+              ],
+              [
+                0.069,
+                0.47
+              ]
+            ],
+            "product_code": null,
+            "quantity": 3.0,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 45.0,
+            "unit_measure": null,
+            "unit_price": 15.0
+          }
+        ],
+        "locale": {
+          "confidence": 0.85,
+          "country": "US",
+          "currency": "USD",
+          "language": "en",
+          "value": "en-US"
+        },
+        "payment_date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.216,
+              0.87
+            ],
+            [
+              0.216,
+              0.886
+            ],
+            [
+              0.28,
+              0.886
+            ],
+            [
+              0.28,
+              0.87
+            ]
+          ],
+          "value": "2019-11-17"
+        },
+        "po_number": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.859,
+              0.254
+            ],
+            [
+              0.95,
+              0.254
+            ],
+            [
+              0.95,
+              0.271
+            ],
+            [
+              0.859,
+              0.271
+            ]
+          ],
+          "value": "2412/2019"
+        },
+        "receipt_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "reference_numbers": [
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.859,
+                0.254
+              ],
+              [
+                0.95,
+                0.254
+              ],
+              [
+                0.95,
+                0.271
+              ],
+              [
+                0.859,
+                0.271
+              ]
+            ],
+            "value": "2412/2019"
+          }
+        ],
+        "shipping_address": {
+          "address_complement": null,
+          "city": "New York",
+          "confidence": 0.99,
+          "country": null,
+          "page_id": 0,
+          "po_box": null,
+          "polygon": [
+            [
+              0.355,
+              0.244
+            ],
+            [
+              0.528,
+              0.244
+            ],
+            [
+              0.528,
+              0.278
+            ],
+            [
+              0.355,
+              0.278
+            ]
+          ],
+          "postal_code": "10011",
+          "state": "NY",
+          "street_name": "Redbud Drive New",
+          "street_number": "2019",
+          "value": "2019 Redbud Drive New York, NY 10011"
+        },
+        "subcategory": {
+          "confidence": 0,
+          "value": null
+        },
+        "supplier_address": {
+          "address_complement": null,
+          "city": "Albany",
+          "confidence": 0.99,
+          "country": null,
+          "page_id": 0,
+          "po_box": null,
+          "polygon": [
+            [
+              0.032,
+              0.073
+            ],
+            [
+              0.184,
+              0.073
+            ],
+            [
+              0.184,
+              0.11
+            ],
+            [
+              0.032,
+              0.11
+            ]
+          ],
+          "postal_code": "12210",
+          "state": "NY",
+          "street_name": "Oak Drive",
+          "street_number": "4490",
+          "value": "4490 Oak Drive Albany, NY 12210"
+        },
+        "supplier_company_registrations": [],
+        "supplier_email": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "supplier_name": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.033,
+              0.031
+            ],
+            [
+              0.194,
+              0.031
+            ],
+            [
+              0.194,
+              0.055
+            ],
+            [
+              0.033,
+              0.055
+            ]
+          ],
+          "raw_value": "John Smith",
+          "value": "JOHN SMITH"
+        },
+        "supplier_payment_details": [],
+        "supplier_phone_number": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "supplier_website": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "taxes": [
+          {
+            "base": 195.0,
+            "code": null,
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.652,
+                0.515
+              ],
+              [
+                0.652,
+                0.534
+              ],
+              [
+                0.933,
+                0.534
+              ],
+              [
+                0.933,
+                0.515
+              ]
+            ],
+            "rate": 5.0,
+            "value": 9.75
+          }
+        ],
+        "time": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "tip": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "total_amount": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.835,
+              0.547
+            ],
+            [
+              0.935,
+              0.547
+            ],
+            [
+              0.935,
+              0.572
+            ],
+            [
+              0.835,
+              0.572
+            ]
+          ],
+          "value": 204.75
+        },
+        "total_net": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.874,
+              0.481
+            ],
+            [
+              0.935,
+              0.481
+            ],
+            [
+              0.935,
+              0.501
+            ],
+            [
+              0.874,
+              0.501
+            ]
+          ],
+          "value": 195.0
+        },
+        "total_tax": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.889,
+              0.513
+            ],
+            [
+              0.936,
+              0.513
+            ],
+            [
+              0.936,
+              0.534
+            ],
+            [
+              0.889,
+              0.534
+            ]
+          ],
+          "value": 9.75
+        }
+      },
+      "processing_time": 0.932746410369873,
+      "product": {
+        "features": [
+          "locale",
+          "invoice_number",
+          "po_number",
+          "receipt_number",
+          "document_number",
+          "reference_numbers",
+          "date",
+          "due_date",
+          "payment_date",
+          "total_net",
+          "total_amount",
+          "taxes",
+          "supplier_payment_details",
+          "supplier_name",
+          "supplier_company_registrations",
+          "supplier_address",
+          "supplier_phone_number",
+          "customer_name",
+          "supplier_website",
+          "supplier_email",
+          "customer_company_registrations",
+          "customer_address",
+          "customer_id",
+          "shipping_address",
+          "billing_address",
+          "document_type",
+          "document_type_extended",
+          "orientation",
+          "subcategory",
+          "category",
+          "total_tax",
+          "tip",
+          "time",
+          "line_items"
+        ],
+        "name": "mindee/financial_document",
+        "type": "standard",
+        "version": "1.12"
+      },
+      "started_at": "2025-04-08T08:52:47.918000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2025-04-08T08:52:48.967000",
+    "error": {},
+    "id": "2aa2c606-f7a5-4cd6-a144-15bdd70e473d",
+    "issued_at": "2025-04-08T08:52:47.918000",
+    "status": "completed"
+  }
+}

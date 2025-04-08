@@ -1,0 +1,1110 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document",
+      "job"
+    ],
+    "status": "success",
+    "status_code": 200,
+    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/documents/3e524d26-f7dc-4852-9bbf-833a127a9570"
+  },
+  "document": {
+    "id": "3e524d26-f7dc-4852-9bbf-833a127a9570",
+    "inference": {
+      "extras": {},
+      "finished_at": "2025-04-08T07:50:30.963000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {
+            "billing_address": {
+              "address_complement": null,
+              "city": "Toronto",
+              "confidence": 0.99,
+              "country": "Canada",
+              "po_box": null,
+              "polygon": [
+                [
+                  0.032,
+                  0.302
+                ],
+                [
+                  0.215,
+                  0.302
+                ],
+                [
+                  0.215,
+                  0.355
+                ],
+                [
+                  0.032,
+                  0.355
+                ]
+              ],
+              "postal_code": "M6P 3K9",
+              "state": "ON",
+              "street_name": "Bloor Street West",
+              "street_number": "1954",
+              "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
+            },
+            "customer_address": {
+              "address_complement": null,
+              "city": "Toronto",
+              "confidence": 0.99,
+              "country": "Canada",
+              "po_box": null,
+              "polygon": [
+                [
+                  0.032,
+                  0.302
+                ],
+                [
+                  0.215,
+                  0.302
+                ],
+                [
+                  0.215,
+                  0.355
+                ],
+                [
+                  0.032,
+                  0.355
+                ]
+              ],
+              "postal_code": "M6P 3K9",
+              "state": "ON",
+              "street_name": "Bloor Street West",
+              "street_number": "1954",
+              "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
+            },
+            "customer_company_registrations": [],
+            "customer_id": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "customer_name": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.032,
+                  0.284
+                ],
+                [
+                  0.101,
+                  0.284
+                ],
+                [
+                  0.101,
+                  0.299
+                ],
+                [
+                  0.032,
+                  0.299
+                ]
+              ],
+              "raw_value": "Jiro Doi",
+              "value": "JIRO DOI"
+            },
+            "date": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.839,
+                  0.303
+                ],
+                [
+                  0.933,
+                  0.303
+                ],
+                [
+                  0.933,
+                  0.32
+                ],
+                [
+                  0.839,
+                  0.32
+                ]
+              ],
+              "value": "2018-09-25"
+            },
+            "document_type": {
+              "value": "INVOICE"
+            },
+            "document_type_extended": {
+              "confidence": 1.0,
+              "value": "INVOICE"
+            },
+            "due_date": {
+              "confidence": 0.0,
+              "is_computed": false,
+              "polygon": [],
+              "value": null
+            },
+            "invoice_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.841,
+                  0.264
+                ],
+                [
+                  0.862,
+                  0.264
+                ],
+                [
+                  0.862,
+                  0.282
+                ],
+                [
+                  0.841,
+                  0.282
+                ]
+              ],
+              "value": "14"
+            },
+            "line_items": [
+              {
+                "confidence": 0.98,
+                "description": "Platinum web hosting package Down 35mb, Up 100mb",
+                "polygon": [
+                  [
+                    0.032,
+                    0.496
+                  ],
+                  [
+                    0.965,
+                    0.496
+                  ],
+                  [
+                    0.965,
+                    0.538
+                  ],
+                  [
+                    0.032,
+                    0.538
+                  ]
+                ],
+                "product_code": null,
+                "quantity": 1.0,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 65.0,
+                "unit_measure": null,
+                "unit_price": 65.0
+              },
+              {
+                "confidence": 0.99,
+                "description": "2 page website design Includes basic wireframes, and responsive templates",
+                "polygon": [
+                  [
+                    0.031,
+                    0.558
+                  ],
+                  [
+                    0.966,
+                    0.558
+                  ],
+                  [
+                    0.966,
+                    0.601
+                  ],
+                  [
+                    0.031,
+                    0.601
+                  ]
+                ],
+                "product_code": null,
+                "quantity": 3.0,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 2100.0,
+                "unit_measure": null,
+                "unit_price": 2100.0
+              },
+              {
+                "confidence": 0.99,
+                "description": "Mobile designs Includes responsive navigation",
+                "polygon": [
+                  [
+                    0.032,
+                    0.623
+                  ],
+                  [
+                    0.965,
+                    0.623
+                  ],
+                  [
+                    0.965,
+                    0.664
+                  ],
+                  [
+                    0.032,
+                    0.664
+                  ]
+                ],
+                "product_code": null,
+                "quantity": 1.0,
+                "tax_amount": null,
+                "tax_rate": null,
+                "total_amount": 250.0,
+                "unit_measure": "1",
+                "unit_price": 250.0
+              }
+            ],
+            "locale": {
+              "confidence": 0.88,
+              "country": "CA",
+              "currency": "CAD",
+              "language": "en",
+              "value": "en-CA"
+            },
+            "orientation": {
+              "confidence": 0.99,
+              "degrees": 0
+            },
+            "payment_date": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "po_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.839,
+                  0.284
+                ],
+                [
+                  0.915,
+                  0.284
+                ],
+                [
+                  0.915,
+                  0.3
+                ],
+                [
+                  0.839,
+                  0.3
+                ]
+              ],
+              "value": "AD29094"
+            },
+            "reference_numbers": [
+              {
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.839,
+                    0.284
+                  ],
+                  [
+                    0.915,
+                    0.284
+                  ],
+                  [
+                    0.915,
+                    0.3
+                  ],
+                  [
+                    0.839,
+                    0.3
+                  ]
+                ],
+                "value": "AD29094"
+              }
+            ],
+            "shipping_address": {
+              "address_complement": null,
+              "city": null,
+              "confidence": 0.0,
+              "country": null,
+              "po_box": null,
+              "polygon": [],
+              "postal_code": null,
+              "state": null,
+              "street_name": null,
+              "street_number": null,
+              "value": null
+            },
+            "supplier_address": {
+              "address_complement": null,
+              "city": "Toronto",
+              "confidence": 0.99,
+              "country": "Canada",
+              "po_box": null,
+              "polygon": [
+                [
+                  0.752,
+                  0.127
+                ],
+                [
+                  0.967,
+                  0.127
+                ],
+                [
+                  0.967,
+                  0.164
+                ],
+                [
+                  0.752,
+                  0.164
+                ]
+              ],
+              "postal_code": "M5H 2H7",
+              "state": "ON",
+              "street_name": "University Ave",
+              "street_number": "156",
+              "value": "156 University Ave, Toronto ON, Canada, M5H 2H7"
+            },
+            "supplier_company_registrations": [],
+            "supplier_email": {
+              "confidence": 0.9,
+              "polygon": [
+                [
+                  0.027,
+                  0.376
+                ],
+                [
+                  0.192,
+                  0.376
+                ],
+                [
+                  0.192,
+                  0.399
+                ],
+                [
+                  0.027,
+                  0.399
+                ]
+              ],
+              "value": "j_coi@example.com"
+            },
+            "supplier_name": {
+              "confidence": 0.98,
+              "polygon": [
+                [
+                  0.82,
+                  0.107
+                ],
+                [
+                  0.967,
+                  0.107
+                ],
+                [
+                  0.967,
+                  0.126
+                ],
+                [
+                  0.82,
+                  0.126
+                ]
+              ],
+              "raw_value": "Turnpike Designs",
+              "value": "TURNPIKE DESIGNS"
+            },
+            "supplier_payment_details": [],
+            "supplier_phone_number": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.029,
+                  0.396
+                ],
+                [
+                  0.147,
+                  0.396
+                ],
+                [
+                  0.147,
+                  0.414
+                ],
+                [
+                  0.029,
+                  0.414
+                ]
+              ],
+              "value": "4165551212"
+            },
+            "supplier_website": {
+              "confidence": 0.0,
+              "polygon": [],
+              "value": null
+            },
+            "taxes": [
+              {
+                "base": 2145.0,
+                "confidence": 0.99,
+                "polygon": [
+                  [
+                    0.78,
+                    0.744
+                  ],
+                  [
+                    0.78,
+                    0.762
+                  ],
+                  [
+                    0.965,
+                    0.762
+                  ],
+                  [
+                    0.965,
+                    0.744
+                  ]
+                ],
+                "rate": 8.0,
+                "value": 193.2
+              }
+            ],
+            "total_amount": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.882,
+                  0.839
+                ],
+                [
+                  0.969,
+                  0.839
+                ],
+                [
+                  0.969,
+                  0.86
+                ],
+                [
+                  0.882,
+                  0.86
+                ]
+              ],
+              "value": 2608.2
+            },
+            "total_net": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.882,
+                  0.725
+                ],
+                [
+                  0.967,
+                  0.725
+                ],
+                [
+                  0.967,
+                  0.745
+                ],
+                [
+                  0.882,
+                  0.745
+                ]
+              ],
+              "value": 2145.0
+            },
+            "total_tax": {
+              "confidence": 0.99,
+              "polygon": [
+                [
+                  0.896,
+                  0.743
+                ],
+                [
+                  0.967,
+                  0.743
+                ],
+                [
+                  0.967,
+                  0.764
+                ],
+                [
+                  0.896,
+                  0.764
+                ]
+              ],
+              "value": 193.2
+            }
+          }
+        }
+      ],
+      "prediction": {
+        "billing_address": {
+          "address_complement": null,
+          "city": "Toronto",
+          "confidence": 0.99,
+          "country": "Canada",
+          "page_id": 0,
+          "po_box": null,
+          "polygon": [
+            [
+              0.032,
+              0.302
+            ],
+            [
+              0.215,
+              0.302
+            ],
+            [
+              0.215,
+              0.355
+            ],
+            [
+              0.032,
+              0.355
+            ]
+          ],
+          "postal_code": "M6P 3K9",
+          "state": "ON",
+          "street_name": "Bloor Street West",
+          "street_number": "1954",
+          "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
+        },
+        "customer_address": {
+          "address_complement": null,
+          "city": "Toronto",
+          "confidence": 0.99,
+          "country": "Canada",
+          "page_id": 0,
+          "po_box": null,
+          "polygon": [
+            [
+              0.032,
+              0.302
+            ],
+            [
+              0.215,
+              0.302
+            ],
+            [
+              0.215,
+              0.355
+            ],
+            [
+              0.032,
+              0.355
+            ]
+          ],
+          "postal_code": "M6P 3K9",
+          "state": "ON",
+          "street_name": "Bloor Street West",
+          "street_number": "1954",
+          "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
+        },
+        "customer_company_registrations": [],
+        "customer_id": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "customer_name": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.032,
+              0.284
+            ],
+            [
+              0.101,
+              0.284
+            ],
+            [
+              0.101,
+              0.299
+            ],
+            [
+              0.032,
+              0.299
+            ]
+          ],
+          "raw_value": "Jiro Doi",
+          "value": "JIRO DOI"
+        },
+        "date": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.839,
+              0.303
+            ],
+            [
+              0.933,
+              0.303
+            ],
+            [
+              0.933,
+              0.32
+            ],
+            [
+              0.839,
+              0.32
+            ]
+          ],
+          "value": "2018-09-25"
+        },
+        "document_type": {
+          "value": "INVOICE"
+        },
+        "document_type_extended": {
+          "confidence": 1.0,
+          "value": "INVOICE"
+        },
+        "due_date": {
+          "confidence": 0.0,
+          "is_computed": false,
+          "page_id": 0,
+          "polygon": [],
+          "value": null
+        },
+        "invoice_number": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.841,
+              0.264
+            ],
+            [
+              0.862,
+              0.264
+            ],
+            [
+              0.862,
+              0.282
+            ],
+            [
+              0.841,
+              0.282
+            ]
+          ],
+          "value": "14"
+        },
+        "line_items": [
+          {
+            "confidence": 0.98,
+            "description": "Platinum web hosting package Down 35mb, Up 100mb",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.032,
+                0.496
+              ],
+              [
+                0.965,
+                0.496
+              ],
+              [
+                0.965,
+                0.538
+              ],
+              [
+                0.032,
+                0.538
+              ]
+            ],
+            "product_code": null,
+            "quantity": 1.0,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 65.0,
+            "unit_measure": null,
+            "unit_price": 65.0
+          },
+          {
+            "confidence": 0.99,
+            "description": "2 page website design Includes basic wireframes, and responsive templates",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.031,
+                0.558
+              ],
+              [
+                0.966,
+                0.558
+              ],
+              [
+                0.966,
+                0.601
+              ],
+              [
+                0.031,
+                0.601
+              ]
+            ],
+            "product_code": null,
+            "quantity": 3.0,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 2100.0,
+            "unit_measure": null,
+            "unit_price": 2100.0
+          },
+          {
+            "confidence": 0.99,
+            "description": "Mobile designs Includes responsive navigation",
+            "page_id": 0,
+            "polygon": [
+              [
+                0.032,
+                0.623
+              ],
+              [
+                0.965,
+                0.623
+              ],
+              [
+                0.965,
+                0.664
+              ],
+              [
+                0.032,
+                0.664
+              ]
+            ],
+            "product_code": null,
+            "quantity": 1.0,
+            "tax_amount": null,
+            "tax_rate": null,
+            "total_amount": 250.0,
+            "unit_measure": "1",
+            "unit_price": 250.0
+          }
+        ],
+        "locale": {
+          "confidence": 0.88,
+          "country": "CA",
+          "currency": "CAD",
+          "language": "en",
+          "value": "en-CA"
+        },
+        "payment_date": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "po_number": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.839,
+              0.284
+            ],
+            [
+              0.915,
+              0.284
+            ],
+            [
+              0.915,
+              0.3
+            ],
+            [
+              0.839,
+              0.3
+            ]
+          ],
+          "value": "AD29094"
+        },
+        "reference_numbers": [
+          {
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.839,
+                0.284
+              ],
+              [
+                0.915,
+                0.284
+              ],
+              [
+                0.915,
+                0.3
+              ],
+              [
+                0.839,
+                0.3
+              ]
+            ],
+            "value": "AD29094"
+          }
+        ],
+        "shipping_address": {
+          "address_complement": null,
+          "city": null,
+          "confidence": 0.0,
+          "country": null,
+          "page_id": null,
+          "po_box": null,
+          "polygon": [],
+          "postal_code": null,
+          "state": null,
+          "street_name": null,
+          "street_number": null,
+          "value": null
+        },
+        "supplier_address": {
+          "address_complement": null,
+          "city": "Toronto",
+          "confidence": 0.99,
+          "country": "Canada",
+          "page_id": 0,
+          "po_box": null,
+          "polygon": [
+            [
+              0.752,
+              0.127
+            ],
+            [
+              0.967,
+              0.127
+            ],
+            [
+              0.967,
+              0.164
+            ],
+            [
+              0.752,
+              0.164
+            ]
+          ],
+          "postal_code": "M5H 2H7",
+          "state": "ON",
+          "street_name": "University Ave",
+          "street_number": "156",
+          "value": "156 University Ave, Toronto ON, Canada, M5H 2H7"
+        },
+        "supplier_company_registrations": [],
+        "supplier_email": {
+          "confidence": 0.9,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.027,
+              0.376
+            ],
+            [
+              0.192,
+              0.376
+            ],
+            [
+              0.192,
+              0.399
+            ],
+            [
+              0.027,
+              0.399
+            ]
+          ],
+          "value": "j_coi@example.com"
+        },
+        "supplier_name": {
+          "confidence": 0.98,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.82,
+              0.107
+            ],
+            [
+              0.967,
+              0.107
+            ],
+            [
+              0.967,
+              0.126
+            ],
+            [
+              0.82,
+              0.126
+            ]
+          ],
+          "raw_value": "Turnpike Designs",
+          "value": "TURNPIKE DESIGNS"
+        },
+        "supplier_payment_details": [],
+        "supplier_phone_number": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.029,
+              0.396
+            ],
+            [
+              0.147,
+              0.396
+            ],
+            [
+              0.147,
+              0.414
+            ],
+            [
+              0.029,
+              0.414
+            ]
+          ],
+          "value": "4165551212"
+        },
+        "supplier_website": {
+          "confidence": 0.0,
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "taxes": [
+          {
+            "base": 2145.0,
+            "confidence": 0.99,
+            "page_id": 0,
+            "polygon": [
+              [
+                0.78,
+                0.744
+              ],
+              [
+                0.78,
+                0.762
+              ],
+              [
+                0.965,
+                0.762
+              ],
+              [
+                0.965,
+                0.744
+              ]
+            ],
+            "rate": 8.0,
+            "value": 193.2
+          }
+        ],
+        "total_amount": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.882,
+              0.839
+            ],
+            [
+              0.969,
+              0.839
+            ],
+            [
+              0.969,
+              0.86
+            ],
+            [
+              0.882,
+              0.86
+            ]
+          ],
+          "value": 2608.2
+        },
+        "total_net": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.882,
+              0.725
+            ],
+            [
+              0.967,
+              0.725
+            ],
+            [
+              0.967,
+              0.745
+            ],
+            [
+              0.882,
+              0.745
+            ]
+          ],
+          "value": 2145.0
+        },
+        "total_tax": {
+          "confidence": 0.99,
+          "page_id": 0,
+          "polygon": [
+            [
+              0.896,
+              0.743
+            ],
+            [
+              0.967,
+              0.743
+            ],
+            [
+              0.967,
+              0.764
+            ],
+            [
+              0.896,
+              0.764
+            ]
+          ],
+          "value": 193.2
+        }
+      },
+      "processing_time": 0.6582322120666504,
+      "product": {
+        "features": [
+          "locale",
+          "invoice_number",
+          "po_number",
+          "reference_numbers",
+          "date",
+          "due_date",
+          "payment_date",
+          "total_net",
+          "total_amount",
+          "total_tax",
+          "taxes",
+          "supplier_payment_details",
+          "supplier_name",
+          "supplier_company_registrations",
+          "supplier_address",
+          "supplier_phone_number",
+          "supplier_website",
+          "supplier_email",
+          "customer_name",
+          "customer_company_registrations",
+          "customer_address",
+          "customer_id",
+          "shipping_address",
+          "billing_address",
+          "document_type",
+          "document_type_extended",
+          "orientation",
+          "line_items"
+        ],
+        "name": "mindee/invoices",
+        "type": "standard",
+        "version": "4.10"
+      },
+      "started_at": "2025-04-08T07:50:29.910000"
+    },
+    "n_pages": 1,
+    "name": "default_sample.jpg"
+  },
+  "job": {
+    "available_at": "2025-04-08T07:50:30.978000",
+    "error": {},
+    "id": "3303b5bd-43ef-44d9-95d9-ff7499b4b235",
+    "issued_at": "2025-04-08T07:50:29.910000",
+    "status": "completed"
+  }
+}
