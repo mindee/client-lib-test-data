@@ -6,7 +6,7 @@ Document
 
 Inference
 #########
-:Product: mindee/ind_passport v1.0
+:Product: mindee/ind_passport v1.2
 :Rotation applied: Yes
 
 Prediction
@@ -29,8 +29,8 @@ Prediction
 :Name of Mother: Jane Doe
 :Old Passport Date of Issue: 2002-01-01
 :Old Passport Number: B7654321
+:Old Passport Place of Issue: Mumbai
 :Address Line 1: 123, Green Park Avenue
 :Address Line 2: Flat No. 12B, Green View Apartments
 :Address Line 3: Near City Park, Sector 15
-:Old Passport Place of Issue: Mumbai
 :File Number: AB182736483928
