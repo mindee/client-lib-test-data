@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: f52333ab-811e-4647-993e-ad79e072afa3
+:Mindee ID: 6dd26385-719b-4527-bf6f-87d9da619de5
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/financial_document v1.12
+:Product: mindee/financial_document v1.14
 :Rotation applied: Yes
 
 Prediction

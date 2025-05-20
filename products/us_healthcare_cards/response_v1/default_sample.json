@@ -7,13 +7,13 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/us_healthcare_cards/v1/documents/1e71d5f0-dedb-4070-9d94-9207cd9570b5"
+    "url": "https://api.mindee.net/v1/products/mindee/us_healthcare_cards/v1/documents/6489cda4-2567-4e78-8529-252bd3b6d9d1"
   },
   "document": {
-    "id": "1e71d5f0-dedb-4070-9d94-9207cd9570b5",
+    "id": "6489cda4-2567-4e78-8529-252bd3b6d9d1",
     "inference": {
       "extras": {},
-      "finished_at": "2025-04-08T09:22:43.906000",
+      "finished_at": "2025-05-20T16:47:12.654000",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -27,16 +27,16 @@
       ],
       "prediction": {
         "company_name": {
-          "value": "UnitedHealthcare"
+          "value": "United Healthcare"
         },
         "copays": [
           {
-            "service_fees": 300.0,
-            "service_name": "emergency_room"
-          },
-          {
             "service_fees": 20.0,
             "service_name": "office_visit"
+          },
+          {
+            "service_fees": 300.0,
+            "service_name": "emergency_room"
           },
           {
             "service_fees": 75.0,
@@ -79,6 +79,9 @@
         "payer_id": {
           "value": "87726"
         },
+        "plan_name": {
+          "value": "Choice Plus"
+        },
         "rx_bin": {
           "value": "610279"
         },
@@ -92,10 +95,11 @@
           "value": "9999"
         }
       },
-      "processing_time": 9.891,
+      "processing_time": 3.56,
       "product": {
         "features": [
           "company_name",
+          "plan_name",
           "member_name",
           "member_id",
           "issuer_80840",
@@ -111,18 +115,18 @@
         ],
         "name": "mindee/us_healthcare_cards",
         "type": "standard",
-        "version": "1.2"
+        "version": "1.3"
       },
-      "started_at": "2025-04-08T09:22:33.874000"
+      "started_at": "2025-05-20T16:47:08.926000"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"
   },
   "job": {
-    "available_at": "2025-04-08T09:22:43.919000",
+    "available_at": "2025-05-20T16:47:12.675000",
     "error": {},
-    "id": "1c80ddf9-0c32-49ef-9086-c42a4c762905",
-    "issued_at": "2025-04-08T09:22:33.874000",
+    "id": "aff63568-e2df-48a9-a46c-931127d23193",
+    "issued_at": "2025-05-20T16:47:08.926000",
     "status": "completed"
   }
 }

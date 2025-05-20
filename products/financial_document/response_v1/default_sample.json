@@ -7,13 +7,13 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/documents/f52333ab-811e-4647-993e-ad79e072afa3"
+    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/documents/472a5895-6d0e-48e7-b545-79c7d22356e0"
   },
   "document": {
-    "id": "f52333ab-811e-4647-993e-ad79e072afa3",
+    "id": "472a5895-6d0e-48e7-b545-79c7d22356e0",
     "inference": {
       "extras": {},
-      "finished_at": "2025-04-08T08:52:48.956000",
+      "finished_at": "2025-05-20T16:50:43.030000",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -54,7 +54,7 @@
               "value": "4312 Wood Road New York, NY 10031"
             },
             "category": {
-              "confidence": 0.76,
+              "confidence": 0.49,
               "value": "miscellaneous"
             },
             "customer_address": {
@@ -433,7 +433,7 @@
               "value": "2019 Redbud Drive New York, NY 10011"
             },
             "subcategory": {
-              "confidence": 0.0,
+              "confidence": 0.49,
               "value": null
             },
             "supplier_address": {
@@ -645,7 +645,7 @@
           "value": "4312 Wood Road New York, NY 10031"
         },
         "category": {
-          "confidence": 0.76,
+          "confidence": 0.49,
           "value": "miscellaneous"
         },
         "customer_address": {
@@ -1035,7 +1035,7 @@
           "value": "2019 Redbud Drive New York, NY 10011"
         },
         "subcategory": {
-          "confidence": 0,
+          "confidence": 0.49,
           "value": null
         },
         "supplier_address": {
@@ -1223,7 +1223,7 @@
           "value": 9.75
         }
       },
-      "processing_time": 0.932746410369873,
+      "processing_time": 0.609574556350708,
       "product": {
         "features": [
           "locale",
@@ -1263,18 +1263,18 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.12"
+        "version": "1.14"
       },
-      "started_at": "2025-04-08T08:52:47.918000"
+      "started_at": "2025-05-20T16:50:42.316000"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"
   },
   "job": {
-    "available_at": "2025-04-08T08:52:48.967000",
+    "available_at": "2025-05-20T16:50:43.093000",
     "error": {},
-    "id": "2aa2c606-f7a5-4cd6-a144-15bdd70e473d",
-    "issued_at": "2025-04-08T08:52:47.918000",
+    "id": "5b724295-3f75-4cdc-8af8-503634930061",
+    "issued_at": "2025-05-20T16:50:42.316000",
     "status": "completed"
   }
 }

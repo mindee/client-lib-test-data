@@ -7,13 +7,13 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/documents/04c8b29b-55c4-48d4-85d3-a9b691c841b8"
+    "url": "https://api.mindee.net/v1/products/mindee/financial_document/v1/documents/8d5a2ae4-a50f-495a-88e4-c3c2284d58a3"
   },
   "document": {
-    "id": "04c8b29b-55c4-48d4-85d3-a9b691c841b8",
+    "id": "8d5a2ae4-a50f-495a-88e4-c3c2284d58a3",
     "inference": {
       "extras": {},
-      "finished_at": "2025-04-08T08:52:44.148000",
+      "finished_at": "2025-05-20T16:50:38.655000",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -37,8 +37,8 @@
               "value": null
             },
             "category": {
-              "confidence": 1.0,
-              "value": "miscellaneous"
+              "confidence": 0.51,
+              "value": "transport"
             },
             "customer_address": {
               "address_complement": null,
@@ -135,8 +135,8 @@
               "value": null
             },
             "subcategory": {
-              "confidence": 0.0,
-              "value": null
+              "confidence": 0.51,
+              "value": "taxi"
             },
             "supplier_address": {
               "address_complement": null,
@@ -219,8 +219,8 @@
           "value": null
         },
         "category": {
-          "confidence": 1.0,
-          "value": "miscellaneous"
+          "confidence": 0.51,
+          "value": "transport"
         },
         "customer_address": {
           "address_complement": null,
@@ -324,8 +324,8 @@
           "value": null
         },
         "subcategory": {
-          "confidence": 0.0,
-          "value": null
+          "confidence": 0.51,
+          "value": "taxi"
         },
         "supplier_address": {
           "address_complement": null,
@@ -400,7 +400,7 @@
           "value": null
         }
       },
-      "processing_time": 0.21774721145629883,
+      "processing_time": 0.21805667877197266,
       "product": {
         "features": [
           "locale",
@@ -440,18 +440,18 @@
         ],
         "name": "mindee/financial_document",
         "type": "standard",
-        "version": "1.12"
+        "version": "1.14"
       },
-      "started_at": "2025-04-08T08:52:43.781000"
+      "started_at": "2025-05-20T16:50:38.339000"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
   },
   "job": {
-    "available_at": "2025-04-08T08:52:44.159000",
+    "available_at": "2025-05-20T16:50:38.672000",
     "error": {},
-    "id": "f130236e-389d-40c5-b62a-19b046a0ac85",
-    "issued_at": "2025-04-08T08:52:43.781000",
+    "id": "c9d64158-f2cb-40b5-a642-7187d7939125",
+    "issued_at": "2025-05-20T16:50:38.339000",
     "status": "completed"
   }
 }
