@@ -6,7 +6,7 @@ Document
 
 Inference
 #########
-:Product: mindee/invoices v4.10
+:Product: mindee/invoices v4.11
 :Rotation applied: Yes
 
 Prediction
@@ -42,6 +42,8 @@ Prediction
 :Billing Address:
 :Document Type: INVOICE
 :Document Type Extended: INVOICE
+:Purchase Subcategory:
+:Purchase Category: accommodation
 :Line Items:
 
 Page Predictions
@@ -80,4 +82,6 @@ Page 0
 :Billing Address:
 :Document Type: INVOICE
 :Document Type Extended: INVOICE
+:Purchase Subcategory:
+:Purchase Category: accommodation
 :Line Items:
