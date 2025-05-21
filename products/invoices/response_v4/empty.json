@@ -7,13 +7,13 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/documents/95b18b56-7d0e-4698-9356-1ba8fda01cc6"
+    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/documents/7f881fae-9fc5-4a40-8efc-63e332e2e813"
   },
   "document": {
-    "id": "95b18b56-7d0e-4698-9356-1ba8fda01cc6",
+    "id": "7f881fae-9fc5-4a40-8efc-63e332e2e813",
     "inference": {
       "extras": {},
-      "finished_at": "2025-04-08T07:50:26.265000",
+      "finished_at": "2025-05-21T08:54:12.956000",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -35,6 +35,10 @@
               "street_name": null,
               "street_number": null,
               "value": null
+            },
+            "category": {
+              "confidence": 0.51,
+              "value": "transport"
             },
             "customer_address": {
               "address_complement": null,
@@ -120,6 +124,10 @@
               "street_number": null,
               "value": null
             },
+            "subcategory": {
+              "confidence": 0.51,
+              "value": "taxi"
+            },
             "supplier_address": {
               "address_complement": null,
               "city": null,
@@ -189,6 +197,10 @@
           "street_name": null,
           "street_number": null,
           "value": null
+        },
+        "category": {
+          "confidence": 0.51,
+          "value": "transport"
         },
         "customer_address": {
           "address_complement": null,
@@ -279,6 +291,10 @@
           "street_number": null,
           "value": null
         },
+        "subcategory": {
+          "confidence": 0.51,
+          "value": "taxi"
+        },
         "supplier_address": {
           "address_complement": null,
           "city": null,
@@ -340,7 +356,7 @@
           "value": null
         }
       },
-      "processing_time": 0.26687145233154297,
+      "processing_time": 0.2573223114013672,
       "product": {
         "features": [
           "locale",
@@ -369,23 +385,25 @@
           "billing_address",
           "document_type",
           "document_type_extended",
+          "subcategory",
+          "category",
           "orientation",
           "line_items"
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "4.10"
+        "version": "4.11"
       },
-      "started_at": "2025-04-08T07:50:25.812000"
+      "started_at": "2025-05-21T08:54:12.607000"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
   },
   "job": {
-    "available_at": "2025-04-08T07:50:26.275000",
+    "available_at": "2025-05-21T08:54:12.978000",
     "error": {},
-    "id": "810351d7-686f-4e9b-a0a6-a3e5924f128a",
-    "issued_at": "2025-04-08T07:50:25.812000",
+    "id": "65d4f94c-2d16-4b1d-92a9-7bdb5d232421",
+    "issued_at": "2025-05-21T08:54:12.607000",
     "status": "completed"
   }
 }

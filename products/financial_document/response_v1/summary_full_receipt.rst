@@ -6,7 +6,7 @@ Document
 
 Inference
 #########
-:Product: mindee/financial_document v1.12
+:Product: mindee/financial_document v1.14
 :Rotation applied: Yes
 
 Prediction

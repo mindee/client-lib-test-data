@@ -1,12 +1,12 @@
 ########
 Document
 ########
-:Mindee ID: 3e524d26-f7dc-4852-9bbf-833a127a9570
+:Mindee ID: 744748d5-9051-461c-b70c-bbf81f5ff943
 :Filename: default_sample.jpg
 
 Inference
 #########
-:Product: mindee/invoices v4.10
+:Product: mindee/invoices v4.11
 :Rotation applied: Yes
 
 Prediction
@@ -42,6 +42,8 @@ Prediction
 :Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
 :Document Type Extended: INVOICE
+:Purchase Subcategory:
+:Purchase Category: miscellaneous
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
   | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit of measure | Unit Price |
@@ -89,6 +91,8 @@ Page 0
 :Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
 :Document Type: INVOICE
 :Document Type Extended: INVOICE
+:Purchase Subcategory:
+:Purchase Category: miscellaneous
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
   | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit of measure | Unit Price |

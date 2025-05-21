@@ -1,7 +1,7 @@
 ########
 Document
 ########
-:Mindee ID: d0849ca8-05d4-4208-bde1-f43de3f987ea
+:Mindee ID: 5e917fc8-5c13-42b2-967f-954f4eed9959
 :Filename: default_sample.jpg
 
 Inference
@@ -11,7 +11,7 @@ Inference
 
 Prediction
 ==========
-:Company Name: United Healthcare
+:Company Name: UnitedHealthcare
 :Plan Name: Choice Plus
 :Member Name: SUBSCRIBER SMITH
 :Member ID: 123456789

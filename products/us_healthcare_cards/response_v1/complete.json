@@ -20,9 +20,7 @@
           "orientation": {
             "value": 90
           },
-          "prediction": {
-            "properties": {}
-          }
+          "prediction": {}
         }
       ],
       "prediction": {
