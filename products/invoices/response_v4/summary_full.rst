@@ -1,68 +1,54 @@
 ########
 Document
 ########
-:Mindee ID: 656c2ec1-0920-4556-9bc2-772162bc698a
-:Filename: invoice.pdf
+:Mindee ID: cfb7db81-7dd9-4173-9ff8-2facc27faf06
+:Filename: myfile.jpg
 
 Inference
 #########
-:Product: mindee/invoices v4.8
+:Product: mindee/Invoice v4.11
 :Rotation applied: Yes
 
 Prediction
 ==========
-:Locale: en-CA; en; CA; CAD;
-:Invoice Number: 0042004801351
-:Purchase Order Number: AD29094
-:Reference Numbers: AD29094
-:Purchase Date: 2020-02-17
-:Due Date: 2020-02-17
-:Payment Date:
-:Total Net: 489.97
-:Total Amount: 587.95
-:Total Tax: 193.20
+:Locale: ca-ES; pt; ES; EUR;
+:Invoice Number: 1547854214
+:Purchase Order Number: 1547854214
+:Reference Numbers: string
+:Purchase Date: 2019-08-25
+:Due Date: 2019-08-25
+:Payment Date: 2019-08-25
+:Total Net: 87.92
+:Total Amount: 335.18
+:Total Tax: 76.72
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
-  | 489.97        |        | 20.00    | 97.98         |
+  | 23.00         |        | 8.00     | 23.00         |
   +---------------+--------+----------+---------------+
-:Supplier Payment Details: FR7640254025476501124705368;
-:Supplier Name: TURNPIKE DESIGNS CO.
-:Supplier Company Registrations:
-:Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
-:Supplier Phone Number: 2121231234
-:Supplier Website: https://www.turnpike-designs.ca
-:Supplier Email: leo.davinci@turnpike-designs.ca
-:Customer Name: JIRO DOI
-:Customer Company Registrations:
-:Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
-:Customer ID: ABCD-1234
-:Shipping Address:
-:Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
+:Supplier Payment Details: string; string; string; string;
+:Supplier Name: JETBRAINS
+:Supplier Company Registrations: Type: TIN, Value: 123904567
+:Supplier Address: 548 Market St, Suite 98568 San Francisco, California 94104-5401
+:Supplier Phone Number: string
+:Supplier Website: string
+:Supplier Email: string
+:Customer Name: UBER
+:Customer Company Registrations: Type: TIN, Value: 123904567
+:Customer Address: 548 Market St, Suite 98568 San Francisco, California 94104-5401
+:Customer ID: string
+:Shipping Address: 548 Market St, Suite 98568 San Francisco, California 94104-5401
+:Billing Address: 548 Market St, Suite 98568 San Francisco, California 94104-5401
 :Document Type: INVOICE
 :Document Type Extended: INVOICE
+:Purchase Subcategory: office_supplies
+:Purchase Category: shopping
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
   | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit of measure | Unit Price |
   +======================================+==============+==========+============+==============+==============+=================+============+
-  | S)BOIE 5X500 FEUILLES A4             |              |          |            |              | 2.63         |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | RAM 500F DCP BLANC A4 100G           |              |          |            |              | 0.98         |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | PQ 960 ETIQUETTES L METAL            |              |          |            |              | 4.07         |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | CARTOUCHE L NR BROTHER TN247BK       |              |          |            |              | 9.47         |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | PQ20 ETIQ ULTRA RESIS METAXXDC       |              |          |            |              | 4.31         |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | FO2 IMPRIM MULTIFONCT MFC-L3770CDW   |              |          |            |              | 120.00       |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | Platinum web hosting package Down... |              | 1.00     |            |              | 65.00        |                 | 65.00      |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | 2 page website design Includes ba... |              | 3.00     |            |              | 2100.00      |                 | 2100.00    |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | Mobile designs Includes responsiv... |              | 1.00     |            |              | 250.00       | 1               | 250.00     |
+  | string                               | string       | 20.00    | 20.00      | 20.00        | 20.50        | hour            | 20.50      |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
 
 Page Predictions
@@ -70,94 +56,42 @@ Page Predictions
 
 Page 0
 ------
-:Locale: en-CA; en; CA; CAD;
-:Invoice Number: 0042004801351
-:Purchase Order Number:
-:Reference Numbers:
-:Purchase Date: 2020-02-17
-:Due Date: 2020-02-17
-:Payment Date:
-:Total Net: 489.97
-:Total Amount: 587.95
-:Total Tax: 97.98
+:Locale: ca-ES; pt; ES; USD;
+:Invoice Number: 1547854214
+:Purchase Order Number: 1547854214
+:Reference Numbers: string
+:Purchase Date: 2019-08-25
+:Due Date: 2019-08-25
+:Payment Date: 2019-08-25
+:Total Net: 2.25
+:Total Amount: 444.52
+:Total Tax: 510.85
 :Taxes:
   +---------------+--------+----------+---------------+
   | Base          | Code   | Rate (%) | Amount        |
   +===============+========+==========+===============+
-  | 489.97        |        | 20.00    | 97.98         |
+  | 23.00         |        | 8.00     | 23.00         |
   +---------------+--------+----------+---------------+
-:Supplier Payment Details: FR7640254025476501124705368;
-:Supplier Name:
-:Supplier Company Registrations:
-:Supplier Address:
-:Supplier Phone Number: 050544490
-:Supplier Website: https://www.turnpike-designs.ca
-:Supplier Email:
-:Customer Name:
-:Customer Company Registrations:
-:Customer Address:
-:Customer ID: ABCD-1234
-:Shipping Address:
-:Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
+:Supplier Payment Details: string; string; string; string;
+:Supplier Name: JETBRAINS
+:Supplier Company Registrations: Type: TIN, Value: 123904567
+:Supplier Address: 548 Market St, Suite 98568 San Francisco, California 94104-5401
+:Supplier Phone Number: string
+:Supplier Website: string
+:Supplier Email: string
+:Customer Name: UBER
+:Customer Company Registrations: Type: TIN, Value: 123904567
+:Customer Address: 548 Market St, Suite 98568 San Francisco, California 94104-5401
+:Customer ID: string
+:Shipping Address: 548 Market St, Suite 98568 San Francisco, California 94104-5401
+:Billing Address: 548 Market St, Suite 98568 San Francisco, California 94104-5401
 :Document Type: INVOICE
 :Document Type Extended: INVOICE
+:Purchase Subcategory:
+:Purchase Category: miscellaneous
 :Line Items:
   +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
   | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit of measure | Unit Price |
   +======================================+==============+==========+============+==============+==============+=================+============+
-  | S)BOIE 5X500 FEUILLES A4             |              |          |            |              | 2.63         |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | RAM 500F DCP BLANC A4 100G           |              |          |            |              | 0.98         |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | PQ 960 ETIQUETTES L METAL            |              |          |            |              | 4.07         |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | CARTOUCHE L NR BROTHER TN247BK       |              |          |            |              | 9.47         |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | PQ20 ETIQ ULTRA RESIS METAXXDC       |              |          |            |              | 4.31         |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | FO2 IMPRIM MULTIFONCT MFC-L3770CDW   |              |          |            |              | 120.00       |                 |            |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-
-Page 1
-------
-:Locale: en-CA; en; CA; CAD;
-:Invoice Number:
-:Purchase Order Number: AD29094
-:Reference Numbers: AD29094
-:Purchase Date: 2018-09-25
-:Due Date: 2020-02-17
-:Payment Date:
-:Total Net:
-:Total Amount: 2608.20
-:Total Tax: 193.20
-:Taxes:
-  +---------------+--------+----------+---------------+
-  | Base          | Code   | Rate (%) | Amount        |
-  +===============+========+==========+===============+
-  |               |        | 8.00     | 193.20        |
-  +---------------+--------+----------+---------------+
-:Supplier Payment Details:
-:Supplier Name: TURNPIKE DESIGNS CO.
-:Supplier Company Registrations:
-:Supplier Address: 156 University Ave, Toronto ON, Canada M5H 2H7
-:Supplier Phone Number:
-:Supplier Website:
-:Supplier Email: leo.davinci@turnpike-designs.ca
-:Customer Name: JIRO DOI
-:Customer Company Registrations:
-:Customer Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
-:Customer ID:
-:Shipping Address:
-:Billing Address: 1954 Bloor Street West Toronto, ON, M6P 3K9 Canada
-:Document Type: INVOICE
-:Document Type Extended: INVOICE
-:Line Items:
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | Description                          | Product code | Quantity | Tax Amount | Tax Rate (%) | Total Amount | Unit of measure | Unit Price |
-  +======================================+==============+==========+============+==============+==============+=================+============+
-  | Platinum web hosting package Down... |              | 1.00     |            |              | 65.00        |                 | 65.00      |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | 2 page website design Includes ba... |              | 3.00     |            |              | 2100.00      |                 | 2100.00    |
-  +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+
-  | Mobile designs Includes responsiv... |              | 1.00     |            |              | 250.00       | 1               | 250.00     |
+  | string                               | string       | 20.00    | 20.00      | 20.00        | 20.50        | hour            | 20.50      |
   +--------------------------------------+--------------+----------+------------+--------------+--------------+-----------------+------------+

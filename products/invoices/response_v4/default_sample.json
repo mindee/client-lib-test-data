@@ -7,13 +7,13 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/documents/3e524d26-f7dc-4852-9bbf-833a127a9570"
+    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/documents/33ade65d-2698-4df0-9e8c-c7c1eb6d1e59"
   },
   "document": {
-    "id": "3e524d26-f7dc-4852-9bbf-833a127a9570",
+    "id": "33ade65d-2698-4df0-9e8c-c7c1eb6d1e59",
     "inference": {
       "extras": {},
-      "finished_at": "2025-04-08T07:50:30.963000",
+      "finished_at": "2025-05-21T08:54:17.411000",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -52,6 +52,10 @@
               "street_name": "Bloor Street West",
               "street_number": "1954",
               "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
+            },
+            "category": {
+              "confidence": 0.7,
+              "value": "miscellaneous"
             },
             "customer_address": {
               "address_complement": null,
@@ -333,6 +337,10 @@
               "street_number": null,
               "value": null
             },
+            "subcategory": {
+              "confidence": 0.7,
+              "value": null
+            },
             "supplier_address": {
               "address_complement": null,
               "city": "Toronto",
@@ -563,6 +571,10 @@
           "street_name": "Bloor Street West",
           "street_number": "1954",
           "value": "1954 Bloor Street West Toronto, ON, M6P 3K9 Canada"
+        },
+        "category": {
+          "confidence": 0.7,
+          "value": "miscellaneous"
         },
         "customer_address": {
           "address_complement": null,
@@ -853,6 +865,10 @@
           "street_number": null,
           "value": null
         },
+        "subcategory": {
+          "confidence": 0.7,
+          "value": null
+        },
         "supplier_address": {
           "address_complement": null,
           "city": "Toronto",
@@ -1059,7 +1075,7 @@
           "value": 193.2
         }
       },
-      "processing_time": 0.6582322120666504,
+      "processing_time": 0.6234333515167236,
       "product": {
         "features": [
           "locale",
@@ -1088,23 +1104,25 @@
           "billing_address",
           "document_type",
           "document_type_extended",
+          "subcategory",
+          "category",
           "orientation",
           "line_items"
         ],
         "name": "mindee/invoices",
         "type": "standard",
-        "version": "4.10"
+        "version": "4.11"
       },
-      "started_at": "2025-04-08T07:50:29.910000"
+      "started_at": "2025-05-21T08:54:16.647000"
     },
     "n_pages": 1,
     "name": "default_sample.jpg"
   },
   "job": {
-    "available_at": "2025-04-08T07:50:30.978000",
+    "available_at": "2025-05-21T08:54:17.430000",
     "error": {},
-    "id": "3303b5bd-43ef-44d9-95d9-ff7499b4b235",
-    "issued_at": "2025-04-08T07:50:29.910000",
+    "id": "4e682b37-9a93-4427-a538-d7c57b609756",
+    "issued_at": "2025-05-21T08:54:16.647000",
     "status": "completed"
   }
 }

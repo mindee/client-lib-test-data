@@ -7,13 +7,13 @@
     ],
     "status": "success",
     "status_code": 200,
-    "url": "https://api.mindee.net/v1/products/mindee/us_healthcare_cards/v1/documents/b9b5a88e-d9c8-4f30-9cc7-2c27af26af1a"
+    "url": "https://api.mindee.net/v1/products/mindee/us_healthcare_cards/v1/documents/11f384f9-2cdb-4299-9dd3-1d7e063ce1a9"
   },
   "document": {
-    "id": "b9b5a88e-d9c8-4f30-9cc7-2c27af26af1a",
+    "id": "11f384f9-2cdb-4299-9dd3-1d7e063ce1a9",
     "inference": {
       "extras": {},
-      "finished_at": "2025-04-08T09:22:30.422000",
+      "finished_at": "2025-05-20T16:47:05.287000",
       "is_rotation_applied": true,
       "pages": [
         {
@@ -49,6 +49,9 @@
         "payer_id": {
           "value": null
         },
+        "plan_name": {
+          "value": null
+        },
         "rx_bin": {
           "value": null
         },
@@ -62,10 +65,11 @@
           "value": null
         }
       },
-      "processing_time": 0.199,
+      "processing_time": 0.273,
       "product": {
         "features": [
           "company_name",
+          "plan_name",
           "member_name",
           "member_id",
           "issuer_80840",
@@ -81,18 +85,18 @@
         ],
         "name": "mindee/us_healthcare_cards",
         "type": "standard",
-        "version": "1.2"
+        "version": "1.3"
       },
-      "started_at": "2025-04-08T09:22:29.897000"
+      "started_at": "2025-05-20T16:47:04.904000"
     },
     "n_pages": 1,
     "name": "blank_1.pdf"
   },
   "job": {
-    "available_at": "2025-04-08T09:22:30.433000",
+    "available_at": "2025-05-20T16:47:05.302000",
     "error": {},
-    "id": "3c54612e-6dc1-4738-8cb4-3f613796944e",
-    "issued_at": "2025-04-08T09:22:29.897000",
+    "id": "35f3ca5d-1180-4a4f-a14b-1adf829dea57",
+    "issued_at": "2025-05-20T16:47:04.904000",
     "status": "completed"
   }
 }

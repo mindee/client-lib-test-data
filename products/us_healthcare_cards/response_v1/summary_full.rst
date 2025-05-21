@@ -1,40 +1,32 @@
 ########
 Document
 ########
-:Mindee ID: 1e71d5f0-dedb-4070-9d94-9207cd9570b5
-:Filename: default_sample.jpg
+:Mindee ID: 0abf7cb2-35d5-4dd4-bcb8-f80674825c75
+:Filename: myfile.jpg
 
 Inference
 #########
-:Product: mindee/us_healthcare_cards v1.2
+:Product: mindee/US HealthCare Cards v1.3
 :Rotation applied: Yes
 
 Prediction
 ==========
 :Company Name: UnitedHealthcare
-:Member Name: SUBSCRIBER SMITH
-:Member ID: 123456789
-:Issuer 80840:
-:Dependents: SPOUSE SMITH
-             CHILD1 SMITH
-             CHILD2 SMITH
-             CHILD3 SMITH
-:Group Number: 98765
-:Payer ID: 87726
-:RX BIN: 610279
+:Plan Name: Community Plan
+:Member Name: John Doe
+:Member ID: 123456789-00
+:Issuer 80840: 691-87726-01
+:Dependents: Jane Doe
+:Group Number: 98123456
+:Payer ID: 987654321
+:RX BIN: 123456
 :RX ID: 123456 01
-:RX GRP: UHEALTH
-:RX PCN: 9999
-:copays:
+:RX GRP: G1234
+:RX PCN: PCN1234
+:Copays:
   +--------------+----------------------+
   | Service Fees | Service Name         |
   +==============+======================+
-  | 20.00        | office visit         |
+  | 100.00       | primary_care         |
   +--------------+----------------------+
-  | 300.00       | emergency            |
-  +--------------+----------------------+
-  | 75.00        | urgent care          |
-  +--------------+----------------------+
-  | 30.00        | specialist           |
-  +--------------+----------------------+
-:Enrollment Date: 2023-09-13
+:Enrollment Date: 2022-01-01
