@@ -1,0 +1,104 @@
+{
+  "inference": {
+    "id": "3bda29dc-ac5d-45d0-b61e-5e682789538a",
+    "model": {
+      "id": "94340559-b994-45e6-8b5c-be626027f1b2"
+    },
+    "file": {
+      "name": "blank_1.pdf",
+      "alias": null
+    },
+    "result": {
+      "fields": {
+        "date": {
+          "value": null
+        },
+        "taxes": {
+          "items": []
+        },
+        "locale": {
+          "fields": {
+            "country": null,
+            "currency": null,
+            "language": null
+          }
+        },
+        "due_date": {
+          "value": null
+        },
+        "total_net": {
+          "value": null
+        },
+        "total_tax": {
+          "value": null
+        },
+        "line_items": {
+          "items": []
+        },
+        "total_amount": {
+          "value": null
+        },
+        "customer_name": {
+          "value": null
+        },
+        "document_type": {
+          "value": null
+        },
+        "supplier_name": {
+          "value": null
+        },
+        "tips_gratuity": {
+          "value": null
+        },
+        "invoice_number": {
+          "value": null
+        },
+        "receipt_number": {
+          "value": null
+        },
+        "customer_address": {
+          "fields": {
+            "city": null,
+            "state": null,
+            "value": null,
+            "po_box": null,
+            "country": null,
+            "postal_code": null,
+            "street_name": null,
+            "street_number": null,
+            "address_complement": null
+          }
+        },
+        "supplier_address": {
+          "fields": {
+            "city": null,
+            "state": null,
+            "po_box": null,
+            "country": null,
+            "complete": null,
+            "postal_code": null,
+            "street_name": null,
+            "street_number": null,
+            "address_complement": null
+          }
+        },
+        "purchase_category": {
+          "value": null
+        },
+        "purchase_subcategory": {
+          "value": null
+        },
+        "supplier_phone_number": {
+          "value": null
+        },
+        "supplier_company_registration": {
+          "items": []
+        },
+        "customer_company_registrations": {
+          "items": []
+        }
+      },
+      "options": null
+    }
+  }
+}
