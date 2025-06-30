@@ -11,7 +11,7 @@
     "result": {
       "fields": {
         "date": {
-          "value": "2019-11-02"
+          "value": "2019-02-11"
         },
         "taxes": {
           "items": [
@@ -32,16 +32,22 @@
         },
         "locale": {
           "fields": {
-            "country": null,
-            "currency": null,
-            "language": null
+            "country": {
+              "value": null
+            },
+            "currency": {
+              "value": null
+            },
+            "language": {
+              "value": null
+            }
           }
         },
         "due_date": {
           "value": "2019-02-26"
         },
         "total_net": {
-          "value": 195.0
+          "value": 195
         },
         "total_tax": {
           "value": 9.75
@@ -51,7 +57,7 @@
             {
               "fields": {
                 "quantity": {
-                  "value": 1.0
+                  "value": 1
                 },
                 "tax_rate": {
                   "value": null
@@ -60,13 +66,13 @@
                   "value": null
                 },
                 "unit_price": {
-                  "value": 100.0
+                  "value": 100
                 },
                 "description": {
                   "value": "Front and rear brake cables"
                 },
                 "total_price": {
-                  "value": 100.0
+                  "value": 100
                 },
                 "product_code": {
                   "value": null
@@ -79,7 +85,7 @@
             {
               "fields": {
                 "quantity": {
-                  "value": 2.0
+                  "value": 2
                 },
                 "tax_rate": {
                   "value": null
@@ -88,13 +94,13 @@
                   "value": null
                 },
                 "unit_price": {
-                  "value": 25.0
+                  "value": 25
                 },
                 "description": {
                   "value": "New set of pedal arms"
                 },
                 "total_price": {
-                  "value": 50.0
+                  "value": 50
                 },
                 "product_code": {
                   "value": null
@@ -107,7 +113,7 @@
             {
               "fields": {
                 "quantity": {
-                  "value": 3.0
+                  "value": 3
                 },
                 "tax_rate": {
                   "value": null
@@ -116,13 +122,13 @@
                   "value": null
                 },
                 "unit_price": {
-                  "value": 15.0
+                  "value": 15
                 },
                 "description": {
                   "value": "Labor 3hrs"
                 },
                 "total_price": {
-                  "value": 45.0
+                  "value": 45
                 },
                 "product_code": {
                   "value": null
@@ -170,7 +176,7 @@
               "value": null
             },
             "country": {
-              "value": null
+              "value": "US"
             },
             "postal_code": {
               "value": "10031"
@@ -188,15 +194,33 @@
         },
         "supplier_address": {
           "fields": {
-            "city": null,
-            "state": null,
-            "po_box": null,
-            "country": null,
-            "complete": null,
-            "postal_code": null,
-            "street_name": null,
-            "street_number": null,
-            "address_complement": null
+            "city": {
+              "value": "Albany"
+            },
+            "state": {
+              "value": "NY"
+            },
+            "po_box": {
+              "value": null
+            },
+            "country": {
+              "value": "US"
+            },
+            "complete": {
+              "value": "4490 Oak Drive\nAlbany, NY 12210"
+            },
+            "postal_code": {
+              "value": "12210"
+            },
+            "street_name": {
+              "value": "Oak Drive"
+            },
+            "street_number": {
+              "value": "4490"
+            },
+            "address_complement": {
+              "value": null
+            }
           }
         },
         "purchase_category": {

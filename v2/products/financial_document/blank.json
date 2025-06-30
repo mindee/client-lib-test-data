@@ -18,9 +18,15 @@
         },
         "locale": {
           "fields": {
-            "country": null,
-            "currency": null,
-            "language": null
+            "country": {
+              "value": null
+            },
+            "currency": {
+              "value": null
+            },
+            "language": {
+              "value": null
+            }
           }
         },
         "due_date": {
@@ -58,28 +64,64 @@
         },
         "customer_address": {
           "fields": {
-            "city": null,
-            "state": null,
-            "value": null,
-            "po_box": null,
-            "country": null,
-            "postal_code": null,
-            "street_name": null,
-            "street_number": null,
-            "address_complement": null
+            "city": {
+              "value": null
+            },
+            "state": {
+              "value": null
+            },
+            "value": {
+              "value": null
+            },
+            "po_box": {
+              "value": null
+            },
+            "country": {
+              "value": null
+            },
+            "postal_code": {
+              "value": null
+            },
+            "street_name": {
+              "value": null
+            },
+            "street_number": {
+              "value": null
+            },
+            "address_complement": {
+              "value": null
+            }
           }
         },
         "supplier_address": {
           "fields": {
-            "city": null,
-            "state": null,
-            "po_box": null,
-            "country": null,
-            "complete": null,
-            "postal_code": null,
-            "street_name": null,
-            "street_number": null,
-            "address_complement": null
+            "city": {
+              "value": null
+            },
+            "state": {
+              "value": null
+            },
+            "po_box": {
+              "value": null
+            },
+            "country": {
+              "value": null
+            },
+            "complete": {
+              "value": null
+            },
+            "postal_code": {
+              "value": null
+            },
+            "street_name": {
+              "value": null
+            },
+            "street_number": {
+              "value": null
+            },
+            "address_complement": {
+              "value": null
+            }
           }
         },
         "purchase_category": {
