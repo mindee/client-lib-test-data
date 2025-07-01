@@ -1,0 +1,288 @@
+{
+  "api_request": {
+    "error": {},
+    "resources": [
+      "document"
+    ],
+    "status": "success",
+    "status_code": 201,
+    "url": "https://api.mindee.net/v1/products/mindee/invoices/v4/predict"
+  },
+  "document": {
+    "id": "656c2ec1-0920-4556-9bc2-772162bc698a",
+    "inference": {
+      "extras": {},
+      "finished_at": "2025-07-01T15:04:39.624000",
+      "is_rotation_applied": true,
+      "pages": [
+        {
+          "extras": {},
+          "id": 0,
+          "orientation": {
+            "value": 0
+          },
+          "prediction": {}
+        }
+      ],
+      "prediction": {
+        "category": {
+          "page_id": 0,
+          "polygon": [
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              null,
+              null
+            ]
+          ],
+          "value": "AM A A1 B1 B BE DE D"
+        },
+        "country_code": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.15,
+              0.117
+            ],
+            [
+              0.183,
+              0.117
+            ],
+            [
+              0.183,
+              0.182
+            ],
+            [
+              0.15,
+              0.182
+            ]
+          ],
+          "value": "FR"
+        },
+        "date_of_birth": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.331,
+              0.324
+            ],
+            [
+              0.459,
+              0.324
+            ],
+            [
+              0.459,
+              0.377
+            ],
+            [
+              0.331,
+              0.377
+            ]
+          ],
+          "value": "1981-07-14"
+        },
+        "dd_number": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "expiry_date": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.327,
+              0.478
+            ],
+            [
+              0.455,
+              0.478
+            ],
+            [
+              0.455,
+              0.513
+            ],
+            [
+              0.327,
+              0.513
+            ]
+          ],
+          "value": "2018-12-31"
+        },
+        "first_name": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.344,
+              0.248
+            ],
+            [
+              0.4,
+              0.248
+            ],
+            [
+              0.4,
+              0.29
+            ],
+            [
+              0.344,
+              0.29
+            ]
+          ],
+          "value": "Paul"
+        },
+        "id": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.33,
+              0.545
+            ],
+            [
+              0.458,
+              0.545
+            ],
+            [
+              0.458,
+              0.586
+            ],
+            [
+              0.33,
+              0.586
+            ]
+          ],
+          "value": "13AA00002"
+        },
+        "issued_date": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.33,
+              0.4
+            ],
+            [
+              0.456,
+              0.4
+            ],
+            [
+              0.456,
+              0.441
+            ],
+            [
+              0.33,
+              0.441
+            ]
+          ],
+          "value": "2013-01-01"
+        },
+        "issuing_authority": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        },
+        "last_name": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.347,
+              0.161
+            ],
+            [
+              0.477,
+              0.161
+            ],
+            [
+              0.477,
+              0.207
+            ],
+            [
+              0.347,
+              0.207
+            ]
+          ],
+          "value": "MARTINA"
+        },
+        "mrz": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.06,
+              0.825
+            ],
+            [
+              0.939,
+              0.825
+            ],
+            [
+              0.939,
+              0.878
+            ],
+            [
+              0.06,
+              0.878
+            ]
+          ],
+          "value": "D1FRA13AA000026181231MARTIN<<9"
+        },
+        "place_of_birth": {
+          "page_id": 0,
+          "polygon": [
+            [
+              0.466,
+              0.326
+            ],
+            [
+              0.618,
+              0.326
+            ],
+            [
+              0.618,
+              0.381
+            ],
+            [
+              0.466,
+              0.381
+            ]
+          ],
+          "value": "Utopia City"
+        },
+        "state": {
+          "page_id": null,
+          "polygon": [],
+          "value": null
+        }
+      },
+      "processing_time": 5.406,
+      "product": {
+        "features": [
+          "country_code",
+          "state",
+          "id",
+          "category",
+          "last_name",
+          "first_name",
+          "date_of_birth",
+          "place_of_birth",
+          "expiry_date",
+          "issued_date",
+          "issuing_authority",
+          "mrz",
+          "dd_number"
+        ],
+        "name": "mindee/driver_license",
+        "type": "standard",
+        "version": "1.0"
+      },
+      "started_at": "2025-07-01T15:04:34.027000"
+    }
+  }
+}
