@@ -1,0 +1,32 @@
+{
+  "inference": {
+    "model": {
+      "id": "test-model-id"
+    },
+    "file": {
+      "name": "test-file-name.jpg",
+      "alias": null
+    },
+    "result": {
+      "fields": {
+        "field_simple": {
+          "value": null,
+          "confidence": null,
+          "locations": []
+        }
+      },
+      "options": {
+        "raw_texts": [
+          {
+            "page": 0,
+            "content": "This is the raw text of the first page..."
+          },
+          {
+            "page": 1,
+            "content": "A different content for the second page..."
+          }
+        ]
+      }
+    }
+  }
+}
