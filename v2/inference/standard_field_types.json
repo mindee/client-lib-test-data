@@ -1,0 +1,99 @@
+{
+  "inference": {
+    "model": {
+      "id": "test-model-id"
+    },
+    "file": {
+      "name": "test-file-name.jpg",
+      "alias": null
+    },
+    "result": {
+      "fields": {
+        "field_simple": {
+          "value": "field_simple-value",
+          "confidence": null,
+          "locations": [
+            {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+          ]
+        },
+        "field_simple_list": {
+          "items": [
+            {
+              "value": "field_simple_list-0-value",
+              "confidence": null,
+              "locations": [
+                {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+              ]
+            },
+            {
+              "value": "field_simple_list-1-value",
+              "confidence": null,
+              "locations": [
+                {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+              ]
+            }
+          ]
+        },
+        "field_object": {
+          "fields": {
+            "subfield_1": {
+              "value": "field_object-subfield_1-value",
+              "confidence": null,
+              "locations": [
+                {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+              ]
+            },
+            "subfield_2": {
+              "value": "field_object-subfield_2-value",
+              "confidence": null,
+              "locations": [
+                {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+              ]
+            }
+          }
+        },
+        "field_object_list": {
+          "items": [
+            {
+              "fields": {
+                "subfield_1": {
+                  "value": "field_object_list-0-subfield_1-value",
+                  "confidence": null,
+                  "locations": [
+                    {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+                  ]
+                },
+                "subfield_2": {
+                  "value": "field_object_list-0-subfield_2-value",
+                  "confidence": null,
+                  "locations": [
+                    {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+                  ]
+                }
+              }
+            },
+            {
+              "fields": {
+                "subfield_1": {
+                  "value": "field_object_list-1-subfield_1-value",
+                  "confidence": null,
+                  "locations": [
+                    {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+                  ]
+                },
+                "subfield_2": {
+                  "value": "field_object_list-1-subfield_2-value",
+                  "confidence": null,
+                  "locations": [
+                    {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      },
+      "options": null
+    }
+  }
+}
