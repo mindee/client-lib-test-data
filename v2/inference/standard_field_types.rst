@@ -14,7 +14,7 @@ Fields
 :field_simple: field_simple-value
 :field_simple_list:
   * field_simple_list-0-value
-  * field_simple_list-0-value
+  * field_simple_list-1-value
 :field_object:
   :subfield_1: field_object-subfield_1-value
   :subfield_2: field_object-subfield_2-value
