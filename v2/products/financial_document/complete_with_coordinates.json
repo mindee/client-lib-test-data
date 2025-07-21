@@ -1,0 +1,1153 @@
+{
+  "inference": {
+    "id": "c2afdd9e-d87d-4bc0-a385-94d132b1a60b",
+    "model": {
+      "id": "94340559-b994-45e6-8b5c-be626027f1b2"
+    },
+    "file": {
+      "name": "default_sample.jpg",
+      "alias": null
+    },
+    "result": {
+      "fields": {
+        "date": {
+          "locations": [
+            {
+              "polygon": [
+                [
+                  0.948979073166918,
+                  0.23097924535067715
+                ],
+                [
+                  0.85422,
+                  0.230072
+                ],
+                [
+                  0.8540899268330819,
+                  0.24365775464932288
+                ],
+                [
+                  0.948849,
+                  0.244565
+                ]
+              ],
+              "page": 0
+            }
+          ],
+          "confidence": null,
+          "value": "2019-02-11"
+        },
+        "taxes": {
+          "items": [
+            {
+              "locations": [],
+              "confidence": null,
+              "fields": {
+                "base": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.875959,
+                          0.497283
+                        ],
+                        [
+                          0.933504,
+                          0.497283
+                        ],
+                        [
+                          0.933504,
+                          0.484601
+                        ],
+                        [
+                          0.875959,
+                          0.484601
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 195.0
+                },
+                "rate": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.700767,
+                          0.531703
+                        ],
+                        [
+                          0.700767,
+                          0.516304
+                        ],
+                        [
+                          0.657289,
+                          0.516304
+                        ],
+                        [
+                          0.657289,
+                          0.531703
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 0.05
+                },
+                "amount": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.892583,
+                          0.516304
+                        ],
+                        [
+                          0.892583,
+                          0.529891
+                        ],
+                        [
+                          0.933504,
+                          0.529891
+                        ],
+                        [
+                          0.933504,
+                          0.516304
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 9.75
+                }
+              }
+            }
+          ]
+        },
+        "locale": {
+          "locations": [],
+          "confidence": null,
+          "fields": {
+            "country": {
+              "locations": [],
+              "confidence": null,
+              "value": "US"
+            },
+            "currency": {
+              "locations": [],
+              "confidence": null,
+              "value": "USD"
+            },
+            "language": {
+              "locations": [],
+              "confidence": null,
+              "value": "en"
+            }
+          }
+        },
+        "due_date": {
+          "locations": [
+            {
+              "polygon": [
+                [
+                  0.85422,
+                  0.280797
+                ],
+                [
+                  0.85422,
+                  0.29529
+                ],
+                [
+                  0.948849,
+                  0.29529
+                ],
+                [
+                  0.948849,
+                  0.280797
+                ]
+              ],
+              "page": 0
+            }
+          ],
+          "confidence": null,
+          "value": "2019-02-26"
+        },
+        "total_net": {
+          "locations": [
+            {
+              "polygon": [
+                [
+                  0.875959,
+                  0.497283
+                ],
+                [
+                  0.933504,
+                  0.497283
+                ],
+                [
+                  0.933504,
+                  0.484601
+                ],
+                [
+                  0.875959,
+                  0.484601
+                ]
+              ],
+              "page": 0
+            }
+          ],
+          "confidence": null,
+          "value": 195.0
+        },
+        "total_tax": {
+          "locations": [
+            {
+              "polygon": [
+                [
+                  0.892583,
+                  0.516304
+                ],
+                [
+                  0.892583,
+                  0.529891
+                ],
+                [
+                  0.933504,
+                  0.529891
+                ],
+                [
+                  0.933504,
+                  0.516304
+                ]
+              ],
+              "page": 0
+            }
+          ],
+          "confidence": null,
+          "value": 9.75
+        },
+        "line_items": {
+          "items": [
+            {
+              "locations": [],
+              "confidence": null,
+              "fields": {
+                "quantity": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.071611,
+                          0.384964
+                        ],
+                        [
+                          0.071611,
+                          0.396739
+                        ],
+                        [
+                          0.081841,
+                          0.396739
+                        ],
+                        [
+                          0.081841,
+                          0.3849639999999999
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 1.0
+                },
+                "tax_rate": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                },
+                "tax_amount": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                },
+                "unit_price": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.641944,
+                          0.384058
+                        ],
+                        [
+                          0.641944,
+                          0.397645
+                        ],
+                        [
+                          0.702046,
+                          0.397645
+                        ],
+                        [
+                          0.702046,
+                          0.384058
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 100.0
+                },
+                "description": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.127877,
+                          0.384058
+                        ],
+                        [
+                          0.127877,
+                          0.398551
+                        ],
+                        [
+                          0.351662,
+                          0.398551
+                        ],
+                        [
+                          0.351662,
+                          0.384058
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": "Front and rear brake cables"
+                },
+                "total_price": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.875959,
+                          0.384058
+                        ],
+                        [
+                          0.8759590000000002,
+                          0.397645
+                        ],
+                        [
+                          0.933504,
+                          0.397645
+                        ],
+                        [
+                          0.933504,
+                          0.384058
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 100.0
+                },
+                "product_code": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                },
+                "unit_measure": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                }
+              }
+            },
+            {
+              "locations": [],
+              "confidence": null,
+              "fields": {
+                "quantity": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.069054,
+                          0.418478
+                        ],
+                        [
+                          0.069054,
+                          0.429348
+                        ],
+                        [
+                          0.081841,
+                          0.429348
+                        ],
+                        [
+                          0.081841,
+                          0.41847800000000007
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 2.0
+                },
+                "tax_rate": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                },
+                "tax_amount": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                },
+                "unit_price": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.650895,
+                          0.417572
+                        ],
+                        [
+                          0.650895,
+                          0.430254
+                        ],
+                        [
+                          0.700767,
+                          0.430254
+                        ],
+                        [
+                          0.700767,
+                          0.417572
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 25.0
+                },
+                "description": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.127877,
+                          0.417572
+                        ],
+                        [
+                          0.127877,
+                          0.432065
+                        ],
+                        [
+                          0.310742,
+                          0.432065
+                        ],
+                        [
+                          0.310742,
+                          0.417572
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": "New set of pedal arms"
+                },
+                "total_price": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.886189,
+                          0.417572
+                        ],
+                        [
+                          0.886189,
+                          0.430254
+                        ],
+                        [
+                          0.932225,
+                          0.430254
+                        ],
+                        [
+                          0.932225,
+                          0.417572
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 50.0
+                },
+                "product_code": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                },
+                "unit_measure": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                }
+              }
+            },
+            {
+              "locations": [],
+              "confidence": null,
+              "fields": {
+                "quantity": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.069054,
+                          0.451087
+                        ],
+                        [
+                          0.069054,
+                          0.462862
+                        ],
+                        [
+                          0.081841,
+                          0.462862
+                        ],
+                        [
+                          0.081841,
+                          0.45108699999999996
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 3.0
+                },
+                "tax_rate": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                },
+                "tax_amount": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                },
+                "unit_price": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.652174,
+                          0.451087
+                        ],
+                        [
+                          0.6521739999999999,
+                          0.463768
+                        ],
+                        [
+                          0.699488,
+                          0.463768
+                        ],
+                        [
+                          0.699488,
+                          0.45108699999999996
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 15.0
+                },
+                "description": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.127877,
+                          0.451087
+                        ],
+                        [
+                          0.127877,
+                          0.464674
+                        ],
+                        [
+                          0.21867,
+                          0.464674
+                        ],
+                        [
+                          0.21867,
+                          0.451087
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": "Labor 3hrs"
+                },
+                "total_price": {
+                  "locations": [
+                    {
+                      "polygon": [
+                        [
+                          0.882353,
+                          0.451087
+                        ],
+                        [
+                          0.882353,
+                          0.463768
+                        ],
+                        [
+                          0.932225,
+                          0.463768
+                        ],
+                        [
+                          0.932225,
+                          0.45108699999999996
+                        ]
+                      ],
+                      "page": 0
+                    }
+                  ],
+                  "confidence": null,
+                  "value": 45.0
+                },
+                "product_code": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                },
+                "unit_measure": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+                }
+              }
+            }
+          ]
+        },
+        "total_amount": {
+          "locations": [
+            {
+              "polygon": [
+                [
+                  0.837596,
+                  0.549819
+                ],
+                [
+                  0.837596,
+                  0.568841
+                ],
+                [
+                  0.933504,
+                  0.568841
+                ],
+                [
+                  0.933504,
+                  0.549819
+                ]
+              ],
+              "page": 0
+            }
+          ],
+          "confidence": null,
+          "value": 204.75
+        },
+        "customer_name": {
+          "locations": [
+            {
+              "polygon": [
+                [
+                  0.034527,
+                  0.225543
+                ],
+                [
+                  0.034527,
+                  0.240942
+                ],
+                [
+                  0.163683,
+                  0.240942
+                ],
+                [
+                  0.163683,
+                  0.225543
+                ]
+              ],
+              "page": 0
+            }
+          ],
+          "confidence": null,
+          "value": "Jessie M Horne"
+        },
+        "document_type": {
+          "locations": [],
+          "confidence": null,
+          "value": "invoice"
+        },
+        "supplier_name": {
+          "locations": [
+            {
+              "polygon": [
+                [
+                  0.033248,
+                  0.032609
+                ],
+                [
+                  0.033248,
+                  0.053442
+                ],
+                [
+                  0.193095,
+                  0.053442
+                ],
+                [
+                  0.193095,
+                  0.032609
+                ]
+              ],
+              "page": 0
+            }
+          ],
+          "confidence": null,
+          "value": "John Smith"
+        },
+        "tips_gratuity": {
+          "locations": [],
+          "confidence": null,
+          "value": null
+        },
+        "invoice_number": {
+          "locations": [
+            {
+              "polygon": [
+                [
+                  0.878517,
+                  0.203804
+                ],
+                [
+                  0.8785169999999999,
+                  0.219203
+                ],
+                [
+                  0.948849,
+                  0.219203
+                ],
+                [
+                  0.948849,
+                  0.203804
+                ]
+              ],
+              "page": 0
+            }
+          ],
+          "confidence": null,
+          "value": "INT-001"
+        },
+        "receipt_number": {
+          "locations": [],
+          "confidence": null,
+          "value": null
+        },
+        "customer_address": {
+          "locations": [],
+          "confidence": null,
+          "fields": {
+            "city": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.033248,
+                      0.261775
+                    ],
+                    [
+                      0.033248,
+                      0.277174
+                    ],
+                    [
+                      0.116368,
+                      0.277174
+                    ],
+                    [
+                      0.116368,
+                      0.261775
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "New York"
+            },
+            "state": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.120205,
+                      0.261775
+                    ],
+                    [
+                      0.120205,
+                      0.277174
+                    ],
+                    [
+                      0.148338,
+                      0.277174
+                    ],
+                    [
+                      0.148338,
+                      0.261775
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "NY"
+            },
+            "value": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.033248,
+                      0.225543
+                    ],
+                    [
+                      0.033248,
+                      0.277174
+                    ],
+                    [
+                      0.205882,
+                      0.277174
+                    ],
+                    [
+                      0.205882,
+                      0.225543
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "Jessie M Horne\n4312 Wood Road\nNew York, NY 10031"
+            },
+            "po_box": {
+              "locations": [],
+              "confidence": null,
+              "value": null
+            },
+            "country": {
+              "locations": [],
+              "confidence": null,
+              "value": "US"
+            },
+            "postal_code": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.153453,
+                      0.277174
+                    ],
+                    [
+                      0.205882,
+                      0.277174
+                    ],
+                    [
+                      0.205882,
+                      0.261775
+                    ],
+                    [
+                      0.153453,
+                      0.261775
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "10031"
+            },
+            "street_name": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.079284,
+                      0.243659
+                    ],
+                    [
+                      0.079284,
+                      0.258152
+                    ],
+                    [
+                      0.177749,
+                      0.258152
+                    ],
+                    [
+                      0.177749,
+                      0.243659
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "Wood Road"
+            },
+            "street_number": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.033248,
+                      0.243659
+                    ],
+                    [
+                      0.033248,
+                      0.258152
+                    ],
+                    [
+                      0.075448,
+                      0.258152
+                    ],
+                    [
+                      0.075448,
+                      0.243659
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "4312"
+            },
+            "address_complement": {
+              "locations": [],
+              "confidence": null,
+              "value": null
+            }
+          }
+        },
+        "supplier_address": {
+          "locations": [],
+          "confidence": null,
+          "fields": {
+            "city": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.031969,
+                      0.092391
+                    ],
+                    [
+                      0.031969,
+                      0.108696
+                    ],
+                    [
+                      0.09335,
+                      0.108696
+                    ],
+                    [
+                      0.09335,
+                      0.092391
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "Albany"
+            },
+            "state": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.097187,
+                      0.092391
+                    ],
+                    [
+                      0.097187,
+                      0.108696
+                    ],
+                    [
+                      0.126598,
+                      0.108696
+                    ],
+                    [
+                      0.126598,
+                      0.092391
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "NY"
+            },
+            "po_box": {
+              "locations": [],
+              "confidence": null,
+              "value": null
+            },
+            "country": {
+              "locations": [],
+              "confidence": null,
+              "value": "US"
+            },
+            "complete": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.031969,
+                      0.074275
+                    ],
+                    [
+                      0.031969,
+                      0.108696
+                    ],
+                    [
+                      0.184143,
+                      0.108696
+                    ],
+                    [
+                      0.184143,
+                      0.074275
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "4490 Oak Drive\nAlbany, NY 12210"
+            },
+            "postal_code": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.131714,
+                      0.092391
+                    ],
+                    [
+                      0.131714,
+                      0.108696
+                    ],
+                    [
+                      0.184143,
+                      0.108696
+                    ],
+                    [
+                      0.184143,
+                      0.092391
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "12210"
+            },
+            "street_name": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.080563,
+                      0.074275
+                    ],
+                    [
+                      0.080563,
+                      0.089674
+                    ],
+                    [
+                      0.164962,
+                      0.089674
+                    ],
+                    [
+                      0.164962,
+                      0.07427500000000001
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "Oak Drive"
+            },
+            "street_number": {
+              "locations": [
+                {
+                  "polygon": [
+                    [
+                      0.033248,
+                      0.074275
+                    ],
+                    [
+                      0.033248,
+                      0.089674
+                    ],
+                    [
+                      0.075448,
+                      0.089674
+                    ],
+                    [
+                      0.075448,
+                      0.074275
+                    ]
+                  ],
+                  "page": 0
+                }
+              ],
+              "confidence": null,
+              "value": "4490"
+            },
+            "address_complement": {
+              "locations": [],
+              "confidence": null,
+              "value": null
+            }
+          }
+        },
+        "purchase_category": {
+          "locations": [],
+          "confidence": null,
+          "value": "miscellaneous"
+        },
+        "purchase_subcategory": {
+          "locations": [],
+          "confidence": null,
+          "value": "other"
+        },
+        "supplier_phone_number": {
+          "locations": [],
+          "confidence": null,
+          "value": null
+        },
+        "supplier_company_registration": {
+          "items": []
+        },
+        "customer_company_registrations": {
+          "items": []
+        }
+      },
+      "options": null
+    }
+  }
+}
