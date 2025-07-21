@@ -1,5 +1,6 @@
 {
   "inference": {
+    "id": "12345678-1234-1234-1234-123456789abc",
     "model": {"id": "test-model-id"},
     "file": {"name": "test-file-name.jpg", "alias": null},
     "result": {
