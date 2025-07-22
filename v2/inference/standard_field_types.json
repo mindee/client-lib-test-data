@@ -10,8 +10,36 @@
     },
     "result": {
       "fields": {
-        "field_simple": {
-          "value": "field_simple-value",
+        "field_simple_string": {
+          "value": "field_simple_string-value",
+          "confidence": null,
+          "locations": [
+            {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+          ]
+        },
+        "field_simple_float": {
+          "value": 1.1,
+          "confidence": null,
+          "locations": [
+            {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+          ]
+        },
+        "field_simple_int": {
+          "value": 12,
+          "confidence": null,
+          "locations": [
+            {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+          ]
+        },
+        "field_simple_bool": {
+          "value": true,
+          "confidence": null,
+          "locations": [
+            {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
+          ]
+        },
+        "field_simple_null": {
+          "value": null,
           "confidence": null,
           "locations": [
             {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
