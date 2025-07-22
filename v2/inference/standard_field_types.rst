@@ -11,7 +11,11 @@ File
 
 Fields
 ======
-:field_simple: field_simple-value
+:field_simple_string: field_simple_string-value
+:field_simple_float: 1.1
+:field_simple_int: 12
+:field_simple_bool: True
+:field_simple_null:
 :field_simple_list:
   * field_simple_list-0-value
   * field_simple_list-1-value
