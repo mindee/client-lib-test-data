@@ -13,7 +13,8 @@ Fields
 ======
 :field_simple_string: field_simple_string-value
 :field_simple_float: 1.1
-:field_simple_int: 12
+:field_simple_int: 12.0
+:field_simple_zero: 0.0
 :field_simple_bool: True
 :field_simple_null:
 :field_simple_list:
