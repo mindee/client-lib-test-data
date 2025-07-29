@@ -1,12 +1,14 @@
 {
   "inference": {
-    "id": "c2afdd9e-d87d-4bc0-a385-94d132b1a60b",
+    "id": "01a4875a-473f-4976-84fb-e1734e6c8be3",
     "model": {
       "id": "94340559-b994-45e6-8b5c-be626027f1b2"
     },
     "file": {
       "name": "default_sample.jpg",
-      "alias": null
+      "alias": null,
+      "page_count": 1,
+      "mime_type": "image/jpeg"
     },
     "result": {
       "fields": {
@@ -34,14 +36,14 @@
               "page": 0
             }
           ],
-          "confidence": null,
+          "confidence": "Medium",
           "value": "2019-02-11"
         },
         "taxes": {
           "items": [
             {
               "locations": [],
-              "confidence": null,
+              "confidence": "High",
               "fields": {
                 "base": {
                   "locations": [
@@ -67,7 +69,7 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 195.0
                 },
                 "rate": {
@@ -94,7 +96,7 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 0.05
                 },
                 "amount": {
@@ -121,30 +123,31 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 9.75
                 }
               }
             }
-          ]
+          ],
+          "confidence": "High"
         },
         "locale": {
           "locations": [],
-          "confidence": null,
+          "confidence": "Medium",
           "fields": {
             "country": {
               "locations": [],
-              "confidence": null,
+              "confidence": "Medium",
               "value": "US"
             },
             "currency": {
               "locations": [],
-              "confidence": null,
+              "confidence": "Medium",
               "value": "USD"
             },
             "language": {
               "locations": [],
-              "confidence": null,
+              "confidence": "Medium",
               "value": "en"
             }
           }
@@ -173,7 +176,7 @@
               "page": 0
             }
           ],
-          "confidence": null,
+          "confidence": "Medium",
           "value": "2019-02-26"
         },
         "total_net": {
@@ -200,7 +203,7 @@
               "page": 0
             }
           ],
-          "confidence": null,
+          "confidence": "High",
           "value": 195.0
         },
         "total_tax": {
@@ -227,14 +230,14 @@
               "page": 0
             }
           ],
-          "confidence": null,
+          "confidence": "High",
           "value": 9.75
         },
         "line_items": {
           "items": [
             {
               "locations": [],
-              "confidence": null,
+              "confidence": "High",
               "fields": {
                 "quantity": {
                   "locations": [
@@ -260,17 +263,17 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 1.0
                 },
                 "tax_rate": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 },
                 "tax_amount": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 },
                 "unit_price": {
@@ -297,7 +300,7 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 100.0
                 },
                 "description": {
@@ -324,7 +327,7 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": "Front and rear brake cables"
                 },
                 "total_price": {
@@ -351,24 +354,24 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 100.0
                 },
                 "product_code": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 },
                 "unit_measure": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 }
               }
             },
             {
               "locations": [],
-              "confidence": null,
+              "confidence": "High",
               "fields": {
                 "quantity": {
                   "locations": [
@@ -394,17 +397,17 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 2.0
                 },
                 "tax_rate": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 },
                 "tax_amount": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 },
                 "unit_price": {
@@ -431,7 +434,7 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 25.0
                 },
                 "description": {
@@ -458,7 +461,7 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": "New set of pedal arms"
                 },
                 "total_price": {
@@ -485,24 +488,24 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 50.0
                 },
                 "product_code": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 },
                 "unit_measure": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 }
               }
             },
             {
               "locations": [],
-              "confidence": null,
+              "confidence": "High",
               "fields": {
                 "quantity": {
                   "locations": [
@@ -528,17 +531,17 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 3.0
                 },
                 "tax_rate": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 },
                 "tax_amount": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 },
                 "unit_price": {
@@ -565,7 +568,7 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 15.0
                 },
                 "description": {
@@ -592,7 +595,7 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": "Labor 3hrs"
                 },
                 "total_price": {
@@ -619,22 +622,23 @@
                       "page": 0
                     }
                   ],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": 45.0
                 },
                 "product_code": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 },
                 "unit_measure": {
                   "locations": [],
-                  "confidence": null,
+                  "confidence": "High",
                   "value": null
                 }
               }
             }
-          ]
+          ],
+          "confidence": "High"
         },
         "total_amount": {
           "locations": [
@@ -660,7 +664,7 @@
               "page": 0
             }
           ],
-          "confidence": null,
+          "confidence": "High",
           "value": 204.75
         },
         "customer_name": {
@@ -687,12 +691,12 @@
               "page": 0
             }
           ],
-          "confidence": null,
+          "confidence": "High",
           "value": "Jessie M Horne"
         },
         "document_type": {
           "locations": [],
-          "confidence": null,
+          "confidence": "High",
           "value": "invoice"
         },
         "supplier_name": {
@@ -719,12 +723,12 @@
               "page": 0
             }
           ],
-          "confidence": null,
+          "confidence": "High",
           "value": "John Smith"
         },
         "tips_gratuity": {
           "locations": [],
-          "confidence": null,
+          "confidence": "High",
           "value": null
         },
         "invoice_number": {
@@ -751,43 +755,43 @@
               "page": 0
             }
           ],
-          "confidence": null,
+          "confidence": "High",
           "value": "INT-001"
         },
         "receipt_number": {
           "locations": [],
-          "confidence": null,
+          "confidence": "High",
           "value": null
         },
         "customer_address": {
           "locations": [],
-          "confidence": null,
+          "confidence": "Low",
           "fields": {
             "city": {
               "locations": [
                 {
                   "polygon": [
                     [
-                      0.033248,
+                      0.35422,
+                      0.277174
+                    ],
+                    [
+                      0.439898,
+                      0.277174
+                    ],
+                    [
+                      0.439898,
                       0.261775
                     ],
                     [
-                      0.033248,
-                      0.277174
-                    ],
-                    [
-                      0.116368,
-                      0.277174
-                    ],
-                    [
-                      0.116368,
+                      0.35422,
                       0.261775
                     ]
                   ],
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "New York"
             },
             "state": {
@@ -795,26 +799,26 @@
                 {
                   "polygon": [
                     [
-                      0.120205,
-                      0.261775
+                      0.097187,
+                      0.092391
                     ],
                     [
-                      0.120205,
-                      0.277174
+                      0.097187,
+                      0.108696
                     ],
                     [
-                      0.148338,
-                      0.277174
+                      0.126598,
+                      0.108696
                     ],
                     [
-                      0.148338,
-                      0.261775
+                      0.126598,
+                      0.092391
                     ]
                   ],
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "NY"
             },
             "value": {
@@ -841,17 +845,17 @@
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "Jessie M Horne\n4312 Wood Road\nNew York, NY 10031"
             },
             "po_box": {
               "locations": [],
-              "confidence": null,
+              "confidence": "Low",
               "value": null
             },
             "country": {
               "locations": [],
-              "confidence": null,
+              "confidence": "Low",
               "value": "US"
             },
             "postal_code": {
@@ -878,7 +882,7 @@
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "10031"
             },
             "street_name": {
@@ -905,7 +909,7 @@
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "Wood Road"
             },
             "street_number": {
@@ -932,19 +936,19 @@
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "4312"
             },
             "address_complement": {
               "locations": [],
-              "confidence": null,
+              "confidence": "Low",
               "value": null
             }
           }
         },
         "supplier_address": {
           "locations": [],
-          "confidence": null,
+          "confidence": "Low",
           "fields": {
             "city": {
               "locations": [
@@ -970,7 +974,7 @@
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "Albany"
             },
             "state": {
@@ -978,36 +982,36 @@
                 {
                   "polygon": [
                     [
-                      0.097187,
-                      0.092391
+                      0.120205,
+                      0.261775
                     ],
                     [
-                      0.097187,
-                      0.108696
+                      0.120205,
+                      0.277174
                     ],
                     [
-                      0.126598,
-                      0.108696
+                      0.148338,
+                      0.277174
                     ],
                     [
-                      0.126598,
-                      0.092391
+                      0.148338,
+                      0.261775
                     ]
                   ],
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "NY"
             },
             "po_box": {
               "locations": [],
-              "confidence": null,
+              "confidence": "Low",
               "value": null
             },
             "country": {
               "locations": [],
-              "confidence": null,
+              "confidence": "Low",
               "value": "US"
             },
             "complete": {
@@ -1034,7 +1038,7 @@
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "4490 Oak Drive\nAlbany, NY 12210"
             },
             "postal_code": {
@@ -1061,7 +1065,7 @@
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "12210"
             },
             "street_name": {
@@ -1088,7 +1092,7 @@
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "Oak Drive"
             },
             "street_number": {
@@ -1115,36 +1119,38 @@
                   "page": 0
                 }
               ],
-              "confidence": null,
+              "confidence": "Low",
               "value": "4490"
             },
             "address_complement": {
               "locations": [],
-              "confidence": null,
+              "confidence": "Low",
               "value": null
             }
           }
         },
         "purchase_category": {
           "locations": [],
-          "confidence": null,
+          "confidence": "Medium",
           "value": "miscellaneous"
         },
         "purchase_subcategory": {
           "locations": [],
-          "confidence": null,
+          "confidence": "Medium",
           "value": "other"
         },
         "supplier_phone_number": {
           "locations": [],
-          "confidence": null,
+          "confidence": "High",
           "value": null
         },
         "supplier_company_registration": {
-          "items": []
+          "items": [],
+          "confidence": "High"
         },
         "customer_company_registrations": {
-          "items": []
+          "items": [],
+          "confidence": "High"
         }
       },
       "options": null

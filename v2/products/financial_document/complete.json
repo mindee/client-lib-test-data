@@ -6,7 +6,9 @@
     },
     "file": {
       "name": "complete.jpg",
-      "alias": null
+      "alias": null,
+      "page_count": 1,
+      "mime_type": "image/jpeg"
     },
     "result": {
       "fields": {
