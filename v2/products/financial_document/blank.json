@@ -1,46 +1,24 @@
 {
   "inference": {
-    "id": "ce20a7e1-7249-4a97-8539-a09c5d67c066",
+    "id": "75898b91-dc6b-4f80-8e84-df6c6701c65f",
     "model": {
       "id": "94340559-b994-45e6-8b5c-be626027f1b2"
     },
     "file": {
-      "name": "default_sample.jpg",
+      "name": "blank_1.pdf",
       "alias": null,
       "page_count": 1,
-      "mime_type": "image/jpeg"
+      "mime_type": "application/pdf"
     },
     "result": {
       "fields": {
         "date": {
           "locations": [],
           "confidence": null,
-          "value": "2019-02-11"
+          "value": null
         },
         "taxes": {
-          "items": [
-            {
-              "locations": [],
-              "confidence": null,
-              "fields": {
-                "base": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 195.0
-                },
-                "rate": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 0.05
-                },
-                "amount": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 9.75
-                }
-              }
-            }
-          ],
+          "items": [],
           "confidence": null
         },
         "locale": {
@@ -50,197 +28,58 @@
             "country": {
               "locations": [],
               "confidence": null,
-              "value": "US"
+              "value": null
             },
             "currency": {
               "locations": [],
               "confidence": null,
-              "value": "USD"
+              "value": null
             },
             "language": {
               "locations": [],
               "confidence": null,
-              "value": "en"
+              "value": null
             }
           }
         },
         "due_date": {
           "locations": [],
           "confidence": null,
-          "value": "2019-02-26"
+          "value": null
         },
         "total_net": {
           "locations": [],
           "confidence": null,
-          "value": 195.0
+          "value": null
         },
         "total_tax": {
           "locations": [],
           "confidence": null,
-          "value": 9.75
+          "value": null
         },
         "line_items": {
-          "items": [
-            {
-              "locations": [],
-              "confidence": null,
-              "fields": {
-                "quantity": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 1.0
-                },
-                "tax_rate": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                },
-                "tax_amount": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                },
-                "unit_price": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 100.0
-                },
-                "description": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": "Front and rear brake cables"
-                },
-                "total_price": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 100.0
-                },
-                "product_code": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                },
-                "unit_measure": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                }
-              }
-            },
-            {
-              "locations": [],
-              "confidence": null,
-              "fields": {
-                "quantity": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 2.0
-                },
-                "tax_rate": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                },
-                "tax_amount": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                },
-                "unit_price": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 25.0
-                },
-                "description": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": "New set of pedal arms"
-                },
-                "total_price": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 50.0
-                },
-                "product_code": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                },
-                "unit_measure": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                }
-              }
-            },
-            {
-              "locations": [],
-              "confidence": null,
-              "fields": {
-                "quantity": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 3.0
-                },
-                "tax_rate": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                },
-                "tax_amount": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                },
-                "unit_price": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 15.0
-                },
-                "description": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": "Labor 3hrs"
-                },
-                "total_price": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": 45.0
-                },
-                "product_code": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                },
-                "unit_measure": {
-                  "locations": [],
-                  "confidence": null,
-                  "value": null
-                }
-              }
-            }
-          ],
+          "items": [],
           "confidence": null
         },
         "total_amount": {
           "locations": [],
           "confidence": null,
-          "value": 204.75
+          "value": null
         },
         "customer_name": {
           "locations": [],
           "confidence": null,
-          "value": "Jessie M Horne"
+          "value": null
         },
         "document_type": {
           "locations": [],
           "confidence": null,
-          "value": "invoice"
+          "value": "other_financial"
         },
         "supplier_name": {
           "locations": [],
           "confidence": null,
-          "value": "John Smith"
+          "value": null
         },
         "tips_gratuity": {
           "locations": [],
@@ -250,7 +89,7 @@
         "invoice_number": {
           "locations": [],
           "confidence": null,
-          "value": "INT-001"
+          "value": null
         },
         "receipt_number": {
           "locations": [],
@@ -264,17 +103,17 @@
             "city": {
               "locations": [],
               "confidence": null,
-              "value": "New York"
+              "value": null
             },
             "state": {
               "locations": [],
               "confidence": null,
-              "value": "NY"
+              "value": null
             },
             "value": {
               "locations": [],
               "confidence": null,
-              "value": "Jessie M Horne\n4312 Wood Road\nNew York, NY 10031"
+              "value": null
             },
             "po_box": {
               "locations": [],
@@ -284,22 +123,22 @@
             "country": {
               "locations": [],
               "confidence": null,
-              "value": "US"
+              "value": null
             },
             "postal_code": {
               "locations": [],
               "confidence": null,
-              "value": "10031"
+              "value": null
             },
             "street_name": {
               "locations": [],
               "confidence": null,
-              "value": "Wood Road"
+              "value": null
             },
             "street_number": {
               "locations": [],
               "confidence": null,
-              "value": "4312"
+              "value": null
             },
             "address_complement": {
               "locations": [],
@@ -315,12 +154,12 @@
             "city": {
               "locations": [],
               "confidence": null,
-              "value": "Albany"
+              "value": null
             },
             "state": {
               "locations": [],
               "confidence": null,
-              "value": "NY"
+              "value": null
             },
             "po_box": {
               "locations": [],
@@ -330,27 +169,27 @@
             "country": {
               "locations": [],
               "confidence": null,
-              "value": "US"
+              "value": null
             },
             "complete": {
               "locations": [],
               "confidence": null,
-              "value": "4490 Oak Drive\nAlbany, NY 12210"
+              "value": null
             },
             "postal_code": {
               "locations": [],
               "confidence": null,
-              "value": "12210"
+              "value": null
             },
             "street_name": {
               "locations": [],
               "confidence": null,
-              "value": "Oak Drive"
+              "value": null
             },
             "street_number": {
               "locations": [],
               "confidence": null,
-              "value": "4490"
+              "value": null
             },
             "address_complement": {
               "locations": [],
