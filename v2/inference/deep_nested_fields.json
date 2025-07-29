@@ -2,7 +2,7 @@
   "inference": {
     "id": "12345678-1234-1234-1234-123456789abc",
     "model": {"id": "test-model-id"},
-    "file": {"name": "test-file-name.jpg", "alias": null},
+    "file": {"name": "test-file-name.jpg", "alias": null, "page_count": 1, "mime_type": "image/jpeg"},
     "result": {
       "fields": {
         "field_simple": {"value": "value_1"},
