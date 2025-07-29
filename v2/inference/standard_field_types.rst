@@ -8,6 +8,8 @@ File
 ====
 :Name: test-file-name.jpg
 :Alias:
+:Page Count: 1
+:MIME Type: image/jpeg
 
 Fields
 ======
