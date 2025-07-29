@@ -1,143 +1,225 @@
 {
   "inference": {
-    "id": "3bda29dc-ac5d-45d0-b61e-5e682789538a",
+    "id": "1e5d4364-c4a1-4b66-b21a-4e442e154736",
     "model": {
       "id": "94340559-b994-45e6-8b5c-be626027f1b2"
     },
     "file": {
       "name": "blank_1.pdf",
-      "alias": null
+      "alias": null,
+      "page_count": 1,
+      "mime_type": "application/pdf"
     },
     "result": {
       "fields": {
         "date": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "taxes": {
-          "items": []
+          "items": [],
+          "confidence": null
         },
         "locale": {
+          "locations": [],
+          "confidence": null,
           "fields": {
             "country": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "currency": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "language": {
+              "locations": [],
+              "confidence": null,
               "value": null
             }
           }
         },
         "due_date": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "total_net": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "total_tax": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "line_items": {
-          "items": []
+          "items": [],
+          "confidence": null
         },
         "total_amount": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "customer_name": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "document_type": {
-          "value": null
+          "locations": [],
+          "confidence": null,
+          "value": "other_financial"
         },
         "supplier_name": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "tips_gratuity": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "invoice_number": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "receipt_number": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "customer_address": {
+          "locations": [],
+          "confidence": null,
           "fields": {
             "city": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "state": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "value": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "po_box": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "country": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "postal_code": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "street_name": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "street_number": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "address_complement": {
+              "locations": [],
+              "confidence": null,
               "value": null
             }
           }
         },
         "supplier_address": {
+          "locations": [],
+          "confidence": null,
           "fields": {
             "city": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "state": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "po_box": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "country": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "complete": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "postal_code": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "street_name": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "street_number": {
+              "locations": [],
+              "confidence": null,
               "value": null
             },
             "address_complement": {
+              "locations": [],
+              "confidence": null,
               "value": null
             }
           }
         },
         "purchase_category": {
-          "value": null
+          "locations": [],
+          "confidence": null,
+          "value": "miscellaneous"
         },
         "purchase_subcategory": {
-          "value": null
+          "locations": [],
+          "confidence": null,
+          "value": "other"
         },
         "supplier_phone_number": {
+          "locations": [],
+          "confidence": null,
           "value": null
         },
         "supplier_company_registration": {
-          "items": []
+          "items": [],
+          "confidence": null
         },
         "customer_company_registrations": {
-          "items": []
+          "items": [],
+          "confidence": null
         }
       },
       "options": null
