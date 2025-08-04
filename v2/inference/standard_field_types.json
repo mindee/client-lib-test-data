@@ -14,28 +14,28 @@
       "fields": {
         "field_simple_string": {
           "value": "field_simple_string-value",
-          "confidence": null,
+          "confidence": "Certain",
           "locations": [
             {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
           ]
         },
         "field_simple_float": {
           "value": 1.1,
-          "confidence": null,
+          "confidence": "High",
           "locations": [
             {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
           ]
         },
         "field_simple_int": {
           "value": 12,
-          "confidence": null,
+          "confidence": "Medium",
           "locations": [
             {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
           ]
         },
         "field_simple_zero": {
           "value": 0,
-          "confidence": null,
+          "confidence": "Low",
           "locations": [
             {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
           ]
@@ -58,7 +58,7 @@
           "items": [
             {
               "value": "field_simple_list-0-value",
-              "confidence": null,
+              "confidence": "Medium",
               "locations": [
                 {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
               ]
@@ -76,7 +76,7 @@
           "fields": {
             "subfield_1": {
               "value": "field_object-subfield_1-value",
-              "confidence": null,
+              "confidence": "High",
               "locations": [
                 {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
               ]
@@ -96,7 +96,7 @@
               "fields": {
                 "subfield_1": {
                   "value": "field_object_list-0-subfield_1-value",
-                  "confidence": null,
+                  "confidence": "Low",
                   "locations": [
                     {"page": 0, "polygon": [[0, 0], [0, 0], [1, 1], [1, 1]]}
                   ]
