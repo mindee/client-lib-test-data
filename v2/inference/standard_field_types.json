@@ -131,7 +131,13 @@
           ]
         }
       },
-      "options": null
+      "raw_text": null
+    },
+    "active_options": {
+      "raw_text": true,
+      "rag": false,
+      "polygon": false,
+      "confidence": false
     }
   }
 }
