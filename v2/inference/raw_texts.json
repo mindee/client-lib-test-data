@@ -18,18 +18,22 @@
           "locations": []
         }
       },
-      "options": {
-        "raw_texts": [
+      "raw_text": {
+        "pages": [
           {
-            "page": 0,
             "content": "This is the raw text of the first page..."
           },
           {
-            "page": 1,
             "content": "A different content for the second page..."
           }
         ]
       }
+    },
+    "active_options": {
+      "raw_text": true,
+      "rag": false,
+      "polygon": false,
+      "confidence": false
     }
   }
 }

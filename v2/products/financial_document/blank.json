@@ -222,7 +222,13 @@
           "confidence": null
         }
       },
-      "options": null
+      "raw_text": null
+    },
+    "active_options": {
+      "raw_text": false,
+      "rag": false,
+      "polygon": false,
+      "confidence": false
     }
   }
 }
