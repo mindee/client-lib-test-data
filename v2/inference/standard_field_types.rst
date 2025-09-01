@@ -11,6 +11,13 @@ File
 :Page Count: 1
 :MIME Type: image/jpeg
 
+Active Options
+==============
+:Raw Text: True
+:Polygon: False
+:Confidence: False
+:RAG: False
+
 Fields
 ======
 :field_simple_string: field_simple_string-value

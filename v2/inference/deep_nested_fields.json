@@ -5,10 +5,16 @@
     "file": {"name": "test-file-name.jpg", "alias": null, "page_count": 1, "mime_type": "image/jpeg"},
     "result": {
       "fields": {
-        "field_simple": {"value": "value_1"},
+        "field_simple": {
+          "value": "value_1",
+          "confidence": null
+        },
         "field_object": {
           "fields": {
-            "sub_object_simple": {"value": "value_2"},
+            "sub_object_simple": {
+              "value": "value_2",
+              "confidence": null
+            },
             "sub_object_list": {
               "items": [
                 {
@@ -21,10 +27,12 @@
                 {
                   "fields": {
                     "sub_object_list_sub_list_object_subobject_1": {
-                      "value": "value_4"
+                      "value": "value_4",
+                      "confidence": null
                     },
                     "sub_object_list_sub_list_object_subobject_2": {
-                      "value": "value_5"
+                      "value": "value_5",
+                      "confidence": null
                     }
                   }
                 }
@@ -33,15 +41,18 @@
             "sub_object_object": {
               "fields": {
                 "sub_object_object_sub_object_simple": {
-                  "value": "value_6"
+                  "value": "value_6",
+                  "confidence": null
                 },
                 "sub_object_object_sub_object_object": {
                   "fields": {
                     "sub_object_object_sub_object_object_simple_1": {
-                      "value": "value_7"
+                      "value": "value_7",
+                      "confidence": null
                     },
                     "sub_object_object_sub_object_object_simple_2": {
-                      "value": "value_8"
+                      "value": "value_8",
+                      "confidence": null
                     }
                   }
                 },
@@ -50,15 +61,18 @@
                     {
                       "fields": {
                         "sub_object_object_sub_object_list_simple": {
-                          "value": "value_9"
+                          "value": "value_9",
+                          "confidence": null
                         },
                         "sub_object_object_sub_object_list_object": {
                           "fields": {
                             "sub_object_object_sub_object_list_object_subobject_1": {
-                              "value": "value_10"
+                              "value": "value_10",
+                              "confidence": null
                             },
                             "sub_object_object_sub_object_list_object_subobject_2": {
-                              "value": "value_11"
+                              "value": "value_11",
+                              "confidence": null
                             }
                           }
                         }
@@ -70,8 +84,13 @@
             }
           }
         }
-      },
-      "options": null
+      }
+    },
+    "active_options": {
+      "raw_text": false,
+      "rag": false,
+      "polygon": false,
+      "confidence": false
     }
   }
 }
