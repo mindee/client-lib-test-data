@@ -27,7 +27,7 @@ Prediction
   +===============+========+==========+===============+
   | 489.97        |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
-:Supplier Payment Details: FR7640254025476501124705368;
+:Supplier Payment Details:
 :Supplier Name:
 :Supplier Company Registrations: Type: CF, Value: 72544370017
 :Supplier Address:
@@ -42,8 +42,8 @@ Prediction
 :Billing Address:
 :Document Type: INVOICE
 :Document Type Extended: INVOICE
-:Purchase Subcategory:
-:Purchase Category: accommodation
+:Purchase Subcategory: office supplies
+:Purchase Category: shopping
 :Line Items:
 
 Page Predictions
@@ -67,7 +67,7 @@ Page 0
   +===============+========+==========+===============+
   | 489.97        |        | 20.00    | 97.98         |
   +---------------+--------+----------+---------------+
-:Supplier Payment Details: FR7640254025476501124705368;
+:Supplier Payment Details:
 :Supplier Name:
 :Supplier Company Registrations: Type: CF, Value: 72544370017
 :Supplier Address:
@@ -82,6 +82,6 @@ Page 0
 :Billing Address:
 :Document Type: INVOICE
 :Document Type Extended: INVOICE
-:Purchase Subcategory:
-:Purchase Category: accommodation
+:Purchase Subcategory: office supplies
+:Purchase Category: shopping
 :Line Items:
