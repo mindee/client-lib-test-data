@@ -1,3 +1,3 @@
-# Test Data for Client Libraries
+# Test Data for Mindee Client Libraries
 
-A set of various files and API returns, used for unit testing our client libraries.
+A set of various files and API returns, used for testing our client libraries.
