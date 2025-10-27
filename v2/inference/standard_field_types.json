@@ -131,7 +131,8 @@
           ]
         }
       },
-      "raw_text": null
+      "raw_text": null,
+      "rag": null
     },
     "active_options": {
       "raw_text": true,
