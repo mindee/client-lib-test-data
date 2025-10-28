@@ -1,0 +1,33 @@
+{
+  "inference": {
+    "id": "12345678-1234-1234-1234-123456789abc",
+    "model": {
+      "id": "test-model-id"
+    },
+    "file": {
+      "name": "test-file-name.jpg",
+      "alias": null,
+      "page_count": 1,
+      "mime_type": "image/jpeg"
+    },
+    "result": {
+      "fields": {
+        "field_simple": {
+          "value": null,
+          "confidence": null,
+          "locations": []
+        }
+      },
+      "raw_text": null,
+      "rag": {
+        "retrieved_document_id": null
+      }
+    },
+    "active_options": {
+      "raw_text": false,
+      "rag": true,
+      "polygon": false,
+      "confidence": false
+    }
+  }
+}
