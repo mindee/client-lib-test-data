@@ -138,7 +138,10 @@
       "raw_text": true,
       "rag": false,
       "polygon": false,
-      "confidence": false
+      "confidence": false,
+      "data_schema": {
+        "override": false
+      }
     }
   }
 }

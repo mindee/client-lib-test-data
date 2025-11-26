@@ -27,7 +27,10 @@
       "raw_text": false,
       "rag": true,
       "polygon": false,
-      "confidence": false
+      "confidence": false,
+      "data_schema": {
+        "override": false
+      }
     }
   }
 }
