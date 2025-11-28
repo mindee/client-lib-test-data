@@ -16,31 +16,6 @@
                     "locations": [],
                     "confidence": null,
                     "value": null
-                },
-                "number_field": {
-                    "locations": [],
-                    "confidence": null,
-                    "value": null
-                },
-                "boolean_field": {
-                    "locations": [],
-                    "confidence": null,
-                    "value": null
-                },
-                "nested_object_field": {
-                    "locations": [],
-                    "confidence": null,
-                    "fields": {
-                        "string_field": {
-                            "locations": [],
-                            "confidence": null,
-                            "value": null
-                        }
-                    }
-                },
-                "object_detection_field": {
-                    "items": [],
-                    "confidence": null
                 }
             },
             "raw_text": null,
