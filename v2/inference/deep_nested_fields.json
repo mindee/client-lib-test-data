@@ -93,6 +93,7 @@
       "rag": false,
       "polygon": false,
       "confidence": false,
+      "text_context": false,
       "data_schema": {
         "override": false
       }

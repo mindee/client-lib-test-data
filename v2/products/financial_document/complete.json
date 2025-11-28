@@ -289,7 +289,8 @@
       "raw_text": false,
       "rag": false,
       "polygon": false,
-      "confidence": false
+      "confidence": false,
+      "text_context": false
     }
   }
 }
