@@ -28,7 +28,7 @@
             "rag": false,
             "text_context": true,
             "data_schema": {
-                "override": false
+                "replace": false
             }
         }
     }

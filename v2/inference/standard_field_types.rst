@@ -17,6 +17,7 @@ Active Options
 :Polygon: False
 :Confidence: False
 :RAG: False
+:Text Context: False
 
 Fields
 ======

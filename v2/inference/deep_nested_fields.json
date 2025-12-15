@@ -95,7 +95,7 @@
       "confidence": false,
       "text_context": false,
       "data_schema": {
-        "override": false
+        "replace": false
       }
     }
   }
