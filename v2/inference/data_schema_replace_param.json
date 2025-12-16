@@ -1,0 +1,14 @@
+{
+  "replace": {
+    "fields": [
+      {
+        "name": "test_replace",
+        "title": "Test Replace",
+        "is_array": false,
+        "type": "string",
+        "description": "A static value for testing.",
+        "guidelines": "IMPORTANT: always return this exact string: 'a test value'"
+      }
+    ]
+  }
+}
