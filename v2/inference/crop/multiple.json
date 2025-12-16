@@ -1,0 +1,90 @@
+{
+  "inference": {
+    "id": "12345678-1234-1234-1234-123456789abc",
+    "model": {
+      "id": "test-model-id"
+    },
+    "file": {
+      "name": "default_sample.jpg",
+      "alias": "my_file_alias",
+      "page_count": 1,
+      "mime_type": "image/jpeg"
+    },
+    "result": {
+      "crop": [
+        {
+          "object_type": "driver_license",
+          "location": {
+            "polygon": [
+              [
+                0.2,
+                0.074
+              ],
+              [
+                0.479,
+                0.074
+              ],
+              [
+                0.479,
+                0.988
+              ],
+              [
+                0.2,
+                0.988
+              ]
+            ],
+            "page": 0
+          }
+        },
+        {
+          "object_type": "passport",
+          "location": {
+            "polygon": [
+              [
+                0.549,
+                0.15
+              ],
+              [
+                0.865,
+                0.15
+              ],
+              [
+                0.865,
+                0.97
+              ],
+              [
+                0.549,
+                0.97
+              ]
+            ],
+            "page": 0
+          }
+        },
+        {
+          "object_type": "pokémon_card",
+          "location": {
+            "polygon": [
+              [
+                0.549,
+                0.15
+              ],
+              [
+                0.865,
+                0.15
+              ],
+              [
+                0.865,
+                0.97
+              ],
+              [
+                0.549,
+                0.97
+              ]
+            ],
+            "page": 1
+          }
+        }
+      ]
+    }
+  }
+}
