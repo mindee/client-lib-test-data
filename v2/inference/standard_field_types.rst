@@ -19,6 +19,10 @@ Active Options
 :RAG: False
 :Text Context: False
 
+Data Schema
+-----------
+:Replace: False
+
 Fields
 ======
 :field_simple_string: field_simple_string-value
