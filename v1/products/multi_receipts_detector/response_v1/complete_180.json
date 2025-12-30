@@ -19,12 +19,12 @@
           "extras": {},
           "id": 0,
           "orientation": {
-            "value": 0
+            "value": 180
           },
           "prediction": {
             "orientation": {
               "confidence": 0.53,
-              "degrees": 0
+              "degrees": 180
             },
             "receipts": [
               {
