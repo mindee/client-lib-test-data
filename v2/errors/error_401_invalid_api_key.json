@@ -1,0 +1,7 @@
+{
+  "status": 401,
+  "detail": "The provided API key is invalid.",
+  "title": "Invalid API key",
+  "code": "401-001",
+  "errors": []
+}
