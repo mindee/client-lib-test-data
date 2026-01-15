@@ -1,0 +1,66 @@
+{
+  "inference": {
+    "id": "12345678-1234-1234-1234-123456789abc",
+    "model": {
+      "id": "test-model-id"
+    },
+    "file": {
+      "name": "default_sample.jpg",
+      "alias": null,
+      "page_count": 1,
+      "mime_type": "image/jpeg"
+    },
+    "result": {
+      "crop": [
+        {
+          "object_type": "invoice",
+          "location": {
+            "polygon": [
+              [
+                0.214,
+                0.079
+              ],
+              [
+                0.476,
+                0.079
+              ],
+              [
+                0.476,
+                0.979
+              ],
+              [
+                0.214,
+                0.979
+              ]
+            ],
+            "page": 0
+          }
+        },
+        {
+          "object_type": "invoice",
+          "location": {
+            "polygon": [
+              [
+                0.547,
+                0.15
+              ],
+              [
+                0.862,
+                0.15
+              ],
+              [
+                0.862,
+                0.97
+              ],
+              [
+                0.547,
+                0.97
+              ]
+            ],
+            "page": 0
+          }
+        }
+      ]
+    }
+  }
+}

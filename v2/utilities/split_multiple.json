@@ -1,0 +1,39 @@
+{
+  "inference": {
+    "id": "c586bff0-a9aa-46d0-8481-9ac5701dad37",
+    "model": {
+      "id": "7cfb736e-651e-4407-a82d-f437025810a0"
+    },
+    "file": {
+      "name": "invoice_5p.pdf",
+      "alias": null,
+      "page_count": 5,
+      "mime_type": "application/pdf"
+    },
+    "result": {
+      "split": [
+        {
+          "page_range": [
+            0,
+            0
+          ],
+          "document_type": "invoice"
+        },
+        {
+          "page_range": [
+            1,
+            3
+          ],
+          "document_type": "invoice"
+        },
+        {
+          "page_range": [
+            4,
+            4
+          ],
+          "document_type": "invoice"
+        }
+      ]
+    }
+  }
+}

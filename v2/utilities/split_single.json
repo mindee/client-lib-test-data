@@ -1,0 +1,25 @@
+{
+  "inference": {
+    "id": "59ebb566-4584-4663-a7a8-238977cefc3e",
+    "model": {
+      "id": "7cfb736e-651e-4407-a82d-f437025810a0"
+    },
+    "file": {
+      "name": "default_sample.jpg",
+      "alias": null,
+      "page_count": 1,
+      "mime_type": "image/jpeg"
+    },
+    "result": {
+      "split": [
+        {
+          "page_range": [
+            0,
+            0
+          ],
+          "document_type": "receipt"
+        }
+      ]
+    }
+  }
+}

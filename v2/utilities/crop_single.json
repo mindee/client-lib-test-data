@@ -1,0 +1,42 @@
+{
+  "inference": {
+    "id": "12345678-1234-1234-1234-123456789abc",
+    "model": {
+      "id": "test-model-id"
+    },
+    "file": {
+      "name": "sample.jpeg",
+      "alias": null,
+      "page_count": 1,
+      "mime_type": "image/jpeg"
+    },
+    "result": {
+      "crop": [
+        {
+          "object_type": "invoice",
+          "location": {
+            "polygon": [
+              [
+                0.15,
+                0.254
+              ],
+              [
+                0.85,
+                0.254
+              ],
+              [
+                0.85,
+                0.947
+              ],
+              [
+                0.15,
+                0.947
+              ]
+            ],
+            "page": 0
+          }
+        }
+      ]
+    }
+  }
+}
