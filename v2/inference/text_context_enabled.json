@@ -1,35 +1,38 @@
 {
-    "inference": {
-        "id": "804e835b-a59e-4568-967b-51fbeb1b7638",
-        "model": {
-            "id": "121453d4-c118-4b59-8b77-9652bbe1f6bc"
-        },
-        "file": {
-            "name": "blank_1.pdf",
-            "alias": null,
-            "page_count": 1,
-            "mime_type": "application/pdf"
-        },
-        "result": {
-            "fields": {
-                "string_field": {
-                    "locations": [],
-                    "confidence": null,
-                    "value": null
-                }
-            },
-            "raw_text": null,
-            "rag": null
-        },
-        "active_options": {
-            "raw_text": false,
-            "polygon": false,
-            "confidence": false,
-            "rag": false,
-            "text_context": true,
-            "data_schema": {
-                "replace": false
-            }
-        }
-    }
+  "job": {
+    "id": "12345678-1234-1234-1234-jobid1234567"
+  },
+  "inference": {
+      "id": "804e835b-a59e-4568-967b-51fbeb1b7638",
+      "model": {
+          "id": "121453d4-c118-4b59-8b77-9652bbe1f6bc"
+      },
+      "file": {
+          "name": "blank_1.pdf",
+          "alias": null,
+          "page_count": 1,
+          "mime_type": "application/pdf"
+      },
+      "result": {
+          "fields": {
+              "string_field": {
+                  "locations": [],
+                  "confidence": null,
+                  "value": null
+              }
+          },
+          "raw_text": null,
+          "rag": null
+      },
+      "active_options": {
+          "raw_text": false,
+          "polygon": false,
+          "confidence": false,
+          "rag": false,
+          "text_context": true,
+          "data_schema": {
+              "replace": false
+          }
+      }
+  }
 }
