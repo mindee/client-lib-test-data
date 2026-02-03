@@ -14,7 +14,7 @@
       "mime_type": "image/jpeg"
     },
     "result": {
-      "crop": [
+      "crops": [
         {
           "object_type": "invoice",
           "location": {
