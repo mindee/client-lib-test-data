@@ -1,0 +1,22 @@
+{
+  "job": {
+    "id": "12345678-1234-1234-1234-jobid1234567"
+  },
+  "inference": {
+    "id": "12345678-1234-1234-1234-123456789abc",
+    "model": {
+      "id": "test-model-id"
+    },
+    "file": {
+      "name": "default_sample.jpg",
+      "alias": null,
+      "page_count": 1,
+      "mime_type": "image/jpeg"
+    },
+    "result": {
+      "classification": {
+        "document_type": "invoice"
+      }
+    }
+  }
+}
