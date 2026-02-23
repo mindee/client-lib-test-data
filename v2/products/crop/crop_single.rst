@@ -15,6 +15,7 @@ File
 :Page Count: 1
 :MIME Type: image/jpeg
 
-Crop
-====
- * invoice: (0.15,0.254), (0.85,0.254), (0.85,0.947), (0.15,0.947)
+Crops
+=====
+* :Location: ((0.15,0.254), (0.85,0.254), (0.85,0.947), (0.15,0.947)) on page 0
+  :Object Type: invoice
