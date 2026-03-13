@@ -20,7 +20,7 @@
             0,
             0
           ],
-          "document_type": "invoice"
+          "document_type": "passport"
         },
         {
           "page_range": [
@@ -34,7 +34,7 @@
             4,
             4
           ],
-          "document_type": "invoice"
+          "document_type": "receipt"
         }
       ]
     }
