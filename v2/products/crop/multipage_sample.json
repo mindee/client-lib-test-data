@@ -1,0 +1,141 @@
+{
+  "inference": {
+    "id": "12345678-1234-1234-1234-123456789abc",
+    "job": {
+      "id": "12345678-1234-1234-1234-jobid1234567"
+    },
+    "model": {
+      "id": "test-model-id"
+    },
+    "file": {
+      "name": "multipage_sample.pdf",
+      "alias": null,
+      "page_count": 1,
+      "mime_type": "application/pdf"
+    },
+    "result": {
+      "crops": [
+        {
+          "object_type": "receipt",
+          "location": {
+            "polygon": [
+              [
+                0.112,
+                0.203
+              ],
+              [
+                0.448,
+                0.203
+              ],
+              [
+                0.448,
+                0.859
+              ],
+              [
+                0.112,
+                0.859
+              ]
+            ],
+            "page": 0
+          }
+        },
+        {
+          "object_type": "receipt",
+          "location": {
+            "polygon": [
+              [
+                0.488,
+                0.21
+              ],
+              [
+                0.83,
+                0.21
+              ],
+              [
+                0.83,
+                0.605
+              ],
+              [
+                0.488,
+                0.605
+              ]
+            ],
+            "page": 0
+          }
+        },
+        {
+          "object_type": "receipt",
+          "location": {
+            "polygon": [
+              [
+                0.522,
+                0.639
+              ],
+              [
+                0.846,
+                0.639
+              ],
+              [
+                0.846,
+                0.887
+              ],
+              [
+                0.522,
+                0.887
+              ]
+            ],
+            "page": 0
+          }
+        },
+        {
+          "object_type": "receipt",
+          "location": {
+            "polygon": [
+              [
+                0.08,
+                0.259
+              ],
+              [
+                0.42,
+                0.259
+              ],
+              [
+                0.42,
+                0.676
+              ],
+              [
+                0.08,
+                0.676
+              ]
+            ],
+            "page": 1
+          }
+        },
+        {
+          "object_type": "receipt",
+          "location": {
+            "polygon": [
+              [
+                0.509,
+                0.15
+              ],
+              [
+                0.84,
+                0.15
+              ],
+              [
+                0.84,
+                0.768
+              ],
+              [
+                0.509,
+                0.768
+              ]
+            ],
+            "page": 1
+          }
+        }
+      ]
+    }
+  }
+}
