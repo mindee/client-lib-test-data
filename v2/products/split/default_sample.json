@@ -1,0 +1,35 @@
+{
+  "inference": {
+    "id": "59ebb566-4584-4663-a7a8-238977cefc3e",
+    "job": {
+      "id": "12345678-1234-1234-1234-jobid1234567"
+    },
+    "model": {
+      "id": "7cfb736e-651e-4407-a82d-f437025810a0"
+    },
+    "file": {
+      "name": "default_sample.pdf",
+      "alias": null,
+      "page_count": 2,
+      "mime_type": "application/pdf"
+    },
+    "result": {
+      "splits": [
+        {
+          "page_range": [
+            0,
+            0
+          ],
+          "document_type": "invoice"
+        },
+        {
+          "page_range": [
+            1,
+            1
+          ],
+          "document_type": "invoice"
+        }
+      ]
+    }
+  }
+}
