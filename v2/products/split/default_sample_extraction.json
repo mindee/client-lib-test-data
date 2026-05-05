@@ -1,0 +1,2671 @@
+{
+  "inference": {
+    "id": "59ebb566-4584-4663-a7a8-238977cefc3e",
+    "job": {
+      "id": "12345678-1234-1234-1234-jobid1234567"
+    },
+    "model": {
+      "id": "7cfb736e-651e-4407-a82d-f437025810a0"
+    },
+    "file": {
+      "name": "default_sample.pdf",
+      "alias": null,
+      "page_count": 2,
+      "mime_type": "application/pdf"
+    },
+    "result": {
+      "splits": [
+        {
+          "page_range": [
+            0,
+            0
+          ],
+          "document_type": "invoice",
+          "extraction_response": {
+            "inference": {
+              "id": "4424a5ed-8a7c-4a9b-9e29-03c092beb201",
+              "job": {
+                "id": "4424a5ed-8a7c-4a9b-9e29-03c092beb201"
+              },
+              "model": {
+                "id": "1a702e29-2d90-40e6-870e-aab4eadc314f"
+              },
+              "file": {
+                "name": "default_sample.pdf_split_0_1",
+                "alias": null,
+                "page_count": 1,
+                "mime_type": "application/pdf"
+              },
+              "result": {
+                "fields": {
+                  "date": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.347859,
+                            0.307447
+                          ],
+                          [
+                            0.28692761292780605,
+                            0.3079796502772468
+                          ],
+                          [
+                            0.287002,
+                            0.316489
+                          ],
+                          [
+                            0.3479333870721939,
+                            0.3159563497227532
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": "2020-02-17"
+                  },
+                  "taxes": {
+                    "items": [
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "base": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.707739,
+                                    0.765957
+                                  ],
+                                  [
+                                    0.664914,
+                                    0.7659569999999999
+                                  ],
+                                  [
+                                    0.664914,
+                                    0.776596
+                                  ],
+                                  [
+                                    0.707739,
+                                    0.776596
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 489.97
+                          },
+                          "rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": 0.2
+                          },
+                          "amount": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.507889,
+                                    0.765957
+                                  ],
+                                  [
+                                    0.507889,
+                                    0.775532
+                                  ],
+                                  [
+                                    0.543952,
+                                    0.775532
+                                  ],
+                                  [
+                                    0.543952,
+                                    0.765957
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 97.98
+                          }
+                        }
+                      }
+                    ],
+                    "confidence": null
+                  },
+                  "locale": {
+                    "locations": [],
+                    "confidence": null,
+                    "fields": {
+                      "country": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "FR"
+                      },
+                      "currency": {
+                        "locations": [
+                          {
+                            "polygon": [
+                              [
+                                0.840721,
+                                0.320213
+                              ],
+                              [
+                                0.840721,
+                                0.329255
+                              ],
+                              [
+                                0.8752819999999999,
+                                0.329255
+                              ],
+                              [
+                                0.8752819999999999,
+                                0.320213
+                              ]
+                            ],
+                            "page": 0
+                          }
+                        ],
+                        "confidence": null,
+                        "value": "EUR"
+                      },
+                      "language": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "fr"
+                      }
+                    }
+                  },
+                  "due_date": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "po_number": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "total_net": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.663411,
+                            0.749468
+                          ],
+                          [
+                            0.663411,
+                            0.759574
+                          ],
+                          [
+                            0.707739,
+                            0.759574
+                          ],
+                          [
+                            0.707739,
+                            0.749468
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": 489.97
+                  },
+                  "total_tax": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.507889,
+                            0.75
+                          ],
+                          [
+                            0.507889,
+                            0.760106
+                          ],
+                          [
+                            0.543952,
+                            0.760106
+                          ],
+                          [
+                            0.543952,
+                            0.75
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": 97.98
+                  },
+                  "line_items": {
+                    "items": [
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "description": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.172802,
+                                    0.615957
+                                  ],
+                                  [
+                                    0.34266175040091673,
+                                    0.6149220898137426
+                                  ],
+                                  [
+                                    0.34259372500856256,
+                                    0.6037570860098959
+                                  ],
+                                  [
+                                    0.17273397460764586,
+                                    0.6047919961961531
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "S) BOIE 5X500 FEUILLES A4"
+                          },
+                          "total_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.905334,
+                                    0.59734
+                                  ],
+                                  [
+                                    0.905334,
+                                    0.586702
+                                  ],
+                                  [
+                                    0.865515,
+                                    0.586702
+                                  ],
+                                  [
+                                    0.865515,
+                                    0.59734
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": -21.46
+                          },
+                          "product_code": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.077385,
+                                    0.615957
+                                  ],
+                                  [
+                                    0.169046,
+                                    0.615957
+                                  ],
+                                  [
+                                    0.169046,
+                                    0.605319
+                                  ],
+                                  [
+                                    0.077385,
+                                    0.605319
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "0000000006804"
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      },
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "description": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.17205301717018098,
+                                    0.631100264600935
+                                  ],
+                                  [
+                                    0.3667259666312074,
+                                    0.6295248765706145
+                                  ],
+                                  [
+                                    0.36663521048439485,
+                                    0.6183100098573515
+                                  ],
+                                  [
+                                    0.17196226102336845,
+                                    0.619885397887672
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "RAM 500F DCP BLANC A4 100G"
+                          },
+                          "total_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.875282,
+                                    0.611702
+                                  ],
+                                  [
+                                    0.906086,
+                                    0.611702
+                                  ],
+                                  [
+                                    0.906086,
+                                    0.602128
+                                  ],
+                                  [
+                                    0.875282,
+                                    0.602128
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": -2.63
+                          },
+                          "product_code": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.076634,
+                                    0.620213
+                                  ],
+                                  [
+                                    0.076634,
+                                    0.630851
+                                  ],
+                                  [
+                                    0.167543,
+                                    0.630851
+                                  ],
+                                  [
+                                    0.167543,
+                                    0.620213
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "0000000020064"
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      },
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "description": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.362885,
+                                    0.634043
+                                  ],
+                                  [
+                                    0.1704892026205633,
+                                    0.6351063249588708
+                                  ],
+                                  [
+                                    0.17054953478178686,
+                                    0.6460227002112279
+                                  ],
+                                  [
+                                    0.36294533216122354,
+                                    0.6449593752523571
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "PQ 960 ETIQUETTES L. METAL"
+                          },
+                          "total_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.875282,
+                                    0.617021
+                                  ],
+                                  [
+                                    0.8752820000000001,
+                                    0.626064
+                                  ],
+                                  [
+                                    0.9075880000000001,
+                                    0.626064
+                                  ],
+                                  [
+                                    0.9075880000000001,
+                                    0.617021
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": -0.98
+                          },
+                          "product_code": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.07438,
+                                    0.645745
+                                  ],
+                                  [
+                                    0.166792,
+                                    0.645745
+                                  ],
+                                  [
+                                    0.166792,
+                                    0.635106
+                                  ],
+                                  [
+                                    0.07438,
+                                    0.635106
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "0000000371712"
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      },
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "description": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.413974,
+                                    0.648936
+                                  ],
+                                  [
+                                    0.1697534230278796,
+                                    0.6499298601290403
+                                  ],
+                                  [
+                                    0.1697989409975068,
+                                    0.6611149600038961
+                                  ],
+                                  [
+                                    0.4140195179696272,
+                                    0.6601210998748558
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "CARTOUCHE L NR BROTHER TN247BK"
+                          },
+                          "total_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.877536,
+                                    0.632447
+                                  ],
+                                  [
+                                    0.877536,
+                                    0.642021
+                                  ],
+                                  [
+                                    0.909091,
+                                    0.642021
+                                  ],
+                                  [
+                                    0.909091,
+                                    0.632447
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": -4.07
+                          },
+                          "product_code": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.073629,
+                                    0.650532
+                                  ],
+                                  [
+                                    0.073629,
+                                    0.660638
+                                  ],
+                                  [
+                                    0.165289,
+                                    0.660638
+                                  ],
+                                  [
+                                    0.165289,
+                                    0.650532
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "0000001001276"
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      },
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "description": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.168295,
+                                    0.664894
+                                  ],
+                                  [
+                                    0.168295,
+                                    0.676064
+                                  ],
+                                  [
+                                    0.401202,
+                                    0.676064
+                                  ],
+                                  [
+                                    0.401202,
+                                    0.664894
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "PQ20 ETIQ ULTRA RESIS METAXXDC"
+                          },
+                          "total_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.878287,
+                                    0.647872
+                                  ],
+                                  [
+                                    0.8782870000000002,
+                                    0.657447
+                                  ],
+                                  [
+                                    0.910594,
+                                    0.657447
+                                  ],
+                                  [
+                                    0.910594,
+                                    0.647872
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": -9.47
+                          },
+                          "product_code": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.072126,
+                                    0.665957
+                                  ],
+                                  [
+                                    0.072126,
+                                    0.676064
+                                  ],
+                                  [
+                                    0.164538,
+                                    0.676064
+                                  ],
+                                  [
+                                    0.164538,
+                                    0.665957
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "0000001002882"
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      },
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "description": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.123216,
+                                    0.690957
+                                  ],
+                                  [
+                                    0.190083,
+                                    0.690957
+                                  ],
+                                  [
+                                    0.190083,
+                                    0.681383
+                                  ],
+                                  [
+                                    0.123216,
+                                    0.681383
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "FLYER F02:"
+                          },
+                          "total_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.87979,
+                                    0.663298
+                                  ],
+                                  [
+                                    0.8797899999999998,
+                                    0.672872
+                                  ],
+                                  [
+                                    0.911345,
+                                    0.672872
+                                  ],
+                                  [
+                                    0.911345,
+                                    0.663298
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": -4.31
+                          },
+                          "product_code": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.065364,
+                                    0.681915
+                                  ],
+                                  [
+                                    0.065364,
+                                    0.691489
+                                  ],
+                                  [
+                                    0.119459,
+                                    0.691489
+                                  ],
+                                  [
+                                    0.119459,
+                                    0.681915
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "F02-2020"
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      },
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "description": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.166041,
+                                    0.695745
+                                  ],
+                                  [
+                                    0.166041,
+                                    0.707447
+                                  ],
+                                  [
+                                    0.406461,
+                                    0.707447
+                                  ],
+                                  [
+                                    0.406461,
+                                    0.695745
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "IMPRIM MULTIFONCT MFC-L3770CDW"
+                          },
+                          "total_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.866266,
+                                    0.689362
+                                  ],
+                                  [
+                                    0.912847,
+                                    0.689894
+                                  ],
+                                  [
+                                    0.9129684918061314,
+                                    0.6792563875537421
+                                  ],
+                                  [
+                                    0.8663874918061314,
+                                    0.6787243875537421
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": -120
+                          },
+                          "product_code": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.06837,
+                                    0.696277
+                                  ],
+                                  [
+                                    0.06837,
+                                    0.706915
+                                  ],
+                                  [
+                                    0.161533,
+                                    0.706915
+                                  ],
+                                  [
+                                    0.161533,
+                                    0.696277
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "0000001000178"
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      },
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "description": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "total_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.867769,
+                                    0.704787
+                                  ],
+                                  [
+                                    0.91435,
+                                    0.704787
+                                  ],
+                                  [
+                                    0.91435,
+                                    0.694681
+                                  ],
+                                  [
+                                    0.867769,
+                                    0.694681
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": -120
+                          },
+                          "product_code": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      }
+                    ],
+                    "confidence": null
+                  },
+                  "customer_id": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "payment_date": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "total_amount": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.888805,
+                            0.747872
+                          ],
+                          [
+                            0.888805,
+                            0.759043
+                          ],
+                          [
+                            0.932382,
+                            0.759043
+                          ],
+                          [
+                            0.932382,
+                            0.747872
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": 587.95
+                  },
+                  "customer_name": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "document_type": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "invoice"
+                  },
+                  "supplier_name": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "invoice_number": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "supplier_email": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "billing_address": {
+                    "locations": [],
+                    "confidence": null,
+                    "fields": {
+                      "city": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "state": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "po_box": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "country": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "postal_code": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_name": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_number": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address_complement": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      }
+                    }
+                  },
+                  "customer_address": {
+                    "locations": [],
+                    "confidence": null,
+                    "fields": {
+                      "city": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "state": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "po_box": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "country": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "postal_code": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_name": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_number": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address_complement": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      }
+                    }
+                  },
+                  "shipping_address": {
+                    "locations": [],
+                    "confidence": null,
+                    "fields": {
+                      "city": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "state": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "po_box": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "country": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "postal_code": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_name": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_number": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address_complement": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      }
+                    }
+                  },
+                  "supplier_address": {
+                    "locations": [],
+                    "confidence": null,
+                    "fields": {
+                      "city": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "state": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "po_box": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "country": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "postal_code": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_name": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_number": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address_complement": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      }
+                    }
+                  },
+                  "supplier_website": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "reference_numbers": {
+                    "items": [],
+                    "confidence": null
+                  },
+                  "supplier_phone_number": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.259955,
+                            0.238298
+                          ],
+                          [
+                            0.17945045844339275,
+                            0.23937356388473272
+                          ],
+                          [
+                            0.1795670838829394,
+                            0.24810282458027544
+                          ],
+                          [
+                            0.26007162543954665,
+                            0.24702726069554273
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": "05 05 44 44 90"
+                  },
+                  "supplier_payment_details": {
+                    "items": [
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "iban": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.667730068451447,
+                                    0.13350680393173217
+                                  ],
+                                  [
+                                    0.859504,
+                                    0.137766
+                                  ],
+                                  [
+                                    0.8597255713722003,
+                                    0.12778956020141824
+                                  ],
+                                  [
+                                    0.6679516398236471,
+                                    0.1235303641331504
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "FR76 4025 4025 47650112 4765 368"
+                          },
+                          "swift": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.673178,
+                                    0.135638
+                                  ],
+                                  [
+                                    0.673178,
+                                    0.144681
+                                  ],
+                                  [
+                                    0.764087,
+                                    0.144681
+                                  ],
+                                  [
+                                    0.764087,
+                                    0.135638
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "XXXAFRPPXXX"
+                          },
+                          "account_number": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "routing_number": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      }
+                    ],
+                    "confidence": null
+                  },
+                  "customer_company_registration": {
+                    "items": [],
+                    "confidence": null
+                  },
+                  "supplier_company_registration": {
+                    "items": [
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "type": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": "SIRET"
+                          },
+                          "number": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.3283225679250251,
+                                    0.22522974611083382
+                                  ],
+                                  [
+                                    0.22457024858473512,
+                                    0.22606458539162866
+                                  ],
+                                  [
+                                    0.224643,
+                                    0.235106
+                                  ],
+                                  [
+                                    0.32839531934029004,
+                                    0.23427116071920515
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "437 254 437 00179"
+                          }
+                        }
+                      },
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "type": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": "VAT"
+                          },
+                          "number": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.18407427235397866,
+                                    0.1517853357797208
+                                  ],
+                                  [
+                                    0.26306581073844815,
+                                    0.15083730188569372
+                                  ],
+                                  [
+                                    0.26295372416675294,
+                                    0.1414980886083716
+                                  ],
+                                  [
+                                    0.18396218578228343,
+                                    0.1424461225023987
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "00 437 254 437"
+                          }
+                        }
+                      }
+                    ],
+                    "confidence": null
+                  }
+                },
+                "raw_text": null,
+                "rag": {
+                  "retrieved_document_id": null
+                }
+              },
+              "active_options": {
+                "raw_text": false,
+                "polygon": false,
+                "confidence": false,
+                "rag": false,
+                "multipage_context": false,
+                "text_context": false,
+                "data_schema": {
+                  "replace": false
+                }
+              }
+            }
+          }
+        },
+        {
+          "page_range": [
+            1,
+            1
+          ],
+          "document_type": "invoice",
+          "extraction_response": {
+            "inference": {
+              "id": "7d634d14-3d62-41e2-8588-e7dcd5cfe148",
+              "job": {
+                "id": "7d634d14-3d62-41e2-8588-e7dcd5cfe148"
+              },
+              "model": {
+                "id": "1a702e29-2d90-40e6-870e-aab4eadc314f"
+              },
+              "file": {
+                "name": "default_sample.pdf_split_1_2",
+                "alias": null,
+                "page_count": 1,
+                "mime_type": "application/pdf"
+              },
+              "result": {
+                "fields": {
+                  "date": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.840517,
+                            0.318308
+                          ],
+                          [
+                            0.931753,
+                            0.318308
+                          ],
+                          [
+                            0.931753,
+                            0.303283
+                          ],
+                          [
+                            0.840517,
+                            0.303283
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": "2018-09-25"
+                  },
+                  "taxes": {
+                    "items": [
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "base": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": 2145
+                          },
+                          "rate": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.900144,
+                                    0.6266
+                                  ],
+                                  [
+                                    0.900144,
+                                    0.639955
+                                  ],
+                                  [
+                                    0.964799,
+                                    0.639955
+                                  ],
+                                  [
+                                    0.964799,
+                                    0.6266
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 0.08
+                          },
+                          "amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": 193.2
+                          }
+                        }
+                      }
+                    ],
+                    "confidence": null
+                  },
+                  "locale": {
+                    "locations": [],
+                    "confidence": null,
+                    "fields": {
+                      "country": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "CA"
+                      },
+                      "currency": {
+                        "locations": [
+                          {
+                            "polygon": [
+                              [
+                                0.765805,
+                                0.839733
+                              ],
+                              [
+                                0.765805,
+                                0.856427
+                              ],
+                              [
+                                0.818247,
+                                0.856427
+                              ],
+                              [
+                                0.818247,
+                                0.839733
+                              ]
+                            ],
+                            "page": 0
+                          }
+                        ],
+                        "confidence": null,
+                        "value": "CAD"
+                      },
+                      "language": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      }
+                    }
+                  },
+                  "due_date": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "po_number": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.841236,
+                            0.284919
+                          ],
+                          [
+                            0.841236,
+                            0.298275
+                          ],
+                          [
+                            0.913793,
+                            0.298275
+                          ],
+                          [
+                            0.913793,
+                            0.284919
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": "AD29094"
+                  },
+                  "total_net": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.886494,
+                            0.740122
+                          ],
+                          [
+                            0.9655169999999998,
+                            0.740122
+                          ],
+                          [
+                            0.9655169999999998,
+                            0.725654
+                          ],
+                          [
+                            0.8864940000000001,
+                            0.725654
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": 2145
+                  },
+                  "total_tax": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.900862,
+                            0.745131
+                          ],
+                          [
+                            0.900862,
+                            0.759043
+                          ],
+                          [
+                            0.964799,
+                            0.759043
+                          ],
+                          [
+                            0.964799,
+                            0.745131
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": 193.2
+                  },
+                  "line_items": {
+                    "items": [
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.622126,
+                                    0.513634
+                                  ],
+                                  [
+                                    0.632902,
+                                    0.513634
+                                  ],
+                                  [
+                                    0.632902,
+                                    0.502504
+                                  ],
+                                  [
+                                    0.622126,
+                                    0.502504
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 1
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.759339,
+                                    0.499722
+                                  ],
+                                  [
+                                    0.759339,
+                                    0.515303
+                                  ],
+                                  [
+                                    0.815374,
+                                    0.515303
+                                  ],
+                                  [
+                                    0.815374,
+                                    0.499722
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 65
+                          },
+                          "description": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.288075,
+                                    0.535893
+                                  ],
+                                  [
+                                    0.288075,
+                                    0.500835
+                                  ],
+                                  [
+                                    0.033764,
+                                    0.500835
+                                  ],
+                                  [
+                                    0.033764,
+                                    0.535893
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "Platinum web hosting package\nDown 35mb, Up 100mb"
+                          },
+                          "total_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.908764,
+                                    0.500835
+                                  ],
+                                  [
+                                    0.908764,
+                                    0.515303
+                                  ],
+                                  [
+                                    0.965517,
+                                    0.515303
+                                  ],
+                                  [
+                                    0.965517,
+                                    0.500835
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 65
+                          },
+                          "product_code": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      },
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.633621,
+                                    0.563717
+                                  ],
+                                  [
+                                    0.621408,
+                                    0.563717
+                                  ],
+                                  [
+                                    0.621408,
+                                    0.574847
+                                  ],
+                                  [
+                                    0.633621,
+                                    0.574847
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 3
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.736351,
+                                    0.577073
+                                  ],
+                                  [
+                                    0.813937,
+                                    0.577073
+                                  ],
+                                  [
+                                    0.813937,
+                                    0.563161
+                                  ],
+                                  [
+                                    0.736351,
+                                    0.563161
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 2100
+                          },
+                          "description": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.03370469551411452,
+                                    0.5968431322505129
+                                  ],
+                                  [
+                                    0.4425279293243125,
+                                    0.5984855136685706
+                                  ],
+                                  [
+                                    0.4426662434730331,
+                                    0.5640562167099257
+                                  ],
+                                  [
+                                    0.03384300966283515,
+                                    0.562413835291868
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "2 page website design\nIncludes basic wireframes, and responsive templates"
+                          },
+                          "total_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.885776,
+                                    0.562604
+                                  ],
+                                  [
+                                    0.885776,
+                                    0.577073
+                                  ],
+                                  [
+                                    0.96408,
+                                    0.577073
+                                  ],
+                                  [
+                                    0.96408,
+                                    0.562604
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 2100
+                          },
+                          "product_code": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      },
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "fields": {
+                          "quantity": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.622845,
+                                    0.6266
+                                  ],
+                                  [
+                                    0.622845,
+                                    0.638843
+                                  ],
+                                  [
+                                    0.632184,
+                                    0.638843
+                                  ],
+                                  [
+                                    0.632184,
+                                    0.6266
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 1
+                          },
+                          "tax_rate": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "tax_amount": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_price": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.742816,
+                                    0.639955
+                                  ],
+                                  [
+                                    0.80819,
+                                    0.639955
+                                  ],
+                                  [
+                                    0.80819,
+                                    0.626043
+                                  ],
+                                  [
+                                    0.742816,
+                                    0.626043
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": 250
+                          },
+                          "description": {
+                            "locations": [
+                              {
+                                "polygon": [
+                                  [
+                                    0.033046,
+                                    0.661102
+                                  ],
+                                  [
+                                    0.27227,
+                                    0.661102
+                                  ],
+                                  [
+                                    0.27227,
+                                    0.6266
+                                  ],
+                                  [
+                                    0.033046,
+                                    0.6266
+                                  ]
+                                ],
+                                "page": 0
+                              }
+                            ],
+                            "confidence": null,
+                            "value": "Mobile designs\nIncludes responsive navigation"
+                          },
+                          "total_price": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": 250
+                          },
+                          "product_code": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          },
+                          "unit_measure": {
+                            "locations": [],
+                            "confidence": null,
+                            "value": null
+                          }
+                        }
+                      }
+                    ],
+                    "confidence": null
+                  },
+                  "customer_id": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "payment_date": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "total_amount": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.841236,
+                            0.365053
+                          ],
+                          [
+                            0.841236,
+                            0.381191
+                          ],
+                          [
+                            0.91954,
+                            0.381191
+                          ],
+                          [
+                            0.91954,
+                            0.365053
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": 2608.2
+                  },
+                  "customer_name": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.033764,
+                            0.284363
+                          ],
+                          [
+                            0.033764,
+                            0.298275
+                          ],
+                          [
+                            0.099856,
+                            0.298275
+                          ],
+                          [
+                            0.099856,
+                            0.284363
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": "Jiro Doi"
+                  },
+                  "document_type": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": "invoice"
+                  },
+                  "supplier_name": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.161638,
+                            0.148024
+                          ],
+                          [
+                            0.399425,
+                            0.148024
+                          ],
+                          [
+                            0.399425,
+                            0.086255
+                          ],
+                          [
+                            0.161638,
+                            0.086255
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": "Turnpike Designs Co."
+                  },
+                  "invoice_number": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.839799,
+                            0.278242
+                          ],
+                          [
+                            0.8627869999999999,
+                            0.278242
+                          ],
+                          [
+                            0.8627869999999999,
+                            0.265999
+                          ],
+                          [
+                            0.839799,
+                            0.265999
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": "14"
+                  },
+                  "supplier_email": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "billing_address": {
+                    "locations": [],
+                    "confidence": null,
+                    "fields": {
+                      "city": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "state": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "po_box": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "country": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "postal_code": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_name": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_number": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address_complement": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      }
+                    }
+                  },
+                  "customer_address": {
+                    "locations": [],
+                    "confidence": null,
+                    "fields": {
+                      "city": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "Toronto"
+                      },
+                      "state": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "ON"
+                      },
+                      "po_box": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address": {
+                        "locations": [
+                          {
+                            "polygon": [
+                              [
+                                0.21555997405698593,
+                                0.3038401327477858
+                              ],
+                              [
+                                0.03315087948604976,
+                                0.3032766671336639
+                              ],
+                              [
+                                0.03299159754289623,
+                                0.35484055018873195
+                              ],
+                              [
+                                0.21540069211383242,
+                                0.3554040158028539
+                              ]
+                            ],
+                            "page": 0
+                          }
+                        ],
+                        "confidence": null,
+                        "value": "1954 Bloor Street West\nToronto, ON, M6P 3K9\nCanada"
+                      },
+                      "country": {
+                        "locations": [
+                          {
+                            "polygon": [
+                              [
+                                0.875,
+                                0.16305
+                              ],
+                              [
+                                0.875,
+                                0.148024
+                              ],
+                              [
+                                0.8168100000000001,
+                                0.148024
+                              ],
+                              [
+                                0.81681,
+                                0.16305
+                              ]
+                            ],
+                            "page": 0
+                          }
+                        ],
+                        "confidence": null,
+                        "value": "Canada"
+                      },
+                      "postal_code": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "M6P 3K9"
+                      },
+                      "street_name": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "Bloor Street West"
+                      },
+                      "street_number": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "1954"
+                      },
+                      "address_complement": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      }
+                    }
+                  },
+                  "shipping_address": {
+                    "locations": [],
+                    "confidence": null,
+                    "fields": {
+                      "city": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "state": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "po_box": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "country": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "postal_code": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_name": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "street_number": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address_complement": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      }
+                    }
+                  },
+                  "supplier_address": {
+                    "locations": [],
+                    "confidence": null,
+                    "fields": {
+                      "city": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "Toronto"
+                      },
+                      "state": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "ON"
+                      },
+                      "po_box": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      },
+                      "address": {
+                        "locations": [
+                          {
+                            "polygon": [
+                              [
+                                0.75431,
+                                0.128548
+                              ],
+                              [
+                                0.75431,
+                                0.16304999999999997
+                              ],
+                              [
+                                0.964799,
+                                0.16304999999999997
+                              ],
+                              [
+                                0.964799,
+                                0.128548
+                              ]
+                            ],
+                            "page": 0
+                          }
+                        ],
+                        "confidence": null,
+                        "value": "156 University Ave, Toronto\nON, Canada, M5H 2H7"
+                      },
+                      "country": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "Canada"
+                      },
+                      "postal_code": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "M5H 2H7"
+                      },
+                      "street_name": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "University Ave"
+                      },
+                      "street_number": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "156"
+                      },
+                      "address_complement": {
+                        "locations": [],
+                        "confidence": null,
+                        "value": null
+                      }
+                    }
+                  },
+                  "supplier_website": {
+                    "locations": [],
+                    "confidence": null,
+                    "value": null
+                  },
+                  "reference_numbers": {
+                    "items": [
+                      {
+                        "locations": [],
+                        "confidence": null,
+                        "value": "AD29094"
+                      }
+                    ],
+                    "confidence": null
+                  },
+                  "supplier_phone_number": {
+                    "locations": [
+                      {
+                        "polygon": [
+                          [
+                            0.964799,
+                            0.185865
+                          ],
+                          [
+                            0.853448,
+                            0.186422
+                          ],
+                          [
+                            0.853520375024444,
+                            0.20089063796563467
+                          ],
+                          [
+                            0.964871375024444,
+                            0.20033363796563466
+                          ]
+                        ],
+                        "page": 0
+                      }
+                    ],
+                    "confidence": null,
+                    "value": "416-555-1212"
+                  },
+                  "supplier_payment_details": {
+                    "items": [],
+                    "confidence": null
+                  },
+                  "customer_company_registration": {
+                    "items": [],
+                    "confidence": null
+                  },
+                  "supplier_company_registration": {
+                    "items": [],
+                    "confidence": null
+                  }
+                },
+                "raw_text": null,
+                "rag": {
+                  "retrieved_document_id": null
+                }
+              },
+              "active_options": {
+                "raw_text": false,
+                "polygon": false,
+                "confidence": false,
+                "rag": false,
+                "multipage_context": false,
+                "text_context": false,
+                "data_schema": {
+                  "replace": false
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
