@@ -1,0 +1,57 @@
+{
+  "models": [
+    {
+      "id": "afde5151-aa11-aa11-9289-fa04e50ca3b9",
+      "name": "Extraction With Webhooks",
+      "model_type": "extraction",
+      "webhooks": [
+        {
+          "id": "a2286ed9-aa11-aa11-bdc5-2f8496c5641a",
+          "name": "FAILURE",
+          "url": "https://failure.mindee.com"
+        },
+        {
+          "id": "aa0d88be-aa11-aa11-a019-9d2e16e2d3b9",
+          "name": "FAILURE 2",
+          "url": "https://failure2.mindee.com"
+        }
+      ]
+    },
+    {
+      "id": "b3274545-bb22-bb22-991e-9ca0639829a3",
+      "name": "Extraction Without Webhooks",
+      "model_type": "extraction",
+      "webhooks": []
+    },
+    {
+      "id": "c88c19ba-cc33-cc33-ae83-80253fb7c27d",
+      "name": "Split Without Webhooks",
+      "model_type": "split",
+      "webhooks": []
+    },
+    {
+      "id": "d7f3c637-dd44-dd44-8bb0-72ad9d6ea514",
+      "name": "Crop With Webhooks",
+      "model_type": "crop",
+      "webhooks": [
+        {
+          "id": "dd85fd55-dd44-dd44-92b3-4e936f3b8de9",
+          "name": "Hello!",
+          "url": "https://hello.com"
+        }
+      ]
+    },
+    {
+      "id": "e14e0923-ee55-ee55-a335-8d2110917d7b",
+      "name": "Extraction Without Webhooks Key",
+      "model_type": "extraction"
+    }
+  ],
+  "pagination": {
+    "per_page": 50,
+    "page": 1,
+    "total_items": 5,
+    "total_pages": 1,
+    "total_items_unfiltered": null
+  }
+}
