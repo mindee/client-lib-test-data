@@ -51,7 +51,6 @@
     "per_page": 50,
     "page": 1,
     "total_items": 5,
-    "total_pages": 1,
-    "total_items_unfiltered": null
+    "total_pages": 1
   }
 }

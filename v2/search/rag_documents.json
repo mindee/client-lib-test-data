@@ -1,0 +1,37 @@
+{
+  "rag_documents": [
+    {
+      "id": "cc831599-c545-48b7-aa27-6d7ccd5b8d32",
+      "model_id": "12345678-1234-1234-1234-123456789abc",
+      "filename": "invoice_01.pdf",
+      "created_at": "2026-06-30T13:13:46.168586Z",
+      "total_matches": 0,
+      "last_match_at": null,
+      "status": "Processing"
+    },
+    {
+      "id": "27467e4c-5602-4315-90d9-3d2da69b05ab",
+      "model_id": "12345678-1234-1234-1234-123456789abc",
+      "filename": "invoice_02.pdf",
+      "created_at": "2026-06-30T13:13:46.168586Z",
+      "total_matches": 0,
+      "last_match_at": null,
+      "status": "Draft"
+    },
+    {
+      "id": "a6bcae7d-0439-476b-8a63-5a39ec05dc21",
+      "model_id": "12345678-1234-1234-1234-jobid1234567",
+      "filename": "invoice_03.pdf",
+      "created_at": "2026-06-17T14:35:46.228006Z",
+      "total_matches": 5,
+      "last_match_at": "2026-06-18T14:35:46.248006Z",
+      "status": "Active"
+    }
+  ],
+  "pagination": {
+    "per_page": 50,
+    "page": 1,
+    "total_items": 3,
+    "total_pages": 1
+  }
+}
