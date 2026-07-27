@@ -1,0 +1,415 @@
+{
+  "id": "cc831599-c545-48b7-aa27-6d7ccd5b8d32",
+  "model_id": "12345678-1234-1234-1234-123456789abc",
+  "filename": "invoice_01.pdf",
+  "created_at": "2026-06-30T13:13:46.168586Z",
+  "total_matches": 0,
+  "last_match_at": null,
+  "status": "Draft",
+  "annotation": {
+    "fields": {
+      "tip": {
+        "value": null,
+        "selected": false,
+        "guidelines": null
+      },
+      "date": {
+        "value": "2019-11-02",
+        "selected": false,
+        "guidelines": null
+      },
+      "time": {
+        "value": null,
+        "selected": false,
+        "guidelines": null
+      },
+      "taxes": {
+        "items": [
+          {
+            "fields": {
+              "base": {
+                "value": 195
+              },
+              "rate": {
+                "value": 0.05
+              },
+              "amount": {
+                "value": 9.75
+              }
+            }
+          }
+        ],
+        "selected": false,
+        "guidelines": null
+      },
+      "locale": {
+        "fields": {
+          "country": {
+            "value": "US"
+          },
+          "currency": {
+            "value": "USD"
+          },
+          "language": {
+            "value": null
+          }
+        },
+        "selected": false,
+        "guidelines": null
+      },
+      "category": {
+        "value": null,
+        "selected": false,
+        "guidelines": null
+      },
+      "due_date": {
+        "value": "2019-02-26",
+        "selected": false,
+        "guidelines": null
+      },
+      "po_number": {
+        "value": "2412/2019",
+        "selected": false,
+        "guidelines": null
+      },
+      "total_net": {
+        "value": 195,
+        "selected": false,
+        "guidelines": null
+      },
+      "total_tax": {
+        "value": 9.75,
+        "selected": false,
+        "guidelines": null
+      },
+      "line_items": {
+        "items": [
+          {
+            "fields": {
+              "quantity": {
+                "value": 1
+              },
+              "tax_rate": {
+                "value": null
+              },
+              "tax_amount": {
+                "value": null
+              },
+              "unit_price": {
+                "value": 100
+              },
+              "description": {
+                "value": "Front and rear brake cables"
+              },
+              "total_price": {
+                "value": 100
+              },
+              "product_code": {
+                "value": null
+              },
+              "unit_measure": {
+                "value": null
+              }
+            }
+          },
+          {
+            "fields": {
+              "quantity": {
+                "value": 2
+              },
+              "tax_rate": {
+                "value": null
+              },
+              "tax_amount": {
+                "value": null
+              },
+              "unit_price": {
+                "value": 25
+              },
+              "description": {
+                "value": "New set of pedal arms"
+              },
+              "total_price": {
+                "value": 50
+              },
+              "product_code": {
+                "value": null
+              },
+              "unit_measure": {
+                "value": null
+              }
+            }
+          },
+          {
+            "fields": {
+              "quantity": {
+                "value": 3
+              },
+              "tax_rate": {
+                "value": null
+              },
+              "tax_amount": {
+                "value": null
+              },
+              "unit_price": {
+                "value": 15
+              },
+              "description": {
+                "value": "Labor 3hrs"
+              },
+              "total_price": {
+                "value": 45
+              },
+              "product_code": {
+                "value": null
+              },
+              "unit_measure": {
+                "value": null
+              }
+            }
+          }
+        ],
+        "selected": false,
+        "guidelines": null
+      },
+      "customer_id": {
+        "value": null,
+        "selected": false,
+        "guidelines": null
+      },
+      "subcategory": {
+        "value": null,
+        "selected": false,
+        "guidelines": null
+      },
+      "payment_date": {
+        "value": null,
+        "selected": false,
+        "guidelines": null
+      },
+      "total_amount": {
+        "value": 204.75,
+        "selected": false,
+        "guidelines": null
+      },
+      "customer_name": {
+        "value": "Jessie M Horne",
+        "selected": false,
+        "guidelines": null
+      },
+      "document_type": {
+        "value": "invoice",
+        "selected": false,
+        "guidelines": null
+      },
+      "supplier_name": {
+        "value": "John Smith",
+        "selected": false,
+        "guidelines": null
+      },
+      "invoice_number": {
+        "value": "INT-001",
+        "selected": false,
+        "guidelines": null
+      },
+      "receipt_number": {
+        "value": null,
+        "selected": false,
+        "guidelines": null
+      },
+      "supplier_email": {
+        "value": null,
+        "selected": false,
+        "guidelines": null
+      },
+      "billing_address": {
+        "fields": {
+          "city": {
+            "value": null
+          },
+          "state": {
+            "value": null
+          },
+          "po_box": {
+            "value": null
+          },
+          "address": {
+            "value": null
+          },
+          "country": {
+            "value": null
+          },
+          "postal_code": {
+            "value": null
+          },
+          "street_name": {
+            "value": null
+          },
+          "street_number": {
+            "value": null
+          },
+          "address_complement": {
+            "value": null
+          }
+        },
+        "selected": false,
+        "guidelines": null
+      },
+      "document_number": {
+        "value": "INT-001",
+        "selected": false,
+        "guidelines": null
+      },
+      "customer_address": {
+        "fields": {
+          "city": {
+            "value": "New York"
+          },
+          "state": {
+            "value": "NY"
+          },
+          "po_box": {
+            "value": null
+          },
+          "address": {
+            "value": "Jessie M Horne\n4312 Wood Road\nNew York, NY 10031"
+          },
+          "country": {
+            "value": "US"
+          },
+          "postal_code": {
+            "value": "10031"
+          },
+          "street_name": {
+            "value": null
+          },
+          "street_number": {
+            "value": null
+          },
+          "address_complement": {
+            "value": null
+          }
+        },
+        "selected": false,
+        "guidelines": null
+      },
+      "shipping_address": {
+        "fields": {
+          "city": {
+            "value": "New York"
+          },
+          "state": {
+            "value": "NY"
+          },
+          "po_box": {
+            "value": null
+          },
+          "address": {
+            "value": "Jessie M Horne\n2019 Redbud Drive\nNew York, NY 10011"
+          },
+          "country": {
+            "value": "US"
+          },
+          "postal_code": {
+            "value": "10011"
+          },
+          "street_name": {
+            "value": null
+          },
+          "street_number": {
+            "value": null
+          },
+          "address_complement": {
+            "value": null
+          }
+        },
+        "selected": false,
+        "guidelines": null
+      },
+      "supplier_address": {
+        "fields": {
+          "city": {
+            "value": "Albany"
+          },
+          "state": {
+            "value": "NY"
+          },
+          "po_box": {
+            "value": null
+          },
+          "address": {
+            "value": "4490 Oak Drive\nAlbany, NY 12210"
+          },
+          "country": {
+            "value": "US"
+          },
+          "postal_code": {
+            "value": "12210"
+          },
+          "street_name": {
+            "value": null
+          },
+          "street_number": {
+            "value": null
+          },
+          "address_complement": {
+            "value": null
+          }
+        },
+        "selected": false,
+        "guidelines": null
+      },
+      "supplier_website": {
+        "value": null,
+        "selected": false,
+        "guidelines": null
+      },
+      "reference_numbers": {
+        "items": [
+          {
+            "value": "2412/2019"
+          }
+        ],
+        "selected": false,
+        "guidelines": null
+      },
+      "supplier_phone_number": {
+        "value": null,
+        "selected": false,
+        "guidelines": null
+      },
+      "supplier_payment_details": {
+        "items": [
+          {
+            "fields": {
+              "iban": {
+                "value": null
+              },
+              "swift": {
+                "value": null
+              },
+              "account_number": {
+                "value": "1234567890"
+              },
+              "routing_number": {
+                "value": "098765432"
+              }
+            }
+          }
+        ],
+        "selected": false,
+        "guidelines": null
+      },
+      "customer_company_registration": {
+        "items": [],
+        "selected": false,
+        "guidelines": null
+      },
+      "supplier_company_registration": {
+        "items": [],
+        "selected": false,
+        "guidelines": null
+      }
+    }
+  }
+}

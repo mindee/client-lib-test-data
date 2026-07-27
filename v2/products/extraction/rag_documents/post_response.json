@@ -1,0 +1,10 @@
+{
+  "id": "cc831599-c545-48b7-aa27-6d7ccd5b8d32",
+  "model_id": "12345678-1234-1234-1234-123456789abc",
+  "filename": "invoice_01.pdf",
+  "created_at": "2026-06-30T13:13:46.168586Z",
+  "total_matches": 0,
+  "last_match_at": null,
+  "status": "Processing",
+  "annotation": null
+}
