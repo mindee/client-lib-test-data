@@ -1,0 +1,7 @@
+{
+  "status": 422,
+  "detail": "Document can only be activated when at least one field is selected.",
+  "title": "Document activation not allowed",
+  "code": "422-024",
+  "errors": []
+}
