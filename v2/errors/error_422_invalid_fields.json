@@ -5,8 +5,12 @@
   "code": "422-009",
   "errors": [
     {
-      "pointer": "#/",
-      "detail": "Input should be a valid dictionary or object to extract fields from"
+      "pointer": "#/foo",
+      "detail": "Foo must not be bar"
+    },
+    {
+      "pointer": "#/bar",
+      "detail": "Bar must not be foo"
     }
   ]
 }
