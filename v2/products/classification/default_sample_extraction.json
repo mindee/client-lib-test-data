@@ -1085,7 +1085,6 @@
               "polygon": false,
               "confidence": false,
               "rag": false,
-              "multipage_context": false,
               "text_context": false,
               "data_schema": {
                 "replace": false
