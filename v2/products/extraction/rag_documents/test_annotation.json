@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "simple": {
+      "selected": false,
+      "guidelines": null,
+      "value": true
+    },
+    "list": {
+      "selected": false,
+      "guidelines": null,
+      "items": []
+    },
+    "object": {
+      "selected": false,
+      "guidelines": null,
+      "fields": {}
+    }
+  }
+}
