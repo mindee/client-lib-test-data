@@ -573,7 +573,8 @@
                   ]
                 ],
                 "routing_number": "0123456",
-                "swift": "AB123456"
+                "swift": "AB123456",
+                "sort_code": "123456"
               }
             ],
             "supplier_phone_number": {
@@ -1293,7 +1294,8 @@
               ]
             ],
             "routing_number": "0123456",
-            "swift": "AB123456"
+            "swift": "AB123456",
+            "sort_code": "123456"
           }
         ],
         "supplier_phone_number": {

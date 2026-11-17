@@ -17,7 +17,7 @@ Page 0
   +===============+========+==========+===============+
   | 8.50          | VAT    | 20.00    | 1.70          |
   +---------------+--------+----------+---------------+
-:Supplier Payment Details: 0123463849340; FR7640254025476501124705368; 0123456; AB123456;
+:Supplier Payment Details: 0123463849340; FR7640254025476501124705368; 0123456; AB123456; 123456;
 :Supplier Name: clachan
 :Supplier Company Registrations: Type: VAT NUMBER, Value: 232153895
                                  Type: VAT NUMBER, Value: 232153895
