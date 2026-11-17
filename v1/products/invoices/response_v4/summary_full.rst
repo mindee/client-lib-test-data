@@ -27,7 +27,7 @@ Prediction
   +===============+========+==========+===============+
   | 23.00         |        | 8.00     | 23.00         |
   +---------------+--------+----------+---------------+
-:Supplier Payment Details: string; string; string; string;
+:Supplier Payment Details: string; string; string; string; 12345;
 :Supplier Name: JETBRAINS
 :Supplier Company Registrations: Type: TIN, Value: 123904567
 :Supplier Address: 548 Market St, Suite 98568 San Francisco, California 94104-5401
@@ -72,7 +72,7 @@ Page 0
   +===============+========+==========+===============+
   | 23.00         |        | 8.00     | 23.00         |
   +---------------+--------+----------+---------------+
-:Supplier Payment Details: string; string; string; string;
+:Supplier Payment Details: string; string; string; string; 12345;
 :Supplier Name: JETBRAINS
 :Supplier Company Registrations: Type: TIN, Value: 123904567
 :Supplier Address: 548 Market St, Suite 98568 San Francisco, California 94104-5401

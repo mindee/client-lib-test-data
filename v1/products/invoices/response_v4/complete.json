@@ -496,7 +496,8 @@
                   ]
                 ],
                 "routing_number": "string",
-                "swift": "string"
+                "swift": "string",
+                "sort_code": "12345"
               }
             ],
             "supplier_phone_number": {
@@ -1128,7 +1129,8 @@
               ]
             ],
             "routing_number": "string",
-            "swift": "string"
+            "swift": "string",
+            "sort_code": "12345"
           }
         ],
         "supplier_phone_number": {
