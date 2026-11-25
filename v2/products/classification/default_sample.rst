@@ -16,5 +16,5 @@ File
 :MIME Type: image/jpeg
 
 Classification
-===============
+==============
 :Document Type: invoice
